@@ -1,0 +1,1529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{498A1C4B-2D9E-4C31-AC0B-39F49B8B9579}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SoftwareZator.My.MyApplication</StartupObject>
+    <RootNamespace>SoftwareZator</RootNamespace>
+    <AssemblyName>SoftwareZator 2012</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DebugSymbols>false</DebugSymbols>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SZ.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\bin\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FD2D41F7DB6FA99F18DA8F0343983DC9801A2FA4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SecurityKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mysql.data">
+      <HintPath>..\AUTRE DLL\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Core.Presentation" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Autre\Application\Class_Application.vb" />
+    <Compile Include="Autre\Application\Class_Log_Projet.vb" />
+    <Compile Include="Autre\Bases de données\Ajouter une base de données Access existante\Ajouter_Base_Access_Existante.Designer.vb">
+      <DependentUpon>Ajouter_Base_Access_Existante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Ajouter une base de données Access existante\Ajouter_Base_Access_Existante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Ajouter une base de données SQL Server existante\Ajouter_Base_SQLServer_Existante.Designer.vb">
+      <DependentUpon>Ajouter_Base_SQLServer_Existante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Ajouter une base de données SQL Server existante\Ajouter_Base_SQLServer_Existante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Class_Bases_De_Donnees.vb" />
+    <Compile Include="Autre\Bases de données\Class_Bases_De_Donnees_SQLServer.vb" />
+    <Compile Include="Autre\Bases de données\Class_Bases_De_Donnees_MySQL.vb" />
+    <Compile Include="Autre\Bases de données\Ajouter une base de données MySQL existante\Ajouter_Base_MySQL_Existante.Designer.vb">
+      <DependentUpon>Ajouter_Base_MySQL_Existante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Ajouter une base de données MySQL existante\Ajouter_Base_MySQL_Existante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle base de données MySQL\Nouvelle_Base_MySQL.Designer.vb">
+      <DependentUpon>Nouvelle_Base_MySQL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle base de données MySQL\Nouvelle_Base_MySQL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle base de données SQL Server\Nouvelle_Base_SQLServer.Designer.vb">
+      <DependentUpon>Nouvelle_Base_SQLServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle base de données SQL Server\Nouvelle_Base_SQLServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle base de données Access\Nouvelle_Base_Access.Designer.vb">
+      <DependentUpon>Nouvelle_Base_Access.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle base de données Access\Nouvelle_Base_Access.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle table\Nouvelle_Table.Designer.vb">
+      <DependentUpon>Nouvelle_Table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Bases de données\Nouvelle table\Nouvelle_Table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\A Propos De\A_Propos_De.Designer.vb">
+      <DependentUpon>A_Propos_De.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\A Propos De\A_Propos_De.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Activation\Activer\Activer.Designer.vb">
+      <DependentUpon>Activer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Activation\Activer\Activer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Activation\Class_Licence.vb" />
+    <Compile Include="Autre\Divers\Activation\Evaluation\Activation_Evaluation.Designer.vb">
+      <DependentUpon>Activation_Evaluation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Activation\Evaluation\Activation_Evaluation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Activation\Changer d%27édition\Changer_Edition.Designer.vb">
+      <DependentUpon>Changer_Edition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Activation\Changer d%27édition\Changer_Edition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Advanced Installer\AdvancedInstaller.Designer.vb">
+      <DependentUpon>AdvancedInstaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Advanced Installer\AdvancedInstaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Erreur\Erreur.Designer.vb">
+      <DependentUpon>Erreur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Erreur\Erreur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Feedback\Feedback.Designer.vb">
+      <DependentUpon>Feedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Feedback\Feedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Historique de SZ\Historique_SZ.Designer.vb">
+      <DependentUpon>Historique_SZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Historique de SZ\Historique_SZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Ecran de Démarrage\SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Ecran de Démarrage\SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Fermer Document\Fermer_Document.Designer.vb">
+      <DependentUpon>Fermer_Document.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Fermer Document\Fermer_Document.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Licence\Licence.Designer.vb">
+      <DependentUpon>Licence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Licence\Licence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Divers\Premier Demarrage\Premier_Demarrage.Designer.vb">
+      <DependentUpon>Premier_Demarrage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Divers\Premier Demarrage\Premier_Demarrage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Fichiers\Class_Fichier.vb" />
+    <Compile Include="Autre\Info Bar\InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.Designer.vb">
+      <DependentUpon>InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Ecran_De_Demarrage_Introuvable.Designer.vb">
+      <DependentUpon>InfoBar_Ecran_De_Demarrage_Introuvable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Ecran_De_Demarrage_Introuvable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Formulaire_DE_Demarrage_Introuvable.Designer.vb">
+      <DependentUpon>InfoBar_Formulaire_DE_Demarrage_Introuvable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Formulaire_DE_Demarrage_Introuvable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.Designer.vb">
+      <DependentUpon>InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Info Bar\InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Outils\Configurer la reconnaissance vocale\ReconnaissanceVocale.Designer.vb">
+      <DependentUpon>ReconnaissanceVocale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Outils\Configurer la reconnaissance vocale\ReconnaissanceVocale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Outils\Gestionnaire de plugins\Gestionnaire_Plugins.Designer.vb">
+      <DependentUpon>Gestionnaire_Plugins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Outils\Gestionnaire de plugins\Gestionnaire_Plugins.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Outils\Options\Options.Designer.vb">
+      <DependentUpon>Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Outils\Options\Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Ajouter une référence\Ajouter_Reference.Designer.vb">
+      <DependentUpon>Ajouter_Reference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Ajouter une référence\Ajouter_Reference.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Class_Projet.vb" />
+    <Compile Include="Autre\Projet\Nouveau projet\NouveauProjet.Designer.vb">
+      <DependentUpon>NouveauProjet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Nouveau projet\NouveauProjet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudio.Designer.vb">
+      <DependentUpon>ExporterVisualStudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudioComposant.Designer.vb">
+      <DependentUpon>ExporterVisualStudioComposant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudioComposant.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Nouveau document\NouveauDocument.Designer.vb">
+      <DependentUpon>NouveauDocument.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Nouveau document\NouveauDocument.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Correction d%27erreurs de génération\Correction_Erreurs.Designer.vb">
+      <DependentUpon>Correction_Erreurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Correction d%27erreurs de génération\Correction_Erreurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Créer un évènement\CreerEvenement.Designer.vb">
+      <DependentUpon>CreerEvenement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Créer un évènement\CreerEvenement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\GenerationComponent.Designer.vb">
+      <DependentUpon>GenerationComponent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\GenerationComponent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Gestionnaire de variables\Ajouter une variable\Ajouter_Variables.Designer.vb">
+      <DependentUpon>Ajouter_Variables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Gestionnaire de variables\Ajouter une variable\Ajouter_Variables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Gestionnaire de variables\Gestionnaire_Variables.Designer.vb">
+      <DependentUpon>Gestionnaire_Variables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Gestionnaire de variables\Gestionnaire_Variables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Gestionnaire de variables\Modifier une variable\Modifier_Variables.Designer.vb">
+      <DependentUpon>Modifier_Variables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Gestionnaire de variables\Modifier une variable\Modifier_Variables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autre\Projet\Ordre de génération\Ordre_Generation.Designer.vb">
+      <DependentUpon>Ordre_Generation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autre\Projet\Ordre de génération\Ordre_Generation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\Concepteur de fenêtre\DocConcepteurFenetre.Designer.vb">
+      <DependentUpon>DocConcepteurFenetre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Concepteur de fenêtre\DocConcepteurFenetre.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Concepteur de fenêtre\DocConcepteurFenetreErreurs.Designer.vb">
+      <DependentUpon>DocConcepteurFenetreErreurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Concepteur de fenêtre\DocConcepteurFenetreErreurs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Editeur de table\DocEditeurTable.Designer.vb">
+      <DependentUpon>DocEditeurTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Editeur de table\DocEditeurTable.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Editeur de fonctions\DocEditeurFonctions.Designer.vb">
+      <DependentUpon>DocEditeurFonctions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Editeur de fonctions\DocEditeurFonctions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Statistiques\DocStatistiques.Designer.vb">
+      <DependentUpon>DocStatistiques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Statistiques\DocStatistiques.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Editeur de fonctions\DocEditeurFonctionsUserControl.Designer.vb">
+      <DependentUpon>DocEditeurFonctionsUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Editeur de fonctions\DocEditeurFonctionsUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Editeur de Visual Basic.Net\DocEditeurVisualBasic.Designer.vb">
+      <DependentUpon>DocEditeurVisualBasic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Editeur de Visual Basic.Net\DocEditeurVisualBasic.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Page de démarrage\DocPageDeDemarrage.Designer.vb">
+      <DependentUpon>DocPageDeDemarrage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Page de démarrage\DocPageDeDemarrage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documents\Paramètres du projets\DocParametresDuProjet.Designer.vb">
+      <DependentUpon>DocParametresDuProjet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Paramètres du projets\DocParametresDuProjet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Localisation\Custom_Log.Designer.vb">
+      <DependentUpon>Custom_Log.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localisation\Custom.Designer.vb">
+      <DependentUpon>Custom.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localisation\Custom_Log.en.Designer.vb">
+      <DependentUpon>Custom_Log.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localisation\Custom_Log.en1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom_Log.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localisation\Custom_Log.fr.Designer.vb">
+      <DependentUpon>Custom_Log.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localisation\Custom.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localisation\Custom.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localisation\Custom_Log.fr1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom_Log.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Panneaux\Aide rapide\Box_Aide_Rapide.Designer.vb">
+      <DependentUpon>Box_Aide_Rapide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Aide rapide\Box_Aide_Rapide.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Boîte à outils\Box_Boite_A_Outils.Designer.vb">
+      <DependentUpon>Box_Boite_A_Outils.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Boîte à outils\Box_Boite_A_Outils.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Bases de données\Box_Bases_Donnees.Designer.vb">
+      <DependentUpon>Box_Bases_Donnees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Bases de données\Box_Bases_Donnees.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Débogage\Box_Debogage.Designer.vb">
+      <DependentUpon>Box_Debogage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Débogage\Box_Debogage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Reconnaissance vocale\Box_Reconnaissance_Vocale.Designer.vb">
+      <DependentUpon>Box_Reconnaissance_Vocale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Reconnaissance vocale\Box_Reconnaissance_Vocale.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Erreurs de génération\Box_Erreur_Generation.Designer.vb">
+      <DependentUpon>Box_Erreur_Generation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Erreurs de génération\Box_Erreur_Generation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Explorateur de solutions\Box_Explorateur_Solutions.Designer.vb">
+      <DependentUpon>Box_Explorateur_Solutions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Explorateur de solutions\Box_Explorateur_Solutions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Propriétés\Box_Proprietes.Designer.vb">
+      <DependentUpon>Box_Proprietes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Propriétés\Box_Proprietes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panneaux\Sortie\Box_Sortie.Designer.vb">
+      <DependentUpon>Box_Sortie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panneaux\Sortie\Box_Sortie.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plugins\ActionToolsSelectionnerTypeForm.Designer.vb">
+      <DependentUpon>ActionToolsSelectionnerTypeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\ActionToolsSelectionnerTypeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plugins\Class_ActionTools.vb" />
+    <Compile Include="Plugins\Class_PluginServices.vb" />
+    <Compile Include="Plugins\ActionToolsSelectionnerControlePropriétéForm.Designer.vb">
+      <DependentUpon>ActionToolsSelectionnerControlePropriétéForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\ActionToolsSelectionnerControlePropriétéForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données Access existante\Ajouter_Base_Access_Existante.en.resx">
+      <DependentUpon>Ajouter_Base_Access_Existante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données Access existante\Ajouter_Base_Access_Existante.fr.resx">
+      <DependentUpon>Ajouter_Base_Access_Existante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données Access existante\Ajouter_Base_Access_Existante.resx">
+      <DependentUpon>Ajouter_Base_Access_Existante.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données SQL Server existante\Ajouter_Base_SQLServer_Existante.en.resx">
+      <DependentUpon>Ajouter_Base_SQLServer_Existante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données SQL Server existante\Ajouter_Base_SQLServer_Existante.fr.resx">
+      <DependentUpon>Ajouter_Base_SQLServer_Existante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données SQL Server existante\Ajouter_Base_SQLServer_Existante.resx">
+      <DependentUpon>Ajouter_Base_SQLServer_Existante.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données MySQL existante\Ajouter_Base_MySQL_Existante.en.resx">
+      <DependentUpon>Ajouter_Base_MySQL_Existante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données MySQL existante\Ajouter_Base_MySQL_Existante.fr.resx">
+      <DependentUpon>Ajouter_Base_MySQL_Existante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Ajouter une base de données MySQL existante\Ajouter_Base_MySQL_Existante.resx">
+      <DependentUpon>Ajouter_Base_MySQL_Existante.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données MySQL\Nouvelle_Base_MySQL.en.resx">
+      <DependentUpon>Nouvelle_Base_MySQL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données MySQL\Nouvelle_Base_MySQL.fr.resx">
+      <DependentUpon>Nouvelle_Base_MySQL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données MySQL\Nouvelle_Base_MySQL.resx">
+      <DependentUpon>Nouvelle_Base_MySQL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données SQL Server\Nouvelle_Base_SQLServer.en.resx">
+      <DependentUpon>Nouvelle_Base_SQLServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données SQL Server\Nouvelle_Base_SQLServer.fr.resx">
+      <DependentUpon>Nouvelle_Base_SQLServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données SQL Server\Nouvelle_Base_SQLServer.resx">
+      <DependentUpon>Nouvelle_Base_SQLServer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données Access\Nouvelle_Base_Access.en.resx">
+      <DependentUpon>Nouvelle_Base_Access.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données Access\Nouvelle_Base_Access.fr.resx">
+      <DependentUpon>Nouvelle_Base_Access.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle base de données Access\Nouvelle_Base_Access.resx">
+      <DependentUpon>Nouvelle_Base_Access.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle table\Nouvelle_Table.en.resx">
+      <DependentUpon>Nouvelle_Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle table\Nouvelle_Table.fr.resx">
+      <DependentUpon>Nouvelle_Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Bases de données\Nouvelle table\Nouvelle_Table.resx">
+      <DependentUpon>Nouvelle_Table.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\A Propos De\A_Propos_De.en.resx">
+      <DependentUpon>A_Propos_De.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\A Propos De\A_Propos_De.fr.resx">
+      <DependentUpon>A_Propos_De.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\A Propos De\A_Propos_De.resx">
+      <DependentUpon>A_Propos_De.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Activer\Activer.en.resx">
+      <DependentUpon>Activer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Activer\Activer.fr.resx">
+      <DependentUpon>Activer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Activer\Activer.resx">
+      <DependentUpon>Activer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Changer d%27édition\Changer_Edition.en.resx">
+      <DependentUpon>Changer_Edition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Changer d%27édition\Changer_Edition.fr.resx">
+      <DependentUpon>Changer_Edition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Evaluation\Activation_Evaluation.en.resx">
+      <DependentUpon>Activation_Evaluation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Evaluation\Activation_Evaluation.fr.resx">
+      <DependentUpon>Activation_Evaluation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Evaluation\Activation_Evaluation.resx">
+      <DependentUpon>Activation_Evaluation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Activation\Changer d%27édition\Changer_Edition.resx">
+      <DependentUpon>Changer_Edition.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Advanced Installer\AdvancedInstaller.en.resx">
+      <DependentUpon>AdvancedInstaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Advanced Installer\AdvancedInstaller.fr.resx">
+      <DependentUpon>AdvancedInstaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Advanced Installer\AdvancedInstaller.resx">
+      <DependentUpon>AdvancedInstaller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Erreur\Erreur.resx">
+      <DependentUpon>Erreur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Feedback\Feedback.en.resx">
+      <DependentUpon>Feedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Feedback\Feedback.fr.resx">
+      <DependentUpon>Feedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Feedback\Feedback.resx">
+      <DependentUpon>Feedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Historique de SZ\Historique_SZ.en.resx">
+      <DependentUpon>Historique_SZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Historique de SZ\Historique_SZ.fr.resx">
+      <DependentUpon>Historique_SZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Historique de SZ\Historique_SZ.resx">
+      <DependentUpon>Historique_SZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Ecran de Démarrage\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Fermer Document\Fermer_Document.en.resx">
+      <DependentUpon>Fermer_Document.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Fermer Document\Fermer_Document.fr.resx">
+      <DependentUpon>Fermer_Document.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Fermer Document\Fermer_Document.resx">
+      <DependentUpon>Fermer_Document.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Licence\Licence.en.resx">
+      <DependentUpon>Licence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Licence\Licence.fr.resx">
+      <DependentUpon>Licence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Licence\Licence.resx">
+      <DependentUpon>Licence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Premier Demarrage\Premier_Demarrage.en.resx">
+      <DependentUpon>Premier_Demarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Premier Demarrage\Premier_Demarrage.fr.resx">
+      <DependentUpon>Premier_Demarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Divers\Premier Demarrage\Premier_Demarrage.resx">
+      <DependentUpon>Premier_Demarrage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.en.resx">
+      <DependentUpon>InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.fr.resx">
+      <DependentUpon>InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.resx">
+      <DependentUpon>InfoBar_Bibliothèque_Fonctions_Réutilisables_Dans_Projet_Pas_Pu_Etre_Chargées.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Ecran_De_Demarrage_Introuvable.en.resx">
+      <DependentUpon>InfoBar_Ecran_De_Demarrage_Introuvable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Ecran_De_Demarrage_Introuvable.fr.resx">
+      <DependentUpon>InfoBar_Ecran_De_Demarrage_Introuvable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Ecran_De_Demarrage_Introuvable.resx">
+      <DependentUpon>InfoBar_Ecran_De_Demarrage_Introuvable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Formulaire_DE_Demarrage_Introuvable.en.resx">
+      <DependentUpon>InfoBar_Formulaire_DE_Demarrage_Introuvable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Formulaire_DE_Demarrage_Introuvable.fr.resx">
+      <DependentUpon>InfoBar_Formulaire_DE_Demarrage_Introuvable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Formulaire_DE_Demarrage_Introuvable.resx">
+      <DependentUpon>InfoBar_Formulaire_DE_Demarrage_Introuvable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.en.resx">
+      <DependentUpon>InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.fr.resx">
+      <DependentUpon>InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Info Bar\InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.resx">
+      <DependentUpon>InfoBar_Bibliotheques_Necessaire_Au_Projet_Ont_Ete_Supprimer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Configurer la reconnaissance vocale\ReconnaissanceVocale.en.resx">
+      <DependentUpon>ReconnaissanceVocale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Configurer la reconnaissance vocale\ReconnaissanceVocale.fr.resx">
+      <DependentUpon>ReconnaissanceVocale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Configurer la reconnaissance vocale\ReconnaissanceVocale.resx">
+      <DependentUpon>ReconnaissanceVocale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Gestionnaire de plugins\Gestionnaire_Plugins.en.resx">
+      <DependentUpon>Gestionnaire_Plugins.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Gestionnaire de plugins\Gestionnaire_Plugins.fr.resx">
+      <DependentUpon>Gestionnaire_Plugins.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Gestionnaire de plugins\Gestionnaire_Plugins.resx">
+      <DependentUpon>Gestionnaire_Plugins.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Options\Options.en.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Options\Options.fr.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Outils\Options\Options.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Ajouter une référence\Ajouter_Reference.en.resx">
+      <DependentUpon>Ajouter_Reference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Ajouter une référence\Ajouter_Reference.fr.resx">
+      <DependentUpon>Ajouter_Reference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Ajouter une référence\Ajouter_Reference.resx">
+      <DependentUpon>Ajouter_Reference.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Nouveau projet\NouveauProjet.en.resx">
+      <DependentUpon>NouveauProjet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Nouveau projet\NouveauProjet.fr.resx">
+      <DependentUpon>NouveauProjet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Nouveau projet\NouveauProjet.resx">
+      <DependentUpon>NouveauProjet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudio.en.resx">
+      <DependentUpon>ExporterVisualStudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudio.fr.resx">
+      <DependentUpon>ExporterVisualStudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudio.resx">
+      <DependentUpon>ExporterVisualStudio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Exporter le projet vers Visual Studio\ExporterVisualStudioComposant.resx">
+      <DependentUpon>ExporterVisualStudioComposant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Nouveau document\NouveauDocument.en.resx">
+      <DependentUpon>NouveauDocument.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Nouveau document\NouveauDocument.fr.resx">
+      <DependentUpon>NouveauDocument.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Nouveau document\NouveauDocument.resx">
+      <DependentUpon>NouveauDocument.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Correction d%27erreurs de génération\Correction_Erreurs.en.resx">
+      <DependentUpon>Correction_Erreurs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Correction d%27erreurs de génération\Correction_Erreurs.fr.resx">
+      <DependentUpon>Correction_Erreurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Correction d%27erreurs de génération\Correction_Erreurs.resx">
+      <DependentUpon>Correction_Erreurs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Créer un évènement\CreerEvenement.en.resx">
+      <DependentUpon>CreerEvenement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Créer un évènement\CreerEvenement.fr.resx">
+      <DependentUpon>CreerEvenement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Créer un évènement\CreerEvenement.resx">
+      <DependentUpon>CreerEvenement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\GenerationComponent.en.resx">
+      <DependentUpon>GenerationComponent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\GenerationComponent.fr.resx">
+      <DependentUpon>GenerationComponent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\GenerationComponent.resx">
+      <DependentUpon>GenerationComponent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Ajouter une variable\Ajouter_Variables.en.resx">
+      <DependentUpon>Ajouter_Variables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Ajouter une variable\Ajouter_Variables.fr.resx">
+      <DependentUpon>Ajouter_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Ajouter une variable\Ajouter_Variables.resx">
+      <DependentUpon>Ajouter_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Gestionnaire_Variables.en.resx">
+      <DependentUpon>Gestionnaire_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Gestionnaire_Variables.fr.resx">
+      <DependentUpon>Gestionnaire_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Gestionnaire_Variables.resx">
+      <DependentUpon>Gestionnaire_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Modifier une variable\Modifier_Variables.en.resx">
+      <DependentUpon>Modifier_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Modifier une variable\Modifier_Variables.fr.resx">
+      <DependentUpon>Modifier_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Gestionnaire de variables\Modifier une variable\Modifier_Variables.resx">
+      <DependentUpon>Modifier_Variables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Ordre de génération\Ordre_Generation.en.resx">
+      <DependentUpon>Ordre_Generation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Ordre de génération\Ordre_Generation.fr.resx">
+      <DependentUpon>Ordre_Generation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autre\Projet\Ordre de génération\Ordre_Generation.resx">
+      <DependentUpon>Ordre_Generation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Concepteur de fenêtre\DocConcepteurFenetre.en.resx">
+      <DependentUpon>DocConcepteurFenetre.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Concepteur de fenêtre\DocConcepteurFenetre.fr.resx">
+      <DependentUpon>DocConcepteurFenetre.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Concepteur de fenêtre\DocConcepteurFenetre.resx">
+      <DependentUpon>DocConcepteurFenetre.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Concepteur de fenêtre\DocConcepteurFenetreErreurs.en.resx">
+      <DependentUpon>DocConcepteurFenetreErreurs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Concepteur de fenêtre\DocConcepteurFenetreErreurs.fr.resx">
+      <DependentUpon>DocConcepteurFenetreErreurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Concepteur de fenêtre\DocConcepteurFenetreErreurs.resx">
+      <DependentUpon>DocConcepteurFenetreErreurs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de table\DocEditeurTable.en.resx">
+      <DependentUpon>DocEditeurTable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de table\DocEditeurTable.fr.resx">
+      <DependentUpon>DocEditeurTable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de table\DocEditeurTable.resx">
+      <DependentUpon>DocEditeurTable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de fonctions\DocEditeurFonctions.en.resx">
+      <DependentUpon>DocEditeurFonctions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de fonctions\DocEditeurFonctions.fr.resx">
+      <DependentUpon>DocEditeurFonctions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de fonctions\DocEditeurFonctions.resx">
+      <DependentUpon>DocEditeurFonctions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Statistiques\DocStatistiques.en.resx">
+      <DependentUpon>DocStatistiques.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Statistiques\DocStatistiques.fr.resx">
+      <DependentUpon>DocStatistiques.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Statistiques\DocStatistiques.resx">
+      <DependentUpon>DocStatistiques.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de fonctions\DocEditeurFonctionsUserControl.en.resx">
+      <DependentUpon>DocEditeurFonctionsUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de fonctions\DocEditeurFonctionsUserControl.fr.resx">
+      <DependentUpon>DocEditeurFonctionsUserControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de fonctions\DocEditeurFonctionsUserControl.resx">
+      <DependentUpon>DocEditeurFonctionsUserControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de Visual Basic.Net\DocEditeurVisualBasic.en.resx">
+      <DependentUpon>DocEditeurVisualBasic.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de Visual Basic.Net\DocEditeurVisualBasic.fr.resx">
+      <DependentUpon>DocEditeurVisualBasic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Editeur de Visual Basic.Net\DocEditeurVisualBasic.resx">
+      <DependentUpon>DocEditeurVisualBasic.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Page de démarrage\DocPageDeDemarrage.en.resx">
+      <DependentUpon>DocPageDeDemarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Page de démarrage\DocPageDeDemarrage.fr.resx">
+      <DependentUpon>DocPageDeDemarrage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Page de démarrage\DocPageDeDemarrage.resx">
+      <DependentUpon>DocPageDeDemarrage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Paramètres du projets\DocParametresDuProjet.en.resx">
+      <DependentUpon>DocParametresDuProjet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Paramètres du projets\DocParametresDuProjet.fr.resx">
+      <DependentUpon>DocParametresDuProjet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Paramètres du projets\DocParametresDuProjet.resx">
+      <DependentUpon>DocParametresDuProjet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.fr.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom_Log.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom_Log.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>SoftwareZator.Custom_Log</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>SoftwareZator.Custom</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom_Log.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom_Log.en1.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>SoftwareZator.Custom_Log</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom_Log.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom_Log.fr1.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>SoftwareZator.Custom_Log</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom.fr.resx">
+      <CustomToolNamespace>SoftwareZator.Custom</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom.en.resx">
+      <CustomToolNamespace>SoftwareZator.Custom</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Aide rapide\Box_Aide_Rapide.resx">
+      <DependentUpon>Box_Aide_Rapide.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Bases de données\Box_Bases_Donnees.en.resx">
+      <DependentUpon>Box_Bases_Donnees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Bases de données\Box_Bases_Donnees.fr.resx">
+      <DependentUpon>Box_Bases_Donnees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Boîte à outils\Box_Boite_A_Outils.en.resx">
+      <DependentUpon>Box_Boite_A_Outils.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Boîte à outils\Box_Boite_A_Outils.fr.resx">
+      <DependentUpon>Box_Boite_A_Outils.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Boîte à outils\Box_Boite_A_Outils.resx">
+      <DependentUpon>Box_Boite_A_Outils.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Bases de données\Box_Bases_Donnees.resx">
+      <DependentUpon>Box_Bases_Donnees.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Débogage\Box_Debogage.en.resx">
+      <DependentUpon>Box_Debogage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Débogage\Box_Debogage.fr.resx">
+      <DependentUpon>Box_Debogage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Débogage\Box_Debogage.resx">
+      <DependentUpon>Box_Debogage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Erreurs de génération\Box_Erreur_Generation.en.resx">
+      <DependentUpon>Box_Erreur_Generation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Erreurs de génération\Box_Erreur_Generation.fr.resx">
+      <DependentUpon>Box_Erreur_Generation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Reconnaissance vocale\Box_Reconnaissance_Vocale.en.resx">
+      <DependentUpon>Box_Reconnaissance_Vocale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Reconnaissance vocale\Box_Reconnaissance_Vocale.fr.resx">
+      <DependentUpon>Box_Reconnaissance_Vocale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Reconnaissance vocale\Box_Reconnaissance_Vocale.resx">
+      <DependentUpon>Box_Reconnaissance_Vocale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Erreurs de génération\Box_Erreur_Generation.resx">
+      <DependentUpon>Box_Erreur_Generation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Explorateur de solutions\Box_Explorateur_Solutions.en.resx">
+      <DependentUpon>Box_Explorateur_Solutions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Explorateur de solutions\Box_Explorateur_Solutions.fr.resx">
+      <DependentUpon>Box_Explorateur_Solutions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Explorateur de solutions\Box_Explorateur_Solutions.resx">
+      <DependentUpon>Box_Explorateur_Solutions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Propriétés\Box_Proprietes.fr.resx">
+      <DependentUpon>Box_Proprietes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Propriétés\Box_Proprietes.resx">
+      <DependentUpon>Box_Proprietes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Sortie\Box_Sortie.en.resx">
+      <DependentUpon>Box_Sortie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panneaux\Sortie\Box_Sortie.resx">
+      <DependentUpon>Box_Sortie.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\ActionToolsSelectionnerTypeForm.en.resx">
+      <DependentUpon>ActionToolsSelectionnerTypeForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\ActionToolsSelectionnerTypeForm.fr.resx">
+      <DependentUpon>ActionToolsSelectionnerTypeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\ActionToolsSelectionnerTypeForm.resx">
+      <DependentUpon>ActionToolsSelectionnerTypeForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\ActionToolsSelectionnerControlePropriétéForm.en.resx">
+      <DependentUpon>ActionToolsSelectionnerControlePropriétéForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\ActionToolsSelectionnerControlePropriétéForm.fr.resx">
+      <DependentUpon>ActionToolsSelectionnerControlePropriétéForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugins\ActionToolsSelectionnerControlePropriétéForm.resx">
+      <DependentUpon>ActionToolsSelectionnerControlePropriétéForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SecurityKey.pfx" />
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propriété.png" />
+    <None Include="Resources\Explorateur de solutions.png" />
+    <None Include="Resources\SZ 16x16.png" />
+    <None Include="Resources\ok_no.png" />
+    <None Include="Resources\Boite a outils.png" />
+    <None Include="Resources\actualiser.png" />
+    <None Include="Resources\nouveau_dossier.png" />
+    <None Include="Resources\Nouveau_Fichier_16x16.png" />
+    <None Include="Resources\Reduire_Projet.png" />
+    <None Include="Resources\Nouveau Projet.png" />
+    <None Include="Resources\Nouveau Projet_16x16.png" />
+    <None Include="Resources\Ouvrir Projet_16x16.png" />
+    <None Include="Resources\Ouvrir Projet.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\Solution_Icon_16x16.png" />
+    <None Include="Resources\page_de_demarrage.png" />
+    <None Include="Resources\Header.png" />
+    <None Include="Resources\parametre.png" />
+    <None Include="Resources\IconContainer.png" />
+    <None Include="Resources\Fichier BMP.png" />
+    <None Include="Resources\Fichier Inconnu.png" />
+    <None Include="Resources\Fichier Texte.png" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\Fichier Fenetre.png" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\effacer_tout.png" />
+    <None Include="Resources\presse_papiers.png" />
+    <None Include="Resources\sortie.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\Error.png" />
+    <None Include="Resources\save_project.png" />
+    <None Include="Resources\save_Small.png" />
+    <None Include="Resources\305_Close_16x16_72.png" />
+    <None Include="Resources\305_Close_32x32_72.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\save_all.png" />
+    <None Include="Resources\save_all_Small.png" />
+    <None Include="Resources\save_as.png" />
+    <None Include="Resources\save_as_Small.png" />
+    <None Include="Resources\Exporter_VS.png" />
+    <None Include="Resources\Exporter_VS_Small.png" />
+    <None Include="Resources\VB_File_Big.png" />
+    <None Include="Resources\C_File_Big.png" />
+    <None Include="Resources\C_File_Small.png" />
+    <None Include="Resources\VB_File_Small.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\print_before.png" />
+    <None Include="Resources\print_before_small.png" />
+    <None Include="Resources\print_fast.png" />
+    <None Include="Resources\print_fast_small.png" />
+    <None Include="Resources\print_small.png" />
+    <None Include="Resources\copy_small.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\paste_sma.png" />
+    <None Include="Resources\paste_Big.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\replace.png" />
+    <None Include="Resources\AlignObjectsBottomHS.png" />
+    <None Include="Resources\AlignObjectsCenteredHorizontalHS.png" />
+    <None Include="Resources\AlignObjectsCenteredVerticalHS.png" />
+    <None Include="Resources\AlignObjectsLeftHS.png" />
+    <None Include="Resources\AlignObjectsRightHS.png" />
+    <None Include="Resources\AlignObjectsTopHS.png" />
+    <None Include="Resources\AlignToGridHS.png" />
+    <None Include="Resources\AlignToGridHS_small.png" />
+    <None Include="Resources\AjustHeight.png" />
+    <None Include="Resources\AjustHeightAndWeight.png" />
+    <None Include="Resources\AjustToGrid.png" />
+    <None Include="Resources\AjustWeight.png" />
+    <None Include="Resources\SpaceDelete.png" />
+    <None Include="Resources\SpaceDown.png" />
+    <None Include="Resources\SpaceEqual.png" />
+    <None Include="Resources\SpaceUp.png" />
+    <None Include="Resources\CenterHorizontal.png" />
+    <None Include="Resources\CenterVertical.png" />
+    <None Include="Resources\BringToFrontHS.png" />
+    <None Include="Resources\PageLayoutLarge_09.png" />
+    <None Include="Resources\PageLayoutLarge_10.png" />
+    <None Include="Resources\SendToBackHS.png" />
+    <None Include="Resources\lock_32.png" />
+    <None Include="Resources\ProtectFormHS.png" />
+    <None Include="Resources\ordre_tabulation.png" />
+    <None Include="Resources\modifier_action.png" />
+    <None Include="Resources\modifier_action_Big.png" />
+    <None Include="Resources\gestionnaire_plugins_16.png" />
+    <None Include="Resources\gestionnaire_plugins_32.png" />
+    <None Include="Resources\gest_var.png" />
+    <None Include="Resources\modifyvarBIG.png" />
+    <None Include="Resources\Project_Icon 32x32.png" />
+    <None Include="Resources\Project_Application_16x16.png" />
+    <None Include="Resources\Project_DLL_16x16.png" />
+    <None Include="Resources\var_ajouter.png" />
+    <None Include="Resources\var_modifier.png" />
+    <None Include="Resources\var_supprimer.png" />
+    <None Include="Resources\Style_XP.png" />
+    <None Include="Resources\ZoomIn.png" />
+    <None Include="Resources\ZoomIn_small.png" />
+    <None Include="Resources\ZoomOut.png" />
+    <None Include="Resources\ZoomOut_small.png" />
+    <None Include="Resources\ZoomReset.png" />
+    <None Include="Resources\ZoomReset_small.png" />
+    <None Include="Resources\lightning.png" />
+    <None Include="Resources\settings_16.png" />
+    <None Include="Resources\settings_32.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\up.png" />
+    <None Include="Resources\Ordre_Generation.png" />
+    <None Include="Resources\Generer.png" />
+    <None Include="Resources\Generer_Small.png" />
+    <None Include="Resources\Chart.png" />
+    <None Include="Resources\Chart_Small.png" />
+    <None Include="Resources\Vocale.png" />
+    <None Include="Resources\Vocale_Big.png" />
+    <None Include="Resources\Voice_Progress.png" />
+    <None Include="Resources\add_ctrl.png" />
+    <None Include="Resources\page_de_demarrage_Big.png" />
+    <None Include="Resources\error_Big.png" />
+    <None Include="Resources\Executer_Big.png" />
+    <None Include="Resources\Executer_Small.png" />
+    <None Include="Resources\correction.png" />
+    <None Include="Resources\working.gif" />
+    <None Include="Resources\Fonction.png" />
+    <None Include="Resources\Fonction_Big.png" />
+    <None Include="Resources\Fichier Code.png" />
+    <None Include="Resources\Nouveau_Fichier.png" />
+    <None Include="Resources\Fichier Statistiques.png" />
+    <None Include="Resources\DataContainer_MoveNextHS.png" />
+    <None Include="Resources\Visual_Studio_2010_Logo.png" />
+    <None Include="Resources\About_Box.png" />
+    <None Include="Resources\About_Box_Big.png" />
+    <None Include="Resources\Partner_Component_Factory.png" />
+    <None Include="Resources\Partner_MySql.png" />
+    <None Include="Resources\Partner_Sql.png" />
+    <None Include="Resources\Partner_Microsoft.png" />
+    <None Include="Resources\breakpoint_16.png" />
+    <None Include="Resources\breakpoint_32.png" />
+    <None Include="Resources\breakpoint_disabled_16.png" />
+    <None Include="Resources\breakpoint_disabled_32.png" />
+    <None Include="Resources\breakpoint_delete_16.png" />
+    <None Include="Resources\breakpoint_delete_32.png" />
+    <None Include="Resources\Debogguer_Stop.png" />
+    <None Include="Resources\Debugger_16.png" />
+    <None Include="Resources\Debugger_32.png" />
+    <None Include="Resources\Debugger_Pause.png" />
+    <None Include="Resources\Debugger_Restart.png" />
+    <None Include="Resources\EtienneBaudoux.png" />
+    <None Include="Resources\ChuckNorris.png" />
+    <None Include="Resources\bases_de_donnees.png" />
+    <None Include="Resources\nouvelle_bases_de_donnees.png" />
+    <None Include="Resources\database_access.png" />
+    <None Include="Resources\database_mysql.png" />
+    <None Include="Resources\database_oracle.png" />
+    <None Include="Resources\database_sql.png" />
+    <None Include="Resources\nouvelle_table.png" />
+    <None Include="Resources\nouvelle_bases_de_donnees_existante.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\Didac_en_1.png" />
+    <None Include="Resources\Didac_fr_1.png" />
+    <None Include="Resources\Didac_fr_2.png" />
+    <None Include="Resources\Didac_en_2.png" />
+    <None Include="Resources\Didac_en_3.png" />
+    <None Include="Resources\Didac_fr_3.png" />
+    <None Include="Resources\Didac_en_4.png" />
+    <None Include="Resources\Didac_fr_4.png" />
+    <None Include="Resources\Didac_en_5.png" />
+    <None Include="Resources\Didac_fr_5.png" />
+    <None Include="Resources\Didac_en_6.png" />
+    <None Include="Resources\Didac_fr_6.png" />
+    <None Include="Resources\Didac_en_7.png" />
+    <None Include="Resources\Didac_fr_7.png" />
+    <None Include="Resources\Didac_en_8.png" />
+    <None Include="Resources\Didac_fr_8.png" />
+    <None Include="Resources\Didac_en_9.png" />
+    <None Include="Resources\Didac_fr_9.png" />
+    <None Include="Resources\Didac_en_10.png" />
+    <None Include="Resources\Didac_en_11.png" />
+    <None Include="Resources\Didac_en_12.png" />
+    <None Include="Resources\Didac_en_13.png" />
+    <None Include="Resources\Didac_en_14.png" />
+    <None Include="Resources\Didac_en_15.png" />
+    <None Include="Resources\Didac_fr_10.png" />
+    <None Include="Resources\Didac_fr_11.png" />
+    <None Include="Resources\Didac_fr_12.png" />
+    <None Include="Resources\Didac_fr_13.png" />
+    <None Include="Resources\Didac_fr_14.png" />
+    <None Include="Resources\Didac_fr_15.png" />
+    <None Include="Resources\Didac_en_16.png" />
+    <None Include="Resources\Didac_en_17.png" />
+    <None Include="Resources\Didac_en_18.png" />
+    <None Include="Resources\Didac_en_19.png" />
+    <None Include="Resources\Didac_fr_16.png" />
+    <None Include="Resources\Didac_fr_17.png" />
+    <None Include="Resources\Didac_fr_18.png" />
+    <None Include="Resources\Didac_fr_19.png" />
+    <None Include="Resources\Didac_en_20.png" />
+    <None Include="Resources\Didac_en_21.png" />
+    <None Include="Resources\Didac_en_22.png" />
+    <None Include="Resources\Didac_en_23.png" />
+    <None Include="Resources\Didac_en_24.png" />
+    <None Include="Resources\Didac_en_25.png" />
+    <None Include="Resources\Didac_en_26.png" />
+    <None Include="Resources\Didac_fr_20.png" />
+    <None Include="Resources\Didac_fr_21.png" />
+    <None Include="Resources\Didac_fr_22.png" />
+    <None Include="Resources\Didac_fr_23.png" />
+    <None Include="Resources\Didac_fr_24.png" />
+    <None Include="Resources\Didac_fr_25.png" />
+    <None Include="Resources\Didac_fr_26.png" />
+    <None Include="Resources\Vocale_Didac_en_1.png" />
+    <None Include="Resources\Vocale_Didac_en_2.png" />
+    <None Include="Resources\Vocale_Didac_fr_1.png" />
+    <None Include="Resources\Vocale_Didac_fr_2.png" />
+    <None Include="Resources\Vocale_Didac_en_3.png" />
+    <None Include="Resources\Vocale_Didac_fr_3.png" />
+    <None Include="Resources\Question.png" />
+    <None Include="Resources\feedback.png" />
+    <None Include="Resources\feedback_big.png" />
+    <None Include="Resources\Feedback_Bad.png" />
+    <None Include="Resources\Feedback_Good.png" />
+    <None Include="Resources\Feedback_Ideas.png" />
+    <None Include="Resources\Bug.png" />
+    <None Include="Resources\SZ_Icon_32.png" />
+    <None Include="Resources\AdvancedInstaller_en.png" />
+    <None Include="Resources\AdvancedInstaller_fr.png" />
+    <None Include="Resources\Generer_Obfuscation_Small.png" />
+    <None Include="Resources\facebook.png" />
+    <None Include="Resources\twitter.png" />
+    <None Include="Resources\SplashScreen.png" />
+    <None Include="Resources\Activer_SZ.png" />
+    <None Include="Resources\Activer_Sz_big.png" />
+    <Content Include="SZ.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLL\VelerSoftware.Design.Design\VelerSoftware.Design.Design.csproj">
+      <Project>{6004C98A-6642-4DCF-906C-E0ED3581978F}</Project>
+      <Name>VelerSoftware.Design.Design</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.Design.Docking\VelerSoftware.Design.Docking.csproj">
+      <Project>{E00FF125-CB44-480B-847E-7B3D27E481EB}</Project>
+      <Name>VelerSoftware.Design.Docking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.Design.Navigator\VelerSoftware.Design.Navigator.csproj">
+      <Project>{DC0DD714-4D19-4F31-A6D0-EA209D4F0EA8}</Project>
+      <Name>VelerSoftware.Design.Navigator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.Design.Ribbon\VelerSoftware.Design.Ribbon.csproj">
+      <Project>{E90FC375-453D-4FE4-9822-CE1DB85B6553}</Project>
+      <Name>VelerSoftware.Design.Ribbon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.Design.Toolkit\VelerSoftware.Design.Toolkit.csproj">
+      <Project>{96ECAECC-54F8-4AA5-8591-B443C2D9565F}</Project>
+      <Name>VelerSoftware.Design.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.Design.Workspace\VelerSoftware.Design.Workspace.csproj">
+      <Project>{9144BA04-155B-4B66-B85A-9A89AA93F7D4}</Project>
+      <Name>VelerSoftware.Design.Workspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.SZC35\VelerSoftware.SZC35.csproj">
+      <Project>{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}</Project>
+      <Name>VelerSoftware.SZC35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.SZC\VelerSoftware.SZC.csproj">
+      <Project>{D1FE2822-74B5-4623-BEF8-7D9527C04BC2}</Project>
+      <Name>VelerSoftware.SZC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetDir)VelerSoftware.Plugins3.dll" "$(TargetDir)Tools\VelerSoftware.Plugins3.dll"
+copy /Y "$(TargetDir)VelerSoftware.SZC.dll" "$(TargetDir)Tools\VelerSoftware.SZC.dll"
+copy /Y "$(TargetDir)VelerSoftware.SZC35.dll" "$(TargetDir)Tools\VelerSoftware.SZC35.dll"
+copy /Y "$(TargetDir)VelerSoftware.SZVB.dll" "$(TargetDir)Tools\VelerSoftware.SZVB.dll"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

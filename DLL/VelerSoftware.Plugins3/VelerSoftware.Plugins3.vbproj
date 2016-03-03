@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.Plugins3</RootNamespace>
+    <AssemblyName>VelerSoftware.Plugins3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\DLL COMPILE\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DefineConstants>
+    </DefineConstants>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\DLL COMPILE\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\Action.vb" />
+    <Compile Include="Actions\ActionWithChildren.vb" />
+    <Compile Include="Actions\ActionForm.Designer.vb">
+      <DependentUpon>ActionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actions\ActionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrôles\ToolStripButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Localisation\Custom.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localisation\Custom.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localisation\Custom.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Custom.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Actions\ActionDesigner.xaml.vb">
+      <DependentUpon>ActionDesigner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles\ToolStripNumericUpDown.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Other.vb" />
+    <Compile Include="Contrôles\ActionTextBox_WPF.Designer.vb">
+      <DependentUpon>ActionTextBox_WPF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles\ActionTextBox_WPF.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles\ValueEdit.Designer.vb">
+      <DependentUpon>ValueEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles\ValueEdit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Actions\Tools.vb" />
+    <Compile Include="Variables.vb" />
+    <Compile Include="Windows\Core\Core.vb" />
+    <Compile Include="Windows\Core\NativeMethods.vb" />
+    <Compile Include="Windows\DWM\DWM.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Actions\ActionForm.en.resx">
+      <DependentUpon>ActionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions\ActionForm.fr.resx">
+      <DependentUpon>ActionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions\ActionForm.resx">
+      <DependentUpon>ActionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom.fr.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>VelerSoftware.Plugins3.Custom</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom.en.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom.en.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>VelerSoftware.Plugins3.Custom</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localisation\Custom.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Custom.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>VelerSoftware.Plugins3.Custom</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles\ActionTextBox_WPF.resx">
+      <DependentUpon>ActionTextBox_WPF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles\ValueEdit.en.resx">
+      <DependentUpon>ValueEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles\ValueEdit.fr.resx">
+      <DependentUpon>ValueEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles\ValueEdit.resx">
+      <DependentUpon>ValueEdit.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Actions\ActionDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VelerSoftware.SZC35\VelerSoftware.SZC35.csproj">
+      <Project>{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}</Project>
+      <Name>VelerSoftware.SZC35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VelerSoftware.SZC\VelerSoftware.SZC.csproj">
+      <Project>{D1FE2822-74B5-4623-BEF8-7D9527C04BC2}</Project>
+      <Name>VelerSoftware.SZC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLessHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLessPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMoreHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMorePressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_sma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fichier Texte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Couleur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vrai_Faux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numeric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_code2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gest_var.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resx.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

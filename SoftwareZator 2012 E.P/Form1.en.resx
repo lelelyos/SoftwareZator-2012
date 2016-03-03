@@ -1,0 +1,1241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="ToolStripStatusLabel1.Text" xml:space="preserve">
+    <value>State :</value>
+  </data>
+  <data name="ToolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="ToolStripStatusLabel2.Text" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="ButtonSpecAny1.ToolTipBody" xml:space="preserve">
+    <value>Display help on SoftwareZator 2012</value>
+  </data>
+  <data name="ButtonSpecAny1.ToolTipTitle" xml:space="preserve">
+    <value>Help (F1)</value>
+  </data>
+  <data name="KryptonRibbonContext1.ContextTitle" xml:space="preserve">
+    <value>Editing tools</value>
+  </data>
+  <data name="KryptonRibbonContext2.ContextTitle" xml:space="preserve">
+    <value>Editing tools</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.CustomizeQuickAccessToolbar" xml:space="preserve">
+    <value>Customize the Quick Access Toolbar</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.Minimize" xml:space="preserve">
+    <value>Minimize the Ribbon</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.MoreColors" xml:space="preserve">
+    <value>More Colors ...</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.RecentDocuments" xml:space="preserve">
+    <value>Recent Documents</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.ShowAboveRibbon" xml:space="preserve">
+    <value>View over the ribbon</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.ShowBelowRibbon" xml:space="preserve">
+    <value>Show Below the Ribbon</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.ShowQATAboveRibbon" xml:space="preserve">
+    <value>Show Quick Access Toolbar above the Ribbon</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.ShowQATBelowRibbon" xml:space="preserve">
+    <value>Show Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="KryptonRibbon1.RibbonStrings.ThemeColors" xml:space="preserve">
+    <value>Color Theme</value>
+  </data>
+  <data name="Accueil_KryptonRibbonTab.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Edition_KryptonRibbonTab.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Projet_KryptonRibbonTab.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Outils_KryptonRibbonTab.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Aide_KryptonRibbonTab.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Concepteur_fenetre_KryptonRibbonTab.Text" xml:space="preserve">
+    <value>Windows designer</value>
+  </data>
+  <data name="KryptonRibbonTab1.Text" xml:space="preserve">
+    <value>Function editor</value>
+  </data>
+  <data name="KryptonRibbonGroup1.TextLine1" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Nouveau_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Nouveau_Projet_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>project</value>
+  </data>
+  <data name="Nouveau_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Create a new project</value>
+  </data>
+  <data name="Nouveau_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>New project (Ctrl+N)</value>
+  </data>
+  <data name="Ouvrir_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Ouvrir_Projet_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>project</value>
+  </data>
+  <data name="Ouvrir_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open SoftwareZator 2011 or 2012 project</value>
+  </data>
+  <data name="Ouvrir_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Open project (Ctrl+O)</value>
+  </data>
+  <data name="Enregistrer_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Enregistrer_Projet_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>project</value>
+  </data>
+  <data name="Enregistrer_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Save the complete solution</value>
+  </data>
+  <data name="Enregistrer_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Save project</value>
+  </data>
+  <data name="Exporter_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Export to</value>
+  </data>
+  <data name="Exporter_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Export the complete solution to a Microsoft® Visual Studio 2010 solution</value>
+  </data>
+  <data name="Exporter_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Export to Visual Studio</value>
+  </data>
+  <data name="Fermer_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Fermer_Projet_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>project</value>
+  </data>
+  <data name="Fermer_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Close the complete solution</value>
+  </data>
+  <data name="Fermer_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Close project</value>
+  </data>
+  <data name="KryptonRibbonGroup2.TextLine1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Enregistrer_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Enregistrer_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Save active document</value>
+  </data>
+  <data name="Enregistrer_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Save (Ctrl+S)</value>
+  </data>
+  <data name="Enregistrer_Sous_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Enregistrer_Sous_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>as</value>
+  </data>
+  <data name="Enregistrer_Sous_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Save the active document as</value>
+  </data>
+  <data name="Enregistrer_Sous_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Save as (Ctrl+Shift+Alt+S)</value>
+  </data>
+  <data name="Enregistrer_Tout_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Enregistrer_Tout_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="Enregistrer_Tout_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Save all opened documents</value>
+  </data>
+  <data name="Enregistrer_Tout_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Save all (Ctrl+Shift+S)</value>
+  </data>
+  <data name="KryptonRibbonGroup3.TextLine1" xml:space="preserve">
+    <value>Export window</value>
+  </data>
+  <data name="VbNet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Export window to Visual Basic.Net</value>
+  </data>
+  <data name="VbNet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Export window to Visual Basic.Net</value>
+  </data>
+  <data name="CSharp_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Export windows to C#</value>
+  </data>
+  <data name="CSharp_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Export window to CSharp</value>
+  </data>
+  <data name="KryptonRibbonGroup4.TextLine1" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Imprimer_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Imprimer_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Print active document</value>
+  </data>
+  <data name="Imprimer_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Print (Ctrl+P)</value>
+  </data>
+  <data name="Impression_Rapide_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Quick</value>
+  </data>
+  <data name="Impression_Rapide_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>print</value>
+  </data>
+  <data name="Impression_Rapide_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Print the document with the default settings</value>
+  </data>
+  <data name="Impression_Rapide_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Quick print</value>
+  </data>
+  <data name="Apercu_Impression_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Apercu_Impression_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>preview</value>
+  </data>
+  <data name="Apercu_Impression_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Overview of the current document before printing</value>
+  </data>
+  <data name="Apercu_Impression_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="KryptonRibbonGroup5.TextLine1" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="Coller_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Coller_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Paste the clipboard</value>
+  </data>
+  <data name="Coller_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Paste (Ctrl+V)</value>
+  </data>
+  <data name="Copier_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Copier_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Copy the selection and place it in the clipboard</value>
+  </data>
+  <data name="Copier_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Copy (Ctrl+C)</value>
+  </data>
+  <data name="Couper_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="Couper_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Copy the selection and delete</value>
+  </data>
+  <data name="Couper_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Cut (Ctrl+X)</value>
+  </data>
+  <data name="Annuler_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Annuler_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Undo last change</value>
+  </data>
+  <data name="Annuler_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Undo (Ctrl+Z)</value>
+  </data>
+  <data name="Retablir_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Retablir_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Redo last change</value>
+  </data>
+  <data name="Retablir_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Redo (Ctrl+Y)</value>
+  </data>
+  <data name="Supprimer_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Supprimer_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Remove selection</value>
+  </data>
+  <data name="Supprimer_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Delete (Suppr)</value>
+  </data>
+  <data name="Selectionner_tout_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Selectionner_tout_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Select all the document</value>
+  </data>
+  <data name="Selectionner_tout_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Select all (Ctrl+A)</value>
+  </data>
+  <data name="KryptonRibbonGroup16.TextLine1" xml:space="preserve">
+    <value>Projects settings</value>
+  </data>
+  <data name="Parametre_Projet_KryptonRibbonGroupButton3.TextLine1" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Parametre_Projet_KryptonRibbonGroupButton3.ToolTipBody" xml:space="preserve">
+    <value>Open the project settings</value>
+  </data>
+  <data name="Parametre_Projet_KryptonRibbonGroupButton3.ToolTipTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Gestionnaire_Variables_KryptonRibbonGroupButton5.TextLine1" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="Gestionnaire_Variables_KryptonRibbonGroupButton5.TextLine2" xml:space="preserve">
+    <value>manager</value>
+  </data>
+  <data name="Gestionnaire_Variables_KryptonRibbonGroupButton5.ToolTipBody" xml:space="preserve">
+    <value>Open the tool management project variables</value>
+  </data>
+  <data name="Gestionnaire_Variables_KryptonRibbonGroupButton5.ToolTipTitle" xml:space="preserve">
+    <value>Variable manager</value>
+  </data>
+  <data name="Statistiques_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="Statistiques_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open the statistics of a project</value>
+  </data>
+  <data name="Statistiques_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="KryptonRibbonGroup20.TextLine1" xml:space="preserve">
+    <value>Solution settings</value>
+  </data>
+  <data name="Ordre_Generation_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Order Generation</value>
+  </data>
+  <data name="Ordre_Generation_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Define the order in which projects of the solution must be generated</value>
+  </data>
+  <data name="Ordre_Generation_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Order Generation</value>
+  </data>
+  <data name="Ajouter_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Add project</value>
+  </data>
+  <data name="Ajouter_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Add project to the solution</value>
+  </data>
+  <data name="Ajouter_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Add project</value>
+  </data>
+  <data name="KryptonContextMenuItem3.Text" xml:space="preserve">
+    <value>New project</value>
+  </data>
+  <data name="KryptonContextMenuItem4.Text" xml:space="preserve">
+    <value>Existing project</value>
+  </data>
+  <data name="Nouveau_Document_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Nouveau_Document_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Add a new document</value>
+  </data>
+  <data name="Nouveau_Document_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>New document</value>
+  </data>
+  <data name="KryptonRibbonGroup21.TextLine1" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="Generer_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="Generer_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Generate executable(s) file(s)</value>
+  </data>
+  <data name="Generer_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="KryptonContextMenuItem2.Text" xml:space="preserve">
+    <value>Build all projects in the solution</value>
+  </data>
+  <data name="Executer_Le_Projet_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="Executer_Le_Projet_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Run the start project</value>
+  </data>
+  <data name="Executer_Le_Projet_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Run (Ctrl+E)</value>
+  </data>
+  <data name="Voir_Les_Codes_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Voir_Les_Codes_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>See the project's Visual Basic.Net codes</value>
+  </data>
+  <data name="Voir_Les_Codes_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Show codes</value>
+  </data>
+  <data name="KryptonRibbonGroup25.TextLine1" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="Demarrer_Le_Debogage_KryptonRibbonGroupButton1.TextLine1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Demarrer_Le_Debogage_KryptonRibbonGroupButton1.TextLine2" xml:space="preserve">
+    <value>debugging</value>
+  </data>
+  <data name="Demarrer_Le_Debogage_KryptonRibbonGroupButton1.ToolTipBody" xml:space="preserve">
+    <value>Rebuild the project and start the debugger</value>
+  </data>
+  <data name="Demarrer_Le_Debogage_KryptonRibbonGroupButton1.ToolTipTitle" xml:space="preserve">
+    <value>Start debugging (F5)</value>
+  </data>
+  <data name="Debogage_Pause_KryptonRibbonGroupButton6.ToolTipBody" xml:space="preserve">
+    <value>Set the debug break</value>
+  </data>
+  <data name="Debogage_Reprendre_KryptonRibbonGroupButton9.TextLine1" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Debogage_Reprendre_KryptonRibbonGroupButton9.ToolTipBody" xml:space="preserve">
+    <value>Resume debugging is paused</value>
+  </data>
+  <data name="Debogage_Reprendre_KryptonRibbonGroupButton9.ToolTipTitle" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Debogage_Arreter_KryptonRibbonGroupButton7.TextLine1" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Debogage_Arreter_KryptonRibbonGroupButton7.ToolTipBody" xml:space="preserve">
+    <value>Stop debugging</value>
+  </data>
+  <data name="Debogage_Arreter_KryptonRibbonGroupButton7.ToolTipTitle" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Debogage_Redemarrer_KryptonRibbonGroupButton1.TextLine1" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="Debogage_Redemarrer_KryptonRibbonGroupButton1.ToolTipBody" xml:space="preserve">
+    <value>Restart debugging</value>
+  </data>
+  <data name="Debogage_Redemarrer_KryptonRibbonGroupButton1.ToolTipTitle" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="Debogage_Pas_A_Pas_KryptonRibbonGroupButton8.TextLine1" xml:space="preserve">
+    <value>Step by step</value>
+  </data>
+  <data name="Debogage_Pas_A_Pas_KryptonRibbonGroupButton8.ToolTipBody" xml:space="preserve">
+    <value>Run a function action by action.
+Note: the software must first be stopped by a breakpoint.</value>
+  </data>
+  <data name="Debogage_Pas_A_Pas_KryptonRibbonGroupButton8.ToolTipTitle" xml:space="preserve">
+    <value>Step by step (F11)</value>
+  </data>
+  <data name="KryptonRibbonGroup19.TextLine1" xml:space="preserve">
+    <value>Internal tools</value>
+  </data>
+  <data name="Options_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Options_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Settings of SoftwareZator</value>
+  </data>
+  <data name="Options_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="KryptonRibbonGroup22.TextLine1" xml:space="preserve">
+    <value>Voice recognition</value>
+  </data>
+  <data name="Reconnaissance_Vocal_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Configure voice recognition</value>
+  </data>
+  <data name="Reconnaissance_Vocal_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open the wizard to configure the voice recognition</value>
+  </data>
+  <data name="Reconnaissance_Vocal_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Configure voice recognition</value>
+  </data>
+  <data name="Reconnaissance_Vocal_KryptonRibbonGroupCheckBox.TextLine1" xml:space="preserve">
+    <value>Enable Voice recognition</value>
+  </data>
+  <data name="Reconnaissance_Vocal_KryptonRibbonGroupCheckBox.ToolTipBody" xml:space="preserve">
+    <value>Determines whether you can use voice recognition of SoftwareZator or no</value>
+  </data>
+  <data name="Reconnaissance_Vocal_KryptonRibbonGroupCheckBox.ToolTipTitle" xml:space="preserve">
+    <value>Enable Voice recognition</value>
+  </data>
+  <data name="A_Propos_De_KryptonRibbonGroupButton1.TextLine1" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="A_Propos_De_KryptonRibbonGroupButton1.ToolTipBody" xml:space="preserve">
+    <value>About SoftwareZator</value>
+  </data>
+  <data name="A_Propos_De_KryptonRibbonGroupButton1.ToolTipTitle" xml:space="preserve">
+    <value>About SoftwareZator</value>
+  </data>
+  <data name="KryptonRibbonGroup8.TextLine1" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="Cote_Gauche_KryptonRibbonGroupClusterButton.ToolTipBody" xml:space="preserve">
+    <value>Align the control left</value>
+  </data>
+  <data name="Cote_Gauche_KryptonRibbonGroupClusterButton.ToolTipTitle" xml:space="preserve">
+    <value>Left sides</value>
+  </data>
+  <data name="Centre_KryptonRibbonGroupClusterButton2.ToolTipBody" xml:space="preserve">
+    <value>Align the control center</value>
+  </data>
+  <data name="Centre_KryptonRibbonGroupClusterButton2.ToolTipTitle" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Cote_Droit_KryptonRibbonGroupClusterButton3.ToolTipBody" xml:space="preserve">
+    <value>Align the control right</value>
+  </data>
+  <data name="Cote_Droit_KryptonRibbonGroupClusterButton3.ToolTipTitle" xml:space="preserve">
+    <value>Right sides</value>
+  </data>
+  <data name="Sommet_KryptonRibbonGroupClusterButton4.ToolTipBody" xml:space="preserve">
+    <value>Align control at the top</value>
+  </data>
+  <data name="Sommet_KryptonRibbonGroupClusterButton4.ToolTipTitle" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Milieux_KryptonRibbonGroupClusterButton5.ToolTipBody" xml:space="preserve">
+    <value>Align control at the middle</value>
+  </data>
+  <data name="Milieux_KryptonRibbonGroupClusterButton5.ToolTipTitle" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="Bas_KryptonRibbonGroupClusterButton6.ToolTipBody" xml:space="preserve">
+    <value>Align control at the bottom</value>
+  </data>
+  <data name="Bas_KryptonRibbonGroupClusterButton6.ToolTipTitle" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="Sur_Grille_KryptonRibbonGroupButton1.TextLine1" xml:space="preserve">
+    <value>On the grid</value>
+  </data>
+  <data name="Sur_Grille_KryptonRibbonGroupButton1.ToolTipBody" xml:space="preserve">
+    <value>Align control over the grid</value>
+  </data>
+  <data name="Sur_Grille_KryptonRibbonGroupButton1.ToolTipTitle" xml:space="preserve">
+    <value>On the grid</value>
+  </data>
+  <data name="KryptonRibbonGroup9.TextLine1" xml:space="preserve">
+    <value>Uniform size</value>
+  </data>
+  <data name="Largeur_KryptonRibbonGroupButton2.TextLine1" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Largeur_KryptonRibbonGroupButton2.ToolTipBody" xml:space="preserve">
+    <value>Adjust the width control</value>
+  </data>
+  <data name="Largeur_KryptonRibbonGroupButton2.ToolTipTitle" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Largeur_Et_Hauteur_KryptonRibbonGroupButton3.TextLine1" xml:space="preserve">
+    <value>Width and height</value>
+  </data>
+  <data name="Largeur_Et_Hauteur_KryptonRibbonGroupButton3.ToolTipBody" xml:space="preserve">
+    <value>Adjust the control width and height</value>
+  </data>
+  <data name="Largeur_Et_Hauteur_KryptonRibbonGroupButton3.ToolTipTitle" xml:space="preserve">
+    <value>Width and height</value>
+  </data>
+  <data name="Hauteur_KryptonRibbonGroupButton4.TextLine1" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Hauteur_KryptonRibbonGroupButton4.ToolTipBody" xml:space="preserve">
+    <value>Adjust height control</value>
+  </data>
+  <data name="Hauteur_KryptonRibbonGroupButton4.ToolTipTitle" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Ajuster_Grille_KryptonRibbonGroupButton5.TextLine1" xml:space="preserve">
+    <value>Size to Grid</value>
+  </data>
+  <data name="Ajuster_Grille_KryptonRibbonGroupButton5.ToolTipBody" xml:space="preserve">
+    <value>Adjust the control to the grid</value>
+  </data>
+  <data name="Ajuster_Grille_KryptonRibbonGroupButton5.ToolTipTitle" xml:space="preserve">
+    <value>Size to Grid</value>
+  </data>
+  <data name="KryptonRibbonGroup10.TextLine1" xml:space="preserve">
+    <value>Horizontal spacing</value>
+  </data>
+  <data name="H_Egaliser_KryptonRibbonGroupButton6.TextLine1" xml:space="preserve">
+    <value>Equalize</value>
+  </data>
+  <data name="H_Egaliser_KryptonRibbonGroupButton6.ToolTipBody" xml:space="preserve">
+    <value>Equalize the spacing between controls</value>
+  </data>
+  <data name="H_Egaliser_KryptonRibbonGroupButton6.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAD6SURBVDhPY/j//z8DJZgizSCL
+        B7EBRR2b/seXL/kfV7bkv0viFKBrsYcVQ2bTWrAiEHZNmgpXmNOy/v/nH7/+f/31G78BKbUr/7/6+PP/
+        oYsP/7slIwxIr1/9//2XX/9PXnmAYgC6hQzxlUv/X3j44/+yA8+BBkz7n9+2AYwTgOIggw9egBgAE4ep
+        X7r/GVg9g0/GzP9Hb/z4P3/PSxQDfDNn/b/w4Md/kEJkAzxTpoHVz9v9AmIASGDuruf/p255AhaABZZP
+        +oz/x2/9BCtEDkRTz+T/yJgBXQBmgDvQYJBmkMF4YwFX9Fj4pKHYhDMaKckHgzwpE+s1AD+s4n9/fZg0
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="H_Egaliser_KryptonRibbonGroupButton6.ToolTipTitle" xml:space="preserve">
+    <value>Equalize</value>
+  </data>
+  <data name="H_Diminuer_KryptonRibbonGroupButton7.ImageSmall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACKSURBVDhPrZJLDsAgCESJ4dyG
+        ntsFFQ2GKqYaXbDh8xwGgZnhJKbDiMgA0GL2SAF4zZJLKeVybsigX4A2y6BCe4BVpNCmwAJijBxC+CjQ
+        XJFkVC0DiKhAlwCzFTyv7pjoObx1xqsfCfGZ3tyrDT9RmgBogEjOzVfH61AfuppXU9gdBdbEYw92L/IC
+        8iSQOETbKuIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="H_Diminuer_KryptonRibbonGroupButton7.TextLine1" xml:space="preserve">
+    <value>Decrease</value>
+  </data>
+  <data name="H_Diminuer_KryptonRibbonGroupButton7.ToolTipBody" xml:space="preserve">
+    <value>Decrease the spacing between controls</value>
+  </data>
+  <data name="H_Diminuer_KryptonRibbonGroupButton7.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACKSURBVDhPrZJLDsAgCESJ4dyG
+        ntsFFQ2GKqYaXbDh8xwGgZnhJKbDiMgA0GL2SAF4zZJLKeVybsigX4A2y6BCe4BVpNCmwAJijBxC+CjQ
+        XJFkVC0DiKhAlwCzFTyv7pjoObx1xqsfCfGZ3tyrDT9RmgBogEjOzVfH61AfuppXU9gdBdbEYw92L/IC
+        8iSQOETbKuIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="H_Diminuer_KryptonRibbonGroupButton7.ToolTipTitle" xml:space="preserve">
+    <value>Decrease</value>
+  </data>
+  <data name="H_Augmenter_KryptonRibbonGroupButton8.ImageSmall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACUSURBVDhPrZPRDoAgCEWZ47ud
+        frcPhCycFLiWtvES954uoUBEsFOhGREJAEZFH2GNL+qA1hr7OCJrQoAo+OmGWbQCmHQzIOdMpRSplJJJ
+        8OypT7JpghVAwQp3Ab9GOPET3VV+XuPOIZIN27lruG/VARSjGQDEyjjb9NJ1zawTgJq1+RLdJq9/JkE0
+        XzTC/H7rKnfQBdoMoA3XRwMeAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="H_Augmenter_KryptonRibbonGroupButton8.TextLine1" xml:space="preserve">
+    <value>Increase</value>
+  </data>
+  <data name="H_Augmenter_KryptonRibbonGroupButton8.ToolTipBody" xml:space="preserve">
+    <value>Increase the spacing between controls</value>
+  </data>
+  <data name="H_Augmenter_KryptonRibbonGroupButton8.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACUSURBVDhPrZPRDoAgCEWZ47ud
+        frcPhCycFLiWtvES954uoUBEsFOhGREJAEZFH2GNL+qA1hr7OCJrQoAo+OmGWbQCmHQzIOdMpRSplJJJ
+        8OypT7JpghVAwQp3Ab9GOPET3VV+XuPOIZIN27lruG/VARSjGQDEyjjb9NJ1zawTgJq1+RLdJq9/JkE0
+        XzTC/H7rKnfQBdoMoA3XRwMeAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="H_Augmenter_KryptonRibbonGroupButton8.ToolTipTitle" xml:space="preserve">
+    <value>Increase</value>
+  </data>
+  <data name="H_Supprimer_KryptonRibbonGroupButton9.ImageSmall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAB9SURBVDhPrZLBDoAwCEN74MP1
+        uzngZoLBjSZseuDC4K0UYGb4ErRZRAzAE+yTF2BsUtXW1yQ2UBngTR0WAUzNpIABmJoy4J4lGacMKI8Q
+        C5dNjE5vrXHnoKZDEjnpzrO3FAAcE6Tn0rzL7nQvGovHfAT9pyAqYWaWPFjdxAVNwKjKSE+t3wAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="H_Supprimer_KryptonRibbonGroupButton9.TextLine1" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="H_Supprimer_KryptonRibbonGroupButton9.ToolTipBody" xml:space="preserve">
+    <value>Remove the spacing between controls</value>
+  </data>
+  <data name="H_Supprimer_KryptonRibbonGroupButton9.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAB9SURBVDhPrZLBDoAwCEN74MP1
+        uzngZoLBjSZseuDC4K0UYGb4ErRZRAzAE+yTF2BsUtXW1yQ2UBngTR0WAUzNpIABmJoy4J4lGacMKI8Q
+        C5dNjE5vrXHnoKZDEjnpzrO3FAAcE6Tn0rzL7nQvGovHfAT9pyAqYWaWPFjdxAVNwKjKSE+t3wAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="H_Supprimer_KryptonRibbonGroupButton9.ToolTipTitle" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonRibbonGroup11.TextLine1" xml:space="preserve">
+    <value>Vertical spacing</value>
+  </data>
+  <data name="V_Egaliser_KryptonRibbonGroupButton10.TextLine1" xml:space="preserve">
+    <value>Equalize</value>
+  </data>
+  <data name="V_Egaliser_KryptonRibbonGroupButton10.ToolTipBody" xml:space="preserve">
+    <value>Equalize the spacing between controls</value>
+  </data>
+  <data name="V_Egaliser_KryptonRibbonGroupButton10.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAD6SURBVDhPY/j//z8DJZgizSCL
+        B7EBRR2b/seXL/kfV7bkv0viFKBrsYcVQ2bTWrAiEHZNmgpXmNOy/v/nH7/+f/31G78BKbUr/7/6+PP/
+        oYsP/7slIwxIr1/9//2XX/9PXnmAYgC6hQzxlUv/X3j44/+yA8+BBkz7n9+2AYwTgOIggw9egBgAE4ep
+        X7r/GVg9g0/GzP9Hb/z4P3/PSxQDfDNn/b/w4Md/kEJkAzxTpoHVz9v9AmIASGDuruf/p255AhaABZZP
+        +oz/x2/9BCtEDkRTz+T/yJgBXQBmgDvQYJBmkMF4YwFX9Fj4pKHYhDMaKckHgzwpE+s1AD+s4n9/fZg0
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="V_Egaliser_KryptonRibbonGroupButton10.ToolTipTitle" xml:space="preserve">
+    <value>Equalize</value>
+  </data>
+  <data name="V_Diminuer_KryptonRibbonGroupButton11.ImageSmall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACKSURBVDhPrZJLDsAgCESJ4dyG
+        ntsFFQ2GKqYaXbDh8xwGgZnhJKbDiMgA0GL2SAF4zZJLKeVybsigX4A2y6BCe4BVpNCmwAJijBxC+CjQ
+        XJFkVC0DiKhAlwCzFTyv7pjoObx1xqsfCfGZ3tyrDT9RmgBogEjOzVfH61AfuppXU9gdBdbEYw92L/IC
+        8iSQOETbKuIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="V_Diminuer_KryptonRibbonGroupButton11.TextLine1" xml:space="preserve">
+    <value>Decrease</value>
+  </data>
+  <data name="V_Diminuer_KryptonRibbonGroupButton11.ToolTipBody" xml:space="preserve">
+    <value>Decrease the spacing between controls</value>
+  </data>
+  <data name="V_Diminuer_KryptonRibbonGroupButton11.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACKSURBVDhPrZJLDsAgCESJ4dyG
+        ntsFFQ2GKqYaXbDh8xwGgZnhJKbDiMgA0GL2SAF4zZJLKeVybsigX4A2y6BCe4BVpNCmwAJijBxC+CjQ
+        XJFkVC0DiKhAlwCzFTyv7pjoObx1xqsfCfGZ3tyrDT9RmgBogEjOzVfH61AfuppXU9gdBdbEYw92L/IC
+        8iSQOETbKuIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="V_Diminuer_KryptonRibbonGroupButton11.ToolTipTitle" xml:space="preserve">
+    <value>Decrease</value>
+  </data>
+  <data name="V_Augmenter_KryptonRibbonGroupButton12.ImageSmall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACUSURBVDhPrZPRDoAgCEWZ47ud
+        frcPhCycFLiWtvES954uoUBEsFOhGREJAEZFH2GNL+qA1hr7OCJrQoAo+OmGWbQCmHQzIOdMpRSplJJJ
+        8OypT7JpghVAwQp3Ab9GOPET3VV+XuPOIZIN27lruG/VARSjGQDEyjjb9NJ1zawTgJq1+RLdJq9/JkE0
+        XzTC/H7rKnfQBdoMoA3XRwMeAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="V_Augmenter_KryptonRibbonGroupButton12.TextLine1" xml:space="preserve">
+    <value>Increase</value>
+  </data>
+  <data name="V_Augmenter_KryptonRibbonGroupButton12.ToolTipBody" xml:space="preserve">
+    <value>Increase the spacing between controls</value>
+  </data>
+  <data name="V_Augmenter_KryptonRibbonGroupButton12.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACUSURBVDhPrZPRDoAgCEWZ47ud
+        frcPhCycFLiWtvES954uoUBEsFOhGREJAEZFH2GNL+qA1hr7OCJrQoAo+OmGWbQCmHQzIOdMpRSplJJJ
+        8OypT7JpghVAwQp3Ab9GOPET3VV+XuPOIZIN27lruG/VARSjGQDEyjjb9NJ1zawTgJq1+RLdJq9/JkE0
+        XzTC/H7rKnfQBdoMoA3XRwMeAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="V_Augmenter_KryptonRibbonGroupButton12.ToolTipTitle" xml:space="preserve">
+    <value>Increase</value>
+  </data>
+  <data name="V_Supprimer_KryptonRibbonGroupButton13.ImageSmall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAB9SURBVDhPrZLBDoAwCEN74MP1
+        uzngZoLBjSZseuDC4K0UYGb4ErRZRAzAE+yTF2BsUtXW1yQ2UBngTR0WAUzNpIABmJoy4J4lGacMKI8Q
+        C5dNjE5vrXHnoKZDEjnpzrO3FAAcE6Tn0rzL7nQvGovHfAT9pyAqYWaWPFjdxAVNwKjKSE+t3wAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="V_Supprimer_KryptonRibbonGroupButton13.TextLine1" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="V_Supprimer_KryptonRibbonGroupButton13.ToolTipBody" xml:space="preserve">
+    <value>Remove the spacing between controls</value>
+  </data>
+  <data name="V_Supprimer_KryptonRibbonGroupButton13.ToolTipImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAB9SURBVDhPrZLBDoAwCEN74MP1
+        uzngZoLBjSZseuDC4K0UYGb4ErRZRAzAE+yTF2BsUtXW1yQ2UBngTR0WAUzNpIABmJoy4J4lGacMKI8Q
+        C5dNjE5vrXHnoKZDEjnpzrO3FAAcE6Tn0rzL7nQvGovHfAT9pyAqYWaWPFjdxAVNwKjKSE+t3wAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="V_Supprimer_KryptonRibbonGroupButton13.ToolTipTitle" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonRibbonGroup12.TextLine1" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Centrer_H_KryptonRibbonGroupButton14.ToolTipBody" xml:space="preserve">
+    <value>Center the control within its container horizontally</value>
+  </data>
+  <data name="Centrer_V_KryptonRibbonGroupButton15.ToolTipBody" xml:space="preserve">
+    <value>Center the control within its container vertically</value>
+  </data>
+  <data name="KryptonRibbonGroup13.TextLine1" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Premier_Plan_KryptonRibbonGroupButton16.TextLine1" xml:space="preserve">
+    <value>Bring to</value>
+  </data>
+  <data name="Premier_Plan_KryptonRibbonGroupButton16.TextLine2" xml:space="preserve">
+    <value>front</value>
+  </data>
+  <data name="Premier_Plan_KryptonRibbonGroupButton16.ToolTipBody" xml:space="preserve">
+    <value>Put the selected controls in the foreground</value>
+  </data>
+  <data name="Premier_Plan_KryptonRibbonGroupButton16.ToolTipTitle" xml:space="preserve">
+    <value>Bring to Front</value>
+  </data>
+  <data name="Arriere_Plan_KryptonRibbonGroupButton17.TextLine1" xml:space="preserve">
+    <value>Send to</value>
+  </data>
+  <data name="Arriere_Plan_KryptonRibbonGroupButton17.TextLine2" xml:space="preserve">
+    <value>back</value>
+  </data>
+  <data name="Arriere_Plan_KryptonRibbonGroupButton17.ToolTipBody" xml:space="preserve">
+    <value>Put the selected controls in the background</value>
+  </data>
+  <data name="Arriere_Plan_KryptonRibbonGroupButton17.ToolTipTitle" xml:space="preserve">
+    <value>Send to Back</value>
+  </data>
+  <data name="Verouiller_KryptonRibbonGroupButton18.TextLine1" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="Verouiller_KryptonRibbonGroupButton18.TextLine2" xml:space="preserve">
+    <value>controls</value>
+  </data>
+  <data name="Verouiller_KryptonRibbonGroupButton18.ToolTipBody" xml:space="preserve">
+    <value>Locks the selected controls so as not to change</value>
+  </data>
+  <data name="Verouiller_KryptonRibbonGroupButton18.ToolTipTitle" xml:space="preserve">
+    <value>Locked Controls</value>
+  </data>
+  <data name="Ordre_Tabulation_KryptonRibbonGroupButton19.TextLine1" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Ordre_Tabulation_KryptonRibbonGroupButton19.TextLine2" xml:space="preserve">
+    <value>order</value>
+  </data>
+  <data name="Ordre_Tabulation_KryptonRibbonGroupButton19.ToolTipBody" xml:space="preserve">
+    <value>Enable or disable the tab order of controls</value>
+  </data>
+  <data name="Ordre_Tabulation_KryptonRibbonGroupButton19.ToolTipTitle" xml:space="preserve">
+    <value>Tab Order</value>
+  </data>
+  <data name="KryptonRibbonGroup14.TextLine1" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="Nouvelle_Fonction_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Nouvelle_Fonction_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>function</value>
+  </data>
+  <data name="Nouvelle_Fonction_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Create a new function in the active function editor</value>
+  </data>
+  <data name="Nouvelle_Fonction_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>New function</value>
+  </data>
+  <data name="Modifier_Action_KryptonRibbonGroupButton2.TextLine1" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Modifier_Action_KryptonRibbonGroupButton2.TextLine2" xml:space="preserve">
+    <value>action</value>
+  </data>
+  <data name="Modifier_Action_KryptonRibbonGroupButton2.ToolTipBody" xml:space="preserve">
+    <value>Change settings of the selected action</value>
+  </data>
+  <data name="Modifier_Action_KryptonRibbonGroupButton2.ToolTipTitle" xml:space="preserve">
+    <value>Change action</value>
+  </data>
+  <data name="Avancer_Zoom_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Avancer_Zoom_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Avancer_Zoom_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Reculer_Zoom_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Reculer_Zoom_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Reculer_Zoom_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Reinitialiser_Zoom_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Reinitialiser_Zoom_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Reset zoom position in the active editor function</value>
+  </data>
+  <data name="Reinitialiser_Zoom_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="KryptonRibbonGroup24.TextLine1" xml:space="preserve">
+    <value>Breakpoints</value>
+  </data>
+  <data name="Inserer_Breakpoint_KryptonRibbonGroupButton1.TextLine1" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Inserer_Breakpoint_KryptonRibbonGroupButton1.TextLine2" xml:space="preserve">
+    <value>breakpoint</value>
+  </data>
+  <data name="Inserer_Breakpoint_KryptonRibbonGroupButton1.ToolTipBody" xml:space="preserve">
+    <value>Add a breakpoint to the action selected in the active function.</value>
+  </data>
+  <data name="Inserer_Breakpoint_KryptonRibbonGroupButton1.ToolTipTitle" xml:space="preserve">
+    <value>Insert breakpoint</value>
+  </data>
+  <data name="KryptonRibbonGroupButton4.TextLine1" xml:space="preserve">
+    <value>Enabled/Disabled</value>
+  </data>
+  <data name="KryptonRibbonGroupButton4.TextLine2" xml:space="preserve">
+    <value>breakpoint</value>
+  </data>
+  <data name="KryptonRibbonGroupButton4.ToolTipBody" xml:space="preserve">
+    <value>Deactivate or reactivate the breakpoint of the action selected in the function editor.</value>
+  </data>
+  <data name="KryptonRibbonGroupButton4.ToolTipTitle" xml:space="preserve">
+    <value>Enabled/Disabled breakpoint</value>
+  </data>
+  <data name="KryptonRibbonGroupButton5.TextLine1" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonRibbonGroupButton5.TextLine2" xml:space="preserve">
+    <value>breakpoint</value>
+  </data>
+  <data name="KryptonRibbonGroupButton5.ToolTipBody" xml:space="preserve">
+    <value>Remove the breakpoint set on the action selected in the function editor.</value>
+  </data>
+  <data name="KryptonRibbonGroupButton5.ToolTipTitle" xml:space="preserve">
+    <value>Remove breakpoint</value>
+  </data>
+  <data name="KryptonRibbonGroup18.TextLine1" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Developper_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="Developper_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Expand an action with actions children</value>
+  </data>
+  <data name="Developper_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="Reduire_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="Reduire_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Collapse an action with actions children</value>
+  </data>
+  <data name="Reduire_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="Copier_Image_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Copy as Picture</value>
+  </data>
+  <data name="Copier_Image_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Copy the contents of the editor function in image</value>
+  </data>
+  <data name="Copier_Image_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Copy as Picture</value>
+  </data>
+  <data name="Enregistrer_Image_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Save as Picture</value>
+  </data>
+  <data name="Enregistrer_Image_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Save the contents of the editor function in image</value>
+  </data>
+  <data name="Enregistrer_Image_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Save as Picture</value>
+  </data>
+  <data name="Info_Bar1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAACbklE
+        QVQ4T6VT20uTcRieJ2x/QINCKu9VvBBBGutGdm1BLLoSO9CFXriuOoiH9tFonzhB8sKkDbM8xcL087QN
+        na5PV8tt6pYyqdB5AIkRzpk3T+/7sZmTruqDB37f+77P8x5+708FQHUSxnqjntBKkAnxFPjMNv3p+GMy
+        OS8RREF4mrDZezE24cb8QkABn9nGPo7h2LSQIpAi93R2dsEjObHyZghfBDPCd+8hWF0Df/19+KwdcA+P
+        gWMovictkhYQ2eEfncTXhkbELRZELl7AekUFIuXl+HT+HNbq6hC4dQfygCMtInJyzq7n0mYo87cnJiTX
+        18kObLe04INajVn1GYSNRmyRbXN1FX6qyvVOSrejZ4FW7i9kf40YZdm12RQB/qK1tfBXV2MjkUSc/gNt
+        bbCUlcFrFpWZMJcFZB7S0sMGLJzVIEgB293d+EWE+OEhopsxxI6OsCiKeJyVhY7sbEwbbiqDZS4LxHnS
+        nw034CstxQQFSXl5WLNa8X1/HzsHB1hub8cjlQrdhGEScJaUKLfD3GMBX9VVjOTkYICC3JWVWKIqtqiC
+        WCKBaF8fOjUa9JPvLQm4ioszBJQW5JrbGGRnYSGWBwexSy0EXS4sEtaSSWxIEl4UFGCSYjxV1zJaUIbo
+        NZnh0ekQJvIekSOyjAeU8TkhGgrhJ9l+kMiz/HzIzULGEJVr5KsZv25AoKkJO1NTCvkl4T3BnpuLvUgE
+        HwUBw5e1cDlG/lxjahOVRZrrHYCk1WGIyuSBOQjjhBlCF81nVHsF8qv+zEU6vcpOUp9rNGGW+pwuKoKH
+        4KXzfLNJyfzXVT4h8m+P6X+e82//c5fG2WYu6gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Page_De_Demarrage_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Page_De_Demarrage_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>page</value>
+  </data>
+  <data name="Page_De_Demarrage_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open the Start page</value>
+  </data>
+  <data name="Page_De_Demarrage_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Start page</value>
+  </data>
+  <data name="Gestionnaire_Plugins_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Plugins</value>
+  </data>
+  <data name="Gestionnaire_Plugins_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>manager</value>
+  </data>
+  <data name="Gestionnaire_Plugins_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open the plugins and actions manager</value>
+  </data>
+  <data name="Gestionnaire_Plugins_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Plugins manager</value>
+  </data>
+  <data name="Aide_KryptonRibbonGroupButton2.KeyTip" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Aide_KryptonRibbonGroupButton2.TextLine1" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Aide_KryptonRibbonGroupButton2.TextLine2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Aide_KryptonRibbonGroupButton2.ToolTipBody" xml:space="preserve">
+    <value>Show the help on SoftwareZator 2012</value>
+  </data>
+  <data name="Aide_KryptonRibbonGroupButton2.ToolTipTitle" xml:space="preserve">
+    <value>Help (F1)</value>
+  </data>
+  <data name="FeedBack_KryptonRibbonGroupButton3.KeyTip" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="FeedBack_KryptonRibbonGroupButton3.TextLine1" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="FeedBack_KryptonRibbonGroupButton3.TextLine2" xml:space="preserve">
+    <value>feedbacks</value>
+  </data>
+  <data name="FeedBack_KryptonRibbonGroupButton3.ToolTipBody" xml:space="preserve">
+    <value>We appreciate your feedback. Send us your opinions and ideas to improve SoftwareZator.</value>
+  </data>
+  <data name="FeedBack_KryptonRibbonGroupButton3.ToolTipTitle" xml:space="preserve">
+    <value>Send feedbacks</value>
+  </data>
+  <data name="SZStore_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="SZStore_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>plugins</value>
+  </data>
+  <data name="SZStore_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open SZStore to download new plugins</value>
+  </data>
+  <data name="SZStore_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>SZStore</value>
+  </data>
+  <data name="SZInstallSystem_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>SZInstallSystem</value>
+  </data>
+  <data name="SZInstallSystem_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SZInstallSystem_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Open SZInstallSystem to create a setup</value>
+  </data>
+  <data name="SZInstallSystem_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>SZInstallSystem</value>
+  </data>
+  <data name="KryptonContextMenuItem5.Text" xml:space="preserve">
+    <value>Build all the projects in the solution with encryption code (obfuscation)</value>
+  </data>
+  <data name="Activer_Licence_SZ_KryptonRibbonGroupButton.KeyTip" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Activer_Licence_SZ_KryptonRibbonGroupButton.TextLine1" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Activer_Licence_SZ_KryptonRibbonGroupButton.TextLine2" xml:space="preserve">
+    <value>SoftwareZator</value>
+  </data>
+  <data name="Activer_Licence_SZ_KryptonRibbonGroupButton.ToolTipBody" xml:space="preserve">
+    <value>Activate a license of SoftwareZator</value>
+  </data>
+  <data name="Activer_Licence_SZ_KryptonRibbonGroupButton.ToolTipTitle" xml:space="preserve">
+    <value>Activate a license of SoftwareZator</value>
+  </data>
+  <data name="KryptonRibbonGroup23.TextLine1" xml:space="preserve">
+    <value>Other</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextAutoHide" xml:space="preserve">
+    <value>Hide automatically</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextCloseAllButThis" xml:space="preserve">
+    <value>Close all but this</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextDock" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextFloat" xml:space="preserve">
+    <value>Floating</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextHide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextTabbedDocument" xml:space="preserve">
+    <value>Anchor as a document with tab</value>
+  </data>
+    <data name="KryptonDockingManager1.Strings.TextWindowLocation" xml:space="preserve">
+    <value>Window position</value>
+  </data>
+</root>

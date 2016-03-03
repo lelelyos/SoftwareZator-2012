@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACq
+        BwAAAk1TRnQBSQFMAgEBAgEAARABAAEQAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABED4AAx4BKwGZATEBAAH/Ax4BKyAAAzwBYwNYAb8DVwG/AzsBY8AAAx4BKwG1
+        AWEBMwH/AdgBmwFZAf8BmQExAQAB/wMeASsQAAMdASkDCgEOAwEBAgN4AeoDvQH/A7IB/wNcAeoDAQEC
+        AwoBDgMdASmsAAGXAYABbQH/AZcBgAFtAf8B2AGbAVkC/wHNAZkB/wHpAbQBegH/AdgBmwFZAf8BmQEx
+        AQAB/wMeASsIAANXAZsDbAH9A2QB5wMSARkDeAHnA8sB/wPHAf8DYgHnAxIBGQNcAecDTQH9A04Bm6gA
+        AZcBgAFtAf8EAAMeASsB2AGbAVkC/wHNAZkB/wHpAbQBegH/AdgBmwFZAf8BmQExAQAB/wQAA0kBewO8
+        Af8D3gH/A6YB/wN9AfQDggH+A8QB/wPCAf8DbQH+A2kB9AOmAf8D0gH/A4AB/wNFAXukAAGXAYABbQH/
+        CAADHgErAdgBmwFZAv8BzQGZAf8ByQFxAUEB/wMeASsEAANLAX0DowH+A9UB/wPFAf8DywH/A9EB/wPJ
+        Af8DxwH/A8wB/wPFAf8DvQH/A8sB/wNuAf4DRwF9lAADHgErDAABlwGAAW0B/wwAATMBMgEzAU8B2AGb
+        AVkB/wMeASsMAANQAYUDxQH/A8EB/wPFAf8DxwH/A6oB/wOnAf8DwQH/A74B/wO1Af8DqgH/A0oBhZQA
+        Ax4BKwEMAXYBngH/Ax4BKwgAAZcBgAFtAf8IAAMeASsBjQErAYwB/wEzATIBMwFPCAADegHNA30B4wOR
+        Ae4DzwH/A8YB/wPMAf8DdAHGAy0BRAMtAUQDbgHGA8EB/wO8Af8DuQH/A2EB7gNZAeMDVwHNiAADHgEr
+        AQwBdgGeAf8BGgG2Ae4B/wEMAXYBngH/Ax4BKwQAAZcBgAFtAf8EAAMeASsBswE6AbIB/wHcAW4B2wH/
+        AY0BKwGMAf8DHgErBAADvQH9A+IB/wPSAf8DxgH/A80B/wOxAf8DLQFECAADLQFEA6gB/wPCAf8DtwH/
+        A8AB/wPSAf8DXgH9hAADHgErAQwBdgGeAf8BTQHLAfEB/wEyAcAB7wH/AS0BvgHvAf8BCgFgAYEB/wGX
+        AYABbQH/AZcBgAFtAf8BlwGAAW0B/wHZAWoB2AH/AfoBrQH6Af8B+wGYAfoB/wHcAW4B2wH/AY0BKwGM
+        Af8DHgErA78B/QPpAf8D1gH/A8kB/wPOAf8DpQH/AywBRAgAAy0BRAOsAf8DxAH/A7oB/wPGAf8D3QH/
+        A2gB/YAAAx4BKwESAaoB4QH/AYUB4QH1Af8BaQHXAfQB/wFOAcsB8QH/ATIBwAHwAf8BGwG1Ae4B/wEK
+        AWABgQH/Ax4BKwQAAx4BKwHTAWMB0gH/AfoBrQH6Af8B+wGYAfoB/wHcAW4B2wH/AY0BKwGMAf8DiAHN
+        A58B4wOpAe4D2AH/A80B/wO8Af8DaQHGAywBRAMsAUQDbgHGA8MB/wPCAf8DzQH/A4IB7gN4AeMDbAHN
+        hAADHgErARIBqgHhAf8BhgHhAfUB/wFqAdYB8wH/AU4BywHyAf8BMwHAAfAB/wEaAbUB7QH/AQoBYAGB
+        Af8DHgErBAADHgErAdMBYwHSAf8B+gGtAfoB/wHTAWMB0gH/Ax4BKwgAA1EBhQPUAf8DzAH/A8kB/wO6
+        Af8DnAH/A6EB/wPCAf8DxgH/A8EB/wO3Af8DTAGFkAADHgErARIBqgHhAf8BhQHgAfUB/wFqAdYB8wH/
+        AU4BywHyAf8BMgHAAe8B/wEbAbUB7QH/AQoBYAGBAf8DHgErBAADHgErAdMBYwHSAf8DHgErCAADTQF9
+        A8EB/gPcAf8D1AH/A9kB/wPbAf8D1gH/A9QB/wPZAf8D0gH/A8sB/wPIAf8DeQH+A0gBfZAAAx4BKwES
+        AaoB4QH/AYYB4QH0Af8BaQHWAfQB/wFOAcsB8QH/ARUBmAHIAf8DHgErDAADHgErDAADSwF7A9wB/wPt
+        Af8D2wH/A7MB9AO7Af4D1gH/A9QB/wOtAf4DoQH0A8sB/wPnAf8DtwH/A0gBe5QAAx4BKwESAaoB4QH/
+        AYUB4QH1Af8BFQGYAcgB/wMeASskAANhAZsDyQH9A6kB5wMSARkDogHnA94B/wPdAf8DmQHnAxIBGQOT
+        AecDpwH9A1sBm5wAAx4BKwESAaoB4QH/Ax4BKywAAx0BKQMKAQ4DAQECA6oB6gPlAf8D5AH/A5YB6gMB
+        AQIDCgEOAx0BKaQAAx4BKzwAAz4BYwN7Ab8DewG/Az0BY5gAAUIBTQE+BwABPgMAASgDAAFAAwABEAMA
+        AQEBAAEBBQABgBcAA/8BAAH/AeMB/AE/BAAB/wHBAeABBwQAAf8BAAHAAQMEAAH/AUABgAEBBAAB/wFg
+        AYABAQQAAfcBcQHAAQMEAAHjAWMGAAHBAUEBAQGABAABgAEAAQEBgAUAAUAGAAGAASABwAEDBAABwAER
+        AYABAQQAAeABOwGAAQEEAAHwAX8BwAEDBAAB+AH/AeABBwQAAf0B/wH8AT8EAAs=
+</value>
+  </data>
+  <data name="TreeView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PropertyGrids1.DocCommentDescription.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.AccessibleName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PropertyGrids1.DocCommentDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PropertyGrids1.DocCommentDescription.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentDescription.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PropertyGrids1.DocCommentTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="PropertyGrids1.SelectedObject" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAElWZWxlclNvZnR3YXJlLlNaVkIsIFZlcnNpb249My4wLjAuMCwg
+        Q3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAA5VmVsZXJTb2Z0d2FyZS5TWlZC
+        LlByb3BlcnR5R3JpZHMuQ3VzdG9tUHJvcGVydHlDb2xsZWN0aW9uAgAAAA1PbkNoYW5nZUV2ZW50E0Nv
+        bGxlY3Rpb25CYXNlK2xpc3QEA05WZWxlclNvZnR3YXJlLlNaVkIuUHJvcGVydHlHcmlkcy5DdXN0b21Q
+        cm9wZXJ0eUNvbGxlY3Rpb24rT25DaGFuZ2VFdmVudEhhbmRsZXICAAAAHFN5c3RlbS5Db2xsZWN0aW9u
+        cy5BcnJheUxpc3QCAAAACgkDAAAABAMAAAAcU3lzdGVtLkNvbGxlY3Rpb25zLkFycmF5TGlzdAMAAAAG
+        X2l0ZW1zBV9zaXplCF92ZXJzaW9uBQAACAgJBAAAAAAAAAAAAAAAEAQAAAAAAAAACw==
+</value>
+  </data>
+  <data name="PropertyGrids1.ToolStrip.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PropertyGrids1.ToolStrip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="PropertyGrids1.ToolStrip.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PropertyGrids1.ToolStrip.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="PropertyGrids1.ToolStrip.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PropertyGrids1.ToolStrip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="PropertyGrids1.ToolStrip.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="PropertyGrids1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Center_Panel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Foot_Panel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cancel_Button.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OK_Button.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

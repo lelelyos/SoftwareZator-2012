@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AeroWindowsForm_CancelButtontext" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Box_Boite_A_Outils_Aucun_Element" xml:space="preserve">
+    <value>{No items}</value>
+  </data>
+  <data name="Content1" xml:space="preserve">
+    <value>Unable to open project '{0}' because it is already open in the active solution.</value>
+  </data>
+  <data name="Content10" xml:space="preserve">
+    <value>Unable to copy the resource '{0}' at location '{1}' for the following reason :</value>
+  </data>
+  <data name="Content11" xml:space="preserve">
+    <value>Unable to load this assembly '{0}' for following reason : {1}</value>
+  </data>
+  <data name="Content12" xml:space="preserve">
+    <value>This file could not be read by {0} because it is not compatible with this version of the software.</value>
+  </data>
+  <data name="Content13" xml:space="preserve">
+    <value>Unable to rename the control with the name you chose for it is invalid or is already used for another component of this file.</value>
+  </data>
+  <data name="Content14" xml:space="preserve">
+    <value>Please enter the name of your variable.</value>
+  </data>
+  <data name="Content15" xml:space="preserve">
+    <value>The variable '{0}' already exists, or this name is denied. Please enter a different name.</value>
+  </data>
+  <data name="Content16" xml:space="preserve">
+    <value>It is impossible to use the variable name because it is already used for an application or environment variable, a control or a function. Please enter a different name.</value>
+  </data>
+  <data name="Content17" xml:space="preserve">
+    <value>The file '{0}' is not found. Please reinstall {1} and try again.</value>
+  </data>
+  <data name="Content18" xml:space="preserve">
+    <value>The documentation is incomplete. Please reinstall {0}</value>
+  </data>
+  <data name="Content19" xml:space="preserve">
+    <value>The fonction '{0}' can not be created because a function ,or other, with the same name already exists. Please enter a different name.</value>
+  </data>
+  <data name="Content2" xml:space="preserve">
+    <value>A solution is already open. Do you want to add the project '{0}' to the solution?</value>
+  </data>
+  <data name="Content20" xml:space="preserve">
+    <value>The control '{0}' already has a function related to the trigger '{1}'. Would you change the name of this function for '{2}'?</value>
+  </data>
+  <data name="Content21" xml:space="preserve">
+    <value>Are you sure you want to delete this function? Please note, this action is irreversible.</value>
+  </data>
+  <data name="Content22" xml:space="preserve">
+    <value>Warning, the active project required the reference '{0}' to use this component. Do you want to add this reference to the project?</value>
+  </data>
+  <data name="Content23" xml:space="preserve">
+    <value>Unable to save the document in the file '{0}' because it is read-only.</value>
+  </data>
+  <data name="Content24" xml:space="preserve">
+    <value>Unable to rename folder '{0}' because that name already exists at this location.</value>
+  </data>
+  <data name="Content25" xml:space="preserve">
+    <value>Unable to rename file '{0}' because that name already exists at this location.</value>
+  </data>
+  <data name="Content26" xml:space="preserve">
+    <value>The following characters are prohibited :</value>
+  </data>
+  <data name="Content27" xml:space="preserve">
+    <value>Do you really want to delete files, folders or projects selected?</value>
+  </data>
+  <data name="Content28" xml:space="preserve">
+    <value>Unable to save the document '{0}' because the functions editor could not be loaded properly. Please see the error message displayed in the functions editor to solve the problem.</value>
+  </data>
+  <data name="Content3" xml:space="preserve">
+    <value>Can't open this file. The solution '{3}' created with SoftwareZator {0} can be opened with {2} ({1}).</value>
+  </data>
+  <data name="Content4" xml:space="preserve">
+    <value>The project '{1}', location '{0}', is not found. The project will remain present in the solution but will not be charged.</value>
+  </data>
+  <data name="Content5" xml:space="preserve">
+    <value>Can't open this file. The project '{3}' created with SoftwareZator {0} can be opened with {2} ({1}).</value>
+  </data>
+  <data name="Content6" xml:space="preserve">
+    <value>Please enter a valid name for this parameter</value>
+  </data>
+  <data name="Content7" xml:space="preserve">
+    <value>The parameter '{0}' already exist, please enter another name</value>
+  </data>
+  <data name="Content8" xml:space="preserve">
+    <value>Please enter a valid name for this resource</value>
+  </data>
+  <data name="Content9" xml:space="preserve">
+    <value>The resource '{0}' already exist, please enter another name</value>
+  </data>
+  <data name="ContextMenu_Projet" xml:space="preserve">
+    <value>No project in this solution</value>
+  </data>
+  <data name="CreerEvenemt_Caption" xml:space="preserve">
+    <value>Link the control to a function</value>
+  </data>
+  <data name="Dock_Aide_Rapide" xml:space="preserve">
+    <value>Quick help</value>
+  </data>
+  <data name="Dock_Aide_Rapide_Description" xml:space="preserve">
+    <value>Give an quick help on an element</value>
+  </data>
+  <data name="Dock_Boite_A_Outils" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="Dock_Boite_A_Outils_Description" xml:space="preserve">
+    <value>Toolbox to insert elements</value>
+  </data>
+  <data name="Dock_Erreur_Generation" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Dock_Erreur_Generation_Description" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Dock_Explorateur_Solution" xml:space="preserve">
+    <value>Solution explorer</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Description" xml:space="preserve">
+    <value>File Explorer for a solution</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_1" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_10" xml:space="preserve">
+    <value>Projects number</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_11" xml:space="preserve">
+    <value>Number of projects contained in the solution.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_12" xml:space="preserve">
+    <value>Solution properties</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_13" xml:space="preserve">
+    <value>Project properties</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_14" xml:space="preserve">
+    <value>Project name</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_15" xml:space="preserve">
+    <value>Full file name of the project.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_16" xml:space="preserve">
+    <value>Project type</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_17" xml:space="preserve">
+    <value>Windows Application</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_18" xml:space="preserve">
+    <value>Consol Application</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_19" xml:space="preserve">
+    <value>Library of reusable functions</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_2" xml:space="preserve">
+    <value>Project settings</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_20" xml:space="preserve">
+    <value>Build folder</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_21" xml:space="preserve">
+    <value>Folder where the project is built.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_22" xml:space="preserve">
+    <value>File properties</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_23" xml:space="preserve">
+    <value>Name and full path.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_24" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_25" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_26" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_27" xml:space="preserve">
+    <value>Attributs</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_28" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_29" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_3" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_30" xml:space="preserve">
+    <value>Date of last modification</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_31" xml:space="preserve">
+    <value>Date of last access</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_32" xml:space="preserve">
+    <value>Date and time of file creation.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_33" xml:space="preserve">
+    <value>Date and time of last modification.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_34" xml:space="preserve">
+    <value>Date and time of last access.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_35" xml:space="preserve">
+    <value>Date and time of folder creation.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_36" xml:space="preserve">
+    <value>Date and time of last modification.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_37" xml:space="preserve">
+    <value>Date and time of last access.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_38" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_39" xml:space="preserve">
+    <value>File size on disk.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_4" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_40" xml:space="preserve">
+    <value>Folder properties</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_41" xml:space="preserve">
+    <value>Name and full path.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_42" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_5" xml:space="preserve">
+    <value>Divers</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_6" xml:space="preserve">
+    <value>Solution name</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_7" xml:space="preserve">
+    <value>Full file name of the solution.</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_8" xml:space="preserve">
+    <value>Project Start</value>
+  </data>
+  <data name="Dock_Explorateur_Solution_Proprietes_9" xml:space="preserve">
+    <value>Main project of the solution.</value>
+  </data>
+  <data name="Dock_Proprietes" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Dock_Proprietes_Description" xml:space="preserve">
+    <value>Edit or view the properties of an element</value>
+  </data>
+  <data name="Dock_Reconnaissance_Vocale" xml:space="preserve">
+    <value>Voice recognition</value>
+  </data>
+  <data name="Dock_Reconnaissance_Vocale_Description" xml:space="preserve">
+    <value>Result of the use of speech recognition</value>
+  </data>
+  <data name="Dock_Sortie" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Dock_Sortie_Description" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Document_Page_De_Demarrage" xml:space="preserve">
+    <value>Start page</value>
+  </data>
+  <data name="Document_Paramètres_Du_Projet" xml:space="preserve">
+    <value>Project settings</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_1" xml:space="preserve">
+    <value>Library of reusable functions</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_2" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_3" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_4" xml:space="preserve">
+    <value>Reference name</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_5" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_6" xml:space="preserve">
+    <value>Reference version</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_7" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Doc_Parametres_Du_Projet_8" xml:space="preserve">
+    <value>Determines if the reference should be copied to the build folder or not.</value>
+  </data>
+  <data name="InfoBar_1_Button" xml:space="preserve">
+    <value>Show references</value>
+  </data>
+  <data name="InfoBar_1_Description" xml:space="preserve">
+    <value>Libraries of reusable functions needed for the project '{0}' missing.</value>
+  </data>
+  <data name="InfoBar_2_Button" xml:space="preserve">
+    <value>Choose a form</value>
+  </data>
+  <data name="InfoBar_2_Description" xml:space="preserve">
+    <value>The startup form of the project '{0}' not found.</value>
+  </data>
+  <data name="InfoBar_3_Button" xml:space="preserve">
+    <value>Choose a splash screen</value>
+  </data>
+  <data name="InfoBar_3_Description" xml:space="preserve">
+    <value>The splash screen of the project '{0}' not found.</value>
+  </data>
+  <data name="InfoBar_4_Button" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="InfoBar_4_Description" xml:space="preserve">
+    <value>Libraries of reusable functions in the project '{0}' could not be loaded.</value>
+  </data>
+  <data name="InfoBar_5_Description" xml:space="preserve">
+    <value>The document '{0}' is read-only. You must save as a different name to keep the changes made.</value>
+  </data>
+  <data name="InfoBar_6_Description" xml:space="preserve">
+    <value>{0} wishes you a happy new year {1}.</value>
+  </data>
+  <data name="InfoBar_7_Description" xml:space="preserve">
+    <value>The function editor has encountered a problem during opening. The document will not be save for don't lost datas.</value>
+  </data>
+  <data name="InfoBar_8_Button" xml:space="preserve">
+    <value>Go to references</value>
+  </data>
+  <data name="InfoBar_8_Description" xml:space="preserve">
+    <value>The windows designer of the document '{0}'could not be loaded because reusable function libraries are missing in the  references of the project '{1}'. You can edit and save the functions editor without losing the data of the windows designer.</value>
+  </data>
+  <data name="MainInstruction1" xml:space="preserve">
+    <value>Unable to open this project</value>
+  </data>
+  <data name="MainInstruction10" xml:space="preserve">
+    <value>Critical error</value>
+  </data>
+  <data name="MainInstruction11" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="MainInstruction2" xml:space="preserve">
+    <value>Do you want to merge this project with the solution?</value>
+  </data>
+  <data name="MainInstruction3" xml:space="preserve">
+    <value>Unable to open this solution</value>
+  </data>
+  <data name="MainInstruction4" xml:space="preserve">
+    <value>Project not found</value>
+  </data>
+  <data name="MainInstruction5" xml:space="preserve">
+    <value>Unable to open this project</value>
+  </data>
+  <data name="MainInstruction6" xml:space="preserve">
+    <value>Invalid parameter name</value>
+  </data>
+  <data name="MainInstruction7" xml:space="preserve">
+    <value>This parameter already exist</value>
+  </data>
+  <data name="MainInstruction8" xml:space="preserve">
+    <value>Invalid resource name</value>
+  </data>
+  <data name="MainInstruction9" xml:space="preserve">
+    <value>This resource already exist</value>
+  </data>
+  <data name="Maximize_Panel" xml:space="preserve">
+    <value>Restore panel</value>
+  </data>
+  <data name="Minimize_Panel" xml:space="preserve">
+    <value>Collapse panel</value>
+  </data>
+  <data name="No_Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Composant" xml:space="preserve">
+    <value>Add a component</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Composant_Filtre" xml:space="preserve">
+    <value>All executables files (*.exe, *.dll, *.ocx)|*.exe; *.dll; *.ocx</value>
+  </data>
+  <data name="OpenFileDialog1_Ouvrir_Un_Projet" xml:space="preserve">
+    <value>Open project</value>
+  </data>
+  <data name="OpenFileDialog1_Ouvrir_Un_Projet_Filtre" xml:space="preserve">
+    <value>All SoftwareZator projects and statistics (*.szproj, *.szsl, *.szstat)|*.szproj; *.szsl; *.szstat</value>
+  </data>
+  <data name="Project_Not_Loaded_Node_Text" xml:space="preserve">
+    <value> (Project not loaded)</value>
+  </data>
+  <data name="Project_Settings" xml:space="preserve">
+    <value>Project settings</value>
+  </data>
+  <data name="ReconnaissanceVocale_Caption" xml:space="preserve">
+    <value>Configure voice recognition</value>
+  </data>
+  <data name="ReconnaissanceVocale_Sentence" xml:space="preserve">
+    <value>speech recognition allows me to create software easily and without needing to code</value>
+  </data>
+  <data name="SaveFileDialog1_Enregistrer_Document" xml:space="preserve">
+    <value>Save the document {0} as</value>
+  </data>
+  <data name="SaveFileDialog1_Enregistrer_Document_Filtre" xml:space="preserve">
+    <value>SoftwareZator Windows (*.szw)|*.szw</value>
+  </data>
+  <data name="SaveFileDialog1_Exporter_Document_CSharp" xml:space="preserve">
+    <value>Export the document {0} in C#</value>
+  </data>
+  <data name="SaveFileDialog1_Exporter_Document_CSharp_Filtre" xml:space="preserve">
+    <value>C# files (*.cs)|*.cs|All files (*.*)|*.*</value>
+  </data>
+  <data name="SaveFileDialog1_Exporter_Document_VBNet" xml:space="preserve">
+    <value>Export the document {0} in Visual Basic.Net</value>
+  </data>
+  <data name="SaveFileDialog1_Exporter_Document_VBNet_Filtre" xml:space="preserve">
+    <value>Visual Basic.Net file (*.vb)|*.vb|All files (*.*)|*.*</value>
+  </data>
+  <data name="Solution_Node_Edit" xml:space="preserve">
+    <value>Enter solution name</value>
+  </data>
+  <data name="Solution_Node_Text" xml:space="preserve">
+    <value>{0} - {1} project(s)</value>
+  </data>
+  <data name="Status1" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Status2" xml:space="preserve">
+    <value>Loading the toolbox to the designer window...</value>
+  </data>
+  <data name="Status3" xml:space="preserve">
+    <value>Loading the toolbox to the functions editor...</value>
+  </data>
+  <data name="Uncategorised" xml:space="preserve">
+    <value>Uncategorised</value>
+  </data>
+  <data name="Voice_Recognisation_Word1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="Voice_Recognisation_Word2" xml:space="preserve">
+    <value>want</value>
+  </data>
+  <data name="Voice_Recognisation_Word3" xml:space="preserve">
+    <value>would</value>
+  </data>
+  <data name="Voice_Recognisation_Word4" xml:space="preserve">
+    <value>wanted</value>
+  </data>
+  <data name="Wizard_BackCaption" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Wizard_CancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Wizard_FinishButtonText" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizard_NextButtonText" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Yes_Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Content29" xml:space="preserve">
+    <value>Warning, it is unable to save this settings beacause a project named '{0}' already exist in the solution.</value>
+  </data>
+  <data name="SaveFileDialog1_Enregistrer_Document_Filtre_2" xml:space="preserve">
+    <value>Visual Basic.Net file (*.vb)|*.vb</value>
+  </data>
+  <data name="Content30" xml:space="preserve">
+    <value>Please enter the name of your project.</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Fichier_VB" xml:space="preserve">
+    <value>Add a Visual Basic.Net file to the project</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Fichier_VB_Filtre" xml:space="preserve">
+    <value>Visual Basic.Net file (*.vb)|*.vb</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Ressource" xml:space="preserve">
+    <value>Add Resource Project</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Ressource_Filtre" xml:space="preserve">
+    <value>Images files (*.bmp; *.png; *.jpg; *.gif)|*.bmp; *.png; *.jpg; *.gif</value>
+  </data>
+  <data name="Document_Statistiques_Du_Projet" xml:space="preserve">
+    <value>The project statistics</value>
+  </data>
+  <data name="Project_Statistics" xml:space="preserve">
+    <value>Project statistics</value>
+  </data>
+  <data name="Voice_Recognisation_Word5" xml:space="preserve">
+    <value>wanted</value>
+  </data>
+  <data name="SaveFileDialog1_Enregistrer_Solution" xml:space="preserve">
+    <value>Save solution {0} as</value>
+  </data>
+  <data name="SaveFileDialog1_Enregistrer_Solution_Filtre" xml:space="preserve">
+    <value>SoftwareZator solution (*.szsl)|*.szsl</value>
+  </data>
+  <data name="Generation_Project_Code" xml:space="preserve">
+    <value>Generating codes</value>
+  </data>
+  <data name="Generation_Project_Compiler" xml:space="preserve">
+    <value>Configuring the compiler</value>
+  </data>
+  <data name="Generation_Project_Error" xml:space="preserve">
+    <value>Building project failed</value>
+  </data>
+  <data name="Generation_Project_Finish" xml:space="preserve">
+    <value>Building project completed</value>
+  </data>
+  <data name="Generation_Project_Generating" xml:space="preserve">
+    <value>Building in progress..</value>
+  </data>
+  <data name="Generation_Project_Ignore" xml:space="preserve">
+    <value>The project has been ignored</value>
+  </data>
+  <data name="Generation_Project_Initialize" xml:space="preserve">
+    <value>Building initialization</value>
+  </data>
+  <data name="Generation_Project_Load" xml:space="preserve">
+    <value>Loading files</value>
+  </data>
+  <data name="Generation_Project_Resx" xml:space="preserve">
+    <value>Generating resoucres</value>
+  </data>
+  <data name="Generation_Project_Variable" xml:space="preserve">
+    <value>Definition of variables</value>
+  </data>
+  <data name="Generation_Project_VBFile" xml:space="preserve">
+    <value>Loading include .VB files</value>
+  </data>
+  <data name="Generation_Save_Project" xml:space="preserve">
+    <value>Saving project</value>
+  </data>
+  <data name="Generation_Save_Solution" xml:space="preserve">
+    <value>Saving solution</value>
+  </data>
+  <data name="NouveauDocument_Caption" xml:space="preserve">
+    <value>New document</value>
+  </data>
+  <data name="Application_Events" xml:space="preserve">
+    <value>Application events</value>
+  </data>
+  <data name="Content31" xml:space="preserve">
+    <value>Unable to create the document '{1}' in folder '{0}' because a file or folder exists at this location. Please enter a different name.</value>
+  </data>
+  <data name="MainInstruction12" xml:space="preserve">
+    <value>This document already exists</value>
+  </data>
+  <data name="Content32" xml:space="preserve">
+    <value>Are you sure you want to reset the statistics of the project '{0}'? This action is irreversible.</value>
+  </data>
+  <data name="MainInstruction13" xml:space="preserve">
+    <value>Do you want to reset the statistics?</value>
+  </data>
+  <data name="Nothing_Text" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="Statistics_CPU" xml:space="preserve">
+    <value>Windows 32 bit
+Windows 64 bit
+Windows 32 and 64 bit</value>
+  </data>
+  <data name="Statistics_Mode_Arret" xml:space="preserve">
+    <value>When closing the window start
+When closing the last window on the screen</value>
+  </data>
+  <data name="SaveFileDialog1_Enregistrer_Document_Filtre_4" xml:space="preserve">
+    <value>SoftwareZator Statistics file (*.szstat)|*.szstat</value>
+  </data>
+  <data name="Document_Statistiques_Fichier" xml:space="preserve">
+    <value>Statistics file</value>
+  </data>
+  <data name="ErrorCorrector_Corriged" xml:space="preserve">
+    <value>Corrected</value>
+  </data>
+  <data name="ErrorCorrector_Failed" xml:space="preserve">
+    <value>Uncorrectable</value>
+  </data>
+  <data name="ErrorCorrector_InProgress" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="ErrorCorrector_Waiting" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="ErrorCorrector_Action" xml:space="preserve">
+    <value>Action : </value>
+  </data>
+  <data name="ErrorCorrector_Explain" xml:space="preserve">
+    <value>Explanation of error : </value>
+  </data>
+  <data name="ErrorCorrector_File" xml:space="preserve">
+    <value>File : </value>
+  </data>
+  <data name="ErrorCorrector_Function" xml:space="preserve">
+    <value>Function : </value>
+  </data>
+  <data name="ErrorCorrector_Project" xml:space="preserve">
+    <value>Project : </value>
+  </data>
+  <data name="ErrorCorrector_SolutionExplain" xml:space="preserve">
+    <value>Solution found : </value>
+  </data>
+  <data name="ErrorCorrector_Statut" xml:space="preserve">
+    <value>Status : </value>
+  </data>
+  <data name="Dock_Rechercher" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Dock_Rechercher_Description" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Generation_Project_Doublon" xml:space="preserve">
+    <value>Windows or functions have the same name</value>
+  </data>
+  <data name="OpenFileDialog1_All_Filtre" xml:space="preserve">
+    <value>All files (*.*)|*.*</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Un_Projet" xml:space="preserve">
+    <value>Add an existing project</value>
+  </data>
+  <data name="OpenFileDialog1_Ajouter_Un_Projet_Filtre" xml:space="preserve">
+    <value>SoftwareZator projects (*.szproj)|*.szproj</value>
+  </data>
+  <data name="Content33" xml:space="preserve">
+    <value>Unable to run the project '{0}' because it is not of type 'Windows Application' or 'Console Application', or it is not loaded in the solution.</value>
+  </data>
+  <data name="Content34" xml:space="preserve">
+    <value>Unable to build the project because the output file '{0}' is running. To build the project you must leave your software. Would you quit your software now to build the project?</value>
+  </data>
+  <data name="ExporterVisualStudio_Caption" xml:space="preserve">
+    <value>Export to Microsoft ® Visual Studio</value>
+  </data>
+  <data name="File_Type_Description_SZC" xml:space="preserve">
+    <value>Functions file</value>
+  </data>
+  <data name="File_Type_Description_SZPROJ" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="File_Type_Description_SZSL" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="File_Type_Description_SZSTAT" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="File_Type_Description_SZW" xml:space="preserve">
+    <value>Window file</value>
+  </data>
+  <data name="Exportation_Project_Code" xml:space="preserve">
+    <value>Generating codes</value>
+  </data>
+  <data name="Exportation_Project_Doublon" xml:space="preserve">
+    <value>Windows or functions have the same name</value>
+  </data>
+  <data name="Exportation_Project_Error" xml:space="preserve">
+    <value>Exporting project failed</value>
+  </data>
+  <data name="Exportation_Project_Finish" xml:space="preserve">
+    <value>Exporting project finished, click Next to continue</value>
+  </data>
+  <data name="Exportation_Project_Ignore" xml:space="preserve">
+    <value>The project has been ignored</value>
+  </data>
+  <data name="Exportation_Project_Initialize" xml:space="preserve">
+    <value>Exporting initialization</value>
+  </data>
+  <data name="Exportation_Project_Load" xml:space="preserve">
+    <value>Loading files</value>
+  </data>
+  <data name="Exportation_Project_Resx" xml:space="preserve">
+    <value>Exporting project settings and building files</value>
+  </data>
+  <data name="Exportation_Project_Variable" xml:space="preserve">
+    <value>Definition of variables</value>
+  </data>
+  <data name="Exportation_Project_VBFile" xml:space="preserve">
+    <value>Exporting includes .VB files</value>
+  </data>
+  <data name="Exportation_Save_Project" xml:space="preserve">
+    <value>Saving project</value>
+  </data>
+  <data name="Exportation_Save_Solution" xml:space="preserve">
+    <value>Saving solution</value>
+  </data>
+  <data name="Content35" xml:space="preserve">
+    <value>The temporary file '{0}' required for the functions editor is not found.</value>
+  </data>
+  <data name="Content36" xml:space="preserve">
+    <value>Warning: closing the document, breakpoints will be lost. Do you want to continue?</value>
+  </data>
+  <data name="Content37" xml:space="preserve">
+    <value>Unable to start debugging because the startup project '{0}' is not of type 'Windows Application'or 'Console Application', or it is not loaded in the solution.</value>
+  </data>
+  <data name="Content38" xml:space="preserve">
+    <value>Unable to start debugging because one of the projects in the solution is generated for an operating system 32bit or 64bit. All your projects should target a 32 and 64bit to be debugged.</value>
+  </data>
+  <data name="Content39" xml:space="preserve">
+    <value>Warning: debugging is currently run. If you decide to close SoftwareZator, debugging stops. Do you want to continue?</value>
+  </data>
+  <data name="Dock_Debogage" xml:space="preserve">
+    <value>Debugging</value>
+  </data>
+  <data name="Dock_Debogage_Description" xml:space="preserve">
+    <value>Information on the current debugging.</value>
+  </data>
+  <data name="Content40" xml:space="preserve">
+    <value>File '{0}' not found.</value>
+  </data>
+  <data name="Status4" xml:space="preserve">
+    <value>Opening the solution '{0}'...</value>
+  </data>
+  <data name="Status5" xml:space="preserve">
+    <value>Opening the projet '{0}'...</value>
+  </data>
+  <data name="Status6" xml:space="preserve">
+    <value>Closing the solution...</value>
+  </data>
+  <data name="Status7" xml:space="preserve">
+    <value>Saving the solution...</value>
+  </data>
+  <data name="Status8" xml:space="preserve">
+    <value>Saving project projet '{0}'...</value>
+  </data>
+  <data name="Status9" xml:space="preserve">
+    <value>Opening document '{0}'...</value>
+  </data>
+  <data name="NouveauProjet_Caption" xml:space="preserve">
+    <value>New project</value>
+  </data>
+  <data name="Generation_Project_Main_Introuvable" xml:space="preserve">
+    <value>The start function 'Main' was not found in the set of functions '{0}'.</value>
+  </data>
+  <data name="Dock_Bases_Donnees" xml:space="preserve">
+    <value>Databases</value>
+  </data>
+  <data name="Dock_Bases_Donnees_Description" xml:space="preserve">
+    <value>Databases manager</value>
+  </data>
+  <data name="DataBases" xml:space="preserve">
+    <value>Data(s) bases {0}</value>
+  </data>
+  <data name="SaveFileDialog1_Nouvelle_Base_Access" xml:space="preserve">
+    <value>Choose a file where the base will be saved</value>
+  </data>
+  <data name="SaveFileDialog1_Nouvelle_Base_Access_Filtre" xml:space="preserve">
+    <value>Microsoft Access file (*.mdb)|*.mdb|All files (*.*)|*.*</value>
+  </data>
+  <data name="Content41" xml:space="preserve">
+    <value>Are you sure you want to delete this table? Please note, this action is irreversible.</value>
+  </data>
+  <data name="OpenFileDialog1_Nouvelle_Base_Access" xml:space="preserve">
+    <value>Choose a file to open</value>
+  </data>
+  <data name="OpenFileDialog1_Nouvelle_Base_Access_Filtre" xml:space="preserve">
+    <value>Microsoft Access file (*.mdb)|*.mdb|All files (*.*)|*.*</value>
+  </data>
+  <data name="Content42" xml:space="preserve">
+    <value>Unable to connect to the database. Make sure it is the right type (Access, MySQL ...) and the password is correct.</value>
+  </data>
+  <data name="Content43" xml:space="preserve">
+    <value>Are you sure you want to delete this database? Note: All data that will be stored.</value>
+  </data>
+  <data name="Content44" xml:space="preserve">
+    <value>The value entered on line {0}, column {1} is not valid. The cell does not take into account or does not recognize this type of value.
+Due to error : {2}
+data type accepted in this cell : {3}</value>
+  </data>
+  <data name="Content45" xml:space="preserve">
+    <value>The Microsoft SQL Server 2008 or Microsoft SQL Server 2012 does not seem to be installed on your computer. You must install the Microsoft SQL Server 2008 or Microsoft SQL Server 2012 in order to create a local database.</value>
+  </data>
+  <data name="NouvelleBaseSQLServer_Caption" xml:space="preserve">
+    <value>Create a new database Microsoft SQL Server</value>
+  </data>
+  <data name="AjouterBaseSQLServer_Caption" xml:space="preserve">
+    <value>Add an existing Microsoft SQL Server database</value>
+  </data>
+  <data name="NouvelleBaseMySQL_Caption" xml:space="preserve">
+    <value>Create a new database Oracle MySQL</value>
+  </data>
+  <data name="AjouterBaseMySQL_Caption" xml:space="preserve">
+    <value>Add an existing MySQL database</value>
+  </data>
+  <data name="Content46" xml:space="preserve">
+    <value>The connection to the server failed.</value>
+  </data>
+  <data name="Content47" xml:space="preserve">
+    <value>The creation of the new database failed.</value>
+  </data>
+  <data name="Content48" xml:space="preserve">
+    <value>The database '{0}' not found on the server.</value>
+  </data>
+  <data name="Content49" xml:space="preserve">
+    <value>The connection to the server or the database failed.</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_1" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_10" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_11" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_12" xml:space="preserve">
+    <value>Used in the declaration area</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_13" xml:space="preserve">
+    <value>Used in the functions</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_14" xml:space="preserve">
+    <value>File Visual Basic.Net embedded</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_15" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_16" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_17" xml:space="preserve">
+    <value>Help file</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_18" xml:space="preserve">
+    <value>Voice recognition</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_19" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_2" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_20" xml:space="preserve">
+    <value>Phrases</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_3" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_4" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_5" xml:space="preserve">
+    <value>Actions count</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_6" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_8" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Proprietes_9" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="ReconnaissanceVocale_Sentence2" xml:space="preserve">
+    <value>I want to display a message</value>
+  </data>
+  <data name="ReconnaissanceVocale_Sentence3" xml:space="preserve">
+    <value>a variable</value>
+  </data>
+  <data name="ReconnaissanceVocale_Sentence4" xml:space="preserve">
+    <value>display</value>
+  </data>
+  <data name="InfoBar_9_Button" xml:space="preserve">
+    <value>Correct errors</value>
+  </data>
+  <data name="InfoBar_9_Description" xml:space="preserve">
+    <value>The generation of the project '{0}' failed. Go to the panel 'Building errors' to view problem meet.</value>
+  </data>
+  <data name="Gestionnaire_Plugins_Texte_Nbr" xml:space="preserve">
+    <value>{0} has {1} plugins that to say {2} actions.</value>
+  </data>
+  <data name="Unknow" xml:space="preserve">
+    <value>Unknow</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes1" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes10" xml:space="preserve">
+    <value>Category of the action</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes11" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes12" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes13" xml:space="preserve">
+    <value>List of references added to the project if this action is used.</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes14" xml:space="preserve">
+    <value>keywords</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes15" xml:space="preserve">
+    <value>List of keywords used by voice recognition.</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes16" xml:space="preserve">
+    <value>Phrases</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes17" xml:space="preserve">
+    <value>List of key phrases used by voice recognition.</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes2" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes3" xml:space="preserve">
+    <value>Value of the parameter number</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes4" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes5" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes6" xml:space="preserve">
+    <value>Name of the action</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes7" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes8" xml:space="preserve">
+    <value>Description of the action</value>
+  </data>
+  <data name="Editeur_Fonctions_Action_Proprietes9" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="MainInstruction14" xml:space="preserve">
+    <value>Please restart this software</value>
+  </data>
+  <data name="Content50" xml:space="preserve">
+    <value>You changed the edition of SoftwareZator 2012. The change will take effect the next time the software. SoftwareZator 2012 will immediately restart. Click 'OK' to restart immediately, otherwise, click 'Cancel' to abort.</value>
+  </data>
+  <data name="Edition_0" xml:space="preserve">
+    <value>Free Edition</value>
+  </data>
+  <data name="Edition_1" xml:space="preserve">
+    <value>Standard Edition</value>
+  </data>
+  <data name="Edition_2" xml:space="preserve">
+    <value>Education Edition</value>
+  </data>
+  <data name="Edition_3" xml:space="preserve">
+    <value>Professional Edition</value>
+  </data>
+  <data name="Should_Education" xml:space="preserve">
+    <value>You must activate the Education or Professional Edition to use this feature. To change the edition, use the Tools menu, Options.</value>
+  </data>
+  <data name="Should_Professional" xml:space="preserve">
+    <value>You must activate the Professional Edition to use this feature. To change the edition, use the Tools menu, Options.</value>
+  </data>
+  <data name="Should_Standard" xml:space="preserve">
+    <value>You must activate the Standard, Education or Professional Edition to use this feature. To change the edition, use the Tools menu, Options.</value>
+  </data>
+  <data name="Statistics_Obfuscation" xml:space="preserve">
+    <value>Low
+Normal
+High</value>
+  </data>
+  <data name="Obfuscator_Finish" xml:space="preserve">
+    <value>Encrypting solution completed</value>
+  </data>
+  <data name="Obfuscator_Err" xml:space="preserve">
+    <value>Encryption has encountered an error. Look at the 'output' panel for more information.</value>
+  </data>
+  <data name="Content51" xml:space="preserve">
+    <value>Unable to intercept exception. Debugged program can not be continued and properties can not be evaluated.</value>
+  </data>
+  <data name="ActionSelectionnerControle" xml:space="preserve">
+    <value>Select a control</value>
+  </data>
+  <data name="ActionSelectionnerControlePropriété" xml:space="preserve">
+    <value>Select a control property</value>
+  </data>
+  <data name="Content52" xml:space="preserve">
+    <value>Unable to create an event and or a new function because the functions editor could not be loaded properly. Please see the error message displayed in the functions editor to solve the problem.</value>
+  </data>
+  <data name="Content53" xml:space="preserve">
+    <value>The plugin manager is unavailable until all plugins have not been loaded. Thank you try again in a minute.</value>
+  </data>
+  <data name="MainInstruction15" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Content54" xml:space="preserve">
+    <value>Thank you for activated SoftwareZator 2012. The software will reboot for the changes take effect.</value>
+  </data>
+  <data name="Content55" xml:space="preserve">
+    <value>The information are not valid. Thank you to verify that the information relating to your purchase and the activation code is correct. If the problem persists, thank you to contact your administrator or the business support of Veler Software.</value>
+  </data>
+  <data name="Content56" xml:space="preserve">
+    <value>Warning: The installed license for SoftwareZator 2012 is not valid. SoftwareZator 2012 will now close. Thank you to contact your administrator or the business support of Veler Software.</value>
+  </data>
+  <data name="MainInstruction16" xml:space="preserve">
+    <value>License not valid</value>
+  </data>
+  <data name="Correct_Error_1_Solution" xml:space="preserve">
+    <value>The library '{0}' has been added to the project.</value>
+  </data>
+  <data name="Correct_Error_1_Solution_Bad" xml:space="preserve">
+    <value>The library '{0}' has not been added to the project.</value>
+  </data>
+  <data name="Correct_Error_2_Solution_Bad" xml:space="preserve">
+    <value>This error can not be corrected automatically. To manually fix the problem, replace all the expressions "My.Computer" in the Visual Basic.Net codes of action '{0}' located in the function '{1}' of the file '{2}' by "_computer ".</value>
+  </data>
+  <data name="ErrorCorrector_SemiFailed" xml:space="preserve">
+    <value>Can be fixed manually</value>
+  </data>
+  <data name="Utilisateur_Banni" xml:space="preserve">
+    <value>Your copy of SoftwareZator was detected as disrespectful of the present end user license agreement for the following reasons: You have attempted to develop a malicious program (virus, trojan, spyware, malware ...) with SoftwareZator 2012 or you use a hacked activation code. Otherwise, thank you for contacting support commercial of Veler Software (www.velersoftware.com). SoftwareZator 2012 will now close.</value>
+  </data>
+  <data name="Correct_Error_3_Solution_Bad" xml:space="preserve">
+    <value>This error can not be corrected automatically. To manually fix the problem, remove all the settings that were created for the "Main" function in your Console application.</value>
+  </data>
+</root>

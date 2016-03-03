@@ -1,0 +1,4434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Marque_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 552</value>
+  </data>
+  <data name="KryptonLabel4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Panel.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonGroupPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KryptonLabel23.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader2.Name" xml:space="preserve">
+    <value>ColumnHeader2</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Items2" xml:space="preserve">
+    <value>Elevé</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.Parent" xml:space="preserve">
+    <value>KryptonPage6</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KryptonButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="KryptonLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonLabel3.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="ListView1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Societe_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel15.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="KryptonLabel11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="KryptonLabel11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 29</value>
+  </data>
+  <data name="KryptonLabel9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage5.Name" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="KryptonLabel14.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kryptonPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Nom_Projet_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Panel7.Name" xml:space="preserve">
+    <value>Panel7</value>
+  </data>
+  <data name="KryptonLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader6.Name" xml:space="preserve">
+    <value>ColumnHeader6</value>
+  </data>
+  <data name="Panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 394</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="KryptonLabel22.Values.Text" xml:space="preserve">
+    <value>Type de système d'exploitation cible :</value>
+  </data>
+  <data name="KryptonLabel12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 21</value>
+  </data>
+  <data name="&gt;&gt;VF1_2_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 208</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Changer_Icone_KryptonButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Formulaire_Demarrage_KryptonComboBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonComboBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="&gt;&gt;VF2_4_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF2_4_KryptonNumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Style_Visuel_KryptonCheckBox.Name" xml:space="preserve">
+    <value>Style_Visuel_KryptonCheckBox</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenu1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonContextMenu, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 20</value>
+  </data>
+  <data name="Panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton7.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KryptonPage6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Items2" xml:space="preserve">
+    <value>Windows 32 et 64 bit</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Parent" xml:space="preserve">
+    <value>KryptonPage4</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.Name" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel1</value>
+  </data>
+  <data name="KryptonLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonLabel18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Produit_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le nom du produit auquel appartient votre projet</value>
+  </data>
+  <data name="KryptonLabel21.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kryptonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 466</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KryptonButton2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.Name" xml:space="preserve">
+    <value>KryptonLabel21</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 394</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel18.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonNavigator1.Text" xml:space="preserve">
+    <value>KryptonNavigator1</value>
+  </data>
+  <data name="&gt;&gt;VF1_4_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="KryptonLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 20</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel9.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="KryptonContextMenuItem2.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="KryptonButton10.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour accéder aux fonctions spécifiques au projet</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Panel7.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="KryptonLabel19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ListView2.Name" xml:space="preserve">
+    <value>ListView2</value>
+  </data>
+  <data name="Description_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel4.Name" xml:space="preserve">
+    <value>KryptonLabel4</value>
+  </data>
+  <data name="KryptonButton5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage6.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="KryptonGroupBox1.Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonWrapLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel8.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton9.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_PictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
+  </data>
+  <data name="Titre_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage2.Name" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonLabel14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;MySettings_KryptonCheckBox.Name" xml:space="preserve">
+    <value>MySettings_KryptonCheckBox</value>
+  </data>
+  <data name="KryptonSplitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListView4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Instance_Unique_KryptonCheckBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 624</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonButton1.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour ajouter une bibliothèque de fonctions réutilisables au projet</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1</value>
+  </data>
+  <data name="KryptonButton11.Values.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="KryptonLabel10.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton8.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Type_Projet_KryptonComboBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton10.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel19.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel7.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Type_Projet_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="KryptonButton8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel23.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.ToolTip" xml:space="preserve">
+    <value>Supprimer les ressources sélectionnés</value>
+  </data>
+  <data name="KryptonContextMenuItem1.Text" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="Description_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="KryptonLabel17.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="ColumnHeader2.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton2.Name" xml:space="preserve">
+    <value>KryptonButton2</value>
+  </data>
+  <data name="KryptonLabel15.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Name" xml:space="preserve">
+    <value>Panel6</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="KryptonButton3.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 459</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage6.Name" xml:space="preserve">
+    <value>KryptonPage6</value>
+  </data>
+  <data name="KryptonLabel14.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Style_Visuel_KryptonCheckBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonCheckBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>Cette option permet d'enregistrer sur le disque dur les paramètres du logiciel (indiqués dans l'onglet 'Paramètres' dans les paramètre du projet) lorsque celui-ci s'arrête et de les recharger au prochain démarrage.</value>
+  </data>
+  <data name="KryptonButton10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 25, 45, 25</value>
+  </data>
+  <data name="KryptonLabel14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel22.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Guid_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonButton9.ToolTip" xml:space="preserve">
+    <value>Supprimer les fichiers sélectionnés de la liste</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABM
+        FAAAAk1TRnQBSQFMAgEBBgEAAfgBAgEEAQMBEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIFoAAU4BNAEhAf8BQAEmARIB/wFAASYBEgH/AUABJgESAf8BQAEmARIB/wFA
+        ASYBEgH/AUABJgESAf8BQAEmARIB/wFAASYBEgH/AUABJgESAf8BQAEmARIB/wFAASYBEgH/kAAB6QHU
+        AcUB/wGVAVgBRAH/AZUBWAFEAf8BlQFYAUQB/wGVAVgBRAH/AZUBWAFEAf8BlQFYAUQB/wGVAVgBRAH/
+        AZUBWAFEAf8BlQFYAUQB/wGVAVgBRAH/FAABUwE5ASYB/wHvAdMBxgH/Ad4BvwGvAf8B3wG9AasB/wHc
+        AbgBpwH/AdoBtAGiAf8B2AGwAZ0B/wHXAa0BmQH/AdcBrAGWAf8B1wGsAZYB/wHbAawBlQH/AUABJgES
+        Af+QAAHpAdQBxQX/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/
+        AekB1AHFAf8B6QHUAcUB/wGVAVgBRAH/FAABVwE+ASsB/wH4AeIB2AH/AfoB7gHnAf8B+QHqAeIB/wH3
+        AeUB3QH/AfYB4QHXAf8B9AHdAdEB/wH0AdkBzAH/AfIB1QHHAf8B8gHRAcEB/wHqAcABrAH/AUABJgES
+        Af+QAAHpAdQBxRv/AfsC/wH8Ae8B/wHpAdQBxQH/AZUBWAFEAf8UAAGAAUQBMgH/AfgB5AHbAf8BuAGk
+        AZQB/wGxAZwBjQH/AaoBlAGEAf8BogGMAVgB/wGaAYQBUAH/AZIBWAFHAf8BiwFQAT4B/wGEAUgBNQH/
+        AeoBwAGsAf8BQAEmARIB/5AAAekB1AHFH/8B9gH/AekB1AHFAf8BlQFYAUQB/xQAAYYBSgE3Af8B+QHo
+        AeAB/wH8AfQB8QH/AfsB8QHsAf8B+QHuAecB/wH4AekB4gH/AfgB5gHcAf8B9gHhAdcB/wH1Ad0B0gH/
+        AfQB2AHMAf8B6wHDAbAB/wFAASYBEgH/kAAB6QHUAcUf/wH9Af8B6QHUAcUB/wGVAVgBRAH/FAABiwFQ
+        AT4B/wH6AesB5AH/Ab0BqQGbAf8BtgGiAZQB/wGwAZsBiwH/AakBkwGDAf8BoQGKAVgB/wGZAYMBTgH/
+        AZEBVwFGAf8BigFPAT0B/wHtAccBtgH/AUABJgESAf+QAAHsAdcByCH/AekB1AHFAf8BlQFYAUQB/xQA
+        AZEBVgFFAf8B+wHuAecB/wH9AfoB+QH/AfwB+AH1Af8B/AH1AfEB/wH7AfEB7AH/AfoB7QHnAf8B+AHp
+        AeIB/wH4AeUB3AH/AfYB4QHXAf8B7gHNAbwB/wFAASYBEgH/kAAB8AHbAcwh/wHpAdQBxQH/AZUBWAFE
+        Af8UAAGXAYABTAH/AfwB8AHsAf8BwgGuAaEB/wG9AagBmgH/AbYBogGSAf8BrwGZAYsB/wGnAZIBgwH/
+        AaABigFWAf8BmAGBAU0B/wGRAVYBRQH/AfAB0gHDAf8BQAEmARIB/5AAAfUB4AHQIf8B6QHUAcUB/wGV
+        AVgBRAH/FAABnQGGAVMB/wH9AfMB8Ab/Af0B/AH/Af4B+wH6Af8B/QH4AfYB/wH8AfUB8QH/AfsB8QHt
+        Af8B+QHtAecB/wH4AekB4gH/AfMB1gHJAf8BQAEmARIB/5AAAfoB5AHVIf8B6QHUAcUB/wGVAVgBRAH/
+        FAABowGMAVoB/wH8AfUB8gH/AcYBswGmAf8BwQGtAaAB/wG7AacBmQH/AbUBoQGRAf8BrgGZAYoB/wGm
+        AZEBgQH/AZ8BiAFVAf8BlwGAAUwB/wH0AdwB0AH/AUABJgESAf+QAAH+AegB2R3/AekB1AHFAf8B6QHU
+        AcUB/wGWAVkBRQH/FAABqAGTAYMB/wH+AfgB9Q3/Af4B/QH8Af8B/gH7AfkB/wH9AfgB9QH/AfwB9AHx
+        Af8B+wHxAe0B/wH3AeIB1wH/AUABJgESAf+QAAH/Ae0B3Rn/AekB1AHFAf8BlgFZAUUB/wGWAVkBRQH/
+        AZYBWQFFAf8UAAGuAZkBigH/Af4B+QH3Af8ByQG3AakB/wHFAbIBpAH/AcABrAGeAf8BuwGmAZgB/wG0
+        AZ8BkAH/Af4B+gH5Af8B/QH3AfUB/wH8AfQB8QH/AfsB6gHgAf8BQAEmARIB/5AAAf8B8QHhGf8B6wHW
+        AccC/wH3AewB/wGWAVkBRQH/A0oBjBQAAbMBnwGPAf8B/gH7AfkV/wH+Af0B/AH/AaIBjAFZAf8BSQEu
+        ARoB/wFJAS4BGgH/AUABJgESAf+QAAH/AfQB5Bn/AfIB3QHOAf8BlgFZAUUB/wNKAYsYAAG4AaQBlQH/
+        Af4B/AH7Gf8BogGMAVkB/wHnAd4B2AH/AaMBjQFaAf+UAAH/AfQB5AL/AfQB5AL/AfQB5AL/AfQB5AL/
+        AfQB5AL/AfAB4AL/AesB2wH/AfsB5QHWAf8DSgGLHAABvQGoAZsd/wGiAYwBWQH/AaMBjQFaAf/YAAHC
+        Aa4BoAH/Ab0BqAGbAf8BuAGkAZUB/wGzAZ8BkAH/Aa4BmQGKAf8BqAGTAYMB/wGjAY0BWgH/AZ0BhgFT
+        Af8BlwGAAUwB//8A/wAWAANZAccBAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/
+        AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGM
+        AakB/wEAAYwBqQH/A1kBxwQAATgBhQGcAf8BKgE4AUcB/wElATMBQgH/ASEBLgE+Af8BHQEqATkB/wEa
+        ASYBNQH/ARcBIwExAf8BFgEhAS8B/wETAR4BLAH/ARIBHAEqAf8BEAEbAScB/wEQARoBJgH/AQ4BGAEj
+        Af8BDgEXASIB/4QAAVsCXgHZAQAByQHpAf8BAAHGAfEB/wEAAcIB8AH/AQABwQHwAf8BAAHAAfAB/wEA
+        AcEB8AH/AQABwQHwAf8BAAHBAfAB/wEAAcEB8AH/AQABwgHwAf8BAAHDAfAB/wEAAcMB8AH/AQABxAHx
+        Af8BAAHDAeQB/wFbAl4B2QQAATwBiQGgAf8BjAHRAZkB/wGKAdIBmQH/AVQBxgGJAf8BPQG4AVIB/wEn
+        AaoBQQH/ARIBnQEvAf8BAAGQAR8B/wEAAYkBFQH/AQABiQEVAf8BAAGJARUB/wEAAVYBFAH/ASoBGAEJ
+        Af8BDwEZASQB/4QAA04BmQEAAa4BzwH/AQABzQHyAf8BAAHIAfEB/wEAAcUB8QH/AQABxAHxAf8BAAHD
+        AfAB/wMAAf8DAAH/AQABxgHxAf8BAAHIAfEB/wEAAcoB8gH/AQABygHyAf8BAAHMAfEB/wEAAasBzQH/
+        A04BmQQAAT8BjQGkAf8BuwHmAcMB/wGoAeABswH/AZMB1wGgAf8BWwHJAY8B/wFDAbsBWAH/ASwBrQFE
+        Af8BEwGdAS8B/wEAAY8BHgH/AQABiQEVAf8BIQE2ARIB/wFLATYBJwH/AUABKwEdAf8BEAEZASUB/4QA
+        AxQBGwFbAl4B2QEAAcYB5AH/AQAB0QHzAf8BAAHNAfIB/wEAAcsB8gH/AQABygHyAf8DAAH/AwAB/wEA
+        Ac0B8wH/AQAB0QHzAf8BAAHSAfQB/wEAAdMB9AH/AQABxQHjAf8BWwJeAdkDFAEbBAABQgGSAacB/wGl
+        Ad4BsAH/AdEB7wHWAf8BqAHgAbMB/wGOAdQBnAH/AVUBxQGKAf8BPQG3AVMB/wEmAagBPwH/AQkBlgEo
+        Af8BLAEmARAB/wGSAVkBTAH/AY0BVQFHAf8DAAH/ARABGwEnAf8kAAMDAQRgAAFIAkkBhwEAAawBzQH/
+        AQsB2wH0Af8BBwHZAfUB/wEEAdcB9QH/AQMB1gH0Af8BAwHWAfQB/wEFAdcB9QH/AQcB2QH1Af8BBwHZ
+        AfUB/wEJAdsB9QH/AQoB2gHzAf8BAAGqAcsB/wFIAkkBhwgAAUUBlgGrAf8BnAGlAYYB/wGoAeABswH/
+        AdEB7wHWAf8BqAHgAbMB/wGKAdEBmQH/AU8BwQGFAf8BMwGwAUoB/wE+AUsBLwH/Ab8BqwGhAf8BswGd
+        AZAB/wMAAf8BrgGRAYMB/wESARwBKQH/IAADEgEZA00BlgMSARlcAAMNARIBWwJeAdkBAgHGAd8B/wEW
+        AeYB+AH/ARUB5AH3Af8BFAHjAfcB/wEAAT8BSAH/AQABPwFIAf8BEgHiAfcB/wESAeIB9wH/ARMB4wH3
+        Af8BAQHHAeAB/wFbAl4B2QMNARIIAAFIAZoBrwH/Ae0B4wHdAf8BnAGfAYMB/wGmAd8BsQH/AdAB7gHW
+        Af8BpQHeAbAB/wGAAcsBkAH/AUUBVQE3Af8BzwG8AbIB/wHTAcEBtwH/AwAB/wHsAbYBmQH/AbQBlgGH
+        Af8BEwEdASoB/xwAAxABFgNWAbMDAAH/A1YBswMQARYoAAMFAQcDRQF9A1EB9wMAAf8DUQH3A0UBfQMF
+        AQcYAANDAXgBAAGqAcsB/wEeAeoB9gH/ASIB8AH6Af8BIAHuAfkB/wMAAf8DAAH/ARwB6gH5Af8BHAHq
+        AfkB/wEXAeUB9QH/AQABqgHLAf8DQwF4DAABTAGdAbIC/wH8AfsB/wHtAeMB3QH/AZwBgwFPAf8BpgHe
+        AbAB/wGxAeIBugH/AUUBOwEnAf8BzgGuAZsB/wFCASwBHQH/AUIBLAEdAf8B2AGwAZkB/wH7AcEBogH/
+        AbsBmwGMAf8BFAEgAS0B/xgAAwQBBQM4AV4DVgG5A1cBvwNWAbkDOAFeAwQBBSgAAw0BEQNLAY8DUwHx
+        A0sBjwMNAREcAAMJAQwBWwJeAdkBAAHCAdsB/wEmAfMB+wH/ASUB8QH6Af8DAAH/AwAB/wEhAe8B+gH/
+        ASEB7wH6Af8BAgHGAd8B/wFbAl4B2QMJAQwMAAFPAaIBtQL/AfwB+wL/AfwB+wH/AekB3gHYAf8BnAGD
+        AU8B/wGbAYIBTgH/Ae4B1gHJAf8B/QHfAc8B/wH9AdcBwwH/AfwB0AG5Af8B/AHKAbAB/wH7AcUBqAH/
+        AcIBoQGQAf8BFwEiATAB/2AAAw0BEQM8AWcDDQERJAADPQFpAQABqQHLAf8BIAHqAfQB/wEoAfQB+wH/
+        AwAB/wMAAf8BJgHyAfoB/wEfAeoB9gH/AQABqQHLAf8DPQFpEAABUgGlAbgC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/Af4B7QHkAf8B1AHFAdIB/wEAATABywH/AQABLgHGAf8B0QGxAa8B/wH8
+        AcoBsAH/AcoBpwGVAf8BGQEkATMB/2QAAwEBAigAAwQBBgFbAl4B2QEAAb8B2QH/ATIB9gH7Af8DAAH/
+        AwAB/wEpAfUB+wH/AQQBxgHdAf8BWwJeAdkDBAEGEAABVAGoAbwC/wH8AfsC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/AQ0BOwHUAf8BTwG+AfkB/wEhAYwBywH/AQABLgHGAf8B/AHQAbkB/wHS
+        Aa0BmgH/ARsBJwE2Af+UAAM3AVoBAAGpAcoB/wEfAegB8wH/ASkB9QH7Af8BKQH1AfsB/wEiAe0B9gH/
+        AQABqQHLAf8DNwFaFAABVgGrAb4C/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH4AfUB/wEO
+        AT0B1wH/AbkB5AL/AU8BvgH5Af8BAAEwAcsB/wH9AdcBwwH/AdkBswGfAf8BHwErAToB/5QAAwIBAwFb
+        Al4B2QEAAbsB1gH/ASkB9QH7Af8BKQH1AfsB/wEDAcYB3QH/AVsCXgHZAwIBAxQAAVkBrgHAAv8B/AH7
+        Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Af8B1wHUAewB/wEOAT0B1wH/AQ0BPAHUAf8B1AHF
+        AdIB/wH9Ad8BzwH/Ad4BtwGjAf8BIgEvAT4B/5gAAy4BSAEAAagBygH/ARwB5QHxAf8BIgHsAfUB/wEA
+        AakBywH/Ay4BSBgAAVsBsAHCAv8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7
+        Av8B+AH1Af8B/gHzAe0B/wH+Ae0B5AH/Af0B5gHaAf8B/QHfAc8B/wEmATMBQwH/nAABWwJeAdkBAAG5
+        AdUB/wEDAcYB3QH/AVsCXgHZHAABXAGyAcQB/wFaAbABwwH/AVgBrQHAAf8BVgGrAb4B/wFUAagBuwH/
+        AVEBpQG4Af8BTgGhAbUB/wFMAZ4BsgH/AUkBmgGvAf8BRgGVAasB/wFCAZIBqAH/AT8BjQGkAf8BPAGJ
+        AaAB/wE4AYQBnAH/nAADJgE5AVkCYAHrAVkCYAHrAyYBOVgAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA/8BAAL/AcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABDwHAAQcEAAHAAR8BwAEPBAAC/wHAAR8EAAz/AgABgAEB
+        BP8CAAGAAQEE/wIAAYABAQT/AgABgAEBAf8BfwL/AYABAQGAAQEB/gE/Av8BgAEBAYABAQH8AR8B+AEP
+        AcABAwGAAQEB+AEPAfwBHwHAAQMBgAEBAv8B/gE/AeABBwGAAQED/wF/AeABBwGAAQEE/wHwAQ8BgAEB
+        BP8B8AEPAYABAQT/AfgBHwGAAQEE/wH8AT8BgAEBBP8B/AE/Av8WAAs=
+</value>
+  </data>
+  <data name="KryptonLabel4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel23.Values.Text" xml:space="preserve">
+    <value>Niveau de cryptage du code :</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonSplitterPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonPage6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonLabel.Name" xml:space="preserve">
+    <value>Ressource_KryptonLabel</value>
+  </data>
+  <data name="KryptonLabel11.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton4.Values.Text" xml:space="preserve">
+    <value>Ajouter un paramètre</value>
+  </data>
+  <data name="Titre_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage2.Parent" xml:space="preserve">
+    <value>KryptonNavigator1.PageContainer</value>
+  </data>
+  <data name="KryptonButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton5.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ColumnHeader7.Text" xml:space="preserve">
+    <value>Fichiers</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 422</value>
+  </data>
+  <data name="KryptonLabel10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonNavigator1.Parent" xml:space="preserve">
+    <value>kryptonPanel</value>
+  </data>
+  <data name="KryptonButton6.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour ajouter une ressource au projet</value>
+  </data>
+  <data name="KryptonLabel4.Values.Text" xml:space="preserve">
+    <value>Ressources réutilisables dans le projet</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton5.Name" xml:space="preserve">
+    <value>KryptonButton5</value>
+  </data>
+  <data name="KryptonLabel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Ressource_PictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ColumnHeader6.Text" xml:space="preserve">
+    <value>Ressources</value>
+  </data>
+  <data name="KryptonLabel12.Values.Text" xml:space="preserve">
+    <value>Société :</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 765</value>
+  </data>
+  <data name="KryptonButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;ListView3.Name" xml:space="preserve">
+    <value>ListView3</value>
+  </data>
+  <data name="KryptonButton1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonPage4.Name" xml:space="preserve">
+    <value>KryptonPage4</value>
+  </data>
+  <data name="ColumnHeader1.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonComboBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonComboBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton11.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton1.Name" xml:space="preserve">
+    <value>KryptonButton1</value>
+  </data>
+  <data name="KryptonLabel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton10.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="KryptonButton8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Societe_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez la société de votre projet</value>
+  </data>
+  <data name="Generation_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="KryptonLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Items2" xml:space="preserve">
+    <value>Bibliothèque de fonctions réutilisables</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonLabel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Guid_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="Panel5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Titre_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;MySettings_KryptonCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="KryptonButton3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 282</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 467</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="KryptonButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MySettings_KryptonCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="KryptonButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 84</value>
+  </data>
+  <data name="&gt;&gt;VF1_4_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton6.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonDropButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 600</value>
+  </data>
+  <data name="KryptonLabel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 131</value>
+  </data>
+  <data name="Panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ColumnHeader5.Text" xml:space="preserve">
+    <value>Nom des paramètres</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Name" xml:space="preserve">
+    <value>KryptonSplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;ErrorProvider1.Name" xml:space="preserve">
+    <value>ErrorProvider1</value>
+  </data>
+  <data name="Panel4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ButtonSpecAny1.ToolTipBody" xml:space="preserve">
+    <value>Enregistrer la valeur de cette ressource</value>
+  </data>
+  <data name="KryptonButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Copyright_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.Name" xml:space="preserve">
+    <value>KryptonLabel5</value>
+  </data>
+  <data name="KryptonButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ColumnHeader4.Text" xml:space="preserve">
+    <value>Chemin</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItems1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonContextMenuItems, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel21.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Panel6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItem3.Name" xml:space="preserve">
+    <value>KryptonContextMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton9.Name" xml:space="preserve">
+    <value>KryptonButton9</value>
+  </data>
+  <data name="KryptonSplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 294</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListView3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonGroupBox1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 134</value>
+  </data>
+  <data name="KryptonLabel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 3</value>
+  </data>
+  <data name="ListView2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton10.Values.Text" xml:space="preserve">
+    <value>Ouvrir les évènements d'application</value>
+  </data>
+  <data name="KryptonPage5.Text" xml:space="preserve">
+    <value>Générer</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonLabel16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 25</value>
+  </data>
+  <data name="KryptonLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 422</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 248</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonWrapLabel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Items1" xml:space="preserve">
+    <value>A la fermeture de la dernière fenêtre affiché à l'écran</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel15.Values.Text" xml:space="preserve">
+    <value>Version du fichier :</value>
+  </data>
+  <data name="KryptonLabel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="Ressource_PictureBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Obfuscation_KryptonComboBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonComboBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Unite_Central_Cible_KryptonComboBox.Name" xml:space="preserve">
+    <value>Unite_Central_Cible_KryptonComboBox</value>
+  </data>
+  <assembly alias="VelerSoftware.Design.Navigator" name="VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50" />
+  <data name="KryptonNavigator1.Bar.BarMapImage" type="VelerSoftware.Design.Navigator.MapKryptonPageImage, VelerSoftware.Design.Navigator">
+    <value>Small</value>
+  </data>
+  <data name="KryptonLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonLabel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 648</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonPage2.ToolTipTitle" xml:space="preserve">
+    <value>Page ToolTip</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListView3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel22.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonLabel1.Values.Text" xml:space="preserve">
+    <value>Informations sur le projet</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="KryptonLabel17.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arret_KryptonComboBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;Guid_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel13.Name" xml:space="preserve">
+    <value>KryptonLabel13</value>
+  </data>
+  <data name="&gt;&gt;Formulaire_Demarrage_KryptonComboBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Interdire de lancer l'application plusieurs fois en même temps</value>
+  </data>
+  <data name="KryptonGroupBox1.Values.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListView3.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel1</value>
+  </data>
+  <data name="KryptonButton8.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColumnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton7.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItem1.Name" xml:space="preserve">
+    <value>KryptonContextMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;VF2_3_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.Name" xml:space="preserve">
+    <value>KryptonLabel10</value>
+  </data>
+  <data name="KryptonButton4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel17.Name" xml:space="preserve">
+    <value>KryptonLabel17</value>
+  </data>
+  <data name="&gt;&gt;VF2_1_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonPage4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListView3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItem2.Name" xml:space="preserve">
+    <value>KryptonContextMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.Values.Text" xml:space="preserve">
+    <value>GUID :</value>
+  </data>
+  <data name="KryptonButton3.Values.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 25, 45, 25</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Guid_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MySettings_KryptonCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonLabel2.Values.Text" xml:space="preserve">
+    <value>Informations d'identification</value>
+  </data>
+  <data name="Ressource_KryptonLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;VF1_1_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF1_1_KryptonNumericUpDown</value>
+  </data>
+  <data name="KryptonLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="KryptonButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 25, 45, 25</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonPage, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arret_KryptonComboBox.Name" xml:space="preserve">
+    <value>Mode_Arret_KryptonComboBox</value>
+  </data>
+  <data name="KryptonLabel19.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonButton8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 422</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Sélectionnez la fenêtre à afficher durant le chargement d'une application Windows. Celle-ci sera automatiquement fermé une fois votre application chargé (facultatif)</value>
+  </data>
+  <data name="KryptonPage3.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel13.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="KryptonLabel19.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MySettings_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;Societe_KryptonTextBox.Name" xml:space="preserve">
+    <value>Societe_KryptonTextBox</value>
+  </data>
+  <data name="KryptonLabel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonLabel17.Values.Text" xml:space="preserve">
+    <value>Marque :</value>
+  </data>
+  <data name="&gt;&gt;Generation_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="KryptonButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="KryptonPage2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonLabel14.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Optimiser le code Visual Basic.Net durant la génération</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton9.Parent" xml:space="preserve">
+    <value>KryptonGroupBox1.Panel</value>
+  </data>
+  <data name="KryptonPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 430</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonLabel10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel9.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;Unite_Central_Cible_KryptonComboBox.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="Guid_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 20</value>
+  </data>
+  <data name="&gt;&gt;ImageList2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonButton10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel23.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton5.Parent" xml:space="preserve">
+    <value>KryptonPage4</value>
+  </data>
+  <data name="Panel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 25</value>
+  </data>
+  <data name="KryptonLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="KryptonLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 184</value>
+  </data>
+  <data name="Panel6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="KryptonLabel20.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MySettings_KryptonCheckBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;Gestionnaire_Variable_KryptonButton.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton2.ToolTip" xml:space="preserve">
+    <value>Supprimer les bibliothèques de fonctions réutilisables sélectionnées</value>
+  </data>
+  <data name="KryptonLabel9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KryptonButton7.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton11.Name" xml:space="preserve">
+    <value>KryptonButton11</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="KryptonLabel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonButton9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="KryptonPage2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton8.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton10.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage3.Parent" xml:space="preserve">
+    <value>KryptonNavigator1.PageContainer</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel15.Name" xml:space="preserve">
+    <value>KryptonLabel15</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ressource_PictureBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton2.Values.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="KryptonContextMenuItem3.Text" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="&gt;&gt;VF2_2_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 256</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton3.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="ListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 91</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage6.Parent" xml:space="preserve">
+    <value>KryptonNavigator1.PageContainer</value>
+  </data>
+  <data name="KryptonLabel22.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton3.Name" xml:space="preserve">
+    <value>KryptonButton3</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 134</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.Name" xml:space="preserve">
+    <value>KryptonLabel19</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Ressource_PictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel2.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 21</value>
+  </data>
+  <data name="KryptonButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 404</value>
+  </data>
+  <data name="&gt;&gt;MySettings_KryptonCheckBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonCheckBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonNavigator1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;VF2_3_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF2_3_KryptonNumericUpDown</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le nom de votre projet (obligatoire)</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 722</value>
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Panel.Parent" xml:space="preserve">
+    <value>KryptonGroupBox1</value>
+  </data>
+  <data name="KryptonNavigator1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Description_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 160</value>
+  </data>
+  <data name="Panel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Marque_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Societe_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel4.Parent" xml:space="preserve">
+    <value>KryptonPage4</value>
+  </data>
+  <data name="Generation_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 430</value>
+  </data>
+  <data name="KryptonLabel7.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonPage4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="KryptonButton8.Values.Text" xml:space="preserve">
+    <value>Ajouter un fichier</value>
+  </data>
+  <data name="Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="KryptonButton10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 422</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 202</value>
+  </data>
+  <data name="KryptonPage5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 430</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Panel3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Items" xml:space="preserve">
+    <value>Faible</value>
+  </data>
+  <data name="Produit_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="Marque_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Panel5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.Name" xml:space="preserve">
+    <value>KryptonLabel6</value>
+  </data>
+  <data name="&gt;&gt;OpenFileDialog1.Name" xml:space="preserve">
+    <value>OpenFileDialog1</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 25</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Nom_Projet_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonPage1.Text" xml:space="preserve">
+    <value>Général</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton4.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Generation_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le dossier où le projet doit être généré (obligatoire)</value>
+  </data>
+  <data name="KryptonLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Guid_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 626</value>
+  </data>
+  <data name="&gt;&gt;VF2_1_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="Panel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel17.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel1.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 231</value>
+  </data>
+  <data name="KryptonLabel12.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonButton1.Values.Text" xml:space="preserve">
+    <value>Ajouter une référence</value>
+  </data>
+  <data name="KryptonPage6.ToolTipTitle" xml:space="preserve">
+    <value>Page ToolTip</value>
+  </data>
+  <data name="Ressource_KryptonLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Titre_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="PictureBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="Panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Changer_Icone_KryptonButton.Name" xml:space="preserve">
+    <value>Changer_Icone_KryptonButton</value>
+  </data>
+  <data name="KryptonButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonTextBox.Name" xml:space="preserve">
+    <value>Copyright_KryptonTextBox</value>
+  </data>
+  <data name="Marque_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="KryptonLabel3.Values.Text" xml:space="preserve">
+    <value>Bibliothèques de fonctions réutilisables dans le projet</value>
+  </data>
+  <data name="Guid_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le GUID de votre projet</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KryptonLabel22.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;VF2_3_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel22.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel17.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListView4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel19.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 430</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Parent" xml:space="preserve">
+    <value>KryptonPage4</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader4.Name" xml:space="preserve">
+    <value>ColumnHeader4</value>
+  </data>
+  <data name="kryptonPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 40</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel16.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonLabel3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton11.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonPage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage2.Text" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="KryptonWrapLabel1.Text" xml:space="preserve">
+    <value>Veuillez sélectionner une ressource ci-contre pour l'afficher et ou la modifier (valable uniquement pour du texte).</value>
+  </data>
+  <data name="KryptonButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 25</value>
+  </data>
+  <data name="KryptonPage1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KryptonSplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 91</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;ErrorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonButton1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Generation_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Generation_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Marque_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez la marque de votre projet</value>
+  </data>
+  <data name="KryptonLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="KryptonLabel10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Ressource_PictureBox.Name" xml:space="preserve">
+    <value>Ressource_PictureBox</value>
+  </data>
+  <data name="KryptonButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="KryptonButton10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Guid_KryptonTextBox.Name" xml:space="preserve">
+    <value>Guid_KryptonTextBox</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 29</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ListView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 40</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Societe_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel15.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Panel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Panel.Name" xml:space="preserve">
+    <value>KryptonGroupBox1.Panel</value>
+  </data>
+  <data name="KryptonGroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonLabel4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel14.Values.Text" xml:space="preserve">
+    <value>Copyright :</value>
+  </data>
+  <data name="KryptonLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="KryptonButton4.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 3</value>
+  </data>
+  <data name="KryptonLabel3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.Name" xml:space="preserve">
+    <value>KryptonLabel2</value>
+  </data>
+  <data name="KryptonLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="KryptonButton7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Societe_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 234</value>
+  </data>
+  <data name="KryptonLabel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="KryptonNavigator1.Button.NextButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F6</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonLabel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="KryptonLabel6.Values.Text" xml:space="preserve">
+    <value>Nom du projet :</value>
+  </data>
+  <data name="PictureBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonButton8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Name" xml:space="preserve">
+    <value>kryptonPanel</value>
+  </data>
+  <data name="Produit_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel22.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="KryptonPage3.Text" xml:space="preserve">
+    <value>Références</value>
+  </data>
+  <data name="&gt;&gt;ListView2.Parent" xml:space="preserve">
+    <value>KryptonPage6</value>
+  </data>
+  <data name="Ressource_PictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonComboBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="KryptonLabel20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Obfuscation_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Parent" xml:space="preserve">
+    <value>KryptonPage6</value>
+  </data>
+  <data name="ListView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Activer / Désactiver le style visuel</value>
+  </data>
+  <data name="Guid_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="KryptonLabel4.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="KryptonLabel12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 29</value>
+  </data>
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour changer l'icône de votre projet</value>
+  </data>
+  <data name="KryptonLabel17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonNavigator1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonNavigator, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 328</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;VF2_2_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="Titre_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="KryptonLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 29</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Type_Projet_KryptonComboBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 60</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel21.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel20.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.Name" xml:space="preserve">
+    <value>Ressource_KryptonTextBox</value>
+  </data>
+  <data name="KryptonLabel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserDialog1.Name" xml:space="preserve">
+    <value>FolderBrowserDialog1</value>
+  </data>
+  <data name="Marque_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Societe_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonGroupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PictureBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 20</value>
+  </data>
+  <data name="KryptonButton2.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonLabel22.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonSplitContainer1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="KryptonLabel4.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 3</value>
+  </data>
+  <data name="KryptonSplitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 45</value>
+  </data>
+  <data name="Ressource_PictureBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel11.Name" xml:space="preserve">
+    <value>KryptonLabel11</value>
+  </data>
+  <data name="&gt;&gt;Changer_Icone_KryptonButton.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Items1" xml:space="preserve">
+    <value>Windows 64 bit uniquement</value>
+  </data>
+  <data name="&gt;&gt;ListView4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VF2_4_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonButton7.Values.Text" xml:space="preserve">
+    <value>Parcourir...</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonCheckBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonCheckBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonLabel.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonWrapLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonNavigator1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 20, 20</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="KryptonLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage6.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonPage, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel14.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 25</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Items" xml:space="preserve">
+    <value>A la fermeture de la fenêtre de démarrage</value>
+  </data>
+  <data name="KryptonPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 430</value>
+  </data>
+  <data name="KryptonLabel9.Values.Text" xml:space="preserve">
+    <value>Ecran de démarrage :</value>
+  </data>
+  <data name="KryptonLabel12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VF2_2_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="KryptonLabel8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ListView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage3.Name" xml:space="preserve">
+    <value>KryptonPage3</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_PictureBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 29</value>
+  </data>
+  <data name="Produit_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Description_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Indiquez ici le niveau d'encryptage pour sécuriser vos codes (obfuscation) :
+- Faible
+- Normal
+- Elevé</value>
+  </data>
+  <data name="&gt;&gt;VF1_4_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF1_4_KryptonNumericUpDown</value>
+  </data>
+  <data name="KryptonButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Parent" xml:space="preserve">
+    <value>KryptonPage3</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KryptonButton3.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel13.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Panel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton1.Parent" xml:space="preserve">
+    <value>KryptonPage3</value>
+  </data>
+  <data name="KryptonButton11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonWrapLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="KryptonPage4.Text" xml:space="preserve">
+    <value>Ressources</value>
+  </data>
+  <data name="KryptonNavigator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 466</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Values.Text" xml:space="preserve">
+    <value>Changer l'icône du logiciel</value>
+  </data>
+  <data name="KryptonLabel20.Values.Text" xml:space="preserve">
+    <value>Paramètres d'application</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel22.Name" xml:space="preserve">
+    <value>KryptonLabel22</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ButtonSpecAny1.Name" xml:space="preserve">
+    <value>ButtonSpecAny1</value>
+  </data>
+  <data name="KryptonLabel9.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="Panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="ListView2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage4.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonPage, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="ListView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 91</value>
+  </data>
+  <data name="KryptonLabel1.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="KryptonButton6.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;VF2_1_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonCheckBox.Name" xml:space="preserve">
+    <value>Optimiser_KryptonCheckBox</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonComboBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="KryptonLabel20.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader3.Name" xml:space="preserve">
+    <value>ColumnHeader3</value>
+  </data>
+  <data name="Produit_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 308</value>
+  </data>
+  <data name="KryptonLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="KryptonButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Ressource_PictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Titre_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le titre de votre projet</value>
+  </data>
+  <data name="KryptonButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton6.Parent" xml:space="preserve">
+    <value>KryptonPage4</value>
+  </data>
+  <data name="KryptonButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage3.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonPage, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 176</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 210</value>
+  </data>
+  <data name="Ressource_KryptonLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="KryptonButton11.ToolTip" xml:space="preserve">
+    <value>Générer une nouvelle clé GUID.</value>
+  </data>
+  <data name="KryptonLabel5.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonNavigator1.Button.CloseButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F4</value>
+  </data>
+  <data name="KryptonButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Items1" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>KryptonPage3</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader7.Name" xml:space="preserve">
+    <value>ColumnHeader7</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton3.Parent" xml:space="preserve">
+    <value>KryptonPage6</value>
+  </data>
+  <data name="KryptonButton5.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
+    <value>PictureBox2</value>
+  </data>
+  <data name="KryptonLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 20</value>
+  </data>
+  <data name="PictureBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="kryptonPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel13.Values.Text" xml:space="preserve">
+    <value>Produit :</value>
+  </data>
+  <data name="KryptonWrapLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 294</value>
+  </data>
+  <data name="KryptonLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 3</value>
+  </data>
+  <data name="KryptonPage4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 20</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel13.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="ListView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 45</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="KryptonButton1.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton6.Values.Text" xml:space="preserve">
+    <value>Ajouter une ressource</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader1.Name" xml:space="preserve">
+    <value>ColumnHeader1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Instance_Unique_KryptonCheckBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonCheckBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonLabel13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonGroupBox1.Panel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="Produit_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="&gt;&gt;VF1_3_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Unite_Central_Cible_KryptonComboBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonComboBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel15.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;OpenFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonComboBox.Name" xml:space="preserve">
+    <value>Ecran_Demarrage_KryptonComboBox</value>
+  </data>
+  <data name="KryptonLabel22.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Societe_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 526</value>
+  </data>
+  <data name="KryptonNavigator1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Copyright_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le copyright de votre projet</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton8.Parent" xml:space="preserve">
+    <value>KryptonGroupBox1.Panel</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ListView4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kryptonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 323</value>
+  </data>
+  <data name="ListView4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="Ressource_KryptonLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="KryptonPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 430</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Style_Visuel_KryptonCheckBox.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Items1" xml:space="preserve">
+    <value>Logiciel avec une console Windows</value>
+  </data>
+  <data name="KryptonButton6.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel11.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel9.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="&gt;&gt;Gestionnaire_Variable_KryptonButton.Name" xml:space="preserve">
+    <value>Gestionnaire_Variable_KryptonButton</value>
+  </data>
+  <data name="KryptonLabel16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Titre_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 86</value>
+  </data>
+  <data name="KryptonLabel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 23</value>
+  </data>
+  <data name="KryptonButton7.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour changer le dossier de génération du projet</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton11.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 422</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 722</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton10.Name" xml:space="preserve">
+    <value>KryptonButton10</value>
+  </data>
+  <data name="KryptonButton1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Guid_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Style_Visuel_KryptonCheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonCheckBox.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="Societe_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Nom_Projet_KryptonTextBox.Name" xml:space="preserve">
+    <value>Nom_Projet_KryptonTextBox</value>
+  </data>
+  <data name="&gt;&gt;VF1_3_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF1_3_KryptonNumericUpDown</value>
+  </data>
+  <data name="Produit_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Changer_Icone_KryptonButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="KryptonLabel21.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PictureBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColumnHeader3.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.Name" xml:space="preserve">
+    <value>KryptonLabel8</value>
+  </data>
+  <data name="KryptonButton5.Values.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel5.Values.Text" xml:space="preserve">
+    <value>Paramètres de génération du projet</value>
+  </data>
+  <data name="KryptonPage3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="KryptonLabel17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColumnHeader2.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel3.Parent" xml:space="preserve">
+    <value>KryptonPage3</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel4.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel20.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonTextBox.Name" xml:space="preserve">
+    <value>Description_KryptonTextBox</value>
+  </data>
+  <data name="&gt;&gt;VF1_2_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 673</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Generation_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>496, 20</value>
+  </data>
+  <data name="Panel5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonGroupBox1.Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonGroupBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;Type_Projet_KryptonComboBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonComboBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Generation_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Guid_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Gestionnaire_Variable_KryptonButton.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 294</value>
+  </data>
+  <data name="KryptonButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 60</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Titre_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="ListView2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 647</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="KryptonButton7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="KryptonGroupBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Changer_Icone_KryptonButton.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="ColumnHeader7.Width" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;Ressource_PictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton2.Parent" xml:space="preserve">
+    <value>KryptonPage3</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KryptonButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Changer_Icone_KryptonButton.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel1.Name" xml:space="preserve">
+    <value>KryptonLabel1</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Détermine si votre logiciel de type Application Windows doit se femer lors de la fermeture de la fenêtre de démarrage ou bien lors de la fermeture de la dernière fenêtre affiché à l'écran</value>
+  </data>
+  <data name="KryptonButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Titre_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="Panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 394</value>
+  </data>
+  <data name="KryptonButton4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Ressource_PictureBox.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="Panel4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonGroupBox1.Values.Heading" xml:space="preserve">
+    <value>Fichiers Visual Basic.Net à inclure lors de la génération</value>
+  </data>
+  <data name="&gt;&gt;VF1_2_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ColumnHeader1.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="Ressource_KryptonLabel.Text" xml:space="preserve">
+    <value>Ressource_KryptonLabel</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonNavigator1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Produit_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="KryptonLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.Name" xml:space="preserve">
+    <value>KryptonLabel20</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel17.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Name" xml:space="preserve">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Instance_Unique_KryptonCheckBox.Name" xml:space="preserve">
+    <value>Instance_Unique_KryptonCheckBox</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arret_KryptonComboBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonComboBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="KryptonLabel22.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel18.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 467</value>
+  </data>
+  <data name="&gt;&gt;Panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItems1.Name" xml:space="preserve">
+    <value>KryptonContextMenuItems1</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel22.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.Name" xml:space="preserve">
+    <value>KryptonLabel12</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton6.Name" xml:space="preserve">
+    <value>KryptonButton6</value>
+  </data>
+  <data name="KryptonLabel13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 348</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel15.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Items" xml:space="preserve">
+    <value>Logiciel avec des fenêtres</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 60</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 466</value>
+  </data>
+  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 485</value>
+  </data>
+  <data name="&gt;&gt;ListView4.Parent" xml:space="preserve">
+    <value>KryptonGroupBox1.Panel</value>
+  </data>
+  <data name="KryptonLabel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 3</value>
+  </data>
+  <data name="&gt;&gt;Instance_Unique_KryptonCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ColumnHeader5.Width" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;ListView2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KryptonLabel14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.Name" xml:space="preserve">
+    <value>KryptonLabel16</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 602</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton4.Parent" xml:space="preserve">
+    <value>KryptonPage6</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>Le style visuel permet à un projet de type Application Windows d'utiliser le style du Microsoft Windows installé sur l'ordinateur pour les boutons, menus et autre.</value>
+  </data>
+  <data name="KryptonNavigator1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VF2_4_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="KryptonLabel18.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Name" xml:space="preserve">
+    <value>KryptonGroupBox1</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 0</value>
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Formulaire_Demarrage_KryptonComboBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ColumnHeader4.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonButton4.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton11.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonWrapLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Produit_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonLabel18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel3.Name" xml:space="preserve">
+    <value>KryptonLabel3</value>
+  </data>
+  <data name="Panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 564</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 25, 45, 25</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Societe_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Obfuscation_KryptonComboBox.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="Ressource_KryptonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 45</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 467</value>
+  </data>
+  <data name="Description_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez la description de votre projet</value>
+  </data>
+  <data name="ButtonSpecAny1.ToolTipTitle" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Panel7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage5.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ListView3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Formulaire_Demarrage_KryptonComboBox.Name" xml:space="preserve">
+    <value>Formulaire_Demarrage_KryptonComboBox</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonSplitContainer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="KryptonLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Description_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="KryptonLabel11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel11.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Panel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Guid_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Items" xml:space="preserve">
+    <value>Windows 32 bit uniquement</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel11.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 21</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Obfuscation_KryptonComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;Societe_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenu1.Name" xml:space="preserve">
+    <value>KryptonContextMenu1</value>
+  </data>
+  <data name="KryptonButton11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader5.Name" xml:space="preserve">
+    <value>ColumnHeader5</value>
+  </data>
+  <data name="KryptonLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 20</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 557</value>
+  </data>
+  <data name="KryptonLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 467</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage5.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonPage, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel17.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="ListView2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="KryptonButton3.ToolTip" xml:space="preserve">
+    <value>Supprimer les paramètres d'application sélectionnés</value>
+  </data>
+  <data name="Societe_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonButton6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel20.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonLabel.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="KryptonLabel10.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage4.ToolTipTitle" xml:space="preserve">
+    <value>Page ToolTip</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListView3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 294</value>
+  </data>
+  <data name="KryptonButton2.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Generation_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton7.Name" xml:space="preserve">
+    <value>KryptonButton7</value>
+  </data>
+  <data name="KryptonLabel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Ressource_KryptonLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;VF2_1_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF2_1_KryptonNumericUpDown</value>
+  </data>
+  <data name="KryptonLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonWrapLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="KryptonPage5.ToolTipTitle" xml:space="preserve">
+    <value>Page ToolTip</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Generation_KryptonTextBox.Name" xml:space="preserve">
+    <value>Generation_KryptonTextBox</value>
+  </data>
+  <data name="KryptonLabel7.Values.Text" xml:space="preserve">
+    <value>Type du projet :</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage1.Parent" xml:space="preserve">
+    <value>KryptonNavigator1.PageContainer</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;VF2_3_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 354</value>
+  </data>
+  <data name="KryptonButton4.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour ajouter un nouveau paramètre d'application au projet</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Titre_KryptonTextBox.Name" xml:space="preserve">
+    <value>Titre_KryptonTextBox</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel22.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DocParametresDuProjet</value>
+  </data>
+  <data name="KryptonButton1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonTextBox.Name" xml:space="preserve">
+    <value>Produit_KryptonTextBox</value>
+  </data>
+  <data name="ListView4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 21</value>
+  </data>
+  <data name="&gt;&gt;ButtonSpecAny1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.ButtonSpecAny, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItem3.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonContextMenuItem, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.Name" xml:space="preserve">
+    <value>KryptonWrapLabel1</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="KryptonButton10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel13.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.Name" xml:space="preserve">
+    <value>KryptonLabel14</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 21</value>
+  </data>
+  <data name="ListView3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>Cette option permet d'optimiser le code généré pour avoir un logiciel plus rapide d'exécution</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage4.Parent" xml:space="preserve">
+    <value>KryptonNavigator1.PageContainer</value>
+  </data>
+  <data name="ListView3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 45</value>
+  </data>
+  <data name="&gt;&gt;VF1_1_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage5.Parent" xml:space="preserve">
+    <value>KryptonNavigator1.PageContainer</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel16.Values.Text" xml:space="preserve">
+    <value>Version de l'assembly :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.Name" xml:space="preserve">
+    <value>KryptonLabel18</value>
+  </data>
+  <data name="&gt;&gt;ImageList2.Name" xml:space="preserve">
+    <value>ImageList2</value>
+  </data>
+  <data name="&gt;&gt;KryptonNavigator1.Name" xml:space="preserve">
+    <value>KryptonNavigator1</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 25</value>
+  </data>
+  <data name="KryptonLabel19.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="KryptonButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 29</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListView1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Generation_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 86</value>
+  </data>
+  <data name="ListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 294</value>
+  </data>
+  <data name="KryptonLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Enregistrer les paramètres d'application lors de l'arrêt du logiciel.</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonLabel5.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="ColumnHeader6.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="KryptonButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Panel7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel17.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonSplitContainer, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="KryptonButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Generation_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;VF1_4_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonLabel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Ressource_KryptonLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonNavigator1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="KryptonLabel13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="KryptonNavigator1.Button.ContextButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Down</value>
+  </data>
+  <data name="KryptonLabel19.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>576, 170</value>
+  </data>
+  <data name="&gt;&gt;VF2_4_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Gestionnaire_Variable_KryptonButton.Parent" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="KryptonLabel6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItem1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonContextMenuItem, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="Panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ListView1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="KryptonLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="kryptonPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;KryptonContextMenuItem2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonContextMenuItem, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonNavigator1.Button.PreviousButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+F6</value>
+  </data>
+  <data name="Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel16.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Description_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Description_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="ListView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 45</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Indiquez ici l'unité central ciblé par votre projet :
+- Un Windows de type 64bit.
+- Un Windows de type 32bit.
+- Un Windows de type 32 ou 64 bit.</value>
+  </data>
+  <data name="KryptonLabel5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="kryptonPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 21</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel3.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton8.Name" xml:space="preserve">
+    <value>KryptonButton8</value>
+  </data>
+  <data name="ListView4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KryptonLabel18.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="ListView4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox1.ToolTip" xml:space="preserve">
+    <value>Faites glisser un fichier .ico ici pour changer l'icône du projet</value>
+  </data>
+  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton9.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton9.Values.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="&gt;&gt;VF1_1_KryptonNumericUpDown.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Si votre projet est de type Application Windows, vous devez indiquer quel sera la première fenêtre affiché à l'écran une fois votre logiciel démarré.
+Si votre projet est de type Application Console, vous devez iniquer quel sera la première fonction exécuté une fois votre logiciel démarré.</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.Name" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.Name" xml:space="preserve">
+    <value>KryptonLabel23</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton4.Name" xml:space="preserve">
+    <value>KryptonButton4</value>
+  </data>
+  <data name="KryptonButton2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton10.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Type_Projet_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Indiquez ici le type de votre projet :
+- Application Windows : logiciel basé sur une interface composée de fenêtres, boutons, menus et autres.
+- Application Console : logiciel basé sur une console Windows.
+- Bibliothèque de fonctions réutilisables : plus connu sous le nom de 'Dll', c'est un projet rassemblant une série de fonctions réutilisables par des applications Windows, consoles ou d'autres bibliothèques.</value>
+  </data>
+  <data name="KryptonLabel23.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 40</value>
+  </data>
+  <data name="KryptonLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 282</value>
+  </data>
+  <data name="KryptonPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>307</value>
+  </data>
+  <data name="KryptonSplitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="KryptonLabel16.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.Name" xml:space="preserve">
+    <value>KryptonLabel7</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 274</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton7.Parent" xml:space="preserve">
+    <value>KryptonPage5</value>
+  </data>
+  <data name="PictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;VF2_2_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF2_2_KryptonNumericUpDown</value>
+  </data>
+  <data name="KryptonGroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ListView1.Name" xml:space="preserve">
+    <value>ListView1</value>
+  </data>
+  <data name="KryptonPage4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Guid_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonCheckBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="KryptonNavigator1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour accéder au gestionnaire de variables du projet</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonSplitterPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="KryptonLabel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ListView4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="KryptonButton3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value>Faites glisser un fichier .ico ici pour changer l'icône du projet</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 374</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Ressource_PictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 71</value>
+  </data>
+  <data name="KryptonButton3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KryptonLabel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="ButtonSpecAny1.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="kryptonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel15.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="KryptonButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="KryptonLabel19.Values.Text" xml:space="preserve">
+    <value>Mode d'arrêt :</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Obfuscation_KryptonComboBox.Name" xml:space="preserve">
+    <value>Obfuscation_KryptonComboBox</value>
+  </data>
+  <data name="KryptonLabel15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonPage3.ToolTipTitle" xml:space="preserve">
+    <value>Page ToolTip</value>
+  </data>
+  <data name="&gt;&gt;Unite_Central_Cible_KryptonComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="KryptonButton10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 3</value>
+  </data>
+  <data name="KryptonButton9.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 86</value>
+  </data>
+  <data name="KryptonLabel13.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel11.Values.Text" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 46</value>
+  </data>
+  <data name="Panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="&gt;&gt;VF1_3_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Panel7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonGroupBox1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonGroupBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="KryptonLabel17.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;Mode_Arret_KryptonComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KryptonLabel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 3</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>Cette option permet d'indiquer si l'utilisateur pourra lancer votre logiciel plusieurs fois en même temps ou s'il ne pourra être lancé qu'une seul fois.</value>
+  </data>
+  <data name="KryptonButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="KryptonLabel5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Nom_Projet_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="KryptonLabel19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 3</value>
+  </data>
+  <data name="KryptonLabel19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 467</value>
+  </data>
+  <data name="ListView2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VF1_2_KryptonNumericUpDown.Name" xml:space="preserve">
+    <value>VF1_2_KryptonNumericUpDown</value>
+  </data>
+  <data name="KryptonLabel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 20</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Type_Projet_KryptonComboBox.Name" xml:space="preserve">
+    <value>Type_Projet_KryptonComboBox</value>
+  </data>
+  <data name="&gt;&gt;ListView4.Name" xml:space="preserve">
+    <value>ListView4</value>
+  </data>
+  <data name="KryptonPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel6.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonNavigator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="KryptonLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="KryptonLabel8.Values.Text" xml:space="preserve">
+    <value>Fenêtre ou fonction de démarrage :</value>
+  </data>
+  <data name="KryptonButton11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ListView3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;VF1_1_KryptonNumericUpDown.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonNumericUpDown, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Societe_KryptonTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel9.Name" xml:space="preserve">
+    <value>KryptonLabel9</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel11.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="KryptonLabel15.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonWrapLabel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColumnHeader3.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="KryptonWrapLabel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="KryptonPage5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="KryptonLabel3.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;VF1_3_KryptonNumericUpDown.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="KryptonButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="KryptonLabel15.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Values.Text" xml:space="preserve">
+    <value>Gestionnaire de variables</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;KryptonPage2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Navigator.KryptonPage, VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="Description_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 25</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonTextBox.Name" xml:space="preserve">
+    <value>Marque_KryptonTextBox</value>
+  </data>
+  <data name="KryptonLabel2.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Changer_Icone_KryptonButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="KryptonSplitContainer1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PictureBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel21.Values.Text" xml:space="preserve">
+    <value>Emplacement de la génération :</value>
+  </data>
+  <data name="KryptonButton8.ToolTip" xml:space="preserve">
+    <value>Cliquez ici pour ajouter un fichier .vb à la génération du projet</value>
+  </data>
+  <data name="KryptonLabel6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonPage1.Name" xml:space="preserve">
+    <value>KryptonPage1</value>
+  </data>
+  <data name="KryptonLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonPage6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 25</value>
+  </data>
+  <data name="KryptonLabel18.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel10.Values.Text" xml:space="preserve">
+    <value>Titre :</value>
+  </data>
+  <data name="KryptonPage1.ToolTipTitle" xml:space="preserve">
+    <value>Page ToolTip</value>
+  </data>
+  <data name="KryptonLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonPage2</value>
+  </data>
+  <data name="Generation_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="KryptonPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <metadata name="ImageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>388, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="KryptonContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>498, 17</value>
+  </metadata>
+  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>246, 17</value>
+  </metadata>
+  <metadata name="FolderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>673, 17</value>
+  </metadata>
+</root>

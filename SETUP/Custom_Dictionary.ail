@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="multilanguage" ignore="en">
+  <ENTRY id="AI_FirewallException.SoftwareZator_2012">
+    <STRING lang="en" value="SoftwareZator 2012"/>
+    <STRING lang="fr" value="SoftwareZator 2012"/>
+  </ENTRY>
+  <ENTRY id="AI_FirewallException.Updater">
+    <STRING lang="en" value="Updater"/>
+    <STRING lang="fr" value="Updater"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Description.AI_AiRemoveFilesDeferred_Permanent">
+    <STRING lang="en" value="Preparing files for removal"/>
+    <STRING lang="fr" value="Préparation de fichiers pour la suppression"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Description.AI_AiRemoveFilesDeferred_Undoable">
+    <STRING lang="en" value="Preparing files for removal"/>
+    <STRING lang="fr" value="Préparation de fichiers pour la suppression"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Description.AI_AiRemoveFilesRollback">
+    <STRING lang="en" value="Restoring removed files"/>
+    <STRING lang="fr" value="Restauration de fichiers supprimés"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Description.AI_ConfigureChainer">
+    <STRING lang="en" value="ActionText.Description.AI_ConfigureChainer"/>
+    <STRING lang="fr" value="ActionText.Description.AI_ConfigureChainer"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Template.AI_AiRemoveFilesDeferred_Permanent">
+    <STRING lang="en" value="Preparing file: [1]"/>
+    <STRING lang="fr" value="Préparation du fichier: [1]"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Template.AI_AiRemoveFilesDeferred_Undoable">
+    <STRING lang="en" value="Preparing file: [1]"/>
+    <STRING lang="fr" value="Préparation du fichier: [1]"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Template.AI_AiRemoveFilesImmediate">
+    <STRING lang="en" value="Preparing file: [1]"/>
+    <STRING lang="fr" value="Préparation du fichier: [1]"/>
+  </ENTRY>
+  <ENTRY id="ActionText.Template.AI_AiRemoveFilesRollback">
+    <STRING lang="en" value="Restoring file: [1]"/>
+    <STRING lang="fr" value="Préparation du fichier: [1]"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.BA77C3A_E496_4B73_A0FD_A883D8270AB5_1">
+    <STRING lang="en" value="Microsoft SQL Server 2008 Express SP2"/>
+    <STRING lang="fr" value="Microsoft SQL Server 2008 Express SP2"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.F4D2_CD2B_41DE_8806_E3EEAA2696FE__1">
+    <STRING lang="en" value="Microsoft Access 2010 Runtime"/>
+    <STRING lang="fr" value="Microsoft Access 2010 Runtime"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.MicrosoftAccess201">
+    <STRING lang="en" value="Microsoft Access 2010 Runtime 64-bit"/>
+    <STRING lang="fr" value="Microsoft Access 2010 Runtime 64-bit"/>
+  </ENTRY>
+  <ENTRY id="Feature.Title.MicrosoftAccess201">
+    <STRING lang="en" value="Microsoft Access 2010 Runtime 64-bit"/>
+    <STRING lang="fr" value="Microsoft Access 2010 Runtime 64-bit"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.MicrosoftSQLServer2012Express32bit">
+    <STRING lang="en" value="Microsoft SQL Server 2012 Express 32-bit"/>
+    <STRING lang="fr" value="Microsoft SQL Server 2012 Express 32-bit"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.MicrosoftSQLServer2012Express64bit">
+    <STRING lang="en" value="Microsoft SQL Server 2012 Express 64-bit"/>
+    <STRING lang="fr" value="Microsoft SQL Server 2012 Express 64-bit"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.SDK">
+    <STRING lang="en" value="Install the Software Development Kit (SDK) for make plugins for SoftwareZator"/>
+    <STRING lang="fr" value="Installer le Kit de développement logiciel (SDK) pour faire des plugins avec Microsoft Visual Studio 2010 pour SoftwareZator"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.SoftwareZator">
+    <STRING lang="en" value="Installs the basic software with plugins"/>
+    <STRING lang="fr" value="Installe le logiciel de base avec ses plugins"/>
+  </ENTRY>
+  <ENTRY id="Feature.Title.MicrosoftSQLServer2012Express32bit">
+    <STRING lang="en" value="Microsoft SQL Server 2012 Express 32-bit"/>
+    <STRING lang="fr" value="Microsoft SQL Server 2012 Express 32-bit"/>
+  </ENTRY>
+  <ENTRY id="Feature.Title.MicrosoftSQLServer2012Express64bit">
+    <STRING lang="en" value="Microsoft SQL Server 2012 Express 64-bit"/>
+    <STRING lang="fr" value="Microsoft SQL Server 2012 Express 64-bit"/>
+  </ENTRY>
+  <ENTRY id="Property.ARPCOMMENTS">
+    <STRING lang="en" value="Install [|ProductName]."/>
+    <STRING lang="fr" value="Installer [|ProductName]."/>
+  </ENTRY>
+  <ENTRY id="Property.ARPHELPLINK">
+    <STRING lang="en" value="http://www.velersoftware.com/contact_technical.php"/>
+    <STRING lang="fr" value="http://www.velersoftware.com/contact_technical.php"/>
+  </ENTRY>
+  <ENTRY id="Property.ARPURLINFOABOUT">
+    <STRING lang="en" value="http://softwarezator.velersoftware.com"/>
+    <STRING lang="fr" value="http://softwarezator.velersoftware.com"/>
+  </ENTRY>
+  <ENTRY id="Property.ARPURLUPDATEINFO">
+    <STRING lang="en" value="http://softwarezator.velersoftware.com"/>
+    <STRING lang="fr" value="http://softwarezator.velersoftware.com"/>
+  </ENTRY>
+  <ENTRY id="Property.InstanceId">
+    <STRING lang="en" value="InstanceId"/>
+    <STRING lang="fr" value="InstanceId"/>
+  </ENTRY>
+  <ENTRY id="Property.Manufacturer">
+    <STRING lang="en" value="Veler Software"/>
+    <STRING lang="fr" value="Veler Software"/>
+  </ENTRY>
+  <ENTRY id="Property.ProductName">
+    <STRING lang="en" value="SoftwareZator 2012"/>
+    <STRING lang="fr" value="SoftwareZator 2012"/>
+  </ENTRY>
+</DICTIONARY>

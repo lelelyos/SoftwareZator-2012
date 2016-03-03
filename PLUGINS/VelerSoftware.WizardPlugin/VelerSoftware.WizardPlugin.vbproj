@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{BAF9CB4C-0871-4289-AFA2-350FB2E51DF3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.WizardPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.WizardPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape_Precedente.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape_Precedente.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape_Precedente.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape_Suivante.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape_Suivante.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape_Suivante.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.vb" />
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Designer.xaml.vb">
+      <DependentUpon>Assistant_Etape_Suivante_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Form.Designer.vb">
+      <DependentUpon>Assistant_Etape_Suivante_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Etape.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Annuler.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Annuler.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Annuler.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Precedent.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Precedent.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Precedent.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Suivant.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Suivant.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Assistant_Changer_Statut_Suivant.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.vb" />
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Designer.xaml.vb">
+      <DependentUpon>Assistant_Changer_Statut_Suivant_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Form.Designer.vb">
+      <DependentUpon>Assistant_Changer_Statut_Suivant_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.vb" />
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Designer.xaml.vb">
+      <DependentUpon>Assistant_Changer_Statut_Precedent_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Form.Designer.vb">
+      <DependentUpon>Assistant_Changer_Statut_Precedent_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.vb" />
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Designer.xaml.vb">
+      <DependentUpon>Assistant_Changer_Statut_Annuler_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Form.Designer.vb">
+      <DependentUpon>Assistant_Changer_Statut_Annuler_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.vb" />
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Designer.xaml.vb">
+      <DependentUpon>Assistant_Etape_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Form.Designer.vb">
+      <DependentUpon>Assistant_Etape_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.vb" />
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Designer.xaml.vb">
+      <DependentUpon>Assistant_Etape_Precedente_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Form.Designer.vb">
+      <DependentUpon>Assistant_Etape_Precedente_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape_Suivante.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape_Suivante.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape_Suivante.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Form.en.resx">
+      <DependentUpon>Assistant_Etape_Suivante_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Form.fr.resx">
+      <DependentUpon>Assistant_Etape_Suivante_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Form.resx">
+      <DependentUpon>Assistant_Etape_Suivante_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Suivant.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Suivant.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Suivant.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Form.en.resx">
+      <DependentUpon>Assistant_Changer_Statut_Suivant_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Form.fr.resx">
+      <DependentUpon>Assistant_Changer_Statut_Suivant_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Form.resx">
+      <DependentUpon>Assistant_Changer_Statut_Suivant_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Precedent.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Precedent.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Precedent.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Form.en.resx">
+      <DependentUpon>Assistant_Changer_Statut_Precedent_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Form.fr.resx">
+      <DependentUpon>Assistant_Changer_Statut_Precedent_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Form.resx">
+      <DependentUpon>Assistant_Changer_Statut_Precedent_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Annuler.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Annuler.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Changer_Statut_Annuler.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Form.en.resx">
+      <DependentUpon>Assistant_Changer_Statut_Annuler_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Form.fr.resx">
+      <DependentUpon>Assistant_Changer_Statut_Annuler_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Form.resx">
+      <DependentUpon>Assistant_Changer_Statut_Annuler_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Form.en.resx">
+      <DependentUpon>Assistant_Etape_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Form.fr.resx">
+      <DependentUpon>Assistant_Etape_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Form.resx">
+      <DependentUpon>Assistant_Etape_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape_Precedente.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape_Precedente.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Assistant_Etape_Precedente.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Form.en.resx">
+      <DependentUpon>Assistant_Etape_Precedente_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Form.fr.resx">
+      <DependentUpon>Assistant_Etape_Precedente_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Form.resx">
+      <DependentUpon>Assistant_Etape_Precedente_Form.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Assistant\Aller à l%27étape précédente d%27un assistant\Assistant_Etape_Precedente_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assistant\Aller à l%27étape suivante d%27un assistant\Assistant_Etape_Suivante_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assistant\Changer le statut du bouton Suivant d%27un assistant\Assistant_Changer_Statut_Suivant_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assistant\Changer le statut du bouton Précédent d%27un assistant\Assistant_Changer_Statut_Precedent_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assistant\Changer le statut du bouton Annuler d%27un assistant\Assistant_Changer_Statut_Annuler_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assistant\Aller à une étape d%27un assistant\Assistant_Etape_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\assistant_etape_precedente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\assistant_etape_suivante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\assistant_changer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\assistant_etape.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

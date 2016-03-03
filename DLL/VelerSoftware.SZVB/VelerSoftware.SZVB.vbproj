@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.SZVB</RootNamespace>
+    <AssemblyName>VelerSoftware.SZVB</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\DLL COMPILE\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\DLL COMPILE\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bases de données\DataBases.vb" />
+    <Compile Include="CommandLink\CommandLink.Designer.vb">
+      <DependentUpon>CommandLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommandLink\CommandLink.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Info_Bar\Info_Bar.Designer.vb">
+      <DependentUpon>Info_Bar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Bar\Info_Bar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Info_Bar\Info_Bar_SmartTag.vb" />
+    <Compile Include="Print\PrintClass.vb" />
+    <Compile Include="Projet\Erreur.vb" />
+    <Compile Include="Projet\Statistique.vb" />
+    <Compile Include="Projet\Ressource.vb" />
+    <Compile Include="Projet\Document.vb" />
+    <Compile Include="Projet\Fichier.vb" />
+    <Compile Include="Projet\Reference.vb" />
+    <Compile Include="Projet\Solution.vb" />
+    <Compile Include="Projet\Projet.vb" />
+    <Compile Include="Projet\Variable.vb" />
+    <Compile Include="PropertyGrid\BrowsableTypeConverter.vb" />
+    <Compile Include="PropertyGrid\CustomChoices.vb" />
+    <Compile Include="PropertyGrid\CustomColorScheme.vb" />
+    <Compile Include="PropertyGrid\CustomProperty.vb" />
+    <Compile Include="PropertyGrid\CustomPropertyCollection.vb" />
+    <Compile Include="PropertyGrid\CustomPropertyCollectionSet.vb" />
+    <Compile Include="PropertyGrid\Form_UIImageEditor.Designer.vb">
+      <DependentUpon>Form_UIImageEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyGrid\Form_UIImageEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyGrid\UIImageEditor.vb" />
+    <Compile Include="PropertyGrid\PropertyGridEx.Designer.vb">
+      <DependentUpon>PropertyGridEx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyGrid\PropertyGridEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PropertyGrid\UICustomEventEditor.vb" />
+    <Compile Include="PropertyGrid\UIFilenameEditor.vb" />
+    <Compile Include="PropertyGrid\UIListboxEditor.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+    <Compile Include="VistaMessageBox\BackgroundForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaMessageBox\Button.Designer.vb">
+      <DependentUpon>Button.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VistaMessageBox\Button.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VistaMessageBox\ChevronButton.Designer.vb">
+      <DependentUpon>ChevronButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VistaMessageBox\ChevronButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VistaMessageBox\Extensions.vb" />
+    <Compile Include="VistaMessageBox\Label.Designer.vb">
+      <DependentUpon>Label.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VistaMessageBox\Label.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VistaMessageBox\Native.vb" />
+    <Compile Include="VistaMessageBox\VDialog.vb" />
+    <Compile Include="VistaMessageBox\VDialogButton.vb" />
+    <Compile Include="VistaMessageBox\VDialogDefaultButton.vb" />
+    <Compile Include="VistaMessageBox\VDialogForm.Designer.vb">
+      <DependentUpon>VDialogForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VistaMessageBox\VDialogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaMessageBox\VDialogIcon.vb" />
+    <Compile Include="VistaMessageBox\VDialogLockSystemParameters.vb" />
+    <Compile Include="VistaMessageBox\VDialogResult.vb" />
+    <Compile Include="VistaMessageBox\VDialogSound.vb" />
+    <Compile Include="WindowsForm\AeroWindowsForm.Designer.vb">
+      <DependentUpon>AeroWindowsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\AeroWindowsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Core\Core.vb" />
+    <Compile Include="Windows\Core\NativeMethods.vb" />
+    <Compile Include="Windows\DWM\DWM.vb" />
+    <Compile Include="Wizard\AeroWizardForm.Designer.vb">
+      <DependentUpon>AeroWizardForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\AeroWizardForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommandLink\CommandLink.resx">
+      <DependentUpon>CommandLink.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Bar\Info_Bar.resx">
+      <DependentUpon>Info_Bar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyGrid\Form_UIImageEditor.en.resx">
+      <DependentUpon>Form_UIImageEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyGrid\Form_UIImageEditor.fr.resx">
+      <DependentUpon>Form_UIImageEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyGrid\Form_UIImageEditor.resx">
+      <DependentUpon>Form_UIImageEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaMessageBox\ChevronButton.resx">
+      <DependentUpon>ChevronButton.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaMessageBox\VDialogForm.resx">
+      <DependentUpon>VDialogForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\AeroWindowsForm.resx">
+      <DependentUpon>AeroWindowsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\AeroWizardForm.resx">
+      <DependentUpon>AeroWizardForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WizardButton_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WizardButton_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WizardButton_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WizardButton_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDisabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLessHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronLessPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMoreHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronMorePressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_VistaDialog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning_VistaDialog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Security.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecuritySuccess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallInformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurityError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurityQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecuritySucess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallSecurityWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Good.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_bar_close_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_bar_close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_bar_close_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win8_WizardButton_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win8_WizardButton_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win8_WizardButton_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win8_WizardButton_hot.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<!-- Syntaxdefinition for VB.NET, v0.1 Rev 1 by Christian Holm -->
+<!-- Updated 2005 by Daniel Grunwald for VB.NET 2.0 -->
+<!-- Converted to SZC35 format by Daniel Grunwald in 2010 -->
+<SyntaxDefinition name="Action" xmlns="http://velersoftware/syntaxdefinition/2008">
+  <Color name="Set" foreground="Blue" />
+  <Color name="Num" foreground="MidnightBlue" fontWeight="bold"/>
+  <Color name="Equal" foreground="Black" fontWeight="bold" />
+  <Color name="Variable" foreground="#A31515" fontWeight="bold" />
+
+  <RuleSet>
+    <Span color="Set">
+      <Begin>%\(</Begin>
+      <End>\)%</End>
+      <RuleSet name="VariableSet" ignoreCase="false">
+        <Keywords color="Variable">
+          <Word>VARIABLE</Word>
+          <Word>APPLICATION</Word>
+          <Word>ENVIRONMENT</Word>
+          <Word>FUNCTION</Word>
+          <Word>RESOURCE</Word>
+          <Word>SETTING</Word>
+          <Word>PROPERTY</Word>
+          <Word>CONTROL</Word>
+        </Keywords>
+        <Keywords color="Equal">
+          <Word>=</Word>
+        </Keywords>
+        <Span color="Num">
+          <Begin>\[</Begin>
+          <End>\]</End>
+        </Span>
+      </RuleSet>
+    </Span>
+    <Span ruleSet="VBNET/VB">
+        <Begin color="Set">\[CODE\]</Begin>
+        <End color="Set">\[/CODE\]</End>
+    </Span>
+  </RuleSet>
+  
+</SyntaxDefinition>

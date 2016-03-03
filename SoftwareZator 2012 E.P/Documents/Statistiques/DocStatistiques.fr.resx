@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KryptonSplitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ObfuscationLevel_KryptonLabel.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Variables_ListView.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAdEw6lmYXV0Bfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVudAEA
+        AAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHRGVmYXVsdAs=
+</value>
+  </data>
+  <data name="Variables_ListView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABK
+        FAAAAk1TRnQBSQFMAgEBBgEAAdgBAgHYAQIBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIFoAAU8BNQEiAf8BQQEnARMB/wFBAScBEwH/AUEBJwETAf8BQQEnARMB/wFB
+        AScBEwH/AUEBJwETAf8BQQEnARMB/wFBAScBEwH/AUEBJwETAf8BQQEnARMB/wFBAScBEwH/kAAB6QHU
+        AcUB/wGVAVkBRQH/AZUBWQFFAf8BlQFZAUUB/wGVAVkBRQH/AZUBWQFFAf8BlQFZAUUB/wGVAVkBRQH/
+        AZUBWQFFAf8BlQFZAUUB/wGVAVkBRQH/FAABVAE6AScB/wHvAdMBxgH/Ad4BvwGvAf8B3wG9AasB/wHc
+        AbgBpwH/AdoBtAGiAf8B2AGwAZ0B/wHXAa0BmQH/AdcBrAGWAf8B1wGsAZYB/wHbAawBlQH/AUEBJwET
+        Af+QAAHpAdQBxQX/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/
+        AekB1AHFAf8B6QHUAcUB/wGVAVkBRQH/FAABWAE/ASwB/wH4AeIB2AH/AfoB7gHnAf8B+QHqAeIB/wH3
+        AeUB3QH/AfYB4QHXAf8B9AHdAdEB/wH0AdkBzAH/AfIB1QHHAf8B8gHRAcEB/wHqAcABrAH/AUEBJwET
+        Af+QAAHpAdQBxRv/AfsC/wH8Ae8B/wHpAdQBxQH/AZUBWQFFAf8UAAGAAUUBMwH/AfgB5AHbAf8BuAGk
+        AZQB/wGxAZwBjQH/AaoBlAGEAf8BogGMAVkB/wGaAYQBUQH/AZIBWQFIAf8BiwFRAT8B/wGEAUkBNgH/
+        AeoBwAGsAf8BQQEnARMB/5AAAekB1AHFH/8B9gH/AekB1AHFAf8BlQFZAUUB/xQAAYYBSwE4Af8B+QHo
+        AeAB/wH8AfQB8QH/AfsB8QHsAf8B+QHuAecB/wH4AekB4gH/AfgB5gHcAf8B9gHhAdcB/wH1Ad0B0gH/
+        AfQB2AHMAf8B6wHDAbAB/wFBAScBEwH/kAAB6QHUAcUf/wH9Af8B6QHUAcUB/wGVAVkBRQH/FAABiwFR
+        AT8B/wH6AesB5AH/Ab0BqQGbAf8BtgGiAZQB/wGwAZsBiwH/AakBkwGDAf8BoQGKAVkB/wGZAYMBTwH/
+        AZEBWAFHAf8BigFQAT4B/wHtAccBtgH/AUEBJwETAf+QAAHsAdcByCH/AekB1AHFAf8BlQFZAUUB/xQA
+        AZEBVwFGAf8B+wHuAecB/wH9AfoB+QH/AfwB+AH1Af8B/AH1AfEB/wH7AfEB7AH/AfoB7QHnAf8B+AHp
+        AeIB/wH4AeUB3AH/AfYB4QHXAf8B7gHNAbwB/wFBAScBEwH/kAAB8AHbAcwh/wHpAdQBxQH/AZUBWQFF
+        Af8UAAGXAYABTQH/AfwB8AHsAf8BwgGuAaEB/wG9AagBmgH/AbYBogGSAf8BrwGZAYsB/wGnAZIBgwH/
+        AaABigFXAf8BmAGBAU4B/wGRAVcBRgH/AfAB0gHDAf8BQQEnARMB/5AAAfUB4AHQIf8B6QHUAcUB/wGV
+        AVkBRQH/FAABnQGGAVQB/wH9AfMB8Ab/Af0B/AH/Af4B+wH6Af8B/QH4AfYB/wH8AfUB8QH/AfsB8QHt
+        Af8B+QHtAecB/wH4AekB4gH/AfMB1gHJAf8BQQEnARMB/5AAAfoB5AHVIf8B6QHUAcUB/wGVAVkBRQH/
+        FAABowGMAVsB/wH8AfUB8gH/AcYBswGmAf8BwQGtAaAB/wG7AacBmQH/AbUBoQGRAf8BrgGZAYoB/wGm
+        AZEBgQH/AZ8BiAFWAf8BlwGAAU0B/wH0AdwB0AH/AUEBJwETAf+QAAH+AegB2R3/AekB1AHFAf8B6QHU
+        AcUB/wGWAVoBRgH/FAABqAGTAYMB/wH+AfgB9Q3/Af4B/QH8Af8B/gH7AfkB/wH9AfgB9QH/AfwB9AHx
+        Af8B+wHxAe0B/wH3AeIB1wH/AUEBJwETAf+QAAH/Ae0B3Rn/AekB1AHFAf8BlgFaAUYB/wGWAVoBRgH/
+        AZYBWgFGAf8UAAGuAZkBigH/Af4B+QH3Af8ByQG3AakB/wHFAbIBpAH/AcABrAGeAf8BuwGmAZgB/wG0
+        AZ8BkAH/Af4B+gH5Af8B/QH3AfUB/wH8AfQB8QH/AfsB6gHgAf8BQQEnARMB/5AAAf8B8QHhGf8B6wHW
+        AccC/wH3AewB/wGWAVoBRgH/A0oBjBQAAbMBnwGPAf8B/gH7AfkV/wH+Af0B/AH/AaIBjAFaAf8BSgEv
+        ARsB/wFKAS8BGwH/AUEBJwETAf+QAAH/AfQB5Bn/AfIB3QHOAf8BlgFaAUYB/wNKAYsYAAG4AaQBlQH/
+        Af4B/AH7Gf8BogGMAVoB/wHnAd4B2AH/AaMBjQFbAf+UAAH/AfQB5AL/AfQB5AL/AfQB5AL/AfQB5AL/
+        AfQB5AL/AfAB4AL/AesB2wH/AfsB5QHWAf8DSgGLHAABvQGoAZsd/wGiAYwBWgH/AaMBjQFbAf/YAAHC
+        Aa4BoAH/Ab0BqAGbAf8BuAGkAZUB/wGzAZ8BkAH/Aa4BmQGKAf8BqAGTAYMB/wGjAY0BWwH/AZ0BhgFU
+        Af8BlwGAAU0B//8A/wAWAANZAccBAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/
+        AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGM
+        AakB/wEAAYwBqQH/A1kBxwQAATkBhQGcAf8BKwE5AUgB/wEmATQBQwH/ASIBLwE/Af8BHgErAToB/wEb
+        AScBNgH/ARgBJAEyAf8BFwEiATAB/wEUAR8BLQH/ARMBHQErAf8BEQEcASgB/wERARsBJwH/AQ8BGQEk
+        Af8BDwEYASMB/4QAAVsCXgHZAQAByQHpAf8BAAHGAfEB/wEAAcIB8AH/AQABwQHwAf8BAAHAAfAB/wEA
+        AcEB8AH/AQABwQHwAf8BAAHBAfAB/wEAAcEB8AH/AQABwgHwAf8BAAHDAfAB/wEAAcMB8AH/AQABxAHx
+        Af8BAAHDAeQB/wFbAl4B2QQAAT0BiQGgAf8BjAHRAZkB/wGKAdIBmQH/AVUBxgGJAf8BPgG4AVMB/wEo
+        AaoBQgH/ARMBnQEwAf8BAQGQASAB/wEAAYkBFgH/AQABiQEWAf8BAAGJARYB/wEBAVcBFQH/ASsBGQEK
+        Af8BEAEaASUB/4QAA04BmQEAAa4BzwH/AQABzQHyAf8BAAHIAfEB/wEAAcUB8QH/AQABxAHxAf8BAAHD
+        AfAB/wMAAf8DAAH/AQABxgHxAf8BAAHIAfEB/wEAAcoB8gH/AQABygHyAf8BAAHMAfEB/wEAAasBzQH/
+        A04BmQQAAUABjQGkAf8BuwHmAcMB/wGoAeABswH/AZMB1wGgAf8BXAHJAY8B/wFEAbsBWQH/AS0BrQFF
+        Af8BFAGdATAB/wEAAY8BHwH/AQABiQEWAf8BIgE3ARMB/wFMATcBKAH/AUEBLAEeAf8BEQEaASYB/4QA
+        AxQBGwFbAl4B2QEAAcYB5AH/AQAB0QHzAf8BAAHNAfIB/wEAAcsB8gH/AQABygHyAf8DAAH/AwAB/wEA
+        Ac0B8wH/AQAB0QHzAf8BAAHSAfQB/wEAAdMB9AH/AQABxQHjAf8BWwJeAdkDFAEbBAABQwGSAacB/wGl
+        Ad4BsAH/AdEB7wHWAf8BqAHgAbMB/wGOAdQBnAH/AVYBxQGKAf8BPgG3AVQB/wEnAagBQAH/AQoBlgEp
+        Af8BLQEnAREB/wGSAVoBTQH/AY0BVgFIAf8DAAH/AREBHAEoAf8kAAMDAQRgAAFIAkkBhwEAAawBzQH/
+        AQwB2wH0Af8BCAHZAfUB/wEFAdcB9QH/AQQB1gH0Af8BBAHWAfQB/wEGAdcB9QH/AQgB2QH1Af8BCAHZ
+        AfUB/wEKAdsB9QH/AQsB2gHzAf8BAAGqAcsB/wFIAkkBhwgAAUYBlgGrAf8BnAGlAYYB/wGoAeABswH/
+        AdEB7wHWAf8BqAHgAbMB/wGKAdEBmQH/AVABwQGFAf8BNAGwAUsB/wE/AUwBMAH/Ab8BqwGhAf8BswGd
+        AZAB/wMAAf8BrgGRAYMB/wETAR0BKgH/IAADEgEZA00BlgMSARlcAAMNARIBWwJeAdkBAwHGAd8B/wEX
+        AeYB+AH/ARYB5AH3Af8BFQHjAfcB/wEAAUABSQH/AQABQAFJAf8BEwHiAfcB/wETAeIB9wH/ARQB4wH3
+        Af8BAgHHAeAB/wFbAl4B2QMNARIIAAFJAZoBrwH/Ae0B4wHdAf8BnAGfAYMB/wGmAd8BsQH/AdAB7gHW
+        Af8BpQHeAbAB/wGAAcsBkAH/AUYBVgE4Af8BzwG8AbIB/wHTAcEBtwH/AwAB/wHsAbYBmQH/AbQBlgGH
+        Af8BFAEeASsB/xwAAxABFgNWAbMDAAH/A1YBswMQARYoAAMFAQcDRQF9A1EB9wMAAf8DUQH3A0UBfQMF
+        AQcYAANDAXgBAAGqAcsB/wEfAeoB9gH/ASMB8AH6Af8BIQHuAfkB/wMAAf8DAAH/AR0B6gH5Af8BHQHq
+        AfkB/wEYAeUB9QH/AQABqgHLAf8DQwF4DAABTQGdAbIC/wH8AfsB/wHtAeMB3QH/AZwBgwFQAf8BpgHe
+        AbAB/wGxAeIBugH/AUYBPAEoAf8BzgGuAZsB/wFDAS0BHgH/AUMBLQEeAf8B2AGwAZkB/wH7AcEBogH/
+        AbsBmwGMAf8BFQEhAS4B/xgAAwQBBQM4AV4DVgG5A1cBvwNWAbkDOAFeAwQBBSgAAw0BEQNLAY8DUwHx
+        A0sBjwMNAREcAAMJAQwBWwJeAdkBAQHCAdsB/wEnAfMB+wH/ASYB8QH6Af8DAAH/AwAB/wEiAe8B+gH/
+        ASIB7wH6Af8BAwHGAd8B/wFbAl4B2QMJAQwMAAFQAaIBtQL/AfwB+wL/AfwB+wH/AekB3gHYAf8BnAGD
+        AVAB/wGbAYIBTwH/Ae4B1gHJAf8B/QHfAc8B/wH9AdcBwwH/AfwB0AG5Af8B/AHKAbAB/wH7AcUBqAH/
+        AcIBoQGQAf8BGAEjATEB/2AAAw0BEQM8AWcDDQERJAADPQFpAQABqQHLAf8BIQHqAfQB/wEpAfQB+wH/
+        AwAB/wMAAf8BJwHyAfoB/wEgAeoB9gH/AQABqQHLAf8DPQFpEAABUwGlAbgC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/Af4B7QHkAf8B1AHFAdIB/wEAATEBywH/AQABLwHGAf8B0QGxAa8B/wH8
+        AcoBsAH/AcoBpwGVAf8BGgElATQB/2QAAwEBAigAAwQBBgFbAl4B2QEAAb8B2QH/ATMB9gH7Af8DAAH/
+        AwAB/wEqAfUB+wH/AQUBxgHdAf8BWwJeAdkDBAEGEAABVQGoAbwC/wH8AfsC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/AQ4BPAHUAf8BUAG+AfkB/wEiAYwBywH/AQABLwHGAf8B/AHQAbkB/wHS
+        Aa0BmgH/ARwBKAE3Af+UAAM3AVoBAAGpAcoB/wEgAegB8wH/ASoB9QH7Af8BKgH1AfsB/wEjAe0B9gH/
+        AQABqQHLAf8DNwFaFAABVwGrAb4C/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH4AfUB/wEP
+        AT4B1wH/AbkB5AL/AVABvgH5Af8BAAExAcsB/wH9AdcBwwH/AdkBswGfAf8BIAEsATsB/5QAAwIBAwFb
+        Al4B2QEAAbsB1gH/ASoB9QH7Af8BKgH1AfsB/wEEAcYB3QH/AVsCXgHZAwIBAxQAAVoBrgHAAv8B/AH7
+        Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Af8B1wHUAewB/wEPAT4B1wH/AQ4BPQHUAf8B1AHF
+        AdIB/wH9Ad8BzwH/Ad4BtwGjAf8BIwEwAT8B/5gAAy4BSAEAAagBygH/AR0B5QHxAf8BIwHsAfUB/wEA
+        AakBywH/Ay4BSBgAAVwBsAHCAv8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7
+        Av8B+AH1Af8B/gHzAe0B/wH+Ae0B5AH/Af0B5gHaAf8B/QHfAc8B/wEnATQBRAH/nAABWwJeAdkBAAG5
+        AdUB/wEEAcYB3QH/AVsCXgHZHAABXQGyAcQB/wFbAbABwwH/AVkBrQHAAf8BVwGrAb4B/wFVAagBuwH/
+        AVIBpQG4Af8BTwGhAbUB/wFNAZ4BsgH/AUoBmgGvAf8BRwGVAasB/wFDAZIBqAH/AUABjQGkAf8BPQGJ
+        AaAB/wE5AYQBnAH/nAADJgE5AVkCYAHrAVkCYAHrAyYBOVgAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA/8BAAL/AcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABDwHAAQcEAAHAAR8BwAEPBAAC/wHAAR8EAAz/AgABgAEB
+        BP8CAAGAAQEE/wIAAYABAQT/AgABgAEBAf8BfwL/AYABAQGAAQEB/gE/Av8BgAEBAYABAQH8AR8B+AEP
+        AcABAwGAAQEB+AEPAfwBHwHAAQMBgAEBAv8B/gE/AeABBwGAAQED/wF/AeABBwGAAQEE/wHwAQ8BgAEB
+        BP8B8AEPAYABAQT/AfgBHwGAAQEE/wH8AT8BgAEBBP8B/AE/Av8L
+</value>
+  </data>
+  <data name="Resx_ListView3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel48.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel48.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Settings_ListView2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel47.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel47.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel47.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="References_ListView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel45.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel45.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel45.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel46.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel46.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel46.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CPU_KryptonLabel43.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CPU_KryptonLabel43.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CPU_KryptonLabel43.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel44.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel44.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel44.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonLabel41.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonLabel41.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonLabel41.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel42.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel42.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel40.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel40.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel40.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel38.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel38.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Marque_KryptonLabel36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonLabel36.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonLabel36.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel37.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel37.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel35.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel35.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel33.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel33.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Copyright_KryptonLabel30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Copyright_KryptonLabel30.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Copyright_KryptonLabel30.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel31.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel31.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Produit_KryptonLabel28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Produit_KryptonLabel28.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Produit_KryptonLabel28.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel29.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel29.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Societe_KryptonLabel26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Societe_KryptonLabel26.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Societe_KryptonLabel26.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel27.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel27.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_KryptonLabel24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_KryptonLabel24.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_KryptonLabel24.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel25.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel25.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Titre_KryptonLabel22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Titre_KryptonLabel22.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Titre_KryptonLabel22.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel19.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel19.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="PictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Instance_KryptonLabel13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Instance_KryptonLabel13.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Instance_KryptonLabel13.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel14.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel14.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Style_Visual_KryptonLabel11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel10.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel10.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Type_KryptonLabel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Type_KryptonLabel3.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Type_KryptonLabel3.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel5.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel5.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Composition_Chart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Reinitialiser_KryptonButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Reinitialiser_KryptonButton1.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Reinitialiser_KryptonButton1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nom_KryptonLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nom_KryptonLabel.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nom_KryptonLabel.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel7.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel7.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="TableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VB_ListView4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Windows7ProgressBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kryptonPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel4.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel4.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+</root>

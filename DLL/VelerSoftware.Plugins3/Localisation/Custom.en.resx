@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Annuler" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Variables of the application</value>
+  </data>
+  <data name="Application_Path" xml:space="preserve">
+    <value>Is equal to the folder where the application is launched</value>
+  </data>
+  <data name="AucunIndex" xml:space="preserve">
+    <value>No index</value>
+  </data>
+  <data name="Button1" xml:space="preserve">
+    <value>Pour ajouter la valeur d'une variable à ce paramètre, click here</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Insert the CODE tag</value>
+  </data>
+  <data name="CodeEditorDefaultText" xml:space="preserve">
+    <value>' Click on button left-hand corner to update
+' the code generated in Visual Basic.Net in terms 
+' of the parameters above.</value>
+  </data>
+  <data name="Contols" xml:space="preserve">
+    <value>Control properties</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="Environement" xml:space="preserve">
+    <value>Variables of the environment</value>
+  </data>
+  <data name="MainInstruction" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="My_Documents" xml:space="preserve">
+    <value>Is equal to the folder My Documents</value>
+  </data>
+  <data name="My_Movies" xml:space="preserve">
+    <value>Is equal to the folder My Movies</value>
+  </data>
+  <data name="My_Musics" xml:space="preserve">
+    <value>Is equal to the folder My Musics</value>
+  </data>
+  <data name="My_Pictures" xml:space="preserve">
+    <value>Is equal to the folder My Pictures</value>
+  </data>
+  <data name="No_Correction" xml:space="preserve">
+    <value>No suggestions</value>
+  </data>
+  <data name="Parametres_Fonction" xml:space="preserve">
+    <value>Function settings</value>
+  </data>
+  <data name="Parametres_Projet" xml:space="preserve">
+    <value>Project settings</value>
+  </data>
+  <data name="ParserQuestion" xml:space="preserve">
+    <value>Do you really want to recharge the parameters of action according to the Visual Basic.Net code?</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Projet" xml:space="preserve">
+    <value>Variables of the project</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Document properties</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Project resources</value>
+  </data>
+  <data name="Rétablir" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Should_Education" xml:space="preserve">
+    <value>You must activate the Education or Professional Edition to use this feature. To change the edition, use the Tools menu, Options.</value>
+  </data>
+  <data name="Should_Professional" xml:space="preserve">
+    <value>You must activate the Professional Edition to use this feature. To change the edition, use the Tools menu, Options.</value>
+  </data>
+  <data name="Should_Standard" xml:space="preserve">
+    <value>You must activate the Standard, Education or Professional Edition to use this feature. To change the edition, use the Tools menu, Options.</value>
+  </data>
+  <data name="ToolTip1" xml:space="preserve">
+    <value>To add the value of a variable to this parameter, use the right click menu</value>
+  </data>
+  <data name="VariableManager" xml:space="preserve">
+    <value>Variables manager</value>
+  </data>
+</root>

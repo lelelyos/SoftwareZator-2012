@@ -1,0 +1,3995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KryptonSplitContainer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="KryptonSplitContainer1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonSplitContainer1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonSplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 91</value>
+  </data>
+  <data name="KryptonSplitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 45, 45</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.Name" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonSplitterPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ressource_KryptonTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.Name" xml:space="preserve">
+    <value>Ressource_KryptonTextBox</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonTextBox, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Ressource_KryptonTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonWrapLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="KryptonWrapLabel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonWrapLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="KryptonWrapLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonWrapLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="KryptonWrapLabel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonWrapLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 294</value>
+  </data>
+  <data name="KryptonWrapLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.Name" xml:space="preserve">
+    <value>KryptonWrapLabel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonWrapLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;KryptonWrapLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.Name" xml:space="preserve">
+    <value>KryptonSplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonSplitterPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>KryptonSplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KryptonSplitContainer1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonSplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 294</value>
+  </data>
+  <data name="KryptonSplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>307</value>
+  </data>
+  <data name="KryptonSplitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Name" xml:space="preserve">
+    <value>KryptonSplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;KryptonSplitContainer1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonSplitContainer, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="kryptonPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel23.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 0</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 26</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ObfuscationLevel_KryptonLabel.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;ObfuscationLevel_KryptonLabel.Name" xml:space="preserve">
+    <value>ObfuscationLevel_KryptonLabel</value>
+  </data>
+  <data name="&gt;&gt;ObfuscationLevel_KryptonLabel.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;ObfuscationLevel_KryptonLabel.Parent" xml:space="preserve">
+    <value>TableLayoutPanel23</value>
+  </data>
+  <data name="&gt;&gt;ObfuscationLevel_KryptonLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 26</value>
+  </data>
+  <data name="KryptonLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel6.Values.Text" xml:space="preserve">
+    <value>Niveau de cryptage du code :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.Name" xml:space="preserve">
+    <value>KryptonLabel6</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.Parent" xml:space="preserve">
+    <value>TableLayoutPanel23</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 697</value>
+  </data>
+  <data name="TableLayoutPanel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel23.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel23.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel23.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel23.Name" xml:space="preserve">
+    <value>TableLayoutPanel23</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel23.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel23.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ObfuscationLevel_KryptonLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel6" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100,Absolute,26" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ColumnHeader8.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="ColumnHeader8.Width" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="ColumnHeader9.Text" xml:space="preserve">
+    <value>Tableau</value>
+  </data>
+  <data name="ColumnHeader9.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="ColumnHeader10.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ColumnHeader10.Width" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="ColumnHeader11.Text" xml:space="preserve">
+    <value>Nulle au démarrage</value>
+  </data>
+  <data name="ColumnHeader11.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="Variables_ListView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Variables_ListView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Variables_ListView.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAdEw6lmYXV0Bfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVudAEA
+        AAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHRGVmYXVsdAs=
+</value>
+  </data>
+  <data name="Variables_ListView.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Variables_ListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 1671</value>
+  </data>
+  <data name="Variables_ListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 0</value>
+  </data>
+  <data name="Variables_ListView.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Variables_ListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 200</value>
+  </data>
+  <data name="Variables_ListView.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;Variables_ListView.Name" xml:space="preserve">
+    <value>Variables_ListView</value>
+  </data>
+  <data name="&gt;&gt;Variables_ListView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Variables_ListView.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Variables_ListView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KryptonLabel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 1639</value>
+  </data>
+  <data name="KryptonLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="KryptonLabel2.Values.Text" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.Name" xml:space="preserve">
+    <value>KryptonLabel2</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ColumnHeader6.Text" xml:space="preserve">
+    <value>Noms des ressources</value>
+  </data>
+  <data name="ColumnHeader6.Width" type="System.Int32, mscorlib">
+    <value>557</value>
+  </data>
+  <data name="Resx_ListView3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Resx_ListView3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Resx_ListView3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Resx_ListView3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 1414</value>
+  </data>
+  <data name="Resx_ListView3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 0</value>
+  </data>
+  <data name="Resx_ListView3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Resx_ListView3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 200</value>
+  </data>
+  <metadata name="ImageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>498, 17</value>
+  </metadata>
+  <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABK
+        FAAAAk1TRnQBSQFMAgEBBgEAASABAwEgAQMBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIFoAAUoBMAEdAf8BPAEiAQ4B/wE8ASIBDgH/ATwBIgEOAf8BPAEiAQ4B/wE8
+        ASIBDgH/ATwBIgEOAf8BPAEiAQ4B/wE8ASIBDgH/ATwBIgEOAf8BPAEiAQ4B/wE8ASIBDgH/kAAB6QHU
+        AcUB/wGVAVQBQAH/AZUBVAFAAf8BlQFUAUAB/wGVAVQBQAH/AZUBVAFAAf8BlQFUAUAB/wGVAVQBQAH/
+        AZUBVAFAAf8BlQFUAUAB/wGVAVQBQAH/FAABTwE1ASIB/wHvAdMBxgH/Ad4BvwGvAf8B3wG9AasB/wHc
+        AbgBpwH/AdoBtAGiAf8B2AGwAZ0B/wHXAa0BmQH/AdcBrAGWAf8B1wGsAZYB/wHbAawBlQH/ATwBIgEO
+        Af+QAAHpAdQBxQX/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/
+        AekB1AHFAf8B6QHUAcUB/wGVAVQBQAH/FAABUwE6AScB/wH4AeIB2AH/AfoB7gHnAf8B+QHqAeIB/wH3
+        AeUB3QH/AfYB4QHXAf8B9AHdAdEB/wH0AdkBzAH/AfIB1QHHAf8B8gHRAcEB/wHqAcABrAH/ATwBIgEO
+        Af+QAAHpAdQBxRv/AfsC/wH8Ae8B/wHpAdQBxQH/AZUBVAFAAf8UAAGAAUABLgH/AfgB5AHbAf8BuAGk
+        AZQB/wGxAZwBjQH/AaoBlAGEAf8BogGMAVQB/wGaAYQBTAH/AZIBVAFDAf8BiwFMAToB/wGEAUQBMQH/
+        AeoBwAGsAf8BPAEiAQ4B/5AAAekB1AHFH/8B9gH/AekB1AHFAf8BlQFUAUAB/xQAAYYBRgEzAf8B+QHo
+        AeAB/wH8AfQB8QH/AfsB8QHsAf8B+QHuAecB/wH4AekB4gH/AfgB5gHcAf8B9gHhAdcB/wH1Ad0B0gH/
+        AfQB2AHMAf8B6wHDAbAB/wE8ASIBDgH/kAAB6QHUAcUf/wH9Af8B6QHUAcUB/wGVAVQBQAH/FAABiwFM
+        AToB/wH6AesB5AH/Ab0BqQGbAf8BtgGiAZQB/wGwAZsBiwH/AakBkwGDAf8BoQGKAVQB/wGZAYMBSgH/
+        AZEBUwFCAf8BigFLATkB/wHtAccBtgH/ATwBIgEOAf+QAAHsAdcByCH/AekB1AHFAf8BlQFUAUAB/xQA
+        AZEBUgFBAf8B+wHuAecB/wH9AfoB+QH/AfwB+AH1Af8B/AH1AfEB/wH7AfEB7AH/AfoB7QHnAf8B+AHp
+        AeIB/wH4AeUB3AH/AfYB4QHXAf8B7gHNAbwB/wE8ASIBDgH/kAAB8AHbAcwh/wHpAdQBxQH/AZUBVAFA
+        Af8UAAGXAYABSAH/AfwB8AHsAf8BwgGuAaEB/wG9AagBmgH/AbYBogGSAf8BrwGZAYsB/wGnAZIBgwH/
+        AaABigFSAf8BmAGBAUkB/wGRAVIBQQH/AfAB0gHDAf8BPAEiAQ4B/5AAAfUB4AHQIf8B6QHUAcUB/wGV
+        AVQBQAH/FAABnQGGAU8B/wH9AfMB8Ab/Af0B/AH/Af4B+wH6Af8B/QH4AfYB/wH8AfUB8QH/AfsB8QHt
+        Af8B+QHtAecB/wH4AekB4gH/AfMB1gHJAf8BPAEiAQ4B/5AAAfoB5AHVIf8B6QHUAcUB/wGVAVQBQAH/
+        FAABowGMAVYB/wH8AfUB8gH/AcYBswGmAf8BwQGtAaAB/wG7AacBmQH/AbUBoQGRAf8BrgGZAYoB/wGm
+        AZEBgQH/AZ8BiAFRAf8BlwGAAUgB/wH0AdwB0AH/ATwBIgEOAf+QAAH+AegB2R3/AekB1AHFAf8B6QHU
+        AcUB/wGWAVUBQQH/FAABqAGTAYMB/wH+AfgB9Q3/Af4B/QH8Af8B/gH7AfkB/wH9AfgB9QH/AfwB9AHx
+        Af8B+wHxAe0B/wH3AeIB1wH/ATwBIgEOAf+QAAH/Ae0B3Rn/AekB1AHFAf8BlgFVAUEB/wGWAVUBQQH/
+        AZYBVQFBAf8UAAGuAZkBigH/Af4B+QH3Af8ByQG3AakB/wHFAbIBpAH/AcABrAGeAf8BuwGmAZgB/wG0
+        AZ8BkAH/Af4B+gH5Af8B/QH3AfUB/wH8AfQB8QH/AfsB6gHgAf8BPAEiAQ4B/5AAAf8B8QHhGf8B6wHW
+        AccC/wH3AewB/wGWAVUBQQH/A0oBjBQAAbMBnwGPAf8B/gH7AfkV/wH+Af0B/AH/AaIBjAFVAf8BRQEq
+        ARYB/wFFASoBFgH/ATwBIgEOAf+QAAH/AfQB5Bn/AfIB3QHOAf8BlgFVAUEB/wNKAYsYAAG4AaQBlQH/
+        Af4B/AH7Gf8BogGMAVUB/wHnAd4B2AH/AaMBjQFWAf+UAAH/AfQB5AL/AfQB5AL/AfQB5AL/AfQB5AL/
+        AfQB5AL/AfAB4AL/AesB2wH/AfsB5QHWAf8DSgGLHAABvQGoAZsd/wGiAYwBVQH/AaMBjQFWAf/YAAHC
+        Aa4BoAH/Ab0BqAGbAf8BuAGkAZUB/wGzAZ8BkAH/Aa4BmQGKAf8BqAGTAYMB/wGjAY0BVgH/AZ0BhgFP
+        Af8BlwGAAUgB//8A/wAWAANZAccBAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/
+        AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGM
+        AakB/wEAAYwBqQH/A1kBxwQAATQBhQGcAf8BJgE0AUMB/wEhAS8BPgH/AR0BKgE6Af8BGQEmATUB/wEW
+        ASIBMQH/ARMBHwEtAf8BEgEdASsB/wEPARoBKAH/AQ4BGAEmAf8BDAEXASMB/wEMARYBIgH/AQoBFAEf
+        Af8BCgETAR4B/4QAAVsCXgHZAQAByQHpAf8BAAHGAfEB/wEAAcIB8AH/AQABwQHwAf8BAAHAAfAB/wEA
+        AcEB8AH/AQABwQHwAf8BAAHBAfAB/wEAAcEB8AH/AQABwgHwAf8BAAHDAfAB/wEAAcMB8AH/AQABxAHx
+        Af8BAAHDAeQB/wFbAl4B2QQAATgBiQGgAf8BjAHRAZkB/wGKAdIBmQH/AVABxgGJAf8BOQG4AU4B/wEj
+        AaoBPQH/AQ4BnQErAf8BAAGQARsB/wEAAYkBEQH/AQABiQERAf8BAAGJAREB/wEAAVIBEAH/ASYBFAEF
+        Af8BCwEVASAB/4QAA04BmQEAAa4BzwH/AQABzQHyAf8BAAHIAfEB/wEAAcUB8QH/AQABxAHxAf8BAAHD
+        AfAB/wMAAf8DAAH/AQABxgHxAf8BAAHIAfEB/wEAAcoB8gH/AQABygHyAf8BAAHMAfEB/wEAAasBzQH/
+        A04BmQQAATsBjQGkAf8BuwHmAcMB/wGoAeABswH/AZMB1wGgAf8BVwHJAY8B/wE/AbsBVAH/ASgBrQFA
+        Af8BDwGdASsB/wEAAY8BGgH/AQABiQERAf8BHQEyAQ4B/wFHATIBIwH/ATwBJwEZAf8BDAEVASEB/4QA
+        AxQBGwFbAl4B2QEAAcYB5AH/AQAB0QHzAf8BAAHNAfIB/wEAAcsB8gH/AQABygHyAf8DAAH/AwAB/wEA
+        Ac0B8wH/AQAB0QHzAf8BAAHSAfQB/wEAAdMB9AH/AQABxQHjAf8BWwJeAdkDFAEbBAABPgGSAacB/wGl
+        Ad4BsAH/AdEB7wHWAf8BqAHgAbMB/wGOAdQBnAH/AVEBxQGKAf8BOQG3AU8B/wEiAagBOwH/AQUBlgEk
+        Af8BKAEiAQwB/wGSAVUBSAH/AY0BUQFDAf8DAAH/AQwBFwEjAf8kAAMDAQRgAAFIAkkBhwEAAawBzQH/
+        AQcB2wH0Af8BAwHZAfUB/wEAAdcB9QH/AQAB1gH0Af8BAAHWAfQB/wEBAdcB9QH/AQMB2QH1Af8BAwHZ
+        AfUB/wEFAdsB9QH/AQYB2gHzAf8BAAGqAcsB/wFIAkkBhwgAAUEBlgGrAf8BnAGlAYYB/wGoAeABswH/
+        AdEB7wHWAf8BqAHgAbMB/wGKAdEBmQH/AUsBwQGFAf8BLwGwAUYB/wE6AUcBKwH/Ab8BqwGhAf8BswGd
+        AZAB/wMAAf8BrgGRAYMB/wEOARgBJQH/IAADEgEZA00BlgMSARlcAAMNARIBWwJeAdkBAAHGAd8B/wES
+        AeYB+AH/AREB5AH3Af8BEAHjAfcB/wEAATsBRAH/AQABOwFEAf8BDgHiAfcB/wEOAeIB9wH/AQ8B4wH3
+        Af8BAAHHAeAB/wFbAl4B2QMNARIIAAFEAZoBrwH/Ae0B4wHdAf8BnAGfAYMB/wGmAd8BsQH/AdAB7gHW
+        Af8BpQHeAbAB/wGAAcsBkAH/AUEBUQEzAf8BzwG8AbIB/wHTAcEBtwH/AwAB/wHsAbYBmQH/AbQBlgGH
+        Af8BDwEZASYB/xwAAxABFgNWAbMDAAH/A1YBswMQARYoAAMFAQcDRQF9A1EB9wMAAf8DUQH3A0UBfQMF
+        AQcYAANDAXgBAAGqAcsB/wEaAeoB9gH/AR4B8AH6Af8BHAHuAfkB/wMAAf8DAAH/ARgB6gH5Af8BGAHq
+        AfkB/wETAeUB9QH/AQABqgHLAf8DQwF4DAABSAGdAbIC/wH8AfsB/wHtAeMB3QH/AZwBgwFLAf8BpgHe
+        AbAB/wGxAeIBugH/AUEBNwEjAf8BzgGuAZsB/wE+ASgBGQH/AT4BKAEZAf8B2AGwAZkB/wH7AcEBogH/
+        AbsBmwGMAf8BEAEcASkB/xgAAwQBBQM4AV4DVgG5A1cBvwNWAbkDOAFeAwQBBSgAAw0BEQNLAY8DUwHx
+        A0sBjwMNAREcAAMJAQwBWwJeAdkBAAHCAdsB/wEiAfMB+wH/ASEB8QH6Af8DAAH/AwAB/wEdAe8B+gH/
+        AR0B7wH6Af8BAAHGAd8B/wFbAl4B2QMJAQwMAAFLAaIBtQL/AfwB+wL/AfwB+wH/AekB3gHYAf8BnAGD
+        AUsB/wGbAYIBSgH/Ae4B1gHJAf8B/QHfAc8B/wH9AdcBwwH/AfwB0AG5Af8B/AHKAbAB/wH7AcUBqAH/
+        AcIBoQGQAf8BEwEeASwB/2AAAw0BEQM8AWcDDQERJAADPQFpAQABqQHLAf8BHAHqAfQB/wEkAfQB+wH/
+        AwAB/wMAAf8BIgHyAfoB/wEbAeoB9gH/AQABqQHLAf8DPQFpEAABTgGlAbgC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/Af4B7QHkAf8B1AHFAdIB/wEAASwBywH/AQABKgHGAf8B0QGxAa8B/wH8
+        AcoBsAH/AcoBpwGVAf8BFQEgAS8B/2QAAwEBAigAAwQBBgFbAl4B2QEAAb8B2QH/AS4B9gH7Af8DAAH/
+        AwAB/wElAfUB+wH/AQABxgHdAf8BWwJeAdkDBAEGEAABUAGoAbwC/wH8AfsC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/AQkBNwHUAf8BSwG+AfkB/wEdAYwBywH/AQABKgHGAf8B/AHQAbkB/wHS
+        Aa0BmgH/ARcBIwEyAf+UAAM3AVoBAAGpAcoB/wEbAegB8wH/ASUB9QH7Af8BJQH1AfsB/wEeAe0B9gH/
+        AQABqQHLAf8DNwFaFAABUgGrAb4C/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH4AfUB/wEK
+        ATkB1wH/AbkB5AL/AUsBvgH5Af8BAAEsAcsB/wH9AdcBwwH/AdkBswGfAf8BGwEnATYB/5QAAwIBAwFb
+        Al4B2QEAAbsB1gH/ASUB9QH7Af8BJQH1AfsB/wEAAcYB3QH/AVsCXgHZAwIBAxQAAVUBrgHAAv8B/AH7
+        Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Af8B1wHUAewB/wEKATkB1wH/AQkBOAHUAf8B1AHF
+        AdIB/wH9Ad8BzwH/Ad4BtwGjAf8BHgErAToB/5gAAy4BSAEAAagBygH/ARgB5QHxAf8BHgHsAfUB/wEA
+        AakBywH/Ay4BSBgAAVcBsAHCAv8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7
+        Av8B+AH1Af8B/gHzAe0B/wH+Ae0B5AH/Af0B5gHaAf8B/QHfAc8B/wEiAS8BPwH/nAABWwJeAdkBAAG5
+        AdUB/wEAAcYB3QH/AVsCXgHZHAABWAGyAcQB/wFWAbABwwH/AVQBrQHAAf8BUgGrAb4B/wFQAagBuwH/
+        AU0BpQG4Af8BSgGhAbUB/wFIAZ4BsgH/AUUBmgGvAf8BQgGVAasB/wE+AZIBqAH/ATsBjQGkAf8BOAGJ
+        AaAB/wE0AYQBnAH/nAADJgE5AVkCYAHrAVkCYAHrAyYBOVgAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA/8BAAL/AcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABDwHAAQcEAAHAAR8BwAEPBAAC/wHAAR8EAAz/AgABgAEB
+        BP8CAAGAAQEE/wIAAYABAQT/AgABgAEBAf8BfwL/AYABAQGAAQEB/gE/Av8BgAEBAYABAQH8AR8B+AEP
+        AcABAwGAAQEB+AEPAfwBHwHAAQMBgAEBAv8B/gE/AeABBwGAAQED/wF/AeABBwGAAQEE/wHwAQ8BgAEB
+        BP8B8AEPAYABAQT/AfgBHwGAAQEE/wH8AT8BgAEBBP8B/AE/Av8L
+</value>
+  </data>
+  <data name="Resx_ListView3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;Resx_ListView3.Name" xml:space="preserve">
+    <value>Resx_ListView3</value>
+  </data>
+  <data name="&gt;&gt;Resx_ListView3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Resx_ListView3.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Resx_ListView3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="KryptonLabel48.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel48.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 1382</value>
+  </data>
+  <data name="KryptonLabel48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel48.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel48.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="KryptonLabel48.Values.Text" xml:space="preserve">
+    <value>Ressources réutilisables</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel48.Name" xml:space="preserve">
+    <value>KryptonLabel48</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel48.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel48.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel48.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ColumnHeader5.Text" xml:space="preserve">
+    <value>Nom des paramètres</value>
+  </data>
+  <data name="ColumnHeader5.Width" type="System.Int32, mscorlib">
+    <value>557</value>
+  </data>
+  <data name="Settings_ListView2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Settings_ListView2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Settings_ListView2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Settings_ListView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 1157</value>
+  </data>
+  <data name="Settings_ListView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 0</value>
+  </data>
+  <data name="Settings_ListView2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Settings_ListView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 200</value>
+  </data>
+  <data name="Settings_ListView2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Settings_ListView2.Name" xml:space="preserve">
+    <value>Settings_ListView2</value>
+  </data>
+  <data name="&gt;&gt;Settings_ListView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings_ListView2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Settings_ListView2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="KryptonLabel47.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel47.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 1125</value>
+  </data>
+  <data name="KryptonLabel47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel47.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel47.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="KryptonLabel47.Values.Text" xml:space="preserve">
+    <value>Paramètres d'application</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel47.Name" xml:space="preserve">
+    <value>KryptonLabel47</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel47.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel47.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel47.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ColumnHeader1.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="ColumnHeader1.Width" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="ColumnHeader2.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ColumnHeader2.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="ColumnHeader3.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="ColumnHeader3.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="ColumnHeader4.Text" xml:space="preserve">
+    <value>Chemin</value>
+  </data>
+  <data name="ColumnHeader4.Width" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="References_ListView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="References_ListView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="References_ListView1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="References_ListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 900</value>
+  </data>
+  <data name="References_ListView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 0</value>
+  </data>
+  <data name="References_ListView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="References_ListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 200</value>
+  </data>
+  <data name="References_ListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;References_ListView1.Name" xml:space="preserve">
+    <value>References_ListView1</value>
+  </data>
+  <data name="&gt;&gt;References_ListView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;References_ListView1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;References_ListView1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="KryptonLabel45.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 868</value>
+  </data>
+  <data name="KryptonLabel45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel45.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel45.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="KryptonLabel45.Values.Text" xml:space="preserve">
+    <value>Bibliothèques de fonctions réutilisables dans le projet</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel45.Name" xml:space="preserve">
+    <value>KryptonLabel45</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel45.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel45.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel45.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TableLayoutPanel22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel22.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="KryptonLabel46.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel46.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 0</value>
+  </data>
+  <data name="KryptonLabel46.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 20</value>
+  </data>
+  <data name="KryptonLabel46.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel46.Values.Text" xml:space="preserve">
+    <value>Fichiers Visual Basic.Net incluent au projet :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel46.Name" xml:space="preserve">
+    <value>KryptonLabel46</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel46.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel46.Parent" xml:space="preserve">
+    <value>TableLayoutPanel22</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel46.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 723</value>
+  </data>
+  <data name="TableLayoutPanel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel22.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel22.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 20</value>
+  </data>
+  <data name="TableLayoutPanel22.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel22.Name" xml:space="preserve">
+    <value>TableLayoutPanel22</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel22.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel22.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TableLayoutPanel22.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="KryptonLabel46" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel21.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CPU_KryptonLabel43.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CPU_KryptonLabel43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="CPU_KryptonLabel43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CPU_KryptonLabel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 0</value>
+  </data>
+  <data name="CPU_KryptonLabel43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="CPU_KryptonLabel43.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPU_KryptonLabel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 26</value>
+  </data>
+  <data name="CPU_KryptonLabel43.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CPU_KryptonLabel43.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;CPU_KryptonLabel43.Name" xml:space="preserve">
+    <value>CPU_KryptonLabel43</value>
+  </data>
+  <data name="&gt;&gt;CPU_KryptonLabel43.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;CPU_KryptonLabel43.Parent" xml:space="preserve">
+    <value>TableLayoutPanel21</value>
+  </data>
+  <data name="&gt;&gt;CPU_KryptonLabel43.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel44.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel44.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 26</value>
+  </data>
+  <data name="KryptonLabel44.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel44.Values.Text" xml:space="preserve">
+    <value>Processeur ciblé :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel44.Name" xml:space="preserve">
+    <value>KryptonLabel44</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel44.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel44.Parent" xml:space="preserve">
+    <value>TableLayoutPanel21</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel44.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 671</value>
+  </data>
+  <data name="TableLayoutPanel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel21.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel21.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel21.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel21.Name" xml:space="preserve">
+    <value>TableLayoutPanel21</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel21.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel21.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="TableLayoutPanel21.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="CPU_KryptonLabel43" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel44" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100,Absolute,26" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel20.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 0</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 26</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Optimiser_KryptonLabel41.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonLabel41.Name" xml:space="preserve">
+    <value>Optimiser_KryptonLabel41</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonLabel41.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonLabel41.Parent" xml:space="preserve">
+    <value>TableLayoutPanel20</value>
+  </data>
+  <data name="&gt;&gt;Optimiser_KryptonLabel41.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel42.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel42.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 26</value>
+  </data>
+  <data name="KryptonLabel42.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel42.Values.Text" xml:space="preserve">
+    <value>Optimisation des codes :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel42.Name" xml:space="preserve">
+    <value>KryptonLabel42</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel42.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel42.Parent" xml:space="preserve">
+    <value>TableLayoutPanel20</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel42.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 645</value>
+  </data>
+  <data name="TableLayoutPanel20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel20.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel20.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel20.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel20.Name" xml:space="preserve">
+    <value>TableLayoutPanel20</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel20.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel20.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="TableLayoutPanel20.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Optimiser_KryptonLabel41" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel42" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel19.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 0</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 26</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Dossier_Generation_KryptonLabel39.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Dossier_Generation_KryptonLabel39.Name" xml:space="preserve">
+    <value>Dossier_Generation_KryptonLabel39</value>
+  </data>
+  <data name="&gt;&gt;Dossier_Generation_KryptonLabel39.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Dossier_Generation_KryptonLabel39.Parent" xml:space="preserve">
+    <value>TableLayoutPanel19</value>
+  </data>
+  <data name="&gt;&gt;Dossier_Generation_KryptonLabel39.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel40.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel40.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 26</value>
+  </data>
+  <data name="KryptonLabel40.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel40.Values.Text" xml:space="preserve">
+    <value>Dossier de génération :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel40.Name" xml:space="preserve">
+    <value>KryptonLabel40</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel40.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel40.Parent" xml:space="preserve">
+    <value>TableLayoutPanel19</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel40.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 619</value>
+  </data>
+  <data name="TableLayoutPanel19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel19.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel19.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel19.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel19.Name" xml:space="preserve">
+    <value>TableLayoutPanel19</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel19.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel19.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TableLayoutPanel19.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Dossier_Generation_KryptonLabel39" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel40" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KryptonLabel38.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 587</value>
+  </data>
+  <data name="KryptonLabel38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel38.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel38.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="KryptonLabel38.Values.Text" xml:space="preserve">
+    <value>Informations sur la génération</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel38.Name" xml:space="preserve">
+    <value>KryptonLabel38</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel38.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel38.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel38.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="TableLayoutPanel18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel18.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Marque_KryptonLabel36.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Marque_KryptonLabel36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Marque_KryptonLabel36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Marque_KryptonLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="Marque_KryptonLabel36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Marque_KryptonLabel36.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Marque_KryptonLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 26</value>
+  </data>
+  <data name="Marque_KryptonLabel36.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Marque_KryptonLabel36.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonLabel36.Name" xml:space="preserve">
+    <value>Marque_KryptonLabel36</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonLabel36.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonLabel36.Parent" xml:space="preserve">
+    <value>TableLayoutPanel18</value>
+  </data>
+  <data name="&gt;&gt;Marque_KryptonLabel36.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel37.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel37.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 26</value>
+  </data>
+  <data name="KryptonLabel37.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel37.Values.Text" xml:space="preserve">
+    <value>Marque :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel37.Name" xml:space="preserve">
+    <value>KryptonLabel37</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel37.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel37.Parent" xml:space="preserve">
+    <value>TableLayoutPanel18</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel37.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 536</value>
+  </data>
+  <data name="TableLayoutPanel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel18.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel18.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel18.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel18.Name" xml:space="preserve">
+    <value>TableLayoutPanel18</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel18.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel18.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TableLayoutPanel18.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Marque_KryptonLabel36" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel37" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel17.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 0</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 26</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Version_Assembly_KryptonLabel34.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Version_Assembly_KryptonLabel34.Name" xml:space="preserve">
+    <value>Version_Assembly_KryptonLabel34</value>
+  </data>
+  <data name="&gt;&gt;Version_Assembly_KryptonLabel34.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Version_Assembly_KryptonLabel34.Parent" xml:space="preserve">
+    <value>TableLayoutPanel17</value>
+  </data>
+  <data name="&gt;&gt;Version_Assembly_KryptonLabel34.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel35.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel35.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 26</value>
+  </data>
+  <data name="KryptonLabel35.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel35.Values.Text" xml:space="preserve">
+    <value>Version de l'assembly :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel35.Name" xml:space="preserve">
+    <value>KryptonLabel35</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel35.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel35.Parent" xml:space="preserve">
+    <value>TableLayoutPanel17</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel35.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 510</value>
+  </data>
+  <data name="TableLayoutPanel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel17.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel17.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel17.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel17.Name" xml:space="preserve">
+    <value>TableLayoutPanel17</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel17.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel17.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TableLayoutPanel17.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Version_Assembly_KryptonLabel34" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel35" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel16.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 0</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 26</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Version_Fichier_KryptonLabel32.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Version_Fichier_KryptonLabel32.Name" xml:space="preserve">
+    <value>Version_Fichier_KryptonLabel32</value>
+  </data>
+  <data name="&gt;&gt;Version_Fichier_KryptonLabel32.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Version_Fichier_KryptonLabel32.Parent" xml:space="preserve">
+    <value>TableLayoutPanel16</value>
+  </data>
+  <data name="&gt;&gt;Version_Fichier_KryptonLabel32.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel33.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel33.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 26</value>
+  </data>
+  <data name="KryptonLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel33.Values.Text" xml:space="preserve">
+    <value>Version du fichier :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel33.Name" xml:space="preserve">
+    <value>KryptonLabel33</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel33.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel33.Parent" xml:space="preserve">
+    <value>TableLayoutPanel16</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel33.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 484</value>
+  </data>
+  <data name="TableLayoutPanel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel16.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel16.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel16.Name" xml:space="preserve">
+    <value>TableLayoutPanel16</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel16.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel16.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TableLayoutPanel16.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Version_Fichier_KryptonLabel32" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel33" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel15.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 0</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 26</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Copyright_KryptonLabel30.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonLabel30.Name" xml:space="preserve">
+    <value>Copyright_KryptonLabel30</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonLabel30.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonLabel30.Parent" xml:space="preserve">
+    <value>TableLayoutPanel15</value>
+  </data>
+  <data name="&gt;&gt;Copyright_KryptonLabel30.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel31.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 26</value>
+  </data>
+  <data name="KryptonLabel31.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel31.Values.Text" xml:space="preserve">
+    <value>Copyright :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel31.Name" xml:space="preserve">
+    <value>KryptonLabel31</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel31.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel31.Parent" xml:space="preserve">
+    <value>TableLayoutPanel15</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel31.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 458</value>
+  </data>
+  <data name="TableLayoutPanel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel15.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel15.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel15.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel15.Name" xml:space="preserve">
+    <value>TableLayoutPanel15</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel15.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel15.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="TableLayoutPanel15.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Copyright_KryptonLabel30" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel31" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel14.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Produit_KryptonLabel28.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Produit_KryptonLabel28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Produit_KryptonLabel28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Produit_KryptonLabel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="Produit_KryptonLabel28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Produit_KryptonLabel28.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Produit_KryptonLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>533, 26</value>
+  </data>
+  <data name="Produit_KryptonLabel28.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Produit_KryptonLabel28.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonLabel28.Name" xml:space="preserve">
+    <value>Produit_KryptonLabel28</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonLabel28.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonLabel28.Parent" xml:space="preserve">
+    <value>TableLayoutPanel14</value>
+  </data>
+  <data name="&gt;&gt;Produit_KryptonLabel28.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel29.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel29.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="KryptonLabel29.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel29.Values.Text" xml:space="preserve">
+    <value>Produit :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel29.Name" xml:space="preserve">
+    <value>KryptonLabel29</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel29.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel29.Parent" xml:space="preserve">
+    <value>TableLayoutPanel14</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel29.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 432</value>
+  </data>
+  <data name="TableLayoutPanel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel14.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel14.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel14.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel14.Name" xml:space="preserve">
+    <value>TableLayoutPanel14</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel14.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel14.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TableLayoutPanel14.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Produit_KryptonLabel28" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel29" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel13.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Societe_KryptonLabel26.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Societe_KryptonLabel26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Societe_KryptonLabel26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Societe_KryptonLabel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="Societe_KryptonLabel26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Societe_KryptonLabel26.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Societe_KryptonLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>533, 26</value>
+  </data>
+  <data name="Societe_KryptonLabel26.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Societe_KryptonLabel26.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Societe_KryptonLabel26.Name" xml:space="preserve">
+    <value>Societe_KryptonLabel26</value>
+  </data>
+  <data name="&gt;&gt;Societe_KryptonLabel26.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Societe_KryptonLabel26.Parent" xml:space="preserve">
+    <value>TableLayoutPanel13</value>
+  </data>
+  <data name="&gt;&gt;Societe_KryptonLabel26.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel27.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel27.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="KryptonLabel27.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel27.Values.Text" xml:space="preserve">
+    <value>Société :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel27.Name" xml:space="preserve">
+    <value>KryptonLabel27</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel27.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel27.Parent" xml:space="preserve">
+    <value>TableLayoutPanel13</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel27.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 406</value>
+  </data>
+  <data name="TableLayoutPanel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel13.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel13.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel13.Name" xml:space="preserve">
+    <value>TableLayoutPanel13</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel13.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel13.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="TableLayoutPanel13.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Societe_KryptonLabel26" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel27" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel12.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Description_KryptonLabel24.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Description_KryptonLabel24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Description_KryptonLabel24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Description_KryptonLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 0</value>
+  </data>
+  <data name="Description_KryptonLabel24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Description_KryptonLabel24.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Description_KryptonLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 26</value>
+  </data>
+  <data name="Description_KryptonLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Description_KryptonLabel24.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonLabel24.Name" xml:space="preserve">
+    <value>Description_KryptonLabel24</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonLabel24.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonLabel24.Parent" xml:space="preserve">
+    <value>TableLayoutPanel12</value>
+  </data>
+  <data name="&gt;&gt;Description_KryptonLabel24.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel25.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel25.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 26</value>
+  </data>
+  <data name="KryptonLabel25.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel25.Values.Text" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel25.Name" xml:space="preserve">
+    <value>KryptonLabel25</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel25.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel25.Parent" xml:space="preserve">
+    <value>TableLayoutPanel12</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel25.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 380</value>
+  </data>
+  <data name="TableLayoutPanel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel12.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel12.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel12.Name" xml:space="preserve">
+    <value>TableLayoutPanel12</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel12.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel12.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="TableLayoutPanel12.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Description_KryptonLabel24" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel25" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel11.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Titre_KryptonLabel22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Titre_KryptonLabel22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Titre_KryptonLabel22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Titre_KryptonLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 0</value>
+  </data>
+  <data name="Titre_KryptonLabel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Titre_KryptonLabel22.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Titre_KryptonLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 26</value>
+  </data>
+  <data name="Titre_KryptonLabel22.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Titre_KryptonLabel22.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonLabel22.Name" xml:space="preserve">
+    <value>Titre_KryptonLabel22</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonLabel22.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonLabel22.Parent" xml:space="preserve">
+    <value>TableLayoutPanel11</value>
+  </data>
+  <data name="&gt;&gt;Titre_KryptonLabel22.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel23.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 26</value>
+  </data>
+  <data name="KryptonLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel23.Values.Text" xml:space="preserve">
+    <value>Titre :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.Name" xml:space="preserve">
+    <value>KryptonLabel23</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.Parent" xml:space="preserve">
+    <value>TableLayoutPanel11</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 354</value>
+  </data>
+  <data name="TableLayoutPanel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel11.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel11.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel11.Name" xml:space="preserve">
+    <value>TableLayoutPanel11</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel11.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel11.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="TableLayoutPanel11.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Titre_KryptonLabel22" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel23" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="KryptonLabel19.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 322</value>
+  </data>
+  <data name="KryptonLabel19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel19.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="KryptonLabel19.Values.Text" xml:space="preserve">
+    <value>Informations d'identification</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.Name" xml:space="preserve">
+    <value>KryptonLabel19</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel19.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="KryptonLabel21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="KryptonLabel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>18, 25, 0, 3</value>
+  </data>
+  <data name="KryptonLabel21.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 29</value>
+  </data>
+  <data name="KryptonLabel21.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel21.Values.Text" xml:space="preserve">
+    <value>Informations sur le projet</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.Name" xml:space="preserve">
+    <value>KryptonLabel21</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel21.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="TableLayoutPanel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel20.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 32</value>
+  </data>
+  <data name="KryptonLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel20.Values.Text" xml:space="preserve">
+    <value>Icône du projet :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.Name" xml:space="preserve">
+    <value>KryptonLabel20</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.Parent" xml:space="preserve">
+    <value>TableLayoutPanel10</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PictureBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 0</value>
+  </data>
+  <data name="PictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="PictureBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel10</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 265</value>
+  </data>
+  <data name="TableLayoutPanel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel10.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 32</value>
+  </data>
+  <data name="TableLayoutPanel10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel10.Name" xml:space="preserve">
+    <value>TableLayoutPanel10</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel10.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel10.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="TableLayoutPanel10.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="KryptonLabel20" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="PictureBox1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel9.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 0</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>501, 26</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Mode_Arrête_KryptonLabel17.Values.Text" xml:space="preserve">
+    <value>Un</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arrête_KryptonLabel17.Name" xml:space="preserve">
+    <value>Mode_Arrête_KryptonLabel17</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arrête_KryptonLabel17.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arrête_KryptonLabel17.Parent" xml:space="preserve">
+    <value>TableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;Mode_Arrête_KryptonLabel17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel18.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="KryptonLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel18.Values.Text" xml:space="preserve">
+    <value>Mode d'arrêt :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.Name" xml:space="preserve">
+    <value>KryptonLabel18</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.Parent" xml:space="preserve">
+    <value>TableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel18.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 239</value>
+  </data>
+  <data name="TableLayoutPanel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel9.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel9.Name" xml:space="preserve">
+    <value>TableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel9.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel9.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="TableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Mode_Arrête_KryptonLabel17" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel18" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel8.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 0</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 26</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Enregistrer_Settings_KryptonLabel15.Values.Text" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="&gt;&gt;Enregistrer_Settings_KryptonLabel15.Name" xml:space="preserve">
+    <value>Enregistrer_Settings_KryptonLabel15</value>
+  </data>
+  <data name="&gt;&gt;Enregistrer_Settings_KryptonLabel15.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Enregistrer_Settings_KryptonLabel15.Parent" xml:space="preserve">
+    <value>TableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;Enregistrer_Settings_KryptonLabel15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 26</value>
+  </data>
+  <data name="KryptonLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel16.Values.Text" xml:space="preserve">
+    <value>Enregistrer les paramètres d'application lors de l'arrêt du logiciel :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.Name" xml:space="preserve">
+    <value>KryptonLabel16</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.Parent" xml:space="preserve">
+    <value>TableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 213</value>
+  </data>
+  <data name="TableLayoutPanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel8.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel8.Name" xml:space="preserve">
+    <value>TableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel8.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel8.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="TableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Enregistrer_Settings_KryptonLabel15" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel16" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel7.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Instance_KryptonLabel13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Instance_KryptonLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Instance_KryptonLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Instance_KryptonLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 0</value>
+  </data>
+  <data name="Instance_KryptonLabel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Instance_KryptonLabel13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Instance_KryptonLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 26</value>
+  </data>
+  <data name="Instance_KryptonLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Instance_KryptonLabel13.Values.Text" xml:space="preserve">
+    <value>Instance</value>
+  </data>
+  <data name="&gt;&gt;Instance_KryptonLabel13.Name" xml:space="preserve">
+    <value>Instance_KryptonLabel13</value>
+  </data>
+  <data name="&gt;&gt;Instance_KryptonLabel13.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Instance_KryptonLabel13.Parent" xml:space="preserve">
+    <value>TableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;Instance_KryptonLabel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel14.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 26</value>
+  </data>
+  <data name="KryptonLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel14.Values.Text" xml:space="preserve">
+    <value>Interdire de lancer l'application plusieurs fois en même temps :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.Name" xml:space="preserve">
+    <value>KryptonLabel14</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.Parent" xml:space="preserve">
+    <value>TableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 187</value>
+  </data>
+  <data name="TableLayoutPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel7.Name" xml:space="preserve">
+    <value>TableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel7.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel7.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="TableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Instance_KryptonLabel13" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel14" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 0</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>512, 26</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Style_Visual_KryptonLabel11.Values.Text" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="&gt;&gt;Style_Visual_KryptonLabel11.Name" xml:space="preserve">
+    <value>Style_Visual_KryptonLabel11</value>
+  </data>
+  <data name="&gt;&gt;Style_Visual_KryptonLabel11.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Style_Visual_KryptonLabel11.Parent" xml:space="preserve">
+    <value>TableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;Style_Visual_KryptonLabel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 26</value>
+  </data>
+  <data name="KryptonLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Values.Text" xml:space="preserve">
+    <value>Style visuel :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.Name" xml:space="preserve">
+    <value>KryptonLabel12</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.Parent" xml:space="preserve">
+    <value>TableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 161</value>
+  </data>
+  <data name="TableLayoutPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel6.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel6.Name" xml:space="preserve">
+    <value>TableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel6.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel6.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="TableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Style_Visual_KryptonLabel11" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel12" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 0</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 26</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonLabel9.Values.Text" xml:space="preserve">
+    <value>Ecran</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonLabel9.Name" xml:space="preserve">
+    <value>Ecran_Demarrage_KryptonLabel9</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonLabel9.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonLabel9.Parent" xml:space="preserve">
+    <value>TableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;Ecran_Demarrage_KryptonLabel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 26</value>
+  </data>
+  <data name="KryptonLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.Values.Text" xml:space="preserve">
+    <value>Ecran de démarrage :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.Name" xml:space="preserve">
+    <value>KryptonLabel10</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.Parent" xml:space="preserve">
+    <value>TableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 135</value>
+  </data>
+  <data name="TableLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel5.Name" xml:space="preserve">
+    <value>TableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel5.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="TableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Ecran_Demarrage_KryptonLabel9" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel10" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 0</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 26</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Fenêtre_Demarrage_KryptonLabel6.Values.Text" xml:space="preserve">
+    <value>fenêtre</value>
+  </data>
+  <data name="&gt;&gt;Fenêtre_Demarrage_KryptonLabel6.Name" xml:space="preserve">
+    <value>Fenêtre_Demarrage_KryptonLabel6</value>
+  </data>
+  <data name="&gt;&gt;Fenêtre_Demarrage_KryptonLabel6.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Fenêtre_Demarrage_KryptonLabel6.Parent" xml:space="preserve">
+    <value>TableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;Fenêtre_Demarrage_KryptonLabel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="KryptonLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.Values.Text" xml:space="preserve">
+    <value>Fenêtre ou fonction de démarrage :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.Name" xml:space="preserve">
+    <value>KryptonLabel8</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.Parent" xml:space="preserve">
+    <value>TableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 109</value>
+  </data>
+  <data name="TableLayoutPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel4.Name" xml:space="preserve">
+    <value>TableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel4.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="TableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Fenêtre_Demarrage_KryptonLabel6" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel8" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Type_KryptonLabel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Type_KryptonLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Type_KryptonLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Type_KryptonLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 0</value>
+  </data>
+  <data name="Type_KryptonLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Type_KryptonLabel3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Type_KryptonLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 26</value>
+  </data>
+  <data name="Type_KryptonLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Type_KryptonLabel3.Values.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;Type_KryptonLabel3.Name" xml:space="preserve">
+    <value>Type_KryptonLabel3</value>
+  </data>
+  <data name="&gt;&gt;Type_KryptonLabel3.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Type_KryptonLabel3.Parent" xml:space="preserve">
+    <value>TableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;Type_KryptonLabel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 26</value>
+  </data>
+  <data name="KryptonLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel5.Values.Text" xml:space="preserve">
+    <value>Type du projet :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.Name" xml:space="preserve">
+    <value>KryptonLabel5</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.Parent" xml:space="preserve">
+    <value>TableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 83</value>
+  </data>
+  <data name="TableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel3.Name" xml:space="preserve">
+    <value>TableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel3.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="TableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Type_KryptonLabel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel5" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Composition_Chart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Composition_Chart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Composition_Chart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1891</value>
+  </data>
+  <data name="Composition_Chart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="Composition_Chart.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Composition_Chart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 230</value>
+  </data>
+  <data name="Composition_Chart.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;Composition_Chart.Name" xml:space="preserve">
+    <value>Composition_Chart</value>
+  </data>
+  <data name="&gt;&gt;Composition_Chart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;Composition_Chart.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Composition_Chart.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2121</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 350</value>
+  </data>
+  <data name="Generation_Succes_Echecs_Chart.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Generation_Succes_Echecs_Chart.Name" xml:space="preserve">
+    <value>Generation_Succes_Echecs_Chart</value>
+  </data>
+  <data name="&gt;&gt;Generation_Succes_Echecs_Chart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;Generation_Succes_Echecs_Chart.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Generation_Succes_Echecs_Chart.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Reinitialiser_KryptonButton1.Values.Text" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="&gt;&gt;Reinitialiser_KryptonButton1.Name" xml:space="preserve">
+    <value>Reinitialiser_KryptonButton1</value>
+  </data>
+  <data name="&gt;&gt;Reinitialiser_KryptonButton1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Reinitialiser_KryptonButton1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Reinitialiser_KryptonButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Panel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2471</value>
+  </data>
+  <data name="Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 111</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="TableLayoutPanel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Nom_KryptonLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Nom_KryptonLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Nom_KryptonLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Nom_KryptonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 0</value>
+  </data>
+  <data name="Nom_KryptonLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 45, 0</value>
+  </data>
+  <data name="Nom_KryptonLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Nom_KryptonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 26</value>
+  </data>
+  <data name="Nom_KryptonLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Nom_KryptonLabel.Values.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;Nom_KryptonLabel.Name" xml:space="preserve">
+    <value>Nom_KryptonLabel</value>
+  </data>
+  <data name="&gt;&gt;Nom_KryptonLabel.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;Nom_KryptonLabel.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;Nom_KryptonLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="KryptonLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="KryptonLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 0, 0</value>
+  </data>
+  <data name="KryptonLabel7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="KryptonLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel7.Values.Text" xml:space="preserve">
+    <value>Nom du projet :</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.Name" xml:space="preserve">
+    <value>KryptonLabel7</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 57</value>
+  </data>
+  <data name="TableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 26</value>
+  </data>
+  <data name="TableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Name" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="TableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Nom_KryptonLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel7" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ColumnHeader7.Text" xml:space="preserve">
+    <value>Fichiers</value>
+  </data>
+  <data name="ColumnHeader7.Width" type="System.Int32, mscorlib">
+    <value>557</value>
+  </data>
+  <data name="VB_ListView4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="VB_ListView4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="VB_ListView4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VB_ListView4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 743</value>
+  </data>
+  <data name="VB_ListView4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 0, 45, 0</value>
+  </data>
+  <data name="VB_ListView4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VB_ListView4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 100</value>
+  </data>
+  <data name="VB_ListView4.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;VB_ListView4.Name" xml:space="preserve">
+    <value>VB_ListView4</value>
+  </data>
+  <data name="&gt;&gt;VB_ListView4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VB_ListView4.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;VB_ListView4.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="TableLayoutPanel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TableLayoutPanel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 121</value>
+  </data>
+  <data name="TableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TableLayoutPanel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 2582</value>
+  </data>
+  <data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent" xml:space="preserve">
+    <value>kryptonPanel</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TableLayoutPanel23" Row="23" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Variables_ListView" Row="33" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel2" Row="32" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Resx_ListView3" Row="31" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel48" Row="30" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Settings_ListView2" Row="29" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel47" Row="28" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="References_ListView1" Row="27" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel45" Row="26" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel22" Row="24" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel21" Row="22" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel20" Row="21" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel19" Row="20" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel38" Row="19" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel18" Row="18" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel17" Row="17" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel16" Row="16" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel15" Row="15" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel14" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel13" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel12" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel11" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel19" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="KryptonLabel21" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel10" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel9" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel8" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel7" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel6" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Composition_Chart" Row="34" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Generation_Succes_Echecs_Chart" Row="35" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Panel2" Row="36" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="VB_ListView4" Row="25" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,Absolute,100,AutoSize,0,Absolute,200,AutoSize,0,Absolute,200,AutoSize,0,Absolute,200,AutoSize,0,Absolute,200,Absolute,250,Absolute,350,Absolute,32" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="kryptonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="kryptonPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="kryptonPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="kryptonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="kryptonPanel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="kryptonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 2718</value>
+  </data>
+  <data name="kryptonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Name" xml:space="preserve">
+    <value>kryptonPanel</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonPanel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kryptonPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 60</value>
+  </data>
+  <data name="KryptonButton5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="KryptonButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="KryptonButton5.Values.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonButton5.Name" xml:space="preserve">
+    <value>KryptonButton5</value>
+  </data>
+  <data name="&gt;&gt;KryptonButton5.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonButton, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="KryptonLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="KryptonLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KryptonLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="KryptonLabel4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="KryptonLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 29</value>
+  </data>
+  <data name="KryptonLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="KryptonLabel4.Values.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;KryptonLabel4.Name" xml:space="preserve">
+    <value>KryptonLabel4</value>
+  </data>
+  <data name="&gt;&gt;KryptonLabel4.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.KryptonLabel, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 2718</value>
+  </data>
+  <data name="&gt;&gt;ButtonSpecAny1.Name" xml:space="preserve">
+    <value>ButtonSpecAny1</value>
+  </data>
+  <data name="&gt;&gt;ButtonSpecAny1.Type" xml:space="preserve">
+    <value>VelerSoftware.Design.Toolkit.ButtonSpecAny, VelerSoftware.Design.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader8.Name" xml:space="preserve">
+    <value>ColumnHeader8</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader9.Name" xml:space="preserve">
+    <value>ColumnHeader9</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader10.Name" xml:space="preserve">
+    <value>ColumnHeader10</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader11.Name" xml:space="preserve">
+    <value>ColumnHeader11</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader6.Name" xml:space="preserve">
+    <value>ColumnHeader6</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageList2.Name" xml:space="preserve">
+    <value>ImageList2</value>
+  </data>
+  <data name="&gt;&gt;ImageList2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader5.Name" xml:space="preserve">
+    <value>ColumnHeader5</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader1.Name" xml:space="preserve">
+    <value>ColumnHeader1</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader2.Name" xml:space="preserve">
+    <value>ColumnHeader2</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader3.Name" xml:space="preserve">
+    <value>ColumnHeader3</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader4.Name" xml:space="preserve">
+    <value>ColumnHeader4</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader7.Name" xml:space="preserve">
+    <value>ColumnHeader7</value>
+  </data>
+  <data name="&gt;&gt;ColumnHeader7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker1.Name" xml:space="preserve">
+    <value>BackgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DocStatistiques</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

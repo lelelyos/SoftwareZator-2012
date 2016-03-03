@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KryptonButton10.ToolTip" xml:space="preserve">
+    <value>Click here to access the specific functions of the project</value>
+  </data>
+  <data name="KryptonButton10.Values.Text" xml:space="preserve">
+    <value>Open application events</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Items" xml:space="preserve">
+    <value>At the closing of the startup window</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Items1" xml:space="preserve">
+    <value>When closing the last window on the screen</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Determine if your Windows-based software application must sow when closing the window startup or when closing the last window on the screen</value>
+  </data>
+  <data name="KryptonLabel19.Values.Text" xml:space="preserve">
+    <value>Stop mode :</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>This option saves on the hard drive software parameters (listed in the 'Settings' in the setting of the project) when it stops and reload the next time.</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Save the application settings during shutdown of the software.</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>This option specifies whether the user can launch your software several times at the same time or if it can be launched only once.</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Prohibit launch the application several times at the same time</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>The visual style allows a Windows Application project type to use the style of Microsoft Windows installed on the computer for buttons, menus and more.</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Enable / Disable visual style</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Select the window to display while loading a Windows application. It will closed automatically once loaded your application (optional)</value>
+  </data>
+  <data name="KryptonLabel9.Values.Text" xml:space="preserve">
+    <value>Splash screen :</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>If your project is a Windows application, you must indicate what will be the first window on the screen when your program started.</value>
+  </data>
+  <data name="KryptonLabel8.Values.Text" xml:space="preserve">
+    <value>Window or start function:</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Items" xml:space="preserve">
+    <value>Software with windows</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Items1" xml:space="preserve">
+    <value>Software with the Windows console</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Items2" xml:space="preserve">
+    <value>Librarie of reusable functions</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Enter here the type of your project:
+- Application Windows based software interface consists of windows, buttons, menus and more.
+- Application Console: software based on a Windows console.
+- Library of reusable functions: better known as the 'DLL' is a project bringing together a set of reusable functions for Windows applications, consoles or other libraries.</value>
+  </data>
+  <data name="KryptonLabel7.Values.Text" xml:space="preserve">
+    <value>Project type :</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.ToolTip" xml:space="preserve">
+    <value>Click here to go to the manager of project variables</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Values.Text" xml:space="preserve">
+    <value>Variables manager</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the name of your project (required)</value>
+  </data>
+  <data name="KryptonLabel6.Values.Text" xml:space="preserve">
+    <value>Project name :</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="KryptonLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 29</value>
+  </data>
+  <data name="KryptonLabel1.Values.Text" xml:space="preserve">
+    <value>Information on the Project</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.ToolTip" xml:space="preserve">
+    <value>Click here to change the icon for your project</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Values.Text" xml:space="preserve">
+    <value>Changing the software icon</value>
+  </data>
+  <data name="KryptonPage1.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="KryptonButton11.ToolTip" xml:space="preserve">
+    <value>Generate a new GUID key.</value>
+  </data>
+  <data name="Guid_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the GUID for your project</value>
+  </data>
+  <data name="Marque_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the brand of your project</value>
+  </data>
+  <data name="KryptonLabel17.Values.Text" xml:space="preserve">
+    <value>Mark :</value>
+  </data>
+  <data name="KryptonLabel16.Values.Text" xml:space="preserve">
+    <value>Assembly version :</value>
+  </data>
+  <data name="KryptonLabel15.Values.Text" xml:space="preserve">
+    <value>File version :</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the copyright of your project</value>
+  </data>
+  <data name="Produit_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the product name belongs to your project</value>
+  </data>
+  <data name="KryptonLabel13.Values.Text" xml:space="preserve">
+    <value>Product :</value>
+  </data>
+  <data name="Societe_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the company of your project</value>
+  </data>
+  <data name="KryptonLabel12.Values.Text" xml:space="preserve">
+    <value>Socity :</value>
+  </data>
+  <data name="Description_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter a description of your project</value>
+  </data>
+  <data name="Titre_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the title of your project</value>
+  </data>
+  <data name="KryptonLabel10.Values.Text" xml:space="preserve">
+    <value>Title :</value>
+  </data>
+  <data name="KryptonLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 29</value>
+  </data>
+  <data name="KryptonLabel2.Values.Text" xml:space="preserve">
+    <value>Identification information</value>
+  </data>
+  <data name="ColumnHeader1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ColumnHeader3.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ColumnHeader4.Text" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABK
+        FAAAAk1TRnQBSQFMAgEBBgEAAWABAgFgAQIBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIFoAAVkBPwEsAf8BSwExAR0B/wFLATEBHQH/AUsBMQEdAf8BSwExAR0B/wFL
+        ATEBHQH/AUsBMQEdAf8BSwExAR0B/wFLATEBHQH/AUsBMQEdAf8BSwExAR0B/wFLATEBHQH/kAAB6QHU
+        AcUB/wGVAWMBTwH/AZUBYwFPAf8BlQFjAU8B/wGVAWMBTwH/AZUBYwFPAf8BlQFjAU8B/wGVAWMBTwH/
+        AZUBYwFPAf8BlQFjAU8B/wGVAWMBTwH/FAABXgFEATEB/wHvAdMBxgH/Ad4BvwGvAf8B3wG9AasB/wHc
+        AbgBpwH/AdoBtAGiAf8B2AGwAZ0B/wHXAa0BmQH/AdcBrAGWAf8B1wGsAZYB/wHbAawBlQH/AUsBMQEd
+        Af+QAAHpAdQBxQX/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/
+        AekB1AHFAf8B6QHUAcUB/wGVAWMBTwH/FAABYgFJATYB/wH4AeIB2AH/AfoB7gHnAf8B+QHqAeIB/wH3
+        AeUB3QH/AfYB4QHXAf8B9AHdAdEB/wH0AdkBzAH/AfIB1QHHAf8B8gHRAcEB/wHqAcABrAH/AUsBMQEd
+        Af+QAAHpAdQBxRv/AfsC/wH8Ae8B/wHpAdQBxQH/AZUBYwFPAf8UAAGAAU8BPQH/AfgB5AHbAf8BuAGk
+        AZQB/wGxAZwBjQH/AaoBlAGEAf8BogGMAWMB/wGaAYQBWwH/AZIBYwFSAf8BiwFbAUkB/wGEAVMBQAH/
+        AeoBwAGsAf8BSwExAR0B/5AAAekB1AHFH/8B9gH/AekB1AHFAf8BlQFjAU8B/xQAAYYBVQFCAf8B+QHo
+        AeAB/wH8AfQB8QH/AfsB8QHsAf8B+QHuAecB/wH4AekB4gH/AfgB5gHcAf8B9gHhAdcB/wH1Ad0B0gH/
+        AfQB2AHMAf8B6wHDAbAB/wFLATEBHQH/kAAB6QHUAcUf/wH9Af8B6QHUAcUB/wGVAWMBTwH/FAABiwFb
+        AUkB/wH6AesB5AH/Ab0BqQGbAf8BtgGiAZQB/wGwAZsBiwH/AakBkwGDAf8BoQGKAWMB/wGZAYMBWQH/
+        AZEBYgFRAf8BigFaAUgB/wHtAccBtgH/AUsBMQEdAf+QAAHsAdcByCH/AekB1AHFAf8BlQFjAU8B/xQA
+        AZEBYQFQAf8B+wHuAecB/wH9AfoB+QH/AfwB+AH1Af8B/AH1AfEB/wH7AfEB7AH/AfoB7QHnAf8B+AHp
+        AeIB/wH4AeUB3AH/AfYB4QHXAf8B7gHNAbwB/wFLATEBHQH/kAAB8AHbAcwh/wHpAdQBxQH/AZUBYwFP
+        Af8UAAGXAYABVwH/AfwB8AHsAf8BwgGuAaEB/wG9AagBmgH/AbYBogGSAf8BrwGZAYsB/wGnAZIBgwH/
+        AaABigFhAf8BmAGBAVgB/wGRAWEBUAH/AfAB0gHDAf8BSwExAR0B/5AAAfUB4AHQIf8B6QHUAcUB/wGV
+        AWMBTwH/FAABnQGGAV4B/wH9AfMB8Ab/Af0B/AH/Af4B+wH6Af8B/QH4AfYB/wH8AfUB8QH/AfsB8QHt
+        Af8B+QHtAecB/wH4AekB4gH/AfMB1gHJAf8BSwExAR0B/5AAAfoB5AHVIf8B6QHUAcUB/wGVAWMBTwH/
+        FAABowGMAWUB/wH8AfUB8gH/AcYBswGmAf8BwQGtAaAB/wG7AacBmQH/AbUBoQGRAf8BrgGZAYoB/wGm
+        AZEBgQH/AZ8BiAFgAf8BlwGAAVcB/wH0AdwB0AH/AUsBMQEdAf+QAAH+AegB2R3/AekB1AHFAf8B6QHU
+        AcUB/wGWAWQBUAH/FAABqAGTAYMB/wH+AfgB9Q3/Af4B/QH8Af8B/gH7AfkB/wH9AfgB9QH/AfwB9AHx
+        Af8B+wHxAe0B/wH3AeIB1wH/AUsBMQEdAf+QAAH/Ae0B3Rn/AekB1AHFAf8BlgFkAVAB/wGWAWQBUAH/
+        AZYBZAFQAf8UAAGuAZkBigH/Af4B+QH3Af8ByQG3AakB/wHFAbIBpAH/AcABrAGeAf8BuwGmAZgB/wG0
+        AZ8BkAH/Af4B+gH5Af8B/QH3AfUB/wH8AfQB8QH/AfsB6gHgAf8BSwExAR0B/5AAAf8B8QHhGf8B6wHW
+        AccC/wH3AewB/wGWAWQBUAH/A0oBjBQAAbMBnwGPAf8B/gH7AfkV/wH+Af0B/AH/AaIBjAFkAf8BVAE5
+        ASUB/wFUATkBJQH/AUsBMQEdAf+QAAH/AfQB5Bn/AfIB3QHOAf8BlgFkAVAB/wNKAYsYAAG4AaQBlQH/
+        Af4B/AH7Gf8BogGMAWQB/wHnAd4B2AH/AaMBjQFlAf+UAAH/AfQB5AL/AfQB5AL/AfQB5AL/AfQB5AL/
+        AfQB5AL/AfAB4AL/AesB2wH/AfsB5QHWAf8DSgGLHAABvQGoAZsd/wGiAYwBZAH/AaMBjQFlAf/YAAHC
+        Aa4BoAH/Ab0BqAGbAf8BuAGkAZUB/wGzAZ8BkAH/Aa4BmQGKAf8BqAGTAYMB/wGjAY0BZQH/AZ0BhgFe
+        Af8BlwGAAVcB//8A/wAWAANZAccBAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/
+        AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGM
+        AakB/wEAAYwBqQH/A1kBxwQAAUMBhQGcAf8BNQFDAVIB/wEwAT4BTQH/ASwBOQFJAf8BKAE1AUQB/wEl
+        ATEBQAH/ASIBLgE8Af8BIQEsAToB/wEeASkBNwH/AR0BJwE1Af8BGwEmATIB/wEbASUBMQH/ARkBIwEu
+        Af8BGQEiAS0B/4QAAVsCXgHZAQcByQHpAf8BAAHGAfEB/wEAAcIB8AH/AQABwQHwAf8BAAHAAfAB/wEA
+        AcEB8AH/AQABwQHwAf8BAAHBAfAB/wEAAcEB8AH/AQABwgHwAf8BAAHDAfAB/wEAAcMB8AH/AQABxAHx
+        Af8BAwHDAeQB/wFbAl4B2QQAAUcBiQGgAf8BjAHRAZkB/wGKAdIBmQH/AV8BxgGJAf8BSAG4AV0B/wEy
+        AaoBTAH/AR0BnQE6Af8BCwGQASoB/wEAAYkBIAH/AQABiQEgAf8BAAGJASAB/wELAWEBHwH/ATUBIwEU
+        Af8BGgEkAS8B/4QAA04BmQEAAa4BzwH/AQQBzQHyAf8BAAHIAfEB/wEAAcUB8QH/AQABxAHxAf8BAAHD
+        AfAB/wMAAf8DAAH/AQABxgHxAf8BAAHIAfEB/wEAAcoB8gH/AQABygHyAf8BAwHMAfEB/wEAAasBzQH/
+        A04BmQQAAUoBjQGkAf8BuwHmAcMB/wGoAeABswH/AZMB1wGgAf8BZgHJAY8B/wFOAbsBYwH/ATcBrQFP
+        Af8BHgGdAToB/wEIAY8BKQH/AQABiQEgAf8BLAFBAR0B/wFWAUEBMgH/AUsBNgEoAf8BGwEkATAB/4QA
+        AxQBGwFbAl4B2QEIAcYB5AH/AQgB0QHzAf8BAwHNAfIB/wEBAcsB8gH/AQABygHyAf8DAAH/AwAB/wEE
+        Ac0B8wH/AQgB0QHzAf8BCQHSAfQB/wEKAdMB9AH/AQcBxQHjAf8BWwJeAdkDFAEbBAABTQGSAacB/wGl
+        Ad4BsAH/AdEB7wHWAf8BqAHgAbMB/wGOAdQBnAH/AWABxQGKAf8BSAG3AV4B/wExAagBSgH/ARQBlgEz
+        Af8BNwExARsB/wGSAWQBVwH/AY0BYAFSAf8DAAH/ARsBJgEyAf8kAAMDAQRgAAFIAkkBhwEAAawBzQH/
+        ARYB2wH0Af8BEgHZAfUB/wEPAdcB9QH/AQ4B1gH0Af8BDgHWAfQB/wEQAdcB9QH/ARIB2QH1Af8BEgHZ
+        AfUB/wEUAdsB9QH/ARUB2gHzAf8BAAGqAcsB/wFIAkkBhwgAAVABlgGrAf8BnAGlAYYB/wGoAeABswH/
+        AdEB7wHWAf8BqAHgAbMB/wGKAdEBmQH/AVoBwQGFAf8BPgGwAVUB/wFJAVYBOgH/Ab8BqwGhAf8BswGd
+        AZAB/wMAAf8BrgGRAYMB/wEdAScBNAH/IAADEgEZA00BlgMSARlcAAMNARIBWwJeAdkBDQHGAd8B/wEh
+        AeYB+AH/ASAB5AH3Af8BHwHjAfcB/wEAAUoBUwH/AQABSgFTAf8BHQHiAfcB/wEdAeIB9wH/AR4B4wH3
+        Af8BDAHHAeAB/wFbAl4B2QMNARIIAAFTAZoBrwH/Ae0B4wHdAf8BnAGfAYMB/wGmAd8BsQH/AdAB7gHW
+        Af8BpQHeAbAB/wGAAcsBkAH/AVABYAFCAf8BzwG8AbIB/wHTAcEBtwH/AwAB/wHsAbYBmQH/AbQBlgGH
+        Af8BHgEoATUB/xwAAxABFgNWAbMDAAH/A1YBswMQARYoAAMFAQcDRQF9A0wB9wMAAf8DTAH3A0UBfQMF
+        AQcYAANDAXgBAAGqAcsB/wEpAeoB9gH/AS0B8AH6Af8BKwHuAfkB/wMAAf8DAAH/AScB6gH5Af8BJwHq
+        AfkB/wEiAeUB9QH/AQABqgHLAf8DQwF4DAABVwGdAbIC/wH8AfsB/wHtAeMB3QH/AZwBgwFaAf8BpgHe
+        AbAB/wGxAeIBugH/AVABRgEyAf8BzgGuAZsB/wFNATcBKAH/AU0BNwEoAf8B2AGwAZkB/wH7AcEBogH/
+        AbsBmwGMAf8BHwErATgB/xgAAwQBBQM4AV4DVgG5A1cBvwNWAbkDOAFeAwQBBSgAAw0BEQNLAY8DUwHx
+        A0sBjwMNAREcAAMJAQwBWwJeAdkBCwHCAdsB/wExAfMB+wH/ATAB8QH6Af8DAAH/AwAB/wEsAe8B+gH/
+        ASwB7wH6Af8BDQHGAd8B/wFbAl4B2QMJAQwMAAFaAaIBtQL/AfwB+wL/AfwB+wH/AekB3gHYAf8BnAGD
+        AVoB/wGbAYIBWQH/Ae4B1gHJAf8B/QHfAc8B/wH9AdcBwwH/AfwB0AG5Af8B/AHKAbAB/wH7AcUBqAH/
+        AcIBoQGQAf8BIgEtATsB/2AAAw0BEQM8AWcDDQERJAADPQFpAQABqQHLAf8BKwHqAfQB/wEzAfQB+wH/
+        AwAB/wMAAf8BMQHyAfoB/wEqAeoB9gH/AQABqQHLAf8DPQFpEAABXQGlAbgC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/Af4B7QHkAf8B1AHFAdIB/wEIATsBywH/AQcBOQHGAf8B0QGxAa8B/wH8
+        AcoBsAH/AcoBpwGVAf8BJAEvAT4B/2QAAwEBAigAAwQBBgFbAl4B2QEIAb8B2QH/AT0B9gH7Af8DAAH/
+        AwAB/wE0AfUB+wH/AQ8BxgHdAf8BWwJeAdkDBAEGEAABXwGoAbwC/wH8AfsC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/ARgBRgHUAf8BWgG+AfkB/wEsAYwBywH/AQcBOQHGAf8B/AHQAbkB/wHS
+        Aa0BmgH/ASYBMgFBAf+UAAM3AVoBAAGpAcoB/wEqAegB8wH/ATQB9QH7Af8BNAH1AfsB/wEtAe0B9gH/
+        AQABqQHLAf8DNwFaFAABYQGrAb4C/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH4AfUB/wEZ
+        AUgB1wH/AbkB5AL/AVoBvgH5Af8BCAE7AcsB/wH9AdcBwwH/AdkBswGfAf8BKgE2AUUB/5QAAwIBAwFb
+        Al4B2QEGAbsB1gH/ATQB9QH7Af8BNAH1AfsB/wEOAcYB3QH/AVsCXgHZAwIBAxQAAWQBrgHAAv8B/AH7
+        Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Af8B1wHUAewB/wEZAUgB1wH/ARgBRwHUAf8B1AHF
+        AdIB/wH9Ad8BzwH/Ad4BtwGjAf8BLQE6AUkB/5gAAy4BSAEAAagBygH/AScB5QHxAf8BLQHsAfUB/wEA
+        AakBywH/Ay4BSBgAAWYBsAHCAv8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7
+        Av8B+AH1Af8B/gHzAe0B/wH+Ae0B5AH/Af0B5gHaAf8B/QHfAc8B/wExAT4BTgH/nAABWwJeAdkBAwG5
+        AdUB/wEOAcYB3QH/AVsCXgHZHAABZwGyAcQB/wFlAbABwwH/AWMBrQHAAf8BYQGrAb4B/wFfAagBuwH/
+        AVwBpQG4Af8BWQGhAbUB/wFXAZ4BsgH/AVQBmgGvAf8BUQGVAasB/wFNAZIBqAH/AUoBjQGkAf8BRwGJ
+        AaAB/wFDAYQBnAH/nAADJgE5AVkCYAHrAVkCYAHrAyYBOVgAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA/8BAAL/AcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABDwHAAQcEAAHAAR8BwAEPBAAC/wHAAR8EAAz/AgABgAEB
+        BP8CAAGAAQEE/wIAAYABAQT/AgABgAEBAf8BfwL/AYABAQGAAQEB/gE/Av8BgAEBAYABAQH8AR8B+AEP
+        AcABAwGAAQEB+AEPAfwBHwHAAQMBgAEBAv8B/gE/AeABBwGAAQED/wF/AeABBwGAAQEE/wHwAQ8BgAEB
+        BP8B8AEPAYABAQT/AfgBHwGAAQEE/wH8AT8BgAEBBP8B/AE/Av8L
+</value>
+  </data>
+  <data name="KryptonButton2.ToolTip" xml:space="preserve">
+    <value>Delete libraries of reusable functions selected</value>
+  </data>
+  <data name="KryptonButton2.Values.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonButton1.ToolTip" xml:space="preserve">
+    <value>Click here to add a library of reusable functions in the project</value>
+  </data>
+  <data name="KryptonButton1.Values.Text" xml:space="preserve">
+    <value>Add a reference</value>
+  </data>
+  <data name="KryptonLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 29</value>
+  </data>
+  <data name="KryptonLabel3.Values.Text" xml:space="preserve">
+    <value>Libraries of reusable functions in the project</value>
+  </data>
+  <data name="KryptonPage3.Text" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="ColumnHeader5.Text" xml:space="preserve">
+    <value>Settings names</value>
+  </data>
+  <data name="KryptonButton3.ToolTip" xml:space="preserve">
+    <value>Delete application settings selected</value>
+  </data>
+  <data name="KryptonButton3.Values.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonButton4.ToolTip" xml:space="preserve">
+    <value>Click here to add a new application setting in the project</value>
+  </data>
+  <data name="KryptonButton4.Values.Text" xml:space="preserve">
+    <value>Add a setting</value>
+  </data>
+  <data name="KryptonLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 29</value>
+  </data>
+  <data name="KryptonLabel20.Values.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="KryptonPage6.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="KryptonContextMenuItem1.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="KryptonContextMenuItem3.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="KryptonButton6.ToolTip" xml:space="preserve">
+    <value>Click here to add a resource to the project</value>
+  </data>
+  <data name="KryptonButton6.Values.Text" xml:space="preserve">
+    <value>Add a resource</value>
+  </data>
+  <data name="KryptonButton5.ToolTip" xml:space="preserve">
+    <value>Delete selected resources</value>
+  </data>
+  <data name="KryptonButton5.Values.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 29</value>
+  </data>
+  <data name="KryptonLabel4.Values.Text" xml:space="preserve">
+    <value>Reusable resources in the project</value>
+  </data>
+  <data name="KryptonPage4.Text" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Items" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Items2" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Enter here the level of encryption to secure your code (obfuscation):
+- Low
+- Normal
+- High</value>
+  </data>
+  <data name="KryptonLabel23.Values.Text" xml:space="preserve">
+    <value>Level of encryption code :</value>
+  </data>
+  <data name="KryptonButton9.ToolTip" xml:space="preserve">
+    <value>Delete selected files from the list</value>
+  </data>
+  <data name="KryptonButton9.Values.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="KryptonButton8.ToolTip" xml:space="preserve">
+    <value>Click here to add a .vb file to the generation of the project</value>
+  </data>
+  <data name="KryptonButton8.Values.Text" xml:space="preserve">
+    <value>Add a file</value>
+  </data>
+  <data name="ColumnHeader7.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="KryptonGroupBox1.Values.Heading" xml:space="preserve">
+    <value>Visual Basic.Net files to include when building</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Items" xml:space="preserve">
+    <value>Windows 32 bit only</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Items1" xml:space="preserve">
+    <value>Windows 64 bit only</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Items2" xml:space="preserve">
+    <value>Windows 32 and 64 bit</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.ToolTip" xml:space="preserve">
+    <value>Enter here the central unit targeted by your project:</value>
+  </data>
+  <data name="KryptonLabel22.Values.Text" xml:space="preserve">
+    <value>Type of target operating system :</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.ToolTip" xml:space="preserve">
+    <value>This option optimizes the code generated for a faster software execution</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Values.Text" xml:space="preserve">
+    <value>Optimize code generation for Visual Basic.Net</value>
+  </data>
+  <data name="KryptonButton7.ToolTip" xml:space="preserve">
+    <value>Click here to change the project file generation</value>
+  </data>
+  <data name="KryptonButton7.Values.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="Generation_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value>Enter the folder where the project is to be generated (required)</value>
+  </data>
+  <data name="KryptonLabel21.Values.Text" xml:space="preserve">
+    <value>Build path :</value>
+  </data>
+  <data name="KryptonLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="KryptonLabel5.Values.Text" xml:space="preserve">
+    <value>Settings of build</value>
+  </data>
+  <data name="KryptonPage5.Text" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="ColumnHeader6.Text" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="ButtonSpecAny1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ButtonSpecAny1.ToolTipBody" xml:space="preserve">
+    <value>Save the value of this resource</value>
+  </data>
+  <data name="ButtonSpecAny1.ToolTipTitle" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="KryptonWrapLabel1.Text" xml:space="preserve">
+    <value>Please select a resource below to view and cons or modify (only for text).</value>
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value>Drag a .ico file here to change the project's icon</value>
+  </data>
+  <data name="PictureBox1.ToolTip" xml:space="preserve">
+    <value>Drag a .ico file here to change the project's icon</value>
+  </data>
+</root>

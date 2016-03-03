@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ajout_Reference_Echec" xml:space="preserve">
+    <value>La référence '{0}' n'a pas pu être ajouté au projet '{1}' pour une raison inconnue.</value>
+  </data>
+  <data name="Ajout_Reference_Succes" xml:space="preserve">
+    <value>La référence '{0}' a été ajouté au projet '{1}' avec succès.</value>
+  </data>
+  <data name="Association_Fichier" xml:space="preserve">
+    <value>Les fichiers de type '{0}' ont été associé au logiciel.</value>
+  </data>
+  <data name="Aucun_Plugin_Chargé" xml:space="preserve">
+    <value>Aucun plugin n'a été chargé ou trouvé.</value>
+  </data>
+  <data name="Chargement_Plugins" xml:space="preserve">
+    <value>Chargement des plugins...</value>
+  </data>
+  <data name="Chargement_Plugins_Terminé" xml:space="preserve">
+    <value>Chargement des plugins terminé.</value>
+  </data>
+  <data name="Chargement_Toolbox_Fonctions" xml:space="preserve">
+    <value>Chargement de la Boîte à outils pour l'éditeur de fonctions...</value>
+  </data>
+  <data name="Chargement_Toolbox_Fonctions1" xml:space="preserve">
+    <value>La Boîte à outils pour l'éditeur de fonctions a été chargé.</value>
+  </data>
+  <data name="Chargement_Toolbox_Windows_Designer" xml:space="preserve">
+    <value>Chargement de la Boîte à outils pour le concepteur de fenêtre...</value>
+  </data>
+  <data name="Chargement_Toolbox_Windows_Designer1" xml:space="preserve">
+    <value>La Boîte à outils pour le concepteur de fenêtre a été chargé.</value>
+  </data>
+  <data name="Enregistrement_Projet" xml:space="preserve">
+    <value>Enregistrement du projet '{0}' en cours...</value>
+  </data>
+  <data name="Enregistrement_Projet_Annulé" xml:space="preserve">
+    <value>L'enregistrement du projet '{0}' a été annulé.</value>
+  </data>
+  <data name="Enregistrement_Projet_Terminé" xml:space="preserve">
+    <value>Enregistrement du projet '{0}' terminé.</value>
+  </data>
+  <data name="Enregistrement_Solution" xml:space="preserve">
+    <value>Enregistrement de la solution '{0}' en cours...</value>
+  </data>
+  <data name="Enregistrement_Solution_Annulé" xml:space="preserve">
+    <value>L'enregistrement de la solution '{0}' a été annulé.</value>
+  </data>
+  <data name="Enregistrement_Solution_Terminé" xml:space="preserve">
+    <value>Enregistrement de la solution '{0}' terminé.</value>
+  </data>
+  <data name="Enregistrement_Stat" xml:space="preserve">
+    <value>Enregistrement des statistiques du projet '{0}' en cours...</value>
+  </data>
+  <data name="Enregistrement_Stat_Annulé" xml:space="preserve">
+    <value>L'enregistrement des statistiques du projet '{0}' a été annulé.</value>
+  </data>
+  <data name="Enregistrement_Stat_Terminé" xml:space="preserve">
+    <value>Enregistrement des statistiques du projet '{0}' terminé.</value>
+  </data>
+  <data name="Fermeture_Document" xml:space="preserve">
+    <value>Fermeture du document '{0}'.</value>
+  </data>
+  <data name="Fermeture_Page_Demarrage" xml:space="preserve">
+    <value>Fermeture de la page de démarrage.</value>
+  </data>
+  <data name="Generation_Action" xml:space="preserve">
+    <value>Génération de l'action '{0}' trouvé dans la fonction '{1}' du fichier '{2}'.</value>
+  </data>
+  <data name="Generation_Ajout_Paramètre" xml:space="preserve">
+    <value>Ajout du paramètre '{0}'.</value>
+  </data>
+  <data name="Generation_Chargement_Fichier" xml:space="preserve">
+    <value>Chargement du fichier '{0}' en mémoire...</value>
+  </data>
+  <data name="Generation_Chargement_Fichier_Terminé" xml:space="preserve">
+    <value>Chargement du fichier '{0}' terminé.</value>
+  </data>
+  <data name="Generation_Chargement_Fonction" xml:space="preserve">
+    <value>Chargement de la séquence d'actions numéro {0}</value>
+  </data>
+  <data name="Generation_Chargement_Fonction_Terminer" xml:space="preserve">
+    <value>Chargement de la séquence d'actions terminé.</value>
+  </data>
+  <data name="Generation_Code" xml:space="preserve">
+    <value>Génération des codes du document '{0}' en cours...</value>
+  </data>
+  <data name="Generation_Code_Terminé" xml:space="preserve">
+    <value>Génération des codes du document '{0}' terminé.</value>
+  </data>
+  <data name="Generation_Compile" xml:space="preserve">
+    <value>Compilation du code...</value>
+  </data>
+  <data name="Generation_Compile_Echec" xml:space="preserve">
+    <value>===== La compilation du projet a échoué. =====</value>
+  </data>
+  <data name="Generation_Compile_Succès" xml:space="preserve">
+    <value>===== La compilation du projet s'est terminé avec succès. =====</value>
+  </data>
+  <data name="Generation_Config" xml:space="preserve">
+    <value>Compilateur configuré avec succès.</value>
+  </data>
+  <data name="Generation_Creation_Dossier" xml:space="preserve">
+    <value>Création du dossier de génération à l'emplacement '{0}'.</value>
+  </data>
+  <data name="Generation_Debut" xml:space="preserve">
+    <value>Début de la génération du projet '{0}'.</value>
+  </data>
+  <data name="Generation_Evenement_Application" xml:space="preserve">
+    <value>Génération des évènements d'application en cours...</value>
+  </data>
+  <data name="Generation_Evenement_Application_Terminé" xml:space="preserve">
+    <value>Génération des évènements d'application terminé.</value>
+  </data>
+  <data name="Generation_Initialisation_CodeDom" xml:space="preserve">
+    <value>Initialisation du système CodeDom en cours...</value>
+  </data>
+  <data name="Generation_Initialisation_CodeDom_Terminé" xml:space="preserve">
+    <value>Initialisation du système CodeDom terminé.</value>
+  </data>
+  <data name="Generation_Mode_Debug" xml:space="preserve">
+    <value>Choix de la génération : Debug</value>
+  </data>
+  <data name="Generation_Mode_Normal" xml:space="preserve">
+    <value>Choix de la génération : Release</value>
+  </data>
+  <data name="Generation_Obfuscation" xml:space="preserve">
+    <value>Obfuscation du projet : {0}</value>
+  </data>
+  <data name="Generation_Resx" xml:space="preserve">
+    <value>Génération des ressources en cours...</value>
+  </data>
+  <data name="Generation_Resx_Fichier" xml:space="preserve">
+    <value>Génération du fichier de ressources '{0}' en cours...</value>
+  </data>
+  <data name="Generation_Resx_Fichier_Terminer" xml:space="preserve">
+    <value>Génération du fichier de ressources '{0}' terminé.</value>
+  </data>
+  <data name="Generation_Resx_Terminé" xml:space="preserve">
+    <value>Génération des ressources terminé.</value>
+  </data>
+  <data name="Generation_Solution_Debut" xml:space="preserve">
+    <value>Début de la génération de la solution '{0}'.</value>
+  </data>
+  <data name="Generation_Suppression_Temp" xml:space="preserve">
+    <value>Suppression des données temporaires inutiles.</value>
+  </data>
+  <data name="Generation_Temp" xml:space="preserve">
+    <value>La solution a été générée en {0}</value>
+  </data>
+  <data name="Generation_UserControl" xml:space="preserve">
+    <value>La fenêtre de démarrage ou l'écran de démarrage ne peuvent pas être un Contrôle Utilisateur</value>
+  </data>
+  <data name="Generation_VB" xml:space="preserve">
+    <value>Enregistrement du code source.</value>
+  </data>
+  <data name="Nouveau_Document" xml:space="preserve">
+    <value>Création d'un nouveau document nommé '{0}' dans le projet '{1}'...</value>
+  </data>
+  <data name="Nouveau_Document_Terminé" xml:space="preserve">
+    <value>Le document '{0}' a été créé avec succès.</value>
+  </data>
+  <data name="Obfuscation_Echec" xml:space="preserve">
+    <value>===== L'obfuscation de la solution a échoué. =====</value>
+  </data>
+  <data name="Obfuscation_Err" xml:space="preserve">
+    <value>L'obfuscation a rencontrée une erreur : {0}</value>
+  </data>
+  <data name="Obfuscation_Fichier_Introuvable" xml:space="preserve">
+    <value>Le fichier '{0}' est introuvable sur le disque dur.</value>
+  </data>
+  <data name="Obfuscation_Message" xml:space="preserve">
+    <value>Obfuscation en cours : {0}</value>
+  </data>
+  <data name="Obfuscation_Move" xml:space="preserve">
+    <value>Déplacement du fichier '{0}' vers le dossier de génération du projet principal de la solution...</value>
+  </data>
+  <data name="Obfuscation_Started" xml:space="preserve">
+    <value>Obfuscation en cours...</value>
+  </data>
+  <data name="Obfuscation_Starting" xml:space="preserve">
+    <value>Initialisation de l'obfuscation en cours...</value>
+  </data>
+  <data name="Obfuscation_Succès" xml:space="preserve">
+    <value>===== L'obfuscation de la solution s'est terminé avec succès. =====</value>
+  </data>
+  <data name="Obfuscation_Temp" xml:space="preserve">
+    <value>L'encryptage du code a été effectué en {0}</value>
+  </data>
+  <data name="Ouverture_Document" xml:space="preserve">
+    <value>Ouverture du document '{0}'...</value>
+  </data>
+  <data name="Ouverture_Page_Demarrage" xml:space="preserve">
+    <value>Ouverture de la page de démarrage...</value>
+  </data>
+  <data name="Ouverture_Panneau_DataBase" xml:space="preserve">
+    <value>Ouverture du panneau 'Bases de données'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Debogage" xml:space="preserve">
+    <value>Ouverture du panneau 'Débogage'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Erreurs" xml:space="preserve">
+    <value>Ouverture du panneau 'Erreurs de génération'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Explorateur" xml:space="preserve">
+    <value>Ouverture du panneau 'Explorateur de solutions'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Help" xml:space="preserve">
+    <value>Ouverture du panneau 'Aide rapide'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Propriété" xml:space="preserve">
+    <value>Ouverture du panneau 'Propriétés'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Sortie" xml:space="preserve">
+    <value>Ouverture du panneau 'Sortie'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Toolbox" xml:space="preserve">
+    <value>Ouverture du panneau 'Boîte à outils'...</value>
+  </data>
+  <data name="Ouverture_Panneau_Vocal" xml:space="preserve">
+    <value>Ouverture du panneau 'Reconnaissance vocale'...</value>
+  </data>
+  <data name="Ouverture_Parametre" xml:space="preserve">
+    <value>Ouverture des paramètres du projet '{0}'...</value>
+  </data>
+  <data name="Ouverture_Projet" xml:space="preserve">
+    <value>Ouverture du projet '{0}'...</value>
+  </data>
+  <data name="Ouverture_Solution" xml:space="preserve">
+    <value>Ouverture de la solution '{0}'...</value>
+  </data>
+  <data name="Ouverture_Stat" xml:space="preserve">
+    <value>Ouverture des statistiques du projet '{0}'...</value>
+  </data>
+  <data name="Plugin_Chargé" xml:space="preserve">
+    <value>Le plugin '{0}, Version={1}' a été chargé avec succès.</value>
+  </data>
+  <data name="Projet_Chargé" xml:space="preserve">
+    <value>Le projet '{0}' a été chargé.</value>
+  </data>
+  <data name="Projet_Chargé_Explorateur" xml:space="preserve">
+    <value>Le projet '{0}' a été chargé dans l'Explorateur de solutions.</value>
+  </data>
+  <data name="Projet_Incompatible" xml:space="preserve">
+    <value>Le projet n'a pas été chargé car il est incompatible avec ce logiciel.</value>
+  </data>
+  <data name="Projet_Introuvable" xml:space="preserve">
+    <value>Le projet '{0}' n'a pas été chargé car le fichier '{1}' est introuvable.</value>
+  </data>
+  <data name="Solution_Chargé" xml:space="preserve">
+    <value>La solution '{0}' a été chargé.</value>
+  </data>
+  <data name="Solution_Fermé" xml:space="preserve">
+    <value>La solution '{0}' a été fermé.</value>
+  </data>
+  <data name="Solution_Incompatible" xml:space="preserve">
+    <value>La solution n'a pu être chargé correctement car elle est incompatible avec ce logiciel.</value>
+  </data>
+  <data name="Utilisateur_Banni" xml:space="preserve">
+    <value>L'authenticité du logiciel a été vérifié.</value>
+  </data>
+  <data name="Validation_Projet" xml:space="preserve">
+    <value>Validation du projet '{0}' en cours...</value>
+  </data>
+  <data name="Validation_Projet_Terminé" xml:space="preserve">
+    <value>Validation du projet '{0}' terminé.</value>
+  </data>
+</root>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{51068915-BDDA-414B-8099-676248BFB95C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.VoiceRecognitionPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.VoiceRecognitionPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.Designer.vb">
+      <DependentUpon>Arreter_Vocale.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.en.Designer.vb">
+      <DependentUpon>Arreter_Vocale.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.fr.Designer.vb">
+      <DependentUpon>Arreter_Vocale.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.vb" />
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Designer.xaml.vb">
+      <DependentUpon>Arreter_Vocale_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Form.Designer.vb">
+      <DependentUpon>Arreter_Vocale_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Demarrer_Vocale.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Demarrer_Vocale.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Demarrer_Vocale.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.vb" />
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Designer.xaml.vb">
+      <DependentUpon>Demarrer_Vocale_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Form.Designer.vb">
+      <DependentUpon>Demarrer_Vocale_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.en.resx">
+      <DependentUpon>Arreter_Vocale.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Arreter_Vocale.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.fr.resx">
+      <DependentUpon>Arreter_Vocale.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Arreter_Vocale.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale.resx">
+      <DependentUpon>Arreter_Vocale.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Arreter_Vocale.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Form.en.resx">
+      <DependentUpon>Arreter_Vocale_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Form.fr.resx">
+      <DependentUpon>Arreter_Vocale_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Form.resx">
+      <DependentUpon>Arreter_Vocale_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.en.resx">
+      <DependentUpon>Demarrer_Vocale.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Demarrer_Vocale.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.fr.resx">
+      <DependentUpon>Demarrer_Vocale.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Demarrer_Vocale.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale.resx">
+      <DependentUpon>Demarrer_Vocale.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Demarrer_Vocale.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Form.en.resx">
+      <DependentUpon>Demarrer_Vocale_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Form.fr.resx">
+      <DependentUpon>Demarrer_Vocale_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Form.resx">
+      <DependentUpon>Demarrer_Vocale_Form.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arreter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demarrer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xp.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

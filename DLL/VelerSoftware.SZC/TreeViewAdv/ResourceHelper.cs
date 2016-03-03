@@ -1,0 +1,55 @@
+// *****************************************************************************
+// 
+//  © Veler Software 2012. All rights reserved.
+//  The current code and the associated software are the proprietary 
+//  information of Etienne Baudoux from Veler Software and are
+//  supplied subject to licence terms.
+// 
+//  www.velersoftware.com
+// *****************************************************************************
+
+using System.IO;
+using System.Windows.Forms;
+
+namespace VelerSoftware.SZC.TreeViewAdv
+{
+    public static class ResourceHelper
+    {
+        // VSpilt Cursor with Innerline (symbolisize hidden column)
+        private static Cursor _dVSplitCursor = GetCursor(Properties.Resources.DVSplit);
+
+        public static Cursor DVSplitCursor
+        {
+            get { return _dVSplitCursor; }
+        }
+
+        private static GifDecoder _loadingIcon = GetGifDecoder(Properties.Resources.loading_icon);
+
+        public static GifDecoder LoadingIcon
+        {
+            get { return _loadingIcon; }
+        }
+
+        /// <summary>
+        /// Help function to convert byte[] from resource into Cursor Type
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        private static Cursor GetCursor(byte[] data)
+        {
+            using (MemoryStream s = new MemoryStream(data))
+                return new Cursor(s);
+        }
+
+        /// <summary>
+        /// Help function to convert byte[] from resource into GifDecoder Type
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        private static GifDecoder GetGifDecoder(byte[] data)
+        {
+            using (MemoryStream ms = new MemoryStream(data))
+                return new GifDecoder(ms, true);
+        }
+    }
+}

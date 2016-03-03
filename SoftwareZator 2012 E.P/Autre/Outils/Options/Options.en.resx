@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TreeView1.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQ0AAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4
+        CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hp
+        bGRyZW4wCWNoaWxkcmVuMQljaGlsZHJlbjIJY2hpbGRyZW4zCWNoaWxkcmVuNAEBAAABAAEABAQEBAQB
+        CAgIHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5U
+        cmVlTm9kZQIAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUCAAAAHVN5c3RlbS5XaW5kb3dz
+        LkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAACAAAABgMA
+        AAAHR2VuZXJhbAYEAAAAB0dlbmVyYWwA/////wYFAAAAAP////8JBQAAAAUAAAAJBgAAAAkHAAAACQgA
+        AAAJCQAAAAkKAAAABQYAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUIAAAABFRleHQETmFt
+        ZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJ
+        bWFnZUtleQpDaGlsZENvdW50AQEAAAEAAQABCAgIAgAAAAYLAAAAB0dlbmVyYWwGDAAAAAdHZW5lcmFs
+        AP////8JBQAAAP////8JBQAAAAAAAAAFBwAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQgA
+        AAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRl
+        eBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgCAAAABg4AAAAIU3RhcnQtdXAG
+        DwAAAAdTdGFydGVyAP////8JBQAAAP////8JBQAAAAAAAAAFCAAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jt
+        cy5UcmVlTm9kZQgAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVj
+        dGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgCAAAABhEA
+        AAAITGFuZ3VhZ2UGEgAAAAhMYW5ndWFnZQD/////CQUAAAD/////CQUAAAAAAAAABQkAAAAdU3lzdGVt
+        LldpbmRvd3MuRm9ybXMuVHJlZU5vZGUIAAAABFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJ
+        bWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50AQEAAAEA
+        AQABCAgIAgAAAAYUAAAACUludGVyZmFjZQYVAAAACkludGVyZmFjZXMA/////wkFAAAA/////wkFAAAA
+        AAAAAAUKAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlCAAAAARUZXh0BE5hbWUJSXNDaGVj
+        a2VkCkltYWdlSW5kZXgISW1hZ2VLZXkSU2VsZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkK
+        Q2hpbGRDb3VudAEBAAABAAEAAQgICAIAAAAGFwAAAA9Db25maWRlbnRpYWxpdHkGGAAAAA9Db25maWRl
+        bnRpYWxpdHkA/////wkFAAAA/////wkFAAAAAAAAAAs=
+</value>
+  </data>
+  <data name="TreeView1.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQsAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4
+        CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hp
+        bGRyZW4wCWNoaWxkcmVuMQljaGlsZHJlbjIBAQAAAQABAAQEBAEICAgdU3lzdGVtLldpbmRvd3MuRm9y
+        bXMuVHJlZU5vZGUCAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2lu
+        ZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAACAAAABgMAAAAHRWRpdG9ycwYEAAAAD1dpbmRvd3NEZXNpZ25l
+        cgD/////BgUAAAAA/////wkFAAAAAwAAAAkGAAAACQcAAAAJCAAAAAUGAAAAHVN5c3RlbS5XaW5kb3dz
+        LkZvcm1zLlRyZWVOb2RlCAAAAARUZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5kZXgISW1hZ2VLZXkS
+        U2VsZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAEBAAABAAEAAQgICAIA
+        AAAGCQAAABBXaW5kb3dzIERlc2lnbmVyBgoAAAAPV2luZG93c0Rlc2lnbmVyAP////8JBQAAAP////8J
+        BQAAAAAAAAAFBwAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQgAAAAEVGV4dAROYW1lCUlz
+        Q2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdl
+        S2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgCAAAABgwAAAAQRnVuY3Rpb25zIGVkaXRvcgYNAAAAEEZ1
+        bmN0aW9uc19FZGl0b3IA/////wkFAAAA/////wkFAAAAAAAAAAUIAAAAHVN5c3RlbS5XaW5kb3dzLkZv
+        cm1zLlRyZWVOb2RlCAAAAARUZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5kZXgISW1hZ2VLZXkSU2Vs
+        ZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAEBAAABAAEAAQgICAIAAAAG
+        DwAAABdWaXN1YWwgQmFzaWMuTmV0IGVkaXRvcgYQAAAACFZCRWRpdG9yAP////8JBQAAAP////8JBQAA
+        AAAAAAAL
+</value>
+  </data>
+  <data name="TreeView1.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQkAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4
+        CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hp
+        bGRyZW4wAQEAAAEAAQAEAQgICB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAACAAAABgMA
+        AAAOQW5hbHlzaXMgVG9vbHMGBAAAABFWb2ljZV9SZWNvZ25pdGlvbgD/////BgUAAAAA/////wkFAAAA
+        AQAAAAkGAAAABQYAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUIAAAABFRleHQETmFtZQlJ
+        c0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFn
+        ZUtleQpDaGlsZENvdW50AQEAAAEAAQABCAgIAgAAAAYHAAAAEVZvaWNlIHJlY29nbml0aW9uBggAAAAR
+        Vm9pY2VfUmVjb2duaXRpb24A/////wkFAAAA/////wkFAAAAAAAAAAs=
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 19</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Settings of SoftwareZator</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Compare editions</value>
+  </data>
+  <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 18</value>
+  </data>
+  <data name="RadioButton4.Text" xml:space="preserve">
+    <value>Professional</value>
+  </data>
+  <data name="RadioButton4.ToolTip" xml:space="preserve">
+    <value>Essential to use for professional purposes, whether you are a developer or contractor. This edition unlocks all the features of the software. (60 uses trial)</value>
+  </data>
+  <data name="RadioButton3.ToolTip" xml:space="preserve">
+    <value>Ideal for learning to handle all the concepts of software development and technologies the more common. (60 uses trial)</value>
+  </data>
+  <data name="RadioButton2.ToolTip" xml:space="preserve">
+    <value>The Standard Edition is very suitable for regular use, particularly for spare-time. (60 uses trial)</value>
+  </data>
+  <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="RadioButton1.ToolTip" xml:space="preserve">
+    <value>This edition is ideal for making very small programs for beginners.</value>
+  </data>
+  <data name="Fichiers_Extension_Button.Text" xml:space="preserve">
+    <value>Restore files associations</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.ToolTip" xml:space="preserve">
+    <value>Enter the default folder for projects</value>
+  </data>
+  <data name="Emplacement_Projet_Button.ToolTip" xml:space="preserve">
+    <value>Select the default folder for projects</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Project path :</value>
+  </data>
+  <data name="Nom_Societe_TextBox.ToolTip" xml:space="preserve">
+    <value>Enter your company name (optional)</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.ToolTip" xml:space="preserve">
+    <value>Enter your username (required)</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Organization :</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>User name :</value>
+  </data>
+  <data name="Pause_CheckBox1.Text" xml:space="preserve">
+    <value>Mark a pause at the end of the generation of a project</value>
+  </data>
+  <data name="Pause_CheckBox1.ToolTip" xml:space="preserve">
+    <value>Determines whether a pause for 3 seconds should be made at the end of the generation of a project</value>
+  </data>
+  <data name="ComboBox1.Items" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="ComboBox1.Items1" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="ComboBox1.Items2" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Color theme :</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.Text" xml:space="preserve">
+    <value>Enable Aero style for the main window</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.ToolTip" xml:space="preserve">
+    <value>Determines if the main window should use the Aero style or not.</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.Text" xml:space="preserve">
+    <value>Show Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.ToolTip" xml:space="preserve">
+    <value>Determines whether the Quick Access Toolbar to be displayed below the Ribbon or above</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.Text" xml:space="preserve">
+    <value>Minimize the Ribbon</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.ToolTip" xml:space="preserve">
+    <value>etermines if the tape of the main window should be minimized by default or not</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.Text" xml:space="preserve">
+    <value>Show status bar (recommended)</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.ToolTip" xml:space="preserve">
+    <value>Show or hide the status bar at the bottom of the main window</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Language :</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.Text" xml:space="preserve">
+    <value>Show the splash screen</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.ToolTip" xml:space="preserve">
+    <value>Show the software loading progress screen at start</value>
+  </data>
+  <data name="Updates_CheckBox.Text" xml:space="preserve">
+    <value>Check updates</value>
+  </data>
+  <data name="Updates_CheckBox.ToolTip" xml:space="preserve">
+    <value>Check updates at startup software</value>
+  </data>
+  <data name="Start_Page_CheckBox.Text" xml:space="preserve">
+    <value>Open the Start Page</value>
+  </data>
+  <data name="Start_Page_CheckBox.ToolTip" xml:space="preserve">
+    <value>Open the start page when launching the software</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.Text" xml:space="preserve">
+    <value>Follow the mouse position with the rule</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.ToolTip" xml:space="preserve">
+    <value>Display a line indicating the mouse position relative to the rule of measurement in the designer window.</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.Text" xml:space="preserve">
+    <value>Collapse the side panel at the opening</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.ToolTip" xml:space="preserve">
+    <value>Collapse the bottom panel of the designer default window</value>
+  </data>
+  <data name="SmartTags_CheckBox.Text" xml:space="preserve">
+    <value>Use Smart Tags</value>
+  </data>
+  <data name="SmartTags_CheckBox.ToolTip" xml:space="preserve">
+    <value>By enabling this option, panels working in the designer window (small tab at the top right of certain controls) will be used</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.Text" xml:space="preserve">
+    <value>Using intelligent magnetization</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.ToolTip" xml:space="preserve">
+    <value>Use a magnetization along the margins of intelligent control of the designer window</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.Text" xml:space="preserve">
+    <value>Show grid</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.ToolTip" xml:space="preserve">
+    <value>Using a grid of magnetization in the designer window</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.Text" xml:space="preserve">
+    <value>Spell checker in actions settings</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.ToolTip" xml:space="preserve">
+    <value>Enable or disable spell checking in the text value editor of the actions parameters.</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.Text" xml:space="preserve">
+    <value>Show the zoom toolbar in the bottom of the editor</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.ToolTip" xml:space="preserve">
+    <value>Afficher ou masquer la barre d'outils destiné à la gestion du zoom de l'éditeur d'actions en bas de l'éditeur
+Show or hide the zoom toolbar from the functions editor in the bottom of it</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.Text" xml:space="preserve">
+    <value>Collapse the side panel at the opening</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.ToolTip" xml:space="preserve">
+    <value>Collaspe the panel below the default editor fonctons</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.Text" xml:space="preserve">
+    <value>Syntax highlighting</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.ToolTip" xml:space="preserve">
+    <value>Determines whether to use the syntax highlighting of the document</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.Text" xml:space="preserve">
+    <value>Line numbers</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.ToolTip" xml:space="preserve">
+    <value>Determines whether to display line numbers</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.Text" xml:space="preserve">
+    <value>Configure voice recognition</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.Text" xml:space="preserve">
+    <value>Activate sound significations</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.ToolTip" xml:space="preserve">
+    <value>Determines whether the computer play a sound when the voice is detected in the microphone</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Speech recognition is not supported by the operating system Microsoft Windows XP.</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.Text" xml:space="preserve">
+    <value>Activate the voice recognition</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.ToolTip" xml:space="preserve">
+    <value>Determine if the voice recognition must be activated or not</value>
+  </data>
+  <data name="LinkLabel1.Text" xml:space="preserve">
+    <value>View Privacy Policy</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.Text" xml:space="preserve">
+    <value>Errors of generation in a project</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.ToolTip" xml:space="preserve">
+    <value>Allow SoftwareZator to send information about errors encountered in a generation project.</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.Text" xml:space="preserve">
+    <value>Data from voice recognition</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.ToolTip" xml:space="preserve">
+    <value>Allow SoftwareZator to send phrases understood by voice recognition and the result displayed by the software.</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Information to send</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.Text" xml:space="preserve">
+    <value>Allow SoftwareZator to send information to Veler Software in order to improve the software</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.ToolTip" xml:space="preserve">
+    <value>Allow SoftwareZator to send anonymous and confidential information that will be used to improve SoftwareZator.</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+</root>

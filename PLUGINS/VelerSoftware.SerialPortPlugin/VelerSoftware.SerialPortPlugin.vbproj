@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{ECA738B6-6ECB-4A59-B37E-EDCAD2E380EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.SerialPortPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.SerialPortPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Recevoir_Text_Port.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Recevoir_Text_Port.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Recevoir_Text_Port.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.vb" />
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Designer.xaml.vb">
+      <DependentUpon>Recevoir_Text_Port_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Form.Designer.vb">
+      <DependentUpon>Recevoir_Text_Port_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Envoyer_Text_Port.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Envoyer_Text_Port.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Envoyer_Text_Port.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.vb" />
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Designer.xaml.vb">
+      <DependentUpon>Envoyer_Text_Port_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Form.Designer.vb">
+      <DependentUpon>Envoyer_Text_Port_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Déterminer_Port_Connecte.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Déterminer_Port_Connecte.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Déterminer_Port_Connecte.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.vb" />
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Designer.xaml.vb">
+      <DependentUpon>Déterminer_Port_Connecte_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Form.Designer.vb">
+      <DependentUpon>Déterminer_Port_Connecte_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fermer_Ports.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fermer_Ports.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fermer_Ports.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.vb" />
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Designer.xaml.vb">
+      <DependentUpon>Fermer_Ports_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Form.Designer.vb">
+      <DependentUpon>Fermer_Ports_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvrir_Ports.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvrir_Ports.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvrir_Ports.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports.vb" />
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Designer.xaml.vb">
+      <DependentUpon>Ouvrir_Ports_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Form.Designer.vb">
+      <DependentUpon>Ouvrir_Ports_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Liste_Ports.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Liste_Ports.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Liste_Ports.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.vb" />
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Liste_Ports_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Form.Designer.vb">
+      <DependentUpon>Obtenir_Liste_Ports_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.en.resx">
+      <DependentUpon>Recevoir_Text_Port.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Recevoir_Text_Port.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.fr.resx">
+      <DependentUpon>Recevoir_Text_Port.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Recevoir_Text_Port.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port.resx">
+      <DependentUpon>Recevoir_Text_Port.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Recevoir_Text_Port.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Form.en.resx">
+      <DependentUpon>Recevoir_Text_Port_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Form.fr.resx">
+      <DependentUpon>Recevoir_Text_Port_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Form.resx">
+      <DependentUpon>Recevoir_Text_Port_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.en.resx">
+      <DependentUpon>Envoyer_Text_Port.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Envoyer_Text_Port.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.fr.resx">
+      <DependentUpon>Envoyer_Text_Port.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Envoyer_Text_Port.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port.resx">
+      <DependentUpon>Envoyer_Text_Port.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Envoyer_Text_Port.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Form.en.resx">
+      <DependentUpon>Envoyer_Text_Port_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Form.fr.resx">
+      <DependentUpon>Envoyer_Text_Port_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Form.resx">
+      <DependentUpon>Envoyer_Text_Port_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.en.resx">
+      <DependentUpon>Déterminer_Port_Connecte.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Déterminer_Port_Connecte.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.fr.resx">
+      <DependentUpon>Déterminer_Port_Connecte.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Déterminer_Port_Connecte.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte.resx">
+      <DependentUpon>Déterminer_Port_Connecte.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Déterminer_Port_Connecte.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Form.en.resx">
+      <DependentUpon>Déterminer_Port_Connecte_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Form.fr.resx">
+      <DependentUpon>Déterminer_Port_Connecte_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Form.resx">
+      <DependentUpon>Déterminer_Port_Connecte_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.en.resx">
+      <DependentUpon>Fermer_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fermer_Ports.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.fr.resx">
+      <DependentUpon>Fermer_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fermer_Ports.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports.resx">
+      <DependentUpon>Fermer_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fermer_Ports.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Form.en.resx">
+      <DependentUpon>Fermer_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Form.fr.resx">
+      <DependentUpon>Fermer_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Form.resx">
+      <DependentUpon>Fermer_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se connecter à un port\Ouvrir_Ports.en.resx">
+      <DependentUpon>Ouvrir_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ouvrir_Ports.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se connecter à un port\Ouvrir_Ports.fr.resx">
+      <DependentUpon>Ouvrir_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ouvrir_Ports.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se connecter à un port\Ouvrir_Ports.resx">
+      <DependentUpon>Ouvrir_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ouvrir_Ports.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Form.en.resx">
+      <DependentUpon>Ouvrir_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Form.fr.resx">
+      <DependentUpon>Ouvrir_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Form.resx">
+      <DependentUpon>Ouvrir_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.en.resx">
+      <DependentUpon>Obtenir_Liste_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Liste_Ports.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.fr.resx">
+      <DependentUpon>Obtenir_Liste_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Liste_Ports.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports.resx">
+      <DependentUpon>Obtenir_Liste_Ports.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Liste_Ports.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Form.en.resx">
+      <DependentUpon>Obtenir_Liste_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Form.fr.resx">
+      <DependentUpon>Obtenir_Liste_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Form.resx">
+      <DependentUpon>Obtenir_Liste_Ports_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ports séries\Se déconnecter d%27un port\Fermer_Ports_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ports séries\Se connecter à un port\Ouvrir_Ports_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\serialport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\serialport_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\serialport_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\serialport_text.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

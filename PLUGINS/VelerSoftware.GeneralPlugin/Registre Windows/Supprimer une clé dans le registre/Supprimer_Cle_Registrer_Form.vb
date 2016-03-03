@@ -1,0 +1,70 @@
+﻿Public Class Supprimer_Cle_Registrer_Form
+    Inherits VelerSoftware.Plugins3.ActionForm
+
+    Private Sub FonctionForm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        With Me
+            .CancelButtonText = RM.GetString("CancelButtonText")
+            .Title = RM.GetString("DisplayName")
+            .Help_File = RM.GetString("Help_File")
+
+            .ParseCode_Button_Visible = False
+
+            .Argument_ActionTextBox1.Tools = .Tools
+
+            .Argument_ActionTextBox1.Text = ""
+            .ComboBox1.SelectedIndex = 0
+
+            If Not .Param1 = Nothing Then
+                .Argument_ActionTextBox1.Text = .Param1
+            End If
+
+            If Not .Param2 = Nothing Then
+                .ComboBox1.Text = .Param2
+            End If
+
+        End With
+    End Sub
+
+    Private Sub FonctionForm_OnOKButtonClicked(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.OnOKButtonClicked
+        With Me
+            If .Argument_ActionTextBox1.Text = "" Then
+                MsgBox(RM.GetString("Formulaire_Incomplet"), MsgBoxStyle.Exclamation)
+                Exit Sub
+            End If
+
+            .Param1 = .Argument_ActionTextBox1.Text
+            .Param2 = .ComboBox1.Text
+
+            .DialogResult = Windows.Forms.DialogResult.OK
+            .Close()
+        End With
+    End Sub
+
+    Private Sub FonctionForm_OnCancelButtonClicked(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.OnCancelButtonClicked
+        Me.DialogResult = Windows.Forms.DialogResult.Cancel
+        Me.Close()
+    End Sub
+
+    Private Sub FonctionForm_OnRefreshCodeButtonClick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.OnRefreshCodeButtonClick
+        If Me.Argument_ActionTextBox1.Text = "" Then
+            MsgBox(RM.GetString("Formulaire_Incomplet"), MsgBoxStyle.Exclamation)
+            Exit Sub
+        End If
+
+
+        Dim sourceWriter As New IO.StringWriter()
+
+        Dim OperationStatement As CodeDom.CodeMethodInvokeExpression
+        If Tools.GetCurrentProjectType = SZVB.Projet.Projet.Types.ApplicationWindows Then
+            OperationStatement = New CodeDom.CodeMethodInvokeExpression(New CodeDom.CodeMethodReferenceExpression(New CodeDom.CodeTypeReferenceExpression("_computer.Registry." & Me.ComboBox1.Text), "DeleteSubKey"), New CodeDom.CodeSnippetExpression(Me.Tools.TransformKeyVariables(Me.Argument_ActionTextBox1.Text, True)), New CodeDom.CodePrimitiveExpression(False))
+        Else
+            OperationStatement = New CodeDom.CodeMethodInvokeExpression(New CodeDom.CodeMethodReferenceExpression(New CodeDom.CodeTypeReferenceExpression("My.Computer.Registry." & Me.ComboBox1.Text), "DeleteSubKey"), New CodeDom.CodeSnippetExpression(Me.Tools.TransformKeyVariables(Me.Argument_ActionTextBox1.Text, True)), New CodeDom.CodePrimitiveExpression(False))
+        End If
+        CodeDom.Compiler.CodeDomProvider.CreateProvider("VB").GenerateCodeFromExpression(OperationStatement, sourceWriter, New CodeDom.Compiler.CodeGeneratorOptions())
+
+        sourceWriter.Close()
+
+        Me.CodeEditor_Text = sourceWriter.ToString
+    End Sub
+
+End Class

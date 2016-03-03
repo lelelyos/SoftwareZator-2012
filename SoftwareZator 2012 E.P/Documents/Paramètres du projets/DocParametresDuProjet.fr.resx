@@ -1,0 +1,1505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="VelerSoftware.Design.Navigator" name="VelerSoftware.Design.Navigator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50" />
+  <data name="KryptonNavigator1.Bar.BarMapImage" type="VelerSoftware.Design.Navigator.MapKryptonPageImage, VelerSoftware.Design.Navigator">
+    <value>Small</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KryptonNavigator1.Button.CloseButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F4</value>
+  </data>
+  <data name="KryptonNavigator1.Button.ContextButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+Down</value>
+  </data>
+  <data name="KryptonNavigator1.Button.NextButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F6</value>
+  </data>
+  <data name="KryptonNavigator1.Button.PreviousButtonShortcut" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+F6</value>
+  </data>
+  <data name="KryptonNavigator1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonNavigator1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KryptonNavigator1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton10.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="KryptonButton10.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="PictureBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PictureBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PictureBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PictureBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Mode_Arret_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel19.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel19.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel19.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel19.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel19.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="MySettings_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MySettings_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MySettings_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MySettings_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Instance_Unique_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Style_Visuel_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Ecran_Demarrage_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel9.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel9.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Formulaire_Demarrage_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel8.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Type_Projet_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Type_Projet_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Type_Projet_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel7.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel7.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Gestionnaire_Variable_KryptonButton.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Nom_Projet_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel6.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel1.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Changer_Icone_KryptonButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Changer_Icone_KryptonButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Changer_Icone_KryptonButton.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Changer_Icone_KryptonButton.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton11.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton11.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Guid_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Guid_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Guid_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel18.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel18.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel18.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Panel3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marque_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Marque_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel17.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel17.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel17.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel17.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel17.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF2_1_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF2_2_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF2_3_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF2_4_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel16.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel16.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF1_1_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF1_2_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF1_3_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VF1_4_KryptonNumericUpDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel15.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel15.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel15.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel15.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel15.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Copyright_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Copyright_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Copyright_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel14.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel14.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel14.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel14.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Produit_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Produit_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Produit_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel13.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel13.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Societe_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Societe_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Societe_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel12.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Description_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Description_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel11.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel11.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Titre_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Titre_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Titre_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel10.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel10.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel2.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListView1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ImageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABK
+        FAAAAk1TRnQBSQFMAgEBBgEAAXwBAgF8AQIBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIFoAAVYBPAEpAf8BSAEuARoB/wFIAS4BGgH/AUgBLgEaAf8BSAEuARoB/wFI
+        AS4BGgH/AUgBLgEaAf8BSAEuARoB/wFIAS4BGgH/AUgBLgEaAf8BSAEuARoB/wFIAS4BGgH/kAAB6QHU
+        AcUB/wGVAWABTAH/AZUBYAFMAf8BlQFgAUwB/wGVAWABTAH/AZUBYAFMAf8BlQFgAUwB/wGVAWABTAH/
+        AZUBYAFMAf8BlQFgAUwB/wGVAWABTAH/FAABWwFBAS4B/wHvAdMBxgH/Ad4BvwGvAf8B3wG9AasB/wHc
+        AbgBpwH/AdoBtAGiAf8B2AGwAZ0B/wHXAa0BmQH/AdcBrAGWAf8B1wGsAZYB/wHbAawBlQH/AUgBLgEa
+        Af+QAAHpAdQBxQX/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/AekB1AHFAf8B6QHUAcUB/wHpAdQBxQH/
+        AekB1AHFAf8B6QHUAcUB/wGVAWABTAH/FAABXwFGATMB/wH4AeIB2AH/AfoB7gHnAf8B+QHqAeIB/wH3
+        AeUB3QH/AfYB4QHXAf8B9AHdAdEB/wH0AdkBzAH/AfIB1QHHAf8B8gHRAcEB/wHqAcABrAH/AUgBLgEa
+        Af+QAAHpAdQBxRv/AfsC/wH8Ae8B/wHpAdQBxQH/AZUBYAFMAf8UAAGAAUwBOgH/AfgB5AHbAf8BuAGk
+        AZQB/wGxAZwBjQH/AaoBlAGEAf8BogGMAWAB/wGaAYQBWAH/AZIBYAFPAf8BiwFYAUYB/wGEAVABPQH/
+        AeoBwAGsAf8BSAEuARoB/5AAAekB1AHFH/8B9gH/AekB1AHFAf8BlQFgAUwB/xQAAYYBUgE/Af8B+QHo
+        AeAB/wH8AfQB8QH/AfsB8QHsAf8B+QHuAecB/wH4AekB4gH/AfgB5gHcAf8B9gHhAdcB/wH1Ad0B0gH/
+        AfQB2AHMAf8B6wHDAbAB/wFIAS4BGgH/kAAB6QHUAcUf/wH9Af8B6QHUAcUB/wGVAWABTAH/FAABiwFY
+        AUYB/wH6AesB5AH/Ab0BqQGbAf8BtgGiAZQB/wGwAZsBiwH/AakBkwGDAf8BoQGKAWAB/wGZAYMBVgH/
+        AZEBXwFOAf8BigFXAUUB/wHtAccBtgH/AUgBLgEaAf+QAAHsAdcByCH/AekB1AHFAf8BlQFgAUwB/xQA
+        AZEBXgFNAf8B+wHuAecB/wH9AfoB+QH/AfwB+AH1Af8B/AH1AfEB/wH7AfEB7AH/AfoB7QHnAf8B+AHp
+        AeIB/wH4AeUB3AH/AfYB4QHXAf8B7gHNAbwB/wFIAS4BGgH/kAAB8AHbAcwh/wHpAdQBxQH/AZUBYAFM
+        Af8UAAGXAYABVAH/AfwB8AHsAf8BwgGuAaEB/wG9AagBmgH/AbYBogGSAf8BrwGZAYsB/wGnAZIBgwH/
+        AaABigFeAf8BmAGBAVUB/wGRAV4BTQH/AfAB0gHDAf8BSAEuARoB/5AAAfUB4AHQIf8B6QHUAcUB/wGV
+        AWABTAH/FAABnQGGAVsB/wH9AfMB8Ab/Af0B/AH/Af4B+wH6Af8B/QH4AfYB/wH8AfUB8QH/AfsB8QHt
+        Af8B+QHtAecB/wH4AekB4gH/AfMB1gHJAf8BSAEuARoB/5AAAfoB5AHVIf8B6QHUAcUB/wGVAWABTAH/
+        FAABowGMAWIB/wH8AfUB8gH/AcYBswGmAf8BwQGtAaAB/wG7AacBmQH/AbUBoQGRAf8BrgGZAYoB/wGm
+        AZEBgQH/AZ8BiAFdAf8BlwGAAVQB/wH0AdwB0AH/AUgBLgEaAf+QAAH+AegB2R3/AekB1AHFAf8B6QHU
+        AcUB/wGWAWEBTQH/FAABqAGTAYMB/wH+AfgB9Q3/Af4B/QH8Af8B/gH7AfkB/wH9AfgB9QH/AfwB9AHx
+        Af8B+wHxAe0B/wH3AeIB1wH/AUgBLgEaAf+QAAH/Ae0B3Rn/AekB1AHFAf8BlgFhAU0B/wGWAWEBTQH/
+        AZYBYQFNAf8UAAGuAZkBigH/Af4B+QH3Af8ByQG3AakB/wHFAbIBpAH/AcABrAGeAf8BuwGmAZgB/wG0
+        AZ8BkAH/Af4B+gH5Af8B/QH3AfUB/wH8AfQB8QH/AfsB6gHgAf8BSAEuARoB/5AAAf8B8QHhGf8B6wHW
+        AccC/wH3AewB/wGWAWEBTQH/A0oBjBQAAbMBnwGPAf8B/gH7AfkV/wH+Af0B/AH/AaIBjAFhAf8BUQE2
+        ASIB/wFRATYBIgH/AUgBLgEaAf+QAAH/AfQB5Bn/AfIB3QHOAf8BlgFhAU0B/wNKAYsYAAG4AaQBlQH/
+        Af4B/AH7Gf8BogGMAWEB/wHnAd4B2AH/AaMBjQFiAf+UAAH/AfQB5AL/AfQB5AL/AfQB5AL/AfQB5AL/
+        AfQB5AL/AfAB4AL/AesB2wH/AfsB5QHWAf8DSgGLHAABvQGoAZsd/wGiAYwBYQH/AaMBjQFiAf/YAAHC
+        Aa4BoAH/Ab0BqAGbAf8BuAGkAZUB/wGzAZ8BkAH/Aa4BmQGKAf8BqAGTAYMB/wGjAY0BYgH/AZ0BhgFb
+        Af8BlwGAAVQB//8A/wAWAANZAccBAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/
+        AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGMAakB/wEAAYwBqQH/AQABjAGpAf8BAAGM
+        AakB/wEAAYwBqQH/A1kBxwQAAUABhQGcAf8BMgFAAU8B/wEtATsBSgH/ASkBNgFGAf8BJQEyAUEB/wEi
+        AS4BPQH/AR8BKwE5Af8BHgEpATcB/wEbASYBNAH/ARoBJAEyAf8BGAEjAS8B/wEYASIBLgH/ARYBIAEr
+        Af8BFgEfASoB/4QAAVsCXgHZAQQByQHpAf8BAAHGAfEB/wEAAcIB8AH/AQABwQHwAf8BAAHAAfAB/wEA
+        AcEB8AH/AQABwQHwAf8BAAHBAfAB/wEAAcEB8AH/AQABwgHwAf8BAAHDAfAB/wEAAcMB8AH/AQABxAHx
+        Af8BAAHDAeQB/wFbAl4B2QQAAUQBiQGgAf8BjAHRAZkB/wGKAdIBmQH/AVwBxgGJAf8BRQG4AVoB/wEv
+        AaoBSQH/ARoBnQE3Af8BCAGQAScB/wEAAYkBHQH/AQABiQEdAf8BAAGJAR0B/wEIAV4BHAH/ATIBIAER
+        Af8BFwEhASwB/4QAA04BmQEAAa4BzwH/AQEBzQHyAf8BAAHIAfEB/wEAAcUB8QH/AQABxAHxAf8BAAHD
+        AfAB/wMAAf8DAAH/AQABxgHxAf8BAAHIAfEB/wEAAcoB8gH/AQABygHyAf8BAAHMAfEB/wEAAasBzQH/
+        A04BmQQAAUcBjQGkAf8BuwHmAcMB/wGoAeABswH/AZMB1wGgAf8BYwHJAY8B/wFLAbsBYAH/ATQBrQFM
+        Af8BGwGdATcB/wEFAY8BJgH/AQABiQEdAf8BKQE+ARoB/wFTAT4BLwH/AUgBMwElAf8BGAEhAS0B/4QA
+        AxQBGwFbAl4B2QEFAcYB5AH/AQUB0QHzAf8BAAHNAfIB/wEAAcsB8gH/AQABygHyAf8DAAH/AwAB/wEB
+        Ac0B8wH/AQUB0QHzAf8BBgHSAfQB/wEHAdMB9AH/AQQBxQHjAf8BWwJeAdkDFAEbBAABSgGSAacB/wGl
+        Ad4BsAH/AdEB7wHWAf8BqAHgAbMB/wGOAdQBnAH/AV0BxQGKAf8BRQG3AVsB/wEuAagBRwH/AREBlgEw
+        Af8BNAEuARgB/wGSAWEBVAH/AY0BXQFPAf8DAAH/ARgBIwEvAf8kAAMDAQRgAAFIAkkBhwEAAawBzQH/
+        ARMB2wH0Af8BDwHZAfUB/wEMAdcB9QH/AQsB1gH0Af8BCwHWAfQB/wENAdcB9QH/AQ8B2QH1Af8BDwHZ
+        AfUB/wERAdsB9QH/ARIB2gHzAf8BAAGqAcsB/wFIAkkBhwgAAU0BlgGrAf8BnAGlAYYB/wGoAeABswH/
+        AdEB7wHWAf8BqAHgAbMB/wGKAdEBmQH/AVcBwQGFAf8BOwGwAVIB/wFGAVMBNwH/Ab8BqwGhAf8BswGd
+        AZAB/wMAAf8BrgGRAYMB/wEaASQBMQH/IAADEgEZA00BlgMSARlcAAMNARIBWwJeAdkBCgHGAd8B/wEe
+        AeYB+AH/AR0B5AH3Af8BHAHjAfcB/wEAAUcBUAH/AQABRwFQAf8BGgHiAfcB/wEaAeIB9wH/ARsB4wH3
+        Af8BCQHHAeAB/wFbAl4B2QMNARIIAAFQAZoBrwH/Ae0B4wHdAf8BnAGfAYMB/wGmAd8BsQH/AdAB7gHW
+        Af8BpQHeAbAB/wGAAcsBkAH/AU0BXQE/Af8BzwG8AbIB/wHTAcEBtwH/AwAB/wHsAbYBmQH/AbQBlgGH
+        Af8BGwElATIB/xwAAxABFgNWAbMDAAH/A1YBswMQARYoAAMFAQcDRQF9A1EB9wMAAf8DUQH3A0UBfQMF
+        AQcYAANDAXgBAAGqAcsB/wEmAeoB9gH/ASoB8AH6Af8BKAHuAfkB/wMAAf8DAAH/ASQB6gH5Af8BJAHq
+        AfkB/wEfAeUB9QH/AQABqgHLAf8DQwF4DAABVAGdAbIC/wH8AfsB/wHtAeMB3QH/AZwBgwFXAf8BpgHe
+        AbAB/wGxAeIBugH/AU0BQwEvAf8BzgGuAZsB/wFKATQBJQH/AUoBNAElAf8B2AGwAZkB/wH7AcEBogH/
+        AbsBmwGMAf8BHAEoATUB/xgAAwQBBQM4AV4DVgG5A1cBvwNWAbkDOAFeAwQBBSgAAw0BEQNLAY8DUwHx
+        A0sBjwMNAREcAAMJAQwBWwJeAdkBCAHCAdsB/wEuAfMB+wH/AS0B8QH6Af8DAAH/AwAB/wEpAe8B+gH/
+        ASkB7wH6Af8BCgHGAd8B/wFbAl4B2QMJAQwMAAFXAaIBtQL/AfwB+wL/AfwB+wH/AekB3gHYAf8BnAGD
+        AVcB/wGbAYIBVgH/Ae4B1gHJAf8B/QHfAc8B/wH9AdcBwwH/AfwB0AG5Af8B/AHKAbAB/wH7AcUBqAH/
+        AcIBoQGQAf8BHwEqATgB/2AAAw0BEQM8AWcDDQERJAADPQFpAQABqQHLAf8BKAHqAfQB/wEwAfQB+wH/
+        AwAB/wMAAf8BLgHyAfoB/wEnAeoB9gH/AQABqQHLAf8DPQFpEAABWgGlAbgC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/Af4B7QHkAf8B1AHFAdIB/wEFATgBywH/AQQBNgHGAf8B0QGxAa8B/wH8
+        AcoBsAH/AcoBpwGVAf8BIQEsATsB/2QAAwEBAigAAwQBBgFbAl4B2QEFAb8B2QH/AToB9gH7Af8DAAH/
+        AwAB/wExAfUB+wH/AQwBxgHdAf8BWwJeAdkDBAEGEAABXAGoAbwC/wH8AfsC/wH8AfsC/wH8AfsC/wH8
+        AfsC/wH4AfUB/wH+AfMB7QH/ARUBQwHUAf8BVwG+AfkB/wEpAYwBywH/AQQBNgHGAf8B/AHQAbkB/wHS
+        Aa0BmgH/ASMBLwE+Af+UAAM3AVoBAAGpAcoB/wEnAegB8wH/ATEB9QH7Af8BMQH1AfsB/wEqAe0B9gH/
+        AQABqQHLAf8DNwFaFAABXgGrAb4C/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH8AfsC/wH4AfUB/wEW
+        AUUB1wH/AbkB5AL/AVcBvgH5Af8BBQE4AcsB/wH9AdcBwwH/AdkBswGfAf8BJwEzAUIB/5QAAwIBAwFb
+        Al4B2QEDAbsB1gH/ATEB9QH7Af8BMQH1AfsB/wELAcYB3QH/AVsCXgHZAwIBAxQAAWEBrgHAAv8B/AH7
+        Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Af8B1wHUAewB/wEWAUUB1wH/ARUBRAHUAf8B1AHF
+        AdIB/wH9Ad8BzwH/Ad4BtwGjAf8BKgE3AUYB/5gAAy4BSAEAAagBygH/ASQB5QHxAf8BKgHsAfUB/wEA
+        AakBywH/Ay4BSBgAAWMBsAHCAv8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7Av8B/AH7
+        Av8B+AH1Af8B/gHzAe0B/wH+Ae0B5AH/Af0B5gHaAf8B/QHfAc8B/wEuATsBSwH/nAABWwJeAdkBAAG5
+        AdUB/wELAcYB3QH/AVsCXgHZHAABZAGyAcQB/wFiAbABwwH/AWABrQHAAf8BXgGrAb4B/wFcAagBuwH/
+        AVkBpQG4Af8BVgGhAbUB/wFUAZ4BsgH/AVEBmgGvAf8BTgGVAasB/wFKAZIBqAH/AUcBjQGkAf8BRAGJ
+        AaAB/wFAAYQBnAH/nAADJgE5AVkCYAHrAVkCYAHrAyYBOVgAAUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA/8BAAL/AcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHAAQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABBwHA
+        AQMEAAHAAQcBwAEDBAABwAEHAcABAwQAAcABDwHAAQcEAAHAAR8BwAEPBAAC/wHAAR8EAAz/AgABgAEB
+        BP8CAAGAAQEE/wIAAYABAQT/AgABgAEBAf8BfwL/AYABAQGAAQEB/gE/Av8BgAEBAYABAQH8AR8B+AEP
+        AcABAwGAAQEB+AEPAfwBHwHAAQMBgAEBAv8B/gE/AeABBwGAAQED/wF/AeABBwGAAQEE/wHwAQ8BgAEB
+        BP8B8AEPAYABAQT/AfgBHwGAAQEE/wH8AT8BgAEBBP8B/AE/Av8L
+</value>
+  </data>
+  <data name="ListView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton2.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton2.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonButton1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton1.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel3.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel3.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListView2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton3.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton3.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonButton4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton4.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton4.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel20.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel20.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel20.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton6.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton6.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonButton5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton5.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton5.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel4.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel4.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Obfuscation_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Obfuscation_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Obfuscation_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel23.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel23.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel23.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Panel7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Panel7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonGroupBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton9.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton9.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonButton8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton8.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton8.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="ListView4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListView4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonGroupBox1.Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonGroupBox1.Panel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.Values.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonGroupBox1.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Unite_Central_Cible_KryptonComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel22.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel22.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel22.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel22.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel22.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optimiser_KryptonCheckBox.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonButton7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonButton7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonButton7.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonButton7.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="Generation_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Generation_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Generation_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel21.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel21.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel21.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonLabel5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonLabel5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonLabel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel5.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonLabel5.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="KryptonPage5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonPage5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonPage5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonPage5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonNavigator1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kryptonPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kryptonPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="kryptonPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="kryptonPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonSplitContainer1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListView3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ListView3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListView3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_PictureBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_PictureBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Ressource_PictureBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ressource_PictureBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Ressource_KryptonLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ressource_KryptonLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ressource_KryptonTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ressource_KryptonTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonWrapLabel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonWrapLabel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonWrapLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="KryptonSplitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="KryptonSplitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

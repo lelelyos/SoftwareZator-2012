@@ -1,0 +1,1120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{D0B651EC-9ED0-4908-87A7-8EF49A9EDA7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.FTPPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.FTPPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.Designer.vb">
+      <DependentUpon>Liste_Fichier_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.en.Designer.vb">
+      <DependentUpon>Liste_Fichier_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.fr.Designer.vb">
+      <DependentUpon>Liste_Fichier_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Designer.xaml.vb">
+      <DependentUpon>Liste_Fichier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Form.Designer.vb">
+      <DependentUpon>Liste_Fichier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Dossier_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Dossier_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Dossier_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Designer.xaml.vb">
+      <DependentUpon>Liste_Dossier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Form.Designer.vb">
+      <DependentUpon>Liste_Dossier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.Designer.vb">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.en.Designer.vb">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.fr.Designer.vb">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Form.Designer.vb">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Dossier_Courant_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Dossier_Courant_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Dossier_Courant_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Form.Designer.vb">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Dossier_Courant_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Dossier_Courant_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Dossier_Courant_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Designer.xaml.vb">
+      <DependentUpon>Definir_Dossier_Courant_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Form.Designer.vb">
+      <DependentUpon>Definir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.Designer.vb">
+      <DependentUpon>Telecharger_Fichier_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.en.Designer.vb">
+      <DependentUpon>Telecharger_Fichier_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.fr.Designer.vb">
+      <DependentUpon>Telecharger_Fichier_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Designer.xaml.vb">
+      <DependentUpon>Telecharger_Fichier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Form.Designer.vb">
+      <DependentUpon>Telecharger_Fichier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Envoyer_Fichier_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Envoyer_Fichier_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Envoyer_Fichier_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Designer.xaml.vb">
+      <DependentUpon>Envoyer_Fichier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Form.Designer.vb">
+      <DependentUpon>Envoyer_Fichier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Fichier_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Fichier_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Fichier_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Designer.xaml.vb">
+      <DependentUpon>Renommer_Fichier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Form.Designer.vb">
+      <DependentUpon>Renommer_Fichier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.Designer.vb">
+      <DependentUpon>Fichier_Taille_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.en.Designer.vb">
+      <DependentUpon>Fichier_Taille_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.fr.Designer.vb">
+      <DependentUpon>Fichier_Taille_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Designer.xaml.vb">
+      <DependentUpon>Fichier_Taille_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Form.Designer.vb">
+      <DependentUpon>Fichier_Taille_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.Designer.vb">
+      <DependentUpon>Requete_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.en.Designer.vb">
+      <DependentUpon>Requete_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.fr.Designer.vb">
+      <DependentUpon>Requete_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Designer.xaml.vb">
+      <DependentUpon>Requete_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Form.Designer.vb">
+      <DependentUpon>Requete_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.Designer.vb">
+      <DependentUpon>Supprimer_Fichier_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.en.Designer.vb">
+      <DependentUpon>Supprimer_Fichier_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.fr.Designer.vb">
+      <DependentUpon>Supprimer_Fichier_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Fichier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Form.Designer.vb">
+      <DependentUpon>Supprimer_Fichier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.Designer.vb">
+      <DependentUpon>Supprimer_Dossier_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.en.Designer.vb">
+      <DependentUpon>Supprimer_Dossier_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.fr.Designer.vb">
+      <DependentUpon>Supprimer_Dossier_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Dossier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Form.Designer.vb">
+      <DependentUpon>Supprimer_Dossier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.Designer.vb">
+      <DependentUpon>Fichier_Existe_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.en.Designer.vb">
+      <DependentUpon>Fichier_Existe_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.fr.Designer.vb">
+      <DependentUpon>Fichier_Existe_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Designer.xaml.vb">
+      <DependentUpon>Fichier_Existe_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Form.Designer.vb">
+      <DependentUpon>Fichier_Existe_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.Designer.vb">
+      <DependentUpon>Dossier_Existe_FTP.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.en.Designer.vb">
+      <DependentUpon>Dossier_Existe_FTP.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.fr.Designer.vb">
+      <DependentUpon>Dossier_Existe_FTP.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Designer.xaml.vb">
+      <DependentUpon>Dossier_Existe_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Form.Designer.vb">
+      <DependentUpon>Dossier_Existe_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Dossier_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Dossier_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Dossier_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Designer.xaml.vb">
+      <DependentUpon>Creer_Dossier_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Form.Designer.vb">
+      <DependentUpon>Creer_Dossier_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DéConnecter_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DéConnecter_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DéConnecter_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP_Designer.xaml.vb">
+      <DependentUpon>DéConnecter_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Connecter_FTP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Connecter_FTP.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Connecter_FTP.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.vb" />
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Designer.xaml.vb">
+      <DependentUpon>Connecter_FTP_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Form.Designer.vb">
+      <DependentUpon>Connecter_FTP_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.en.resx">
+      <DependentUpon>Liste_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Fichier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.fr.resx">
+      <DependentUpon>Liste_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Fichier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP.resx">
+      <DependentUpon>Liste_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Fichier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Form.en.resx">
+      <DependentUpon>Liste_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Form.fr.resx">
+      <DependentUpon>Liste_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Form.resx">
+      <DependentUpon>Liste_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.en.resx">
+      <DependentUpon>Liste_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Dossier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.fr.resx">
+      <DependentUpon>Liste_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Dossier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP.resx">
+      <DependentUpon>Liste_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Dossier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Form.en.resx">
+      <DependentUpon>Liste_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Form.fr.resx">
+      <DependentUpon>Liste_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Form.resx">
+      <DependentUpon>Liste_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.en.resx">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Info_Dossier_Courant_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.fr.resx">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Info_Dossier_Courant_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP.resx">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Info_Dossier_Courant_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Form.en.resx">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Form.fr.resx">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Form.resx">
+      <DependentUpon>Obtenir_Info_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.en.resx">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Dossier_Courant_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.fr.resx">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Dossier_Courant_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP.resx">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Dossier_Courant_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Form.en.resx">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Form.fr.resx">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Form.resx">
+      <DependentUpon>Obtenir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.en.resx">
+      <DependentUpon>Definir_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Dossier_Courant_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.fr.resx">
+      <DependentUpon>Definir_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Dossier_Courant_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP.resx">
+      <DependentUpon>Definir_Dossier_Courant_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Dossier_Courant_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Form.en.resx">
+      <DependentUpon>Definir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Form.fr.resx">
+      <DependentUpon>Definir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Form.resx">
+      <DependentUpon>Definir_Dossier_Courant_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.en.resx">
+      <DependentUpon>Telecharger_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Telecharger_Fichier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.fr.resx">
+      <DependentUpon>Telecharger_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Telecharger_Fichier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP.resx">
+      <DependentUpon>Telecharger_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Telecharger_Fichier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Form.en.resx">
+      <DependentUpon>Telecharger_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Form.fr.resx">
+      <DependentUpon>Telecharger_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Form.resx">
+      <DependentUpon>Telecharger_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.en.resx">
+      <DependentUpon>Envoyer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Envoyer_Fichier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.fr.resx">
+      <DependentUpon>Envoyer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Envoyer_Fichier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP.resx">
+      <DependentUpon>Envoyer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Envoyer_Fichier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Form.en.resx">
+      <DependentUpon>Envoyer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Form.fr.resx">
+      <DependentUpon>Envoyer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Form.resx">
+      <DependentUpon>Envoyer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.en.resx">
+      <DependentUpon>Renommer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Fichier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.fr.resx">
+      <DependentUpon>Renommer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Fichier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP.resx">
+      <DependentUpon>Renommer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Fichier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Form.en.resx">
+      <DependentUpon>Renommer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Form.fr.resx">
+      <DependentUpon>Renommer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Form.resx">
+      <DependentUpon>Renommer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.en.resx">
+      <DependentUpon>Fichier_Taille_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fichier_Taille_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.fr.resx">
+      <DependentUpon>Fichier_Taille_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fichier_Taille_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP.resx">
+      <DependentUpon>Fichier_Taille_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fichier_Taille_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Form.en.resx">
+      <DependentUpon>Fichier_Taille_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Form.fr.resx">
+      <DependentUpon>Fichier_Taille_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Form.resx">
+      <DependentUpon>Fichier_Taille_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.en.resx">
+      <DependentUpon>Requete_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.fr.resx">
+      <DependentUpon>Requete_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP.resx">
+      <DependentUpon>Requete_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Form.en.resx">
+      <DependentUpon>Requete_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Form.fr.resx">
+      <DependentUpon>Requete_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Form.resx">
+      <DependentUpon>Requete_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.en.resx">
+      <DependentUpon>Supprimer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Fichier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.fr.resx">
+      <DependentUpon>Supprimer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Fichier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP.resx">
+      <DependentUpon>Supprimer_Fichier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Fichier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Form.en.resx">
+      <DependentUpon>Supprimer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Form.fr.resx">
+      <DependentUpon>Supprimer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Form.resx">
+      <DependentUpon>Supprimer_Fichier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.en.resx">
+      <DependentUpon>Supprimer_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Dossier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.fr.resx">
+      <DependentUpon>Supprimer_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Dossier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP.resx">
+      <DependentUpon>Supprimer_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Dossier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Form.en.resx">
+      <DependentUpon>Supprimer_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Form.fr.resx">
+      <DependentUpon>Supprimer_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Form.resx">
+      <DependentUpon>Supprimer_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.en.resx">
+      <DependentUpon>Fichier_Existe_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fichier_Existe_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.fr.resx">
+      <DependentUpon>Fichier_Existe_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fichier_Existe_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP.resx">
+      <DependentUpon>Fichier_Existe_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fichier_Existe_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Form.en.resx">
+      <DependentUpon>Fichier_Existe_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Form.fr.resx">
+      <DependentUpon>Fichier_Existe_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Form.resx">
+      <DependentUpon>Fichier_Existe_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.en.resx">
+      <DependentUpon>Dossier_Existe_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dossier_Existe_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.fr.resx">
+      <DependentUpon>Dossier_Existe_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dossier_Existe_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP.resx">
+      <DependentUpon>Dossier_Existe_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dossier_Existe_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Form.en.resx">
+      <DependentUpon>Dossier_Existe_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Form.fr.resx">
+      <DependentUpon>Dossier_Existe_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Form.resx">
+      <DependentUpon>Dossier_Existe_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.en.resx">
+      <DependentUpon>Creer_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Dossier_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.fr.resx">
+      <DependentUpon>Creer_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Dossier_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP.resx">
+      <DependentUpon>Creer_Dossier_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Dossier_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Form.en.resx">
+      <DependentUpon>Creer_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Form.fr.resx">
+      <DependentUpon>Creer_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Form.resx">
+      <DependentUpon>Creer_Dossier_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.en.resx">
+      <DependentUpon>DéConnecter_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DéConnecter_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.fr.resx">
+      <DependentUpon>DéConnecter_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DéConnecter_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP.resx">
+      <DependentUpon>DéConnecter_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DéConnecter_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.en.resx">
+      <DependentUpon>Connecter_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Connecter_FTP.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.fr.resx">
+      <DependentUpon>Connecter_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Connecter_FTP.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP.resx">
+      <DependentUpon>Connecter_FTP.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Connecter_FTP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Form.en.resx">
+      <DependentUpon>Connecter_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Form.fr.resx">
+      <DependentUpon>Connecter_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Form.resx">
+      <DependentUpon>Connecter_FTP_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="FTP %28File Transfer Protocol%29\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Obtenir une information sur le dossier courant d%27un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Obtenir le dossier courant d%27un serveur FTP\Obtenir_Dossier_Courant_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Obtenir la taille d%27un fichier sur un serveur FTP\Fichier_Taille_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Envoyer une requête à un serveur FTP\Requete_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Supprimer un fichier d%27un serveur FTP\Supprimer_Fichier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Supprimer un dossier d%27un serveur FTP\Supprimer_Dossier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Se déconnecter d%27un serveur FTP\DéConnecter_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FTP %28File Transfer Protocol%29\Se connecter à un serveur FTP\Connecter_FTP_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\run_request.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\creer_dossier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\dossier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fichier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\supprimer_dossier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\supprimer_fichier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\download.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

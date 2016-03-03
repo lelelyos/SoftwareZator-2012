@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{AEE302BD-9CCA-45F1-81B0-64D1D8D5511D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.ExcelPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.ExcelPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.vb" />
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Ajouter_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.vb" />
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Imprimer_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Imprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Liste_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Liste_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Liste_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.vb" />
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.vb" />
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.vb" />
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Obtenir_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.vb" />
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Cellule_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Form.Designer.vb">
+      <DependentUpon>Obtenir_Cellule_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Cellule_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Cellule_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Cellule_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.vb" />
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Designer.xaml.vb">
+      <DependentUpon>Definir_Cellule_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Form.Designer.vb">
+      <DependentUpon>Definir_Cellule_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Définir_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Définir_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Définir_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.vb" />
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Définir_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Définir_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Feuille_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Feuille_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Feuille_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.vb" />
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Feuille_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Form.Designer.vb">
+      <DependentUpon>Supprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Donnee_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Donnee_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Donnee_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.vb" />
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Designer.xaml.vb">
+      <DependentUpon>Enregistrer_Donnee_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Form.Designer.vb">
+      <DependentUpon>Enregistrer_Donnee_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fermer_Donnee_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fermer_Donnee_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fermer_Donnee_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.vb" />
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Designer.xaml.vb">
+      <DependentUpon>Fermer_Donnee_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Form.Designer.vb">
+      <DependentUpon>Fermer_Donnee_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvrir_Fichier_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvrir_Fichier_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvrir_Fichier_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.vb" />
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Designer.xaml.vb">
+      <DependentUpon>Ouvrir_Fichier_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Form.Designer.vb">
+      <DependentUpon>Ouvrir_Fichier_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Donnee_Excel.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Donnee_Excel.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Donnee_Excel.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.vb" />
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Designer.xaml.vb">
+      <DependentUpon>Creer_Donnee_Excel_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Form.Designer.vb">
+      <DependentUpon>Creer_Donnee_Excel_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.en.resx">
+      <DependentUpon>Ajouter_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.fr.resx">
+      <DependentUpon>Ajouter_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel.resx">
+      <DependentUpon>Ajouter_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Ajouter_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Ajouter_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Form.resx">
+      <DependentUpon>Ajouter_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.en.resx">
+      <DependentUpon>Imprimer_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.fr.resx">
+      <DependentUpon>Imprimer_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel.resx">
+      <DependentUpon>Imprimer_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Imprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Imprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Form.resx">
+      <DependentUpon>Imprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.en.resx">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Liste_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.fr.resx">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Liste_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel.resx">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Liste_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Form.resx">
+      <DependentUpon>Obtenir_Liste_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.en.resx">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Nombre_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.fr.resx">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Nombre_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel.resx">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Nombre_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Form.resx">
+      <DependentUpon>Obtenir_Nombre_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.en.resx">
+      <DependentUpon>Obtenir_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.fr.resx">
+      <DependentUpon>Obtenir_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel.resx">
+      <DependentUpon>Obtenir_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Obtenir_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Obtenir_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Form.resx">
+      <DependentUpon>Obtenir_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.en.resx">
+      <DependentUpon>Obtenir_Cellule_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.fr.resx">
+      <DependentUpon>Obtenir_Cellule_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel.resx">
+      <DependentUpon>Obtenir_Cellule_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Form.en.resx">
+      <DependentUpon>Obtenir_Cellule_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Form.fr.resx">
+      <DependentUpon>Obtenir_Cellule_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Form.resx">
+      <DependentUpon>Obtenir_Cellule_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.en.resx">
+      <DependentUpon>Definir_Cellule_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Cellule_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.fr.resx">
+      <DependentUpon>Definir_Cellule_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Cellule_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel.resx">
+      <DependentUpon>Definir_Cellule_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Cellule_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Form.en.resx">
+      <DependentUpon>Definir_Cellule_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Form.fr.resx">
+      <DependentUpon>Definir_Cellule_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Form.resx">
+      <DependentUpon>Definir_Cellule_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.en.resx">
+      <DependentUpon>Définir_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Définir_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.fr.resx">
+      <DependentUpon>Définir_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Définir_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel.resx">
+      <DependentUpon>Définir_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Définir_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Définir_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Définir_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Form.resx">
+      <DependentUpon>Définir_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.en.resx">
+      <DependentUpon>Supprimer_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Feuille_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.fr.resx">
+      <DependentUpon>Supprimer_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Feuille_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel.resx">
+      <DependentUpon>Supprimer_Feuille_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Feuille_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Form.en.resx">
+      <DependentUpon>Supprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Form.fr.resx">
+      <DependentUpon>Supprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Form.resx">
+      <DependentUpon>Supprimer_Feuille_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.en.resx">
+      <DependentUpon>Enregistrer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Donnee_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.fr.resx">
+      <DependentUpon>Enregistrer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Donnee_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel.resx">
+      <DependentUpon>Enregistrer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Donnee_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Form.en.resx">
+      <DependentUpon>Enregistrer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Form.fr.resx">
+      <DependentUpon>Enregistrer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Form.resx">
+      <DependentUpon>Enregistrer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.en.resx">
+      <DependentUpon>Fermer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fermer_Donnee_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.fr.resx">
+      <DependentUpon>Fermer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fermer_Donnee_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel.resx">
+      <DependentUpon>Fermer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fermer_Donnee_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Form.en.resx">
+      <DependentUpon>Fermer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Form.fr.resx">
+      <DependentUpon>Fermer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Form.resx">
+      <DependentUpon>Fermer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.en.resx">
+      <DependentUpon>Ouvrir_Fichier_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ouvrir_Fichier_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.fr.resx">
+      <DependentUpon>Ouvrir_Fichier_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ouvrir_Fichier_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel.resx">
+      <DependentUpon>Ouvrir_Fichier_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ouvrir_Fichier_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Form.en.resx">
+      <DependentUpon>Ouvrir_Fichier_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Form.fr.resx">
+      <DependentUpon>Ouvrir_Fichier_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Form.resx">
+      <DependentUpon>Ouvrir_Fichier_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.en.resx">
+      <DependentUpon>Creer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Donnee_Excel.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.fr.resx">
+      <DependentUpon>Creer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Donnee_Excel.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel.resx">
+      <DependentUpon>Creer_Donnee_Excel.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Donnee_Excel.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Form.en.resx">
+      <DependentUpon>Creer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Form.fr.resx">
+      <DependentUpon>Creer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Form.resx">
+      <DependentUpon>Creer_Donnee_Excel_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\creer_donnee_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Excel\Ajouter une feuille à un classeur Excel\Ajouter_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Imprimer une feuille d%27un classeur Excel\Imprimer_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Obtenir la liste des feuilles\Obtenir_Liste_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Obtenir le nombre de feuilles\Obtenir_Nombre_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Obtenir la feuille actuelle\Obtenir_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Obtenir une cellule d%27un classeur Excel\Obtenir_Cellule_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Définir une cellule d%27un classeur Excel\Definir_Cellule_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Définir la feuille actuelle\Définir_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Supprimer une feuille à un classeur Excel\Supprimer_Feuille_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Enregistrer un classeur Excel\Enregistrer_Donnee_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Fermer un classeur Excel\Fermer_Donnee_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Ouvrir un classeur Excel\Ouvrir_Fichier_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excel\Créer un nouveau classeur Excel\Creer_Donnee_Excel_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ouvrir_fichier_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fermer_donnee_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\enregistrer_donnee_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\feuille_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ajouter_feuille_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\supprimer_feuille_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\cellule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\imprimer_feuille_excel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,2572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreeView1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TreeView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="TreeView1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TreeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 60</value>
+  </data>
+  <data name="TreeView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>45, 3, 3, 45</value>
+  </data>
+  <data name="TreeView1.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQ0AAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4
+        CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hp
+        bGRyZW4wCWNoaWxkcmVuMQljaGlsZHJlbjIJY2hpbGRyZW4zCWNoaWxkcmVuNAEBAAABAAEABAQEBAQB
+        CAgIHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5U
+        cmVlTm9kZQIAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUCAAAAHVN5c3RlbS5XaW5kb3dz
+        LkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAACAAAABgMA
+        AAAJR8OpbsOpcmFsBgQAAAAHR2VuZXJhbAD/////BgUAAAAA/////wkFAAAABQAAAAkGAAAACQcAAAAJ
+        CAAAAAkJAAAACQoAAAAFBgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQgAAAAEVGV4dARO
+        YW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3Rl
+        ZEltYWdlS2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgCAAAABgsAAAAJR8OpbsOpcmFsBgwAAAAHR2Vu
+        ZXJhbAD/////CQUAAAD/////CQUAAAAAAAAABQcAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5v
+        ZGUIAAAABFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxlY3RlZEltYWdl
+        SW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50AQEAAAEAAQABCAgIAgAAAAYOAAAACkTDqW1h
+        cnJhZ2UGDwAAAAdTdGFydGVyAP////8JBQAAAP////8JBQAAAAAAAAAFCAAAAB1TeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5UcmVlTm9kZQgAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5
+        ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgC
+        AAAABhEAAAAGTGFuZ3VlBhIAAAAITGFuZ3VhZ2UA/////wkFAAAA/////wkFAAAAAAAAAAUJAAAAHVN5
+        c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlCAAAAARUZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5k
+        ZXgISW1hZ2VLZXkSU2VsZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAEB
+        AAABAAEAAQgICAIAAAAGFAAAAAlJbnRlcmZhY2UGFQAAAApJbnRlcmZhY2VzAP////8JBQAAAP////8J
+        BQAAAAAAAAAFCgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQgAAAAEVGV4dAROYW1lCUlz
+        Q2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdl
+        S2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgCAAAABhcAAAAQQ29uZmlkZW50aWFsaXTDqQYYAAAAD0Nv
+        bmZpZGVudGlhbGl0eQD/////CQUAAAD/////CQUAAAAAAAAACw==
+</value>
+  </data>
+  <data name="TreeView1.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQsAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4
+        CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hp
+        bGRyZW4wCWNoaWxkcmVuMQljaGlsZHJlbjIBAQAAAQABAAQEBAEICAgdU3lzdGVtLldpbmRvd3MuRm9y
+        bXMuVHJlZU5vZGUCAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2lu
+        ZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAACAAAABgMAAAAIRWRpdGV1cnMGBAAAAA9XaW5kb3dzRGVzaWdu
+        ZXIA/////wYFAAAAAP////8JBQAAAAMAAAAJBgAAAAkHAAAACQgAAAAFBgAAAB1TeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5UcmVlTm9kZQgAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5
+        ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgC
+        AAAABgkAAAAWQ29uY2VwdGV1ciBkZSBmZW7DqnRyZQYKAAAAD1dpbmRvd3NEZXNpZ25lcgD/////CQUA
+        AAD/////CQUAAAAAAAAABQcAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUIAAAABFRleHQE
+        TmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0
+        ZWRJbWFnZUtleQpDaGlsZENvdW50AQEAAAEAAQABCAgIAgAAAAYMAAAAFEVkaXRldXIgZGUgZm9uY3Rp
+        b25zBg0AAAAQRnVuY3Rpb25zX0VkaXRvcgD/////CQUAAAD/////CQUAAAAAAAAABQgAAAAdU3lzdGVt
+        LldpbmRvd3MuRm9ybXMuVHJlZU5vZGUIAAAABFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJ
+        bWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50AQEAAAEA
+        AQABCAgIAgAAAAYPAAAAG0VkaXRldXIgZGUgVmlzdWFsIEJhc2ljLk5ldAYQAAAACFZCRWRpdG9yAP//
+        //8JBQAAAP////8JBQAAAAAAAAAL
+</value>
+  </data>
+  <data name="TreeView1.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQkAAAAEVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4
+        CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hp
+        bGRyZW4wAQEAAAEAAQAEAQgICB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAACAAAABgMA
+        AAAQT3V0aWxzIGQnYW5hbHlzZQYEAAAAEVZvaWNlX1JlY29nbml0aW9uAP////8GBQAAAAD/////CQUA
+        AAABAAAACQYAAAAFBgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQgAAAAEVGV4dAROYW1l
+        CUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZElt
+        YWdlS2V5CkNoaWxkQ291bnQBAQAAAQABAAEICAgCAAAABgcAAAAVUmVjb25uYWlzc2FuY2Ugdm9jYWxl
+        BggAAAARVm9pY2VfUmVjb2duaXRpb24A/////wkFAAAA/////wkFAAAAAAAAAAs=
+</value>
+  </data>
+  <data name="TreeView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TreeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 271</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TreeView1.Name" xml:space="preserve">
+    <value>TreeView1</value>
+  </data>
+  <data name="&gt;&gt;TreeView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TreeView1.Parent" xml:space="preserve">
+    <value>Center_Panel</value>
+  </data>
+  <data name="&gt;&gt;TreeView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 16, 16, 16</value>
+  </data>
+  <data name="Label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 19</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Options de SoftwareZator 2012</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>Center_Panel</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WizardTabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 230</value>
+  </data>
+  <data name="Button2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 22</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Comparer les éditions</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RadioButton4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="RadioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 206</value>
+  </data>
+  <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="RadioButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="RadioButton4.Text" xml:space="preserve">
+    <value>Professionnelle</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="RadioButton4.ToolTip" xml:space="preserve">
+    <value>Indispensable pour une utilisation à but professionnelle, que vous soyez développeur ou entrepreneur. Cette édition débloque toutes les fonctionnalités du logiciel. (60 utilisations d'essais)</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.Name" xml:space="preserve">
+    <value>RadioButton4</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadioButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="RadioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 206</value>
+  </data>
+  <data name="RadioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 18</value>
+  </data>
+  <data name="RadioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="RadioButton3.Text" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="RadioButton3.ToolTip" xml:space="preserve">
+    <value>Idéal pour apprendre à manier tous les concepts du développement de logiciel et les technologies les plus répendus. (60 utilisations d'essais)</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.Name" xml:space="preserve">
+    <value>RadioButton3</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="RadioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 206</value>
+  </data>
+  <data name="RadioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 18</value>
+  </data>
+  <data name="RadioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="RadioButton2.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="RadioButton2.ToolTip" xml:space="preserve">
+    <value>L'édition Standard convient très bien à une utilisation régulière, principalement pour le loisir. (60 utilisations d'essais)</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Name" xml:space="preserve">
+    <value>RadioButton2</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="RadioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 206</value>
+  </data>
+  <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="RadioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Gratuite</value>
+  </data>
+  <data name="RadioButton1.ToolTip" xml:space="preserve">
+    <value>Cette édition est idéal pour réaliser de tout petits programmes pour les débutants.</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.Name" xml:space="preserve">
+    <value>RadioButton1</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 180</value>
+  </data>
+  <data name="Label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 23</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Edition :</value>
+  </data>
+  <data name="Label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Fichiers_Extension_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Fichiers_Extension_Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Fichiers_Extension_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Fichiers_Extension_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Fichiers_Extension_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 155</value>
+  </data>
+  <data name="Fichiers_Extension_Button.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Fichiers_Extension_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 22</value>
+  </data>
+  <data name="Fichiers_Extension_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Fichiers_Extension_Button.Text" xml:space="preserve">
+    <value>Restaurer les associations de fichiers</value>
+  </data>
+  <data name="&gt;&gt;Fichiers_Extension_Button.Name" xml:space="preserve">
+    <value>Fichiers_Extension_Button</value>
+  </data>
+  <data name="&gt;&gt;Fichiers_Extension_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fichiers_Extension_Button.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Fichiers_Extension_Button.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 129</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 20</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Emplacement_Projet_TextBox.ToolTip" xml:space="preserve">
+    <value>Entrez le dossier par défaut des projets</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_TextBox.Name" xml:space="preserve">
+    <value>Emplacement_Projet_TextBox</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_TextBox.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_TextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Emplacement_Projet_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Emplacement_Projet_Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Emplacement_Projet_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Emplacement_Projet_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 127</value>
+  </data>
+  <data name="Emplacement_Projet_Button.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Emplacement_Projet_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="Emplacement_Projet_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Emplacement_Projet_Button.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="Emplacement_Projet_Button.ToolTip" xml:space="preserve">
+    <value>Sélectionner le dossier par défaut des projets.</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_Button.Name" xml:space="preserve">
+    <value>Emplacement_Projet_Button</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_Button.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Emplacement_Projet_Button.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="Label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 23</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Emplacement des projets :</value>
+  </data>
+  <data name="Label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Nom_Societe_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Nom_Societe_TextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Nom_Societe_TextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Nom_Societe_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 78</value>
+  </data>
+  <data name="Nom_Societe_TextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Nom_Societe_TextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Nom_Societe_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 20</value>
+  </data>
+  <data name="Nom_Societe_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Nom_Societe_TextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez le nom de votre société (facultatif)</value>
+  </data>
+  <data name="&gt;&gt;Nom_Societe_TextBox.Name" xml:space="preserve">
+    <value>Nom_Societe_TextBox</value>
+  </data>
+  <data name="&gt;&gt;Nom_Societe_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Nom_Societe_TextBox.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Nom_Societe_TextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.AccessibleName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nom_Utilisateur_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 20</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Nom_Utilisateur_TextBox.ToolTip" xml:space="preserve">
+    <value>Saisissez votre nom d'utilisateur (obligatoire)</value>
+  </data>
+  <data name="&gt;&gt;Nom_Utilisateur_TextBox.Name" xml:space="preserve">
+    <value>Nom_Utilisateur_TextBox</value>
+  </data>
+  <data name="&gt;&gt;Nom_Utilisateur_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Nom_Utilisateur_TextBox.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Nom_Utilisateur_TextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="Label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 23</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Société :</value>
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 23</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="General.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="General.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="General.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="General.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="General.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="General.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="General.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="General.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;General.Name" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;General.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;General.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;General.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Pause_CheckBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Pause_CheckBox1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Pause_CheckBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Pause_CheckBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pause_CheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 123</value>
+  </data>
+  <data name="Pause_CheckBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Pause_CheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Pause_CheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Pause_CheckBox1.Text" xml:space="preserve">
+    <value>Marquer un temps de pause à la fin de la génération d'un projet</value>
+  </data>
+  <data name="Pause_CheckBox1.ToolTip" xml:space="preserve">
+    <value>Détermine si une pause de 3 secondes doit être faite à la fin de la génération d'un projet</value>
+  </data>
+  <data name="&gt;&gt;Pause_CheckBox1.Name" xml:space="preserve">
+    <value>Pause_CheckBox1</value>
+  </data>
+  <data name="&gt;&gt;Pause_CheckBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pause_CheckBox1.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Pause_CheckBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ComboBox1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="ComboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ComboBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ComboBox1.Items" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="ComboBox1.Items1" xml:space="preserve">
+    <value>Gris</value>
+  </data>
+  <data name="ComboBox1.Items2" xml:space="preserve">
+    <value>Noir</value>
+  </data>
+  <data name="ComboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="ComboBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ComboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 21</value>
+  </data>
+  <data name="ComboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ComboBox1.Name" xml:space="preserve">
+    <value>ComboBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBox1.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;ComboBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 150</value>
+  </data>
+  <data name="Label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 23</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Thème de couleur :</value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.Text" xml:space="preserve">
+    <value>Activer le style Aero de la fenêtre principale</value>
+  </data>
+  <data name="Activer_Aero_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine si la fenêtre principale doit utiliser le style Aero ou non.</value>
+  </data>
+  <data name="&gt;&gt;Activer_Aero_CheckBox.Name" xml:space="preserve">
+    <value>Activer_Aero_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Activer_Aero_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Activer_Aero_CheckBox.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Activer_Aero_CheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.Text" xml:space="preserve">
+    <value>Afficher la barre d'accès rapide en dessous du ruban</value>
+  </data>
+  <data name="Barre_Acces_Rapide_En_Dessous_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine si la barre d'accès rapide doit être affiché en dessous du ruban ou au dessus</value>
+  </data>
+  <data name="&gt;&gt;Barre_Acces_Rapide_En_Dessous_CheckBox.Name" xml:space="preserve">
+    <value>Barre_Acces_Rapide_En_Dessous_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Barre_Acces_Rapide_En_Dessous_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Barre_Acces_Rapide_En_Dessous_CheckBox.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Barre_Acces_Rapide_En_Dessous_CheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.Text" xml:space="preserve">
+    <value>Minimiser le ruban</value>
+  </data>
+  <data name="Minimiser_Ruban_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine si le ruban de la fenêtre principale doit être minimisé par défaut ou non</value>
+  </data>
+  <data name="&gt;&gt;Minimiser_Ruban_CheckBox.Name" xml:space="preserve">
+    <value>Minimiser_Ruban_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Minimiser_Ruban_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Minimiser_Ruban_CheckBox.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Minimiser_Ruban_CheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.Text" xml:space="preserve">
+    <value>Afficher la barre d'état (recommandé)</value>
+  </data>
+  <data name="Barre_Etat_CheckBox.ToolTip" xml:space="preserve">
+    <value>Afficher ou masquer la barre des status en bas de la fenêtre principale</value>
+  </data>
+  <data name="&gt;&gt;Barre_Etat_CheckBox.Name" xml:space="preserve">
+    <value>Barre_Etat_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Barre_Etat_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Barre_Etat_CheckBox.Parent" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Barre_Etat_CheckBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Interfaces.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Interfaces.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Interfaces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="Interfaces.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Interfaces.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Interfaces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="Interfaces.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Interfaces.Text" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Interfaces.Name" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="&gt;&gt;Interfaces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Interfaces.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Interfaces.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Langue_ComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Langue_ComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Langue_ComboBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Langue_ComboBox.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Langue_ComboBox.Items1" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="Langue_ComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="Langue_ComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Langue_ComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 21</value>
+  </data>
+  <data name="Langue_ComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Langue_ComboBox.Name" xml:space="preserve">
+    <value>Langue_ComboBox</value>
+  </data>
+  <data name="&gt;&gt;Langue_ComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Langue_ComboBox.Parent" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Langue_ComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 23</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Langue du logiciel :</value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Language.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Language.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="Language.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Language.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="Language.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Language.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Language.Name" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Language.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Language.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.Text" xml:space="preserve">
+    <value>Afficher l'écran de démarrage</value>
+  </data>
+  <data name="Splash_Screen_CheckBox.ToolTip" xml:space="preserve">
+    <value>Afficher l'écran de progression du chargement du logiciel au démarrage</value>
+  </data>
+  <data name="&gt;&gt;Splash_Screen_CheckBox.Name" xml:space="preserve">
+    <value>Splash_Screen_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Splash_Screen_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Splash_Screen_CheckBox.Parent" xml:space="preserve">
+    <value>Starter</value>
+  </data>
+  <data name="&gt;&gt;Splash_Screen_CheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Updates_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Updates_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Updates_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Updates_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Updates_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="Updates_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Updates_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Updates_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Updates_CheckBox.Text" xml:space="preserve">
+    <value>Vérifier les mises à jours</value>
+  </data>
+  <data name="Updates_CheckBox.ToolTip" xml:space="preserve">
+    <value>Vérifier les mises à jours au démarrage du logiciel</value>
+  </data>
+  <data name="&gt;&gt;Updates_CheckBox.Name" xml:space="preserve">
+    <value>Updates_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Updates_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Updates_CheckBox.Parent" xml:space="preserve">
+    <value>Starter</value>
+  </data>
+  <data name="&gt;&gt;Updates_CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Start_Page_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Start_Page_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Start_Page_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Start_Page_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Start_Page_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Start_Page_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Start_Page_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Start_Page_CheckBox.Text" xml:space="preserve">
+    <value>Ouvrir la page de démarrage (recommandé)</value>
+  </data>
+  <data name="Start_Page_CheckBox.ToolTip" xml:space="preserve">
+    <value>Ouvrir la page de démarrage lors du lancement du logiciel</value>
+  </data>
+  <data name="&gt;&gt;Start_Page_CheckBox.Name" xml:space="preserve">
+    <value>Start_Page_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Start_Page_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Start_Page_CheckBox.Parent" xml:space="preserve">
+    <value>Starter</value>
+  </data>
+  <data name="&gt;&gt;Start_Page_CheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Starter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Starter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Starter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="Starter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Starter.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Starter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="Starter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Starter.Text" xml:space="preserve">
+    <value>Starter</value>
+  </data>
+  <data name="&gt;&gt;Starter.Name" xml:space="preserve">
+    <value>Starter</value>
+  </data>
+  <data name="&gt;&gt;Starter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Starter.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Starter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 123</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.Text" xml:space="preserve">
+    <value>Suivre la position de la souris avec la règle</value>
+  </data>
+  <data name="Suivre_Souris_Regle_CheckBox.ToolTip" xml:space="preserve">
+    <value>Afficher un trait indiquant la position de la souris par rapport à la règle de mesure dans le concepteur de fenêtre.</value>
+  </data>
+  <data name="&gt;&gt;Suivre_Souris_Regle_CheckBox.Name" xml:space="preserve">
+    <value>Suivre_Souris_Regle_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Suivre_Souris_Regle_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Suivre_Souris_Regle_CheckBox.Parent" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;Suivre_Souris_Regle_CheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.Text" xml:space="preserve">
+    <value>Réduire le panneau latéral lors de l'ouverture</value>
+  </data>
+  <data name="Panneaux_Lateral_WindowsDesigner_CheckBox.ToolTip" xml:space="preserve">
+    <value>Réduire le panneau en bas du concepteur de fenêtre par défaut</value>
+  </data>
+  <data name="&gt;&gt;Panneaux_Lateral_WindowsDesigner_CheckBox.Name" xml:space="preserve">
+    <value>Panneaux_Lateral_WindowsDesigner_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Panneaux_Lateral_WindowsDesigner_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panneaux_Lateral_WindowsDesigner_CheckBox.Parent" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;Panneaux_Lateral_WindowsDesigner_CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SmartTags_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SmartTags_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="SmartTags_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="SmartTags_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="SmartTags_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="SmartTags_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="SmartTags_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SmartTags_CheckBox.Text" xml:space="preserve">
+    <value>Utiliser les Smart Tags (recommandé)</value>
+  </data>
+  <data name="SmartTags_CheckBox.ToolTip" xml:space="preserve">
+    <value>En activant cette option, les panneaux ouvrables dans le concepteur de fenêtre (petite languette en haut à droite de certain contrôles) seront utilisables</value>
+  </data>
+  <data name="&gt;&gt;SmartTags_CheckBox.Name" xml:space="preserve">
+    <value>SmartTags_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;SmartTags_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SmartTags_CheckBox.Parent" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;SmartTags_CheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.Text" xml:space="preserve">
+    <value>Utiliser l'aimentation intelligente</value>
+  </data>
+  <data name="Aimentation_Intelligente_RadioButton.ToolTip" xml:space="preserve">
+    <value>Utiliser une aimentation intelligente suivant les marges des contrôles du concepteur de fenêtre</value>
+  </data>
+  <data name="&gt;&gt;Aimentation_Intelligente_RadioButton.Name" xml:space="preserve">
+    <value>Aimentation_Intelligente_RadioButton</value>
+  </data>
+  <data name="&gt;&gt;Aimentation_Intelligente_RadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Aimentation_Intelligente_RadioButton.Parent" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;Aimentation_Intelligente_RadioButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.Text" xml:space="preserve">
+    <value>Afficher la grille</value>
+  </data>
+  <data name="Afficher_Grille_RadioButton.ToolTip" xml:space="preserve">
+    <value>Utiliser une grille d'aimentation dans le concepteur de fenêtre</value>
+  </data>
+  <data name="&gt;&gt;Afficher_Grille_RadioButton.Name" xml:space="preserve">
+    <value>Afficher_Grille_RadioButton</value>
+  </data>
+  <data name="&gt;&gt;Afficher_Grille_RadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Afficher_Grille_RadioButton.Parent" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;Afficher_Grille_RadioButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="WindowsDesigner.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="WindowsDesigner.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WindowsDesigner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="WindowsDesigner.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="WindowsDesigner.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="WindowsDesigner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="WindowsDesigner.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="WindowsDesigner.Text" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;WindowsDesigner.Name" xml:space="preserve">
+    <value>WindowsDesigner</value>
+  </data>
+  <data name="&gt;&gt;WindowsDesigner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WindowsDesigner.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;WindowsDesigner.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.Text" xml:space="preserve">
+    <value>Correcteur orthographique dans les paramètres des actions</value>
+  </data>
+  <data name="Correcteur_Orthographique_CheckBox.ToolTip" xml:space="preserve">
+    <value>Activer ou désactiver le correcteur orthographique dans l'éditeur de valeur textuelle des paramètres des actions.</value>
+  </data>
+  <data name="&gt;&gt;Correcteur_Orthographique_CheckBox.Name" xml:space="preserve">
+    <value>Correcteur_Orthographique_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Correcteur_Orthographique_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Correcteur_Orthographique_CheckBox.Parent" xml:space="preserve">
+    <value>Functions_Editor</value>
+  </data>
+  <data name="&gt;&gt;Correcteur_Orthographique_CheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.Text" xml:space="preserve">
+    <value>Afficher la barre de zoom en bas de l'éditeur</value>
+  </data>
+  <data name="Zoom_Bar_CheckBox.ToolTip" xml:space="preserve">
+    <value>Afficher ou masquer la barre d'outils destiné à la gestion du zoom de l'éditeur d'actions en bas de l'éditeur</value>
+  </data>
+  <data name="&gt;&gt;Zoom_Bar_CheckBox.Name" xml:space="preserve">
+    <value>Zoom_Bar_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Zoom_Bar_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom_Bar_CheckBox.Parent" xml:space="preserve">
+    <value>Functions_Editor</value>
+  </data>
+  <data name="&gt;&gt;Zoom_Bar_CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.Text" xml:space="preserve">
+    <value>Réduire le panneau latéral lors de l'ouverture</value>
+  </data>
+  <data name="Panneau_Lateral_FunctionEditor_CheckBox.ToolTip" xml:space="preserve">
+    <value>Réduire le panneau en bas de l'éditeur de fonctons par défaut</value>
+  </data>
+  <data name="&gt;&gt;Panneau_Lateral_FunctionEditor_CheckBox.Name" xml:space="preserve">
+    <value>Panneau_Lateral_FunctionEditor_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Panneau_Lateral_FunctionEditor_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panneau_Lateral_FunctionEditor_CheckBox.Parent" xml:space="preserve">
+    <value>Functions_Editor</value>
+  </data>
+  <data name="&gt;&gt;Panneau_Lateral_FunctionEditor_CheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Functions_Editor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Functions_Editor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Functions_Editor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="Functions_Editor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Functions_Editor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Functions_Editor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="Functions_Editor.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Functions_Editor.Text" xml:space="preserve">
+    <value>Functions_Editor</value>
+  </data>
+  <data name="&gt;&gt;Functions_Editor.Name" xml:space="preserve">
+    <value>Functions_Editor</value>
+  </data>
+  <data name="&gt;&gt;Functions_Editor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Functions_Editor.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Functions_Editor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.Text" xml:space="preserve">
+    <value>Colorisation de syntaxe</value>
+  </data>
+  <data name="Colorisation_Syntaxe_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine s'il faut utiliser la colorisation de la syntaxe du document</value>
+  </data>
+  <data name="&gt;&gt;Colorisation_Syntaxe_CheckBox.Name" xml:space="preserve">
+    <value>Colorisation_Syntaxe_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Colorisation_Syntaxe_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colorisation_Syntaxe_CheckBox.Parent" xml:space="preserve">
+    <value>VBEditor</value>
+  </data>
+  <data name="&gt;&gt;Colorisation_Syntaxe_CheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.Text" xml:space="preserve">
+    <value>Numérotation des lignes</value>
+  </data>
+  <data name="Numerotation_Lignes_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine s'il faut afficher les numéros des lignes</value>
+  </data>
+  <data name="&gt;&gt;Numerotation_Lignes_CheckBox.Name" xml:space="preserve">
+    <value>Numerotation_Lignes_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Numerotation_Lignes_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Numerotation_Lignes_CheckBox.Parent" xml:space="preserve">
+    <value>VBEditor</value>
+  </data>
+  <data name="&gt;&gt;Numerotation_Lignes_CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="VBEditor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="VBEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VBEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="VBEditor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="VBEditor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VBEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="VBEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="VBEditor.Text" xml:space="preserve">
+    <value>VBEditor</value>
+  </data>
+  <data name="&gt;&gt;VBEditor.Name" xml:space="preserve">
+    <value>VBEditor</value>
+  </data>
+  <data name="&gt;&gt;VBEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VBEditor.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;VBEditor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 22</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Configure_Voice_Recognition_Button.Text" xml:space="preserve">
+    <value>Configurer la reconnaissance vocale</value>
+  </data>
+  <data name="&gt;&gt;Configure_Voice_Recognition_Button.Name" xml:space="preserve">
+    <value>Configure_Voice_Recognition_Button</value>
+  </data>
+  <data name="&gt;&gt;Configure_Voice_Recognition_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Configure_Voice_Recognition_Button.Parent" xml:space="preserve">
+    <value>Voice_Recognition</value>
+  </data>
+  <data name="&gt;&gt;Configure_Voice_Recognition_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 58</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.Text" xml:space="preserve">
+    <value>Activer les significations sonores</value>
+  </data>
+  <data name="Sounds_Voice_Recognition_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine si l'ordinateur doit jouer un son lorsque la voix est détecté dans le micro</value>
+  </data>
+  <data name="&gt;&gt;Sounds_Voice_Recognition_CheckBox.Name" xml:space="preserve">
+    <value>Sounds_Voice_Recognition_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Sounds_Voice_Recognition_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sounds_Voice_Recognition_CheckBox.Parent" xml:space="preserve">
+    <value>Voice_Recognition</value>
+  </data>
+  <data name="&gt;&gt;Sounds_Voice_Recognition_CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 225</value>
+  </data>
+  <data name="Label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 29</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>La reconnaissance vocale n'est pas prise en charge sous le système d'exploitation Microsoft Windows XP.</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>Voice_Recognition</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.Text" xml:space="preserve">
+    <value>Activer la reconnaissance vocale</value>
+  </data>
+  <data name="Activate_Voice_Recognition_CheckBox.ToolTip" xml:space="preserve">
+    <value>Détermine si la reconnaissance vocale doit être activé ou non</value>
+  </data>
+  <data name="&gt;&gt;Activate_Voice_Recognition_CheckBox.Name" xml:space="preserve">
+    <value>Activate_Voice_Recognition_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Activate_Voice_Recognition_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Activate_Voice_Recognition_CheckBox.Parent" xml:space="preserve">
+    <value>Voice_Recognition</value>
+  </data>
+  <data name="&gt;&gt;Activate_Voice_Recognition_CheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Voice_Recognition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Voice_Recognition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Voice_Recognition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="Voice_Recognition.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Voice_Recognition.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Voice_Recognition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="Voice_Recognition.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Voice_Recognition.Text" xml:space="preserve">
+    <value>Voice_Recognition</value>
+  </data>
+  <data name="&gt;&gt;Voice_Recognition.Name" xml:space="preserve">
+    <value>Voice_Recognition</value>
+  </data>
+  <data name="&gt;&gt;Voice_Recognition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Voice_Recognition.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Voice_Recognition.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LinkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 231</value>
+  </data>
+  <data name="LinkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 23</value>
+  </data>
+  <data name="LinkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LinkLabel1.Text" xml:space="preserve">
+    <value>Voir le contrat de confidentialité</value>
+  </data>
+  <data name="LinkLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.Name" xml:space="preserve">
+    <value>LinkLabel1</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.Parent" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 19</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 24</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.Text" xml:space="preserve">
+    <value>Erreurs de générations d'un projet</value>
+  </data>
+  <data name="Erreurs_Generations_Confidentiality_CheckBox.ToolTip" xml:space="preserve">
+    <value>Autoriser SoftwareZator à envoyer des informations relatives aux erreurs de générations rencontrés dans un projet.</value>
+  </data>
+  <data name="&gt;&gt;Erreurs_Generations_Confidentiality_CheckBox.Name" xml:space="preserve">
+    <value>Erreurs_Generations_Confidentiality_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Erreurs_Generations_Confidentiality_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Erreurs_Generations_Confidentiality_CheckBox.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Erreurs_Generations_Confidentiality_CheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 24</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.Text" xml:space="preserve">
+    <value>Données de la reconnaissance vocale</value>
+  </data>
+  <data name="Vocale_Confidentiality_CheckBox.ToolTip" xml:space="preserve">
+    <value>Autoriser SoftwareZator à envoyer les phrases comprises par la reconnaissance vocale et le résultat affiché par le logiciel.</value>
+  </data>
+  <data name="&gt;&gt;Vocale_Confidentiality_CheckBox.Name" xml:space="preserve">
+    <value>Vocale_Confidentiality_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Vocale_Confidentiality_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Vocale_Confidentiality_CheckBox.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Vocale_Confidentiality_CheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 50</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Informations à envoyer</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 24</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.Text" xml:space="preserve">
+    <value>Autoriser SoftwareZator à envoyer des informations à Veler Software afin d'améliorer ce logiciel</value>
+  </data>
+  <data name="Envoyer_Confidentiality_CheckBox.ToolTip" xml:space="preserve">
+    <value>Autoriser SoftwareZator à envoyer des informations confidentielles et anonymes qui seront utilisées dans le but d'améliorer SoftwareZator.</value>
+  </data>
+  <data name="&gt;&gt;Envoyer_Confidentiality_CheckBox.Name" xml:space="preserve">
+    <value>Envoyer_Confidentiality_CheckBox</value>
+  </data>
+  <data name="&gt;&gt;Envoyer_Confidentiality_CheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Envoyer_Confidentiality_CheckBox.Parent" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="&gt;&gt;Envoyer_Confidentiality_CheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Confidentiality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="Confidentiality.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Confidentiality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="Confidentiality.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Confidentiality.Text" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="&gt;&gt;Confidentiality.Name" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="&gt;&gt;Confidentiality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Confidentiality.Parent" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;Confidentiality.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="WizardTabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="WizardTabControl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WizardTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 60</value>
+  </data>
+  <data name="WizardTabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 45, 3</value>
+  </data>
+  <data name="WizardTabControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="WizardTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 301</value>
+  </data>
+  <data name="WizardTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;WizardTabControl1.Name" xml:space="preserve">
+    <value>WizardTabControl1</value>
+  </data>
+  <data name="&gt;&gt;WizardTabControl1.Type" xml:space="preserve">
+    <value>VelerSoftware.SZVB.WizardTabControl, VelerSoftware.SZVB, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <data name="&gt;&gt;WizardTabControl1.Parent" xml:space="preserve">
+    <value>Center_Panel</value>
+  </data>
+  <data name="&gt;&gt;WizardTabControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Center_Panel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Center_Panel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Center_Panel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Center_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 379</value>
+  </data>
+  <data name="&gt;&gt;Center_Panel.Name" xml:space="preserve">
+    <value>Center_Panel</value>
+  </data>
+  <data name="&gt;&gt;Center_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Center_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Center_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 14</value>
+  </data>
+  <data name="Button1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Par défaut</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>Foot_Panel</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Foot_Panel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Foot_Panel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Foot_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 419</value>
+  </data>
+  <data name="Foot_Panel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Foot_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 48</value>
+  </data>
+  <data name="&gt;&gt;Foot_Panel.Name" xml:space="preserve">
+    <value>Foot_Panel</value>
+  </data>
+  <data name="&gt;&gt;Foot_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Foot_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Foot_Panel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cancel_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Cancel_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 14</value>
+  </data>
+  <data name="Cancel_Button.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Cancel_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Cancel_Button.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name" xml:space="preserve">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent" xml:space="preserve">
+    <value>Foot_Panel</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OK_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="OK_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 14</value>
+  </data>
+  <data name="OK_Button.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OK_Button.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name" xml:space="preserve">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent" xml:space="preserve">
+    <value>Foot_Panel</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>772, 467</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorProvider1.Name" xml:space="preserve">
+    <value>ErrorProvider1</value>
+  </data>
+  <data name="&gt;&gt;ErrorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserDialog1.Name" xml:space="preserve">
+    <value>FolderBrowserDialog1</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>VelerSoftware.SZVB.AeroWindowsForm, VelerSoftware.SZVB, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50</value>
+  </data>
+  <metadata name="FolderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>246, 17</value>
+  </metadata>
+</root>

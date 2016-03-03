@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{849FCE3B-E21B-45FE-B51E-991D622136A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.PrintPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.PrintPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Designer\Designer.vb" />
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Texte.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Texte.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Texte.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Controle.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Controle.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Controle.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Enete_Impression.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Enete_Impression.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Enete_Impression.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.vb" />
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Controle_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Form.Designer.vb">
+      <DependentUpon>Ajouter_Controle_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.vb" />
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Enete_Impression_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Form.Designer.vb">
+      <DependentUpon>Ajouter_Enete_Impression_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.vb" />
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Texte_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Form.Designer.vb">
+      <DependentUpon>Ajouter_Texte_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Ajouter une image à une impression\Ajouter_Image.Designer.vb">
+      <DependentUpon>Ajouter_Image.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une image à une impression\Ajouter_Image.vb" />
+    <Compile Include="Impression\Ajouter une image à une impression\Ajouter_Image_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Image_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une image à une impression\Ajouter_Image_Form.Designer.vb">
+      <DependentUpon>Ajouter_Image_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Ajouter une image à une impression\Ajouter_Image_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apercu_WebBrowser.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apercu_WebBrowser.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apercu_WebBrowser.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apercu_TextBox.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apercu_TextBox.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apercu_TextBox.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.vb" />
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Designer.xaml.vb">
+      <DependentUpon>Apercu_TextBox_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Form.Designer.vb">
+      <DependentUpon>Apercu_TextBox_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.vb" />
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Designer.xaml.vb">
+      <DependentUpon>Apercu_WebBrowser_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Form.Designer.vb">
+      <DependentUpon>Apercu_WebBrowser_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_WebBrowser.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_WebBrowser.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_WebBrowser.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.vb" />
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Designer.xaml.vb">
+      <DependentUpon>Imprimer_WebBrowser_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Form.Designer.vb">
+      <DependentUpon>Imprimer_WebBrowser_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_TextBox.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_TextBox.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer_TextBox.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.vb" />
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Designer.xaml.vb">
+      <DependentUpon>Imprimer_TextBox_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Form.Designer.vb">
+      <DependentUpon>Imprimer_TextBox_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Marges.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Marges.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Definir_Marges.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.vb" />
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Designer.xaml.vb">
+      <DependentUpon>Definir_Marges_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Form.Designer.vb">
+      <DependentUpon>Definir_Marges_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Imprimer\Imprimer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer\Imprimer.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer\Imprimer.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imprimer.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer\Imprimer.vb" />
+    <Compile Include="Impression\Imprimer\Imprimer_Designer.xaml.vb">
+      <DependentUpon>Imprimer_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer\Imprimer_Form.Designer.vb">
+      <DependentUpon>Imprimer_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Imprimer\Imprimer_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nouvelle_Impression.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nouvelle_Impression.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nouvelle_Impression.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression_Designer.xaml.vb">
+      <DependentUpon>Nouvelle_Impression_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression.vb" />
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression_Form.Designer.vb">
+      <DependentUpon>Nouvelle_Impression_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impression\Nouvelle impression\Nouvelle_Impression_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Form.en.resx">
+      <DependentUpon>Ajouter_Enete_Impression_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Form.fr.resx">
+      <DependentUpon>Ajouter_Enete_Impression_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.en.resx">
+      <DependentUpon>Ajouter_Controle.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Controle.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.fr.resx">
+      <DependentUpon>Ajouter_Controle.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Controle.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle.resx">
+      <DependentUpon>Ajouter_Controle.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Controle.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Form.en.resx">
+      <DependentUpon>Ajouter_Controle_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Form.fr.resx">
+      <DependentUpon>Ajouter_Controle_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Form.resx">
+      <DependentUpon>Ajouter_Controle_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.en.resx">
+      <DependentUpon>Ajouter_Enete_Impression.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Enete_Impression.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.fr.resx">
+      <DependentUpon>Ajouter_Enete_Impression.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Enete_Impression.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression.resx">
+      <DependentUpon>Ajouter_Enete_Impression.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Enete_Impression.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Form.resx">
+      <DependentUpon>Ajouter_Enete_Impression_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.en.resx">
+      <DependentUpon>Ajouter_Texte.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Texte.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.fr.resx">
+      <DependentUpon>Ajouter_Texte.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Texte.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter du texte à une impression\Ajouter_Texte.resx">
+      <DependentUpon>Ajouter_Texte.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Texte.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Form.en.resx">
+      <DependentUpon>Ajouter_Texte_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Form.fr.resx">
+      <DependentUpon>Ajouter_Texte_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Form.resx">
+      <DependentUpon>Ajouter_Texte_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une image à une impression\Ajouter_Image.en.resx">
+      <DependentUpon>Ajouter_Image.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une image à une impression\Ajouter_Image.fr.resx">
+      <DependentUpon>Ajouter_Image.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une image à une impression\Ajouter_Image.resx">
+      <DependentUpon>Ajouter_Image.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une image à une impression\Ajouter_Image_Form.en.resx">
+      <DependentUpon>Ajouter_Image_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une image à une impression\Ajouter_Image_Form.fr.resx">
+      <DependentUpon>Ajouter_Image_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Ajouter une image à une impression\Ajouter_Image_Form.resx">
+      <DependentUpon>Ajouter_Image_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.en.resx">
+      <DependentUpon>Apercu_TextBox.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Apercu_TextBox.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.fr.resx">
+      <DependentUpon>Apercu_TextBox.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Apercu_TextBox.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox.resx">
+      <DependentUpon>Apercu_TextBox.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Apercu_TextBox.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Form.en.resx">
+      <DependentUpon>Apercu_TextBox_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Form.fr.resx">
+      <DependentUpon>Apercu_TextBox_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Form.resx">
+      <DependentUpon>Apercu_TextBox_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.en.resx">
+      <DependentUpon>Apercu_WebBrowser.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Apercu_WebBrowser.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.fr.resx">
+      <DependentUpon>Apercu_WebBrowser.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Apercu_WebBrowser.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser.resx">
+      <DependentUpon>Apercu_WebBrowser.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Apercu_WebBrowser.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Form.en.resx">
+      <DependentUpon>Apercu_WebBrowser_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Form.fr.resx">
+      <DependentUpon>Apercu_WebBrowser_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Form.resx">
+      <DependentUpon>Apercu_WebBrowser_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.en.resx">
+      <DependentUpon>Imprimer_WebBrowser.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_WebBrowser.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.fr.resx">
+      <DependentUpon>Imprimer_WebBrowser.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_WebBrowser.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser.resx">
+      <DependentUpon>Imprimer_WebBrowser.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_WebBrowser.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Form.en.resx">
+      <DependentUpon>Imprimer_WebBrowser_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Form.fr.resx">
+      <DependentUpon>Imprimer_WebBrowser_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Form.resx">
+      <DependentUpon>Imprimer_WebBrowser_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.en.resx">
+      <DependentUpon>Imprimer_TextBox.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_TextBox.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.fr.resx">
+      <DependentUpon>Imprimer_TextBox.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_TextBox.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox.resx">
+      <DependentUpon>Imprimer_TextBox.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer_TextBox.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Form.en.resx">
+      <DependentUpon>Imprimer_TextBox_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Form.fr.resx">
+      <DependentUpon>Imprimer_TextBox_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Form.resx">
+      <DependentUpon>Imprimer_TextBox_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.en.resx">
+      <DependentUpon>Definir_Marges.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Marges.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.fr.resx">
+      <DependentUpon>Definir_Marges.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Marges.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges.resx">
+      <DependentUpon>Definir_Marges.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Definir_Marges.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Form.en.resx">
+      <DependentUpon>Definir_Marges_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Form.fr.resx">
+      <DependentUpon>Definir_Marges_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Form.resx">
+      <DependentUpon>Definir_Marges_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer\Imprimer.en.resx">
+      <DependentUpon>Imprimer.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer\Imprimer.fr.resx">
+      <DependentUpon>Imprimer.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer\Imprimer.resx">
+      <DependentUpon>Imprimer.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imprimer.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer\Imprimer_Form.en.resx">
+      <DependentUpon>Imprimer_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer\Imprimer_Form.fr.resx">
+      <DependentUpon>Imprimer_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Imprimer\Imprimer_Form.resx">
+      <DependentUpon>Imprimer_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Nouvelle impression\Nouvelle_Impression.en.resx">
+      <DependentUpon>Nouvelle_Impression.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nouvelle_Impression.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Nouvelle impression\Nouvelle_Impression.fr.resx">
+      <DependentUpon>Nouvelle_Impression.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nouvelle_Impression.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Nouvelle impression\Nouvelle_Impression.resx">
+      <DependentUpon>Nouvelle_Impression.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nouvelle_Impression.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Nouvelle impression\Nouvelle_Impression_Form.en.resx">
+      <DependentUpon>Nouvelle_Impression_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Nouvelle impression\Nouvelle_Impression_Form.fr.resx">
+      <DependentUpon>Nouvelle_Impression_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impression\Nouvelle impression\Nouvelle_Impression_Form.resx">
+      <DependentUpon>Nouvelle_Impression_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\automatique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\document_block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\document_hf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\document_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\document_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\paysage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pictures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\portrait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\printer_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\set_margin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Impression\Ajouter la représentation d%27un contrôle à une impression\Ajouter_Controle_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Ajouter une en-tête à une impression\Ajouter_Enete_Impression_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Ajouter du texte à une impression\Ajouter_Texte_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Ajouter une image à une impression\Ajouter_Image_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Apercu avant impression d%27un éditeur de texte\Apercu_TextBox_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Apercu avant impression d%27un navigateur web\Apercu_WebBrowser_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Imprimer un navigateur web\Imprimer_WebBrowser_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Imprimer un éditeur de texte\Imprimer_TextBox_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Définir les marges d%27une feuille d%27impression\Definir_Marges_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Imprimer\Imprimer_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Impression\Nouvelle impression\Nouvelle_Impression_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

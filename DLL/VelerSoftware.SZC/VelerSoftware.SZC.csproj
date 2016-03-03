@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1FE2822-74B5-4623-BEF8-7D9527C04BC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VelerSoftware.SZC</RootNamespace>
+    <AssemblyName>VelerSoftware.SZC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\DLL COMPILE\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\DLL COMPILE\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorPicker\AdobeColors.cs" />
+    <Compile Include="ColorPicker\ColorComponent.cs" />
+    <Compile Include="ColorPicker\ctrl2DColorBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorPicker\ctrlVerticalColorSlider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorPicker\frmColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorPicker\MathExtensions.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\BookmarkBase.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\BookmarkConverter.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\BookmarkEventHandler.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\BookmarkManager.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\IBookmarkMargin.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\SDBookmark.cs" />
+    <Compile Include="Debugger\Base\Bookmarks\SDMarkerBookmark.cs" />
+    <Compile Include="Debugger\Base\Editor\IDocument.cs" />
+    <Compile Include="Debugger\Base\Editor\ITextAnchor.cs" />
+    <Compile Include="Debugger\Base\Editor\ITextBuffer.cs" />
+    <Compile Include="Debugger\Base\Editor\ITextEditor.cs" />
+    <Compile Include="Debugger\Base\Editor\ITextMarker.cs" />
+    <Compile Include="Debugger\Base\Editor\TextChangeEventArgs.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\ICanBeDirty.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\IClipboardHandler.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\IContextHelpProvider.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\IEditable.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\IPositionable.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\IPrintable.cs" />
+    <Compile Include="Debugger\Base\Gui\ContentInterfaces\IUndoHandler.cs" />
+    <Compile Include="Debugger\Base\Gui\IPadContent.cs" />
+    <Compile Include="Debugger\Base\Gui\IViewContent.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\BreakpointBookmark.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\BreakpointBookmarkEventArgs.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\DebuggerService.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\DefaultDebugger.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\IDebugger.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\ITreeNode.cs" />
+    <Compile Include="Debugger\Base\Services\Debugger\IVisualizerCommand.cs" />
+    <Compile Include="Debugger\Base\Services\File\FileChangeWatcher.cs" />
+    <Compile Include="Debugger\Base\Services\File\FileEventArgs.cs" />
+    <Compile Include="Debugger\Base\Services\File\FileRenameEventArgs.cs" />
+    <Compile Include="Debugger\Base\Services\File\FileService.cs" />
+    <Compile Include="Debugger\Base\Services\File\OpenedFile.cs" />
+    <Compile Include="Debugger\Base\Services\File\RecentOpen.cs" />
+    <Compile Include="Debugger\Base\Util\DebugTimer.cs" />
+    <Compile Include="Debugger\Base\Util\ExtensionMethods.cs" />
+    <Compile Include="Debugger\Base\Util\GenericConverter.cs" />
+    <Compile Include="Debugger\Base\Util\LineReceivedEventArgs.cs" />
+    <Compile Include="Debugger\Base\Util\NativeMethods.cs" />
+    <Compile Include="Debugger\Base\Util\ProcessRunner.cs" />
+    <Compile Include="Debugger\Base\Util\ProcessRunnerException.cs" />
+    <Compile Include="Debugger\Base\Util\ReadOnlyCollectionWrapper.cs" />
+    <Compile Include="Debugger\Base\Util\ScrollUtils.cs" />
+    <Compile Include="Debugger\Base\Util\SDWindowsFormsHost.cs" />
+    <Compile Include="Debugger\Base\Util\ThreadSafeServiceProvider.cs" />
+    <Compile Include="Debugger\Base\Util\TreeNode.cs" />
+    <Compile Include="Debugger\Base\Util\UnclosableStream.cs" />
+    <Compile Include="Debugger\Base\Util\WeakCollection.cs" />
+    <Compile Include="Debugger\Base\Util\WindowsFormsPrinting.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddInManager.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddInTree.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddInTreeNode.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\AddIn.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\AddInLoadException.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\AddInReference.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\AssemblyLocator.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\Codon.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\ComplexCondition.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\Condition.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultConditionEvaluators\CompareConditionEvaluator.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultConditionEvaluators\LazyConditionEvaluator.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultConditionEvaluators\OwnerStateConditionEvaluator.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\ClassDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\FileFilterDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\Icon\IconDescriptor.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\Icon\IconDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\IncludeDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\LazyDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\MenuItem\AbstractCheckableMenuCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\MenuItem\AbstractMenuCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\MenuItem\ICheckableMenuCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\MenuItem\IMenuCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\MenuItem\MenuItemDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\StringDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\ToolBarItem\AbstractComboBoxCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\ToolBarItem\AbstractTextBoxCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\ToolBarItem\IComboBoxCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\ToolBarItem\ITextBoxCommand.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\DefaultDoozers\ToolBarItem\ToolBarItemDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\ExtensionPath.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\IBuildItemsModifier.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\ICondition.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\IConditionEvaluator.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\IDoozer.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\Manifest.cs" />
+    <Compile Include="Debugger\Core\AddInTree\AddIn\Runtime.cs" />
+    <Compile Include="Debugger\Core\AddInTree\CoreStartup.cs" />
+    <Compile Include="Debugger\Core\AddInTree\TopologicalSort.cs" />
+    <Compile Include="Debugger\Core\AddInTree\TreePathNotFoundException.cs" />
+    <Compile Include="Debugger\Core\CoreException.cs" />
+    <Compile Include="Debugger\Core\Services\AnalyticsMonitor\AnalyticsMonitorService.cs" />
+    <Compile Include="Debugger\Core\Services\AnalyticsMonitor\IAnalyticsMonitor.cs" />
+    <Compile Include="Debugger\Core\Services\ApplicationStateInfoService.cs" />
+    <Compile Include="Debugger\Core\Services\FileUtility\FileName.cs" />
+    <Compile Include="Debugger\Core\Services\FileUtility\FileNameEventHandler.cs" />
+    <Compile Include="Debugger\Core\Services\FileUtility\FileUtility.cs" />
+    <Compile Include="Debugger\Core\Services\FileUtility\FileUtility.Minimal.cs" />
+    <Compile Include="Debugger\Core\Services\LoggingService\ILoggingService.cs" />
+    <Compile Include="Debugger\Core\Services\LoggingService\LoggingService.cs" />
+    <Compile Include="Debugger\Core\Services\LoggingService\TextWriterLoggingService.cs" />
+    <Compile Include="Debugger\Core\Services\MessageService\IMessageService.cs" />
+    <Compile Include="Debugger\Core\Services\MessageService\MessageService.cs" />
+    <Compile Include="Debugger\Core\Services\MessageService\TextWriterMessageService.cs" />
+    <Compile Include="Debugger\Core\Services\PropertyService\Properties.cs" />
+    <Compile Include="Debugger\Core\Services\PropertyService\PropertyChangedEvent.cs" />
+    <Compile Include="Debugger\Core\Services\PropertyService\PropertyService.cs" />
+    <Compile Include="Debugger\Core\Services\ResourceService\ResourceNotFoundException.cs" />
+    <Compile Include="Debugger\Core\Services\ResourceService\ResourceService.cs" />
+    <Compile Include="Debugger\Core\Services\ServiceManager.cs" />
+    <Compile Include="Debugger\Core\Services\ServiceNotFoundException.cs" />
+    <Compile Include="Debugger\Core\Services\StringParser\IStringTagProvider.cs" />
+    <Compile Include="Debugger\Core\Services\StringParser\PropertyObjectTagProvider.cs" />
+    <Compile Include="Debugger\Core\Services\StringParser\StringParser.cs" />
+    <Compile Include="Debugger\Core\Util\AbstractCommand.cs" />
+    <Compile Include="Debugger\Core\Util\CallbackOnDispose.cs" />
+    <Compile Include="Debugger\Core\Util\DebugTextWriter.cs" />
+    <Compile Include="Debugger\Core\Util\ICommand.cs" />
+    <Compile Include="Debugger\Debugger\AppDomain.cs" />
+    <Compile Include="Debugger\Debugger\AppDomainCollection.cs" />
+    <Compile Include="Debugger\Debugger\ArrayDimension.cs" />
+    <Compile Include="Debugger\Debugger\ArrayDimensions.cs" />
+    <Compile Include="Debugger\Debugger\Breakpoint.cs" />
+    <Compile Include="Debugger\Debugger\BreakpointCollection.cs" />
+    <Compile Include="Debugger\Debugger\CollectionWithEvents.cs" />
+    <Compile Include="Debugger\Debugger\DebuggeeState.cs" />
+    <Compile Include="Debugger\Debugger\DebuggerException.cs" />
+    <Compile Include="Debugger\Debugger\DebuggerObject.cs" />
+    <Compile Include="Debugger\Debugger\Eval.cs" />
+    <Compile Include="Debugger\Debugger\EvalCollection.cs" />
+    <Compile Include="Debugger\Debugger\Exception.cs" />
+    <Compile Include="Debugger\Debugger\ExceptionType.cs" />
+    <Compile Include="Debugger\Debugger\GetValueException.cs" />
+    <Compile Include="Debugger\Debugger\Interop\Common.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorDebug.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorDebugExtensionMethods.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorDebugExtensionMethods.generated.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorPublish.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorPublishExtensionMethods.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorPublishExtensionMethods.generated.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorSym.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorSymExtensionMethods.cs" />
+    <Compile Include="Debugger\Debugger\Interop\CorSymExtensionMethods.generated.cs" />
+    <Compile Include="Debugger\Debugger\Interop\MetaData.cs" />
+    <Compile Include="Debugger\Debugger\Interop\MetaDataWrapper.cs" />
+    <Compile Include="Debugger\Debugger\Interop\MTA2STA.cs" />
+    <Compile Include="Debugger\Debugger\Interop\NativeMethods.cs" />
+    <Compile Include="Debugger\Debugger\Interop\TrackedComObjects.cs" />
+    <Compile Include="Debugger\Debugger\Interop\Util.cs" />
+    <Compile Include="Debugger\Debugger\ManagedCallback.cs" />
+    <Compile Include="Debugger\Debugger\ManagedCallbackProxy.cs" />
+    <Compile Include="Debugger\Debugger\ManagedCallbackSwitch.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugConstructorInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugFieldInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugLocalVariableInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugMethodInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugParameterInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugPropertyInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\DebugType.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\IDebugMemberInfo.cs" />
+    <Compile Include="Debugger\Debugger\MetaData\IOverloadable.cs" />
+    <Compile Include="Debugger\Debugger\Module.cs" />
+    <Compile Include="Debugger\Debugger\ModuleCollection.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Binary\ImageFormatException.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Metadata\CodedIndex.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Metadata\ElementType.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Metadata\MetadataFormatException.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Metadata\MetadataToken.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Metadata\TokenType.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Metadata\Utilities.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Array.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\ArrayShape.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\BaseSignatureVisitor.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Class.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Constraint.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\CustomMod.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\FieldSig.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\FnPtr.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\GenericArg.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\GenericInst.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\GenericInstSignature.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\InputOutputItem.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\ISignatureVisitable.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\ISignatureVisitor.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\LocalVarSig.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\MethodDefSig.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\MethodRefSig.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\MethodSig.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\MethodSpec.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\MVar.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Param.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\PropertySig.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Ptr.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\RetType.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Signature.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\SignatureReader.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\SigType.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\SzArray.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\TypeSpec.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\ValueType.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil.Signatures\Var.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil\MethodCallingConvention.cs" />
+    <Compile Include="Debugger\Debugger\Mono.Cecil\Mono.Cecil\ReflectionException.cs" />
+    <Compile Include="Debugger\Debugger\NDebugger.cs" />
+    <Compile Include="Debugger\Debugger\NRefactory\Ast\ExpressionExtensionMethods.cs" />
+    <Compile Include="Debugger\Debugger\NRefactory\Visitors\ExpressionEvaluator.cs" />
+    <Compile Include="Debugger\Debugger\Options.cs" />
+    <Compile Include="Debugger\Debugger\PausedReason.cs" />
+    <Compile Include="Debugger\Debugger\PauseSession.cs" />
+    <Compile Include="Debugger\Debugger\Process.cs" />
+    <Compile Include="Debugger\Debugger\ProcessCollection.cs" />
+    <Compile Include="Debugger\Debugger\ProcessEventArgs.cs" />
+    <Compile Include="Debugger\Debugger\SourcecodeSegment.cs" />
+    <Compile Include="Debugger\Debugger\StackFrame.cs" />
+    <Compile Include="Debugger\Debugger\Stepper.cs" />
+    <Compile Include="Debugger\Debugger\Tests\ExpandAttribute.cs" />
+    <Compile Include="Debugger\Debugger\Tests\IgnoreAttribute.cs" />
+    <Compile Include="Debugger\Debugger\Tests\IgnoreOnExceptionAttribute.cs" />
+    <Compile Include="Debugger\Debugger\Thread.cs" />
+    <Compile Include="Debugger\Debugger\ThreadCollection.cs" />
+    <Compile Include="Debugger\Debugger\Value.cs" />
+    <Compile Include="Debugger\Interfaces\ClassType.cs" />
+    <Compile Include="Debugger\Interfaces\ExplicitInterfaceImplementation.cs" />
+    <Compile Include="Debugger\Interfaces\IAttribute.cs" />
+    <Compile Include="Debugger\Interfaces\IClass.cs" />
+    <Compile Include="Debugger\Interfaces\ICompilationUnit.cs" />
+    <Compile Include="Debugger\Interfaces\ICompletionEntry.cs" />
+    <Compile Include="Debugger\Interfaces\IEntity.cs" />
+    <Compile Include="Debugger\Interfaces\IEvent.cs" />
+    <Compile Include="Debugger\Interfaces\IField.cs" />
+    <Compile Include="Debugger\Interfaces\IFreezable.cs" />
+    <Compile Include="Debugger\Interfaces\IMember.cs" />
+    <Compile Include="Debugger\Interfaces\IMethod.cs" />
+    <Compile Include="Debugger\Interfaces\IParameter.cs" />
+    <Compile Include="Debugger\Interfaces\IProperty.cs" />
+    <Compile Include="Debugger\Interfaces\IReturnType.cs" />
+    <Compile Include="Debugger\Interfaces\ITypeParameter.cs" />
+    <Compile Include="Debugger\Interfaces\IUsing.cs" />
+    <Compile Include="Debugger\Interfaces\IUsingScope.cs" />
+    <Compile Include="Debugger\Interfaces\ModifierEnum.cs" />
+    <Compile Include="Debugger\Interfaces\ParameterModifiers.cs" />
+    <Compile Include="Debugger\Interfaces\Region.cs" />
+    <Compile Include="Debugger\RemotingConfigurationHelpper.cs" />
+    <Compile Include="Debugger\TreeModel\Adapters\TreeViewVarNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Debugger\TreeModel\ArrayRangeNode.cs" />
+    <Compile Include="Debugger\TreeModel\ChildNodesOfObject.cs" />
+    <Compile Include="Debugger\TreeModel\DebuggerHelpers.cs" />
+    <Compile Include="Debugger\TreeModel\ExpressionNode.cs" />
+    <Compile Include="Debugger\TreeModel\ICorDebug.cs" />
+    <Compile Include="Debugger\TreeModel\IEnumerableNode.cs" />
+    <Compile Include="Debugger\TreeModel\IListNode.cs" />
+    <Compile Include="Debugger\TreeModel\ISetText.cs" />
+    <Compile Include="Debugger\TreeModel\ListHelper.cs" />
+    <Compile Include="Debugger\TreeModel\StackFrameNode.cs" />
+    <Compile Include="Debugger\TreeModel\TreeNode.cs" />
+    <Compile Include="Debugger\TreeModel\TypeResolver.cs" />
+    <Compile Include="Debugger\TreeModel\Utils.cs" />
+    <Compile Include="Debugger\WindowsDebugger.cs" />
+    <Compile Include="FileAssociation\AssociationManager.cs" />
+    <Compile Include="FileAssociation\FileAssociationInfo.cs" />
+    <Compile Include="FileAssociation\ProgramAssociationInfo.cs" />
+    <Compile Include="FileAssociation\ProgramIcon.cs" />
+    <Compile Include="FileAssociation\ProgramVerb.cs" />
+    <Compile Include="FileAssociation\RegistryException.cs" />
+    <Compile Include="FileAssociation\RegistryWrapper.cs" />
+    <Compile Include="FileAssociation\ShellNotification.cs" />
+    <Compile Include="ListViewSorter\Comparer.cs" />
+    <Compile Include="ListViewSorter\ListViewItemComparer.cs" />
+    <Compile Include="ListViewSorter\ListViewSorter.cs" />
+    <Compile Include="Obfuscator\Confuser.Core.Injection\ConfusionsInjection.cs" />
+    <Compile Include="Obfuscator\Confuser.Core.Injection\Iid.cs" />
+    <Compile Include="Obfuscator\Confuser.Core.Injection\Packers.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\CecilHelper.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confuser.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\AntiDebugConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\AntiDumpConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\AntiILDasmConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\AntiTamperConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\ConstantConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\ControlFlowConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\CtorProxyConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\DisConstConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\InvalidMdConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\MdReduceConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\MtdProxyConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\NameConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\ResEncryptConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\StackUnfConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Confusions\StringConfusion.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Engines\Baml\BamlDocument.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Engines\Baml\BamlRecords.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Engines\Baml\BamlRW.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Engines\RenameEngine.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\IEngine.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Marker.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\ObfuscationHelper.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Packer.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Packers\Compressor.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\ExpressionEvaluator.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\ExpressionGenerator.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\AddExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\ConstantExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\DivExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\MulExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\NegExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\SubExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Expressions\VariableExpression.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\ExpressionVisitor.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Visitors\CecilVisitor.cs" />
+    <Compile Include="Obfuscator\Confuser.Core\Poly\Visitors\ReflectionVisitor.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\Functional.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\ILParser.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\MethodBodyRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\MethodDefinitionRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\ModuleDefinitionRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\ParameterReferenceRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\SecurityDeclarationRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\TypeDefinitionRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil.Rocks\TypeReferenceRocks.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\Code.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\CodeReader.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\CodeWriter.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\Document.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\ExceptionHandler.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\ILProcessor.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\Instruction.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\MethodBody.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\OpCode.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\OpCodes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\SequencePoint.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\Symbols.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\VariableDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Cil\VariableReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\BlobHeap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\Buffers.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\CodedIndex.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\ElementType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\GuidHeap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\Heap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\MetadataToken.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\Row.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\StringHeap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\TableHeap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\Tables.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\TokenType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\UserStringHeap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.Metadata\Utilities.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\BinaryStreamReader.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\BinaryStreamWriter.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\ByteBuffer.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\ByteBufferEqualityComparer.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\DataDirectory.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\Image.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\ImageReader.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\ImageWriter.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\Section.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil.PE\TextMap.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ArrayType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyFlags.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyHashAlgorithm.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyLinkedResource.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyNameDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyNameReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyReader.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\AssemblyWriter.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\BaseAssemblyResolver.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\CallSite.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\CustomAttribute.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\DefaultAssemblyResolver.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\EmbeddedResource.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\EventAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\EventDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\EventReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ExportedType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\FieldAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\FieldDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\FieldReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\FileAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\FunctionPointerType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\GenericInstanceMethod.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\GenericInstanceType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\GenericParameter.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\GenericParameterAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IAnnotationProvider.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IConstantProvider.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ICustomAttributeProvider.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IGenericInstance.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IGenericParameterProvider.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IMarshalInfoProvider.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IMemberDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IMetadataScope.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IMetadataTokenProvider.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\IMethodSignature.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\Import.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\LinkedResource.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ManifestResourceAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MarshalInfo.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MemberDefinitionCollection.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MemberReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MetadataResolver.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MetadataSystem.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodCallingConvention.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodImplAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodReturnType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodSemanticsAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\MethodSpecification.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\Modifiers.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ModuleDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ModuleKind.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ModuleReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\NativeType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ParameterAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ParameterDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ParameterDefinitionCollection.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ParameterReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PinnedType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PInvokeAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PInvokeInfo.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PointerType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PropertyAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PropertyDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\PropertyReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\ReferenceType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\Resource.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\SecurityDeclaration.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\SentinelType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TargetRuntime.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeAttributes.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeDefinition.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeDefinitionCollection.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeParser.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeReference.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeSpecification.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\TypeSystem.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Cecil\VariantType.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Collections.Generic\Collection.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Security.Cryptography\CryptoConvert.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono.Security.Cryptography\CryptoService.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono\Actions.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono\Empty.cs" />
+    <Compile Include="Obfuscator\Mono.Cecil\Mono\Funcs.cs" />
+    <Compile Include="ProgressBar\COMTypes.cs" />
+    <Compile Include="ProgressBar\Windows7ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\Windows7Taskbar.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RulerControl\RulerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Références\FusionNative.cs" />
+    <Compile Include="Références\GacInterop.cs" />
+    <Compile Include="Références\TypeLibrary.cs" />
+    <Compile Include="ToolBox\ToolBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolBox\ToolBox.designer.cs">
+      <DependentUpon>ToolBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewAdv\BitmapHelper.cs" />
+    <Compile Include="TreeViewAdv\GifDecoder.cs" />
+    <Compile Include="TreeViewAdv\NumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\PerformanceAnalyzer.cs" />
+    <Compile Include="TreeViewAdv\ResourceHelper.cs" />
+    <Compile Include="TreeViewAdv\StringCollectionEditor.cs" />
+    <Compile Include="TreeViewAdv\TextHelper.cs" />
+    <Compile Include="TreeViewAdv\Threading\AbortableThreadPool.cs" />
+    <Compile Include="TreeViewAdv\Threading\WorkItem.cs" />
+    <Compile Include="TreeViewAdv\Threading\WorkItemStatus.cs" />
+    <Compile Include="TreeViewAdv\TimeCounter.cs" />
+    <Compile Include="TreeViewAdv\Tree\AutoRowHeightLayout.cs" />
+    <Compile Include="TreeViewAdv\Tree\ColumnCollection.cs" />
+    <Compile Include="TreeViewAdv\Tree\DrawContext.cs" />
+    <Compile Include="TreeViewAdv\Tree\DropNodeValidatingEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\DropPosition.cs" />
+    <Compile Include="TreeViewAdv\Tree\EditorContext.cs" />
+    <Compile Include="TreeViewAdv\Tree\Enums.cs" />
+    <Compile Include="TreeViewAdv\Tree\FixedRowHeightLayout.cs" />
+    <Compile Include="TreeViewAdv\Tree\IncrementalSearch.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\ClickColumnState.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\ColumnState.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\InputState.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\InputWithControl.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\InputWithShift.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\NormalInputState.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\ReorderColumnState.cs" />
+    <Compile Include="TreeViewAdv\Tree\Input\ResizeColumnState.cs" />
+    <Compile Include="TreeViewAdv\Tree\IRowLayout.cs" />
+    <Compile Include="TreeViewAdv\Tree\IToolTipProvider.cs" />
+    <Compile Include="TreeViewAdv\Tree\ITreeModel.cs" />
+    <Compile Include="TreeViewAdv\Tree\NativeMethods.cs" />
+    <Compile Include="TreeViewAdv\Tree\Node.cs" />
+    <Compile Include="TreeViewAdv\Tree\NodeControlInfo.cs" />
+    <Compile Include="TreeViewAdv\Tree\NodeControls\BaseTextControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\BindableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\DrawEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\NodeControls\EditableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\ExpandingIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\InteractiveControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeControlsCollection.cs" />
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeControlValueEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeDecimalTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeIntegerTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodePlusMinus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeStateIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\NodeControls\NodeTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\SortedTreeModel.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\TreeColumnCollection.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeColumnEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeListAdapter.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeModel.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeModelBase.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeModelEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeNodeAdv.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeNodeAdvMouseEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreePath.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreePathEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdv.Designer.cs">
+      <DependentUpon>TreeViewAdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdv.Draw.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdv.Input.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdv.Properties.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdvCancelEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeViewAdvEventArgs.cs" />
+    <Compile Include="TreeViewAdv\Tree\TreeViewRowDrawEventArgs.cs" />
+    <Compile Include="TreeViewComparer\TreeViewComparer.cs" />
+    <Compile Include="TreeViewMultiSelect\TreeViewMultiSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Variables.cs" />
+    <Compile Include="VBNetParser\AstBuilder\ExpressionBuilder.cs" />
+    <Compile Include="VBNetParser\AstBuilder\StatementBuilder.cs" />
+    <Compile Include="VBNetParser\Ast\AbstractNode.cs" />
+    <Compile Include="VBNetParser\Ast\BlockStatement.cs" />
+    <Compile Include="VBNetParser\Ast\CompilationUnit.cs" />
+    <Compile Include="VBNetParser\Ast\Enums.cs" />
+    <Compile Include="VBNetParser\Ast\Expression.cs" />
+    <Compile Include="VBNetParser\Ast\Generated.cs" />
+    <Compile Include="VBNetParser\Ast\INode.cs" />
+    <Compile Include="VBNetParser\Ast\INullable.cs" />
+    <Compile Include="VBNetParser\Ast\LocalVariableDeclaration.cs" />
+    <Compile Include="VBNetParser\Ast\PrimitiveExpression.cs" />
+    <Compile Include="VBNetParser\Ast\Statement.cs" />
+    <Compile Include="VBNetParser\Ast\TypeReference.cs" />
+    <Compile Include="VBNetParser\EnvironmentInformationProvider.cs" />
+    <Compile Include="VBNetParser\IAstVisitor.cs" />
+    <Compile Include="VBNetParser\Lexer\AbstractLexer.cs" />
+    <Compile Include="VBNetParser\Lexer\BlankLine.cs" />
+    <Compile Include="VBNetParser\Lexer\Block.cs" />
+    <Compile Include="VBNetParser\Lexer\Comment.cs" />
+    <Compile Include="VBNetParser\Lexer\CommentType.cs" />
+    <Compile Include="VBNetParser\Lexer\ExpressionFinder.cs" />
+    <Compile Include="VBNetParser\Lexer\ExpressionFinderState.cs" />
+    <Compile Include="VBNetParser\Lexer\Extensions.cs" />
+    <Compile Include="VBNetParser\Lexer\ILexer.cs" />
+    <Compile Include="VBNetParser\Lexer\ISpecial.cs" />
+    <Compile Include="VBNetParser\Lexer\Keywords.cs" />
+    <Compile Include="VBNetParser\Lexer\LATextReader.cs" />
+    <Compile Include="VBNetParser\Lexer\Lexer.cs" />
+    <Compile Include="VBNetParser\Lexer\LexerMemento.cs" />
+    <Compile Include="VBNetParser\Lexer\LookupTable.cs" />
+    <Compile Include="VBNetParser\Lexer\Parser.cs" />
+    <Compile Include="VBNetParser\Lexer\PreProcessingDirective.cs" />
+    <Compile Include="VBNetParser\Lexer\SavepointEventArgs.cs" />
+    <Compile Include="VBNetParser\Lexer\SpecialTracker.cs" />
+    <Compile Include="VBNetParser\Lexer\TagComment.cs" />
+    <Compile Include="VBNetParser\Lexer\Token.cs" />
+    <Compile Include="VBNetParser\Lexer\Tokens.cs" />
+    <Compile Include="VBNetParser\Lexer\VBLexerMemento.cs" />
+    <Compile Include="VBNetParser\Lexer\XmlModeInfo.cs" />
+    <Compile Include="VBNetParser\Location.cs" />
+    <Compile Include="VBNetParser\OperatorPrecedence.cs" />
+    <Compile Include="VBNetParser\ParserFactory.cs" />
+    <Compile Include="VBNetParser\Parser\AbstractParser.cs" />
+    <Compile Include="VBNetParser\Parser\Errors.cs" />
+    <Compile Include="VBNetParser\Parser\IParser.cs" />
+    <Compile Include="VBNetParser\Parser\ModifierList.cs" />
+    <Compile Include="VBNetParser\Parser\ParamModifierList.cs" />
+    <Compile Include="VBNetParser\Parser\Parser.cs" />
+    <Compile Include="VBNetParser\Parser\VBNetParser.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\AbstractOutputFormatter.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\AbstractPrettyPrintOptions.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\IOutputAstVisitor.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\SpecialNodesInserter.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\VBNetOutputFormatter.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\VBNetOutputVisitor.cs" />
+    <Compile Include="VBNetParser\PrettyPrinter\VBNetPrettyPrintOptions.cs" />
+    <Compile Include="VBNetParser\SnippetParser.cs" />
+    <Compile Include="VBNetParser\Visitors\AbstractAstTransformer.cs" />
+    <Compile Include="VBNetParser\Visitors\AbstractASTVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\CodeDOMOutputVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\CodeDOMVerboseOutputGenerator.cs" />
+    <Compile Include="VBNetParser\Visitors\ConvertVisitorBase.cs" />
+    <Compile Include="VBNetParser\Visitors\CSharpConstructsConvertVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\LookupTableVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\NodeTrackingAstVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\NotImplementedAstVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\PrefixFieldsVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\RenameIdentifierVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\SetParentVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\SetRegionInclusionVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\ToCSharpConvertVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\ToVBNetConvertVisitor.cs" />
+    <Compile Include="VBNetParser\Visitors\ToVBNetRenameConflictingVariables.cs" />
+    <Compile Include="VBNetParser\Visitors\VBNetConstructsConvertVisitor.cs" />
+    <Compile Include="WindowsDesigner\AssemblyControl.cs" />
+    <Compile Include="WindowsDesigner\CodeDomHostLoader.cs" />
+    <Compile Include="WindowsDesigner\Designer.cs" />
+    <Compile Include="WindowsDesigner\MenuCommandServiceImpl.cs" />
+    <Compile Include="WindowsDesigner\RessourceService.cs" />
+    <Compile Include="WindowsDesigner\ToolBoxService.cs" />
+    <Compile Include="WindowsDesigner\TypeResolutionService.cs" />
+    <Compile Include="WindowsDesigner\UndoEngineImpl.cs" />
+    <Compile Include="Windows\Enum.cs" />
+    <Compile Include="Windows\User32.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColorPicker\ctrl2DColorBox.resx">
+      <DependentUpon>ctrl2DColorBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorPicker\ctrlVerticalColorSlider.resx">
+      <DependentUpon>ctrlVerticalColorSlider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorPicker\frmColorPicker.resx">
+      <DependentUpon>frmColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RulerControl\RulerControl.resx">
+      <DependentUpon>RulerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBox\ToolBox.resx">
+      <DependentUpon>ToolBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeViewMultiSelect\TreeViewMultiSelect.resx">
+      <DependentUpon>TreeViewMultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VelerSoftware.Design.Toolkit\VelerSoftware.Design.Toolkit.csproj">
+      <Project>{96ECAECC-54F8-4AA5-8591-B443C2D9565F}</Project>
+      <Name>VelerSoftware.Design.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\copy_small.png" />
+    <None Include="Resources\loading_icon" />
+    <None Include="StrongVeler.snk" />
+    <None Include="VBNetParser\Lexer\ExpressionFinder.atg">
+      <CustomToolNamespace>VelerSoftware.SZC.VBNetParser.Parser.VB</CustomToolNamespace>
+    </None>
+    <None Include="VBNetParser\Lexer\PushParser.frame" />
+    <None Include="VBNetParser\Parser\Parser.frame" />
+    <None Include="Resources\DVSplit.cur" />
+    <None Include="Resources\gest_var.png" />
+    <None Include="Resources\vide.png" />
+    <None Include="Resources\SZW_Icon_16.png" />
+    <None Include="Resources\assembly.png" />
+    <None Include="Resources\Fonction.png" />
+    <None Include="Resources\namespace.png" />
+    <None Include="Resources\field.png" />
+    <Content Include="Debugger\Debugger\Stepping.txt" />
+    <None Include="Resources\setting.png" />
+    <Content Include="Obfuscator\Confuser.Core\Note.txt" />
+    <Content Include="Obfuscator\Mono.Cecil\NOTES.txt" />
+    <Content Include="VBNetParser\Parser\Scanner.frame" />
+    <None Include="VBNetParser\Parser\VBNET.ATG">
+      <CustomToolNamespace>VelerSoftware.SZC.VBNetParser.Parser.VB</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_sma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propriété.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProtectFormHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SendToBackHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BringToFrontHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="VBNetParser\Lexer\KeywordList.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copier_dossier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copier_dossier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtenir_IP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtenir_IP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtenir_Fenêtres_Ouvertes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtenir_Fenêtres_Ouvertes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vider_console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vider_console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="societe_application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\societe_application.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_fenetre_enfant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_fenetre_enfant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Changer_Couleur_Fond_Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changer_Couleur_Fond_Console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="determiner_dossier_existe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\determiner_dossier_existe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sortir_boucle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sortir_boucle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Decrypter_Fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Decrypter_Fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_type_variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_type_variable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enregistrer_donnee_serialisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enregistrer_donnee_serialisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supprimer_Fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_variable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_propriete_donne_serialisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_propriete_donne_serialisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fermer_fenetre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fermer_fenetre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calcul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calcul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarrer_timer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarrer_timer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_propriete_donnee_serialisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_propriete_donnee_serialisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commandes_vb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commandes_vb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fonction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fonction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creer_fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creer_fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stopper_Son" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stopper_Son.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verr_maj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verr_maj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_index_valeur_variable_tableau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_index_valeur_variable_tableau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="determiner_fichier_existe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\determiner_fichier_existe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sortir_sub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sortir_sub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtenir_Taille_Fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtenir_Taille_Fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Changer_Couleur_Texte_Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changer_Couleur_Texte_Console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lire_Fichier_Texte_Entier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lire_Fichier_Texte_Entier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redemarrer_application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redemarrer_application.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="version_application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version_application.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deplacer_fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deplacer_fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copier_fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copier_fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vider_variable_tableau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vider_variable_tableau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Encrypter_Ficher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Encrypter_Ficher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtenir_Information_Fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtenir_Information_Fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fermer_fenetre_enfant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fermer_fenetre_enfant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecrire_Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecrire_Console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creer_dossier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creer_dossier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Definir_Titre_Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Definir_Titre_Console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pause_Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause_Console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Afficher_Un_Message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Afficher_Un_Message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_propriete_parametre_fonction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_propriete_parametre_fonction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_argument_demarrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_argument_demarrage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telecharger_fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telecharger_fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ouvrir_fenetre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ouvrir_fenetre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supprimer_Dossier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_dossier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arreterapplicationSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arreterapplicationSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arreter_timer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arreter_timer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_propriété_controle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_propriété_controle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_liste_fichier_dossier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_liste_fichier_dossier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="etiquette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aller_etiquette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Determiner_Connecter_Internet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Determiner_Connecter_Internet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_propriete_valeur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_propriete_valeur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deplacer_dossier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deplacer_dossier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="determiner_valeur_existe_variable_tableau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\determiner_valeur_existe_variable_tableau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Renommer_Fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Renommer_Fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Demander_Utilisateur_Ecrire_Console" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Demander_Utilisateur_Ecrire_Console.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="si_alors_sinon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\si_alors_sinon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boucle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boucle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retourner_valeur_fonction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retourner_valeur_fonction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtenir_Extension_Fichier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtenir_Extension_Fichier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_ctrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_ctrl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="convertir_valeur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\convertir_valeur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="execute_function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\execute_function.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copyright_application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copyright_application.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assigner_donnee_serialiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assigner_donnee_serialiser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ouvrir_fichier_serialiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ouvrir_fichier_serialiser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_propriete_parametre_fonction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_propriete_parametre_fonction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_nom_projet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_nom_projet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lire_Fichier_Texte_Ligne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lire_Fichier_Texte_Ligne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarrer_backgroundworker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarrer_backgroundworker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arreter_backgroundworker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arreter_backgroundworker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="determiner_backgroundworker_execution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\determiner_backgroundworker_execution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progression_backgroundworker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progression_backgroundworker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_element_checkedlistbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_element_checkedlistbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_item_checkedlistbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_item_checkedlistbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_item_combobox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_item_combobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_item_listbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_item_listbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_item_listview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_item_listview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_item_treeview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_item_treeview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_element_combobox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_element_combobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_element_listbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_element_listbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkedlistbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkedlistbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="combobox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\combobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_colonne_listview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_colonne_listview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_item_listview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_item_listview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_item_listview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_item_listview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afficher_contextmenustrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afficher_contextmenustrip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afficher_balloon_notifyicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afficher_balloon_notifyicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="annuler_editeur_texte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\annuler_editeur_texte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coller_editeur_texte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coller_editeur_texte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copier_editeur_texte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copier_editeur_texte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="couper_editeur_texte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\couper_editeur_texte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retablir_editeur_texte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retablir_editeur_texte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_date_monthcalendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_date_monthcalendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_date_monthcalendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_date_monthcalendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_monthcalendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update_monthcalendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_date_windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_date_windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nouvelle_date" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nouvelle_date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comparer_deux_dates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comparer_deux_date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_information_dates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_information_dates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Incrementer_Date" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Incrementer_Date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtenir_Date_Texte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtenir_Date_Texte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="version_windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version_windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nom_complet_os" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nom_complet_os.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nom_utilisateur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nom_utilisateur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="version_net" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version_net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lancer_processus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lancer_processus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tuer_processus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tuer_processus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="declarer_propriete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\declarer_propriete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_propriete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_propriete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_propriete_propriété" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_propriete_propriété.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_propriété_propriete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_propriété_propriete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_type_propriete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_type_propriete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="executer_msdos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\executer_msdos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_controle_flowlayoutpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_controle_flowlayoutpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_controle_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_controle_panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_controle_groupbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_controle_groupboxl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flowlayoutpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flowlayoutpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_controle_flowlayoutpanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_controle_flowlayoutpanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_controle_groupbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_controle_groupbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_controle_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_controle_panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panneau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panneau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Groupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Groupe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ColorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ColorDialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FontDialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenFileDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenFileDialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveFileDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaveFileDialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderBrowserDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\folderbrowserdialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="texte_replace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\texte_replace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textremoveSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textremoveSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_lenght" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_lenght.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_lower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_lower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_split" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_split.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_upper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_upper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charger_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charger_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generer_nombre_aleatoire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generer_nombre_aleatoire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jouer_un_son" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jouer_un_son.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="precedent_webbrowser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\precedent_webbrowser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suivant_webbrowser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suivant_webbrowser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_image_imagelist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_image_imagelist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="naviguer_webbrowser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\naviguer_webbrowser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_onglet_tabcontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_onglet_tabcontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_onglet_tabcontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_onglet_tabcontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tabcontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabcontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treeview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treeview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_noeud_treeview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_noeud_treeview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="executer_fonction_variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\executer_fonction_variable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="executer_fonction_propriete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\executer_fonction_propriete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="executer_fonction_controle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\executer_fonction_controle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="envoyer_email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\envoyer_email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="declarer_api" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\declarer_api.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="executer_api" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\executer_api.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creer_cle_registre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creer_cle_registre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creer_valeur_registre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creer_valeur_registre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lire_valeur_registre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lire_valeur_registre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_valeur_registre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_valeur_registre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_colonne_datagridview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_colonne_datagridview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_ligne_datagridview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_ligne_datagridview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obtenir_ligne_datagridview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obtenir_ligne_datagridview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_ligne_datagridview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_ligne_datagridview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_point_diagramme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajouter_point_diagramme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modifier_point_diagramme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modifier_point_diagramme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supprimer_point_diagramme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supprimer_point_diagramme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Run_PowerShell_Command" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Run_PowerShell_Command.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

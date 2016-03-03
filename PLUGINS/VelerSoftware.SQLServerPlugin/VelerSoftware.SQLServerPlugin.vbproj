@@ -1,0 +1,1386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{436F9BE9-650F-4259-9BF0-3CD2653E4749}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.SQLServerPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.SQLServerPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Colonne_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Colonne_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Colonne_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.vb" />
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.vb" />
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.vb" />
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Colonne_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Ajouter_Colonne_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.vb" />
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Elements_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Elements_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Elements_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Renommer_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Renommer_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Supprimer_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Table_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Table_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Table_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.vb" />
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Creer_Table_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Creer_Table_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requete_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requete_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requete_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.vb" />
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Requete_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Requete_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.vb" />
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statut_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statut_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statut_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.vb" />
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Statut_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Statut_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.vb" />
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_connecter_serveur_SQL_Server.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_connecter_serveur_SQL_Server.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_connecter_serveur_SQL_Server.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.vb" />
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Designer.xaml.vb">
+      <DependentUpon>Se_connecter_serveur_SQL_Server_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Form.Designer.vb">
+      <DependentUpon>Se_connecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.en.resx">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Changer_Base_de_Donnees_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.fr.resx">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Changer_Base_de_Donnees_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server.resx">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Changer_Base_de_Donnees_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Form.en.resx">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Form.fr.resx">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Form.resx">
+      <DependentUpon>Changer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.en.resx">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Charger_Table_DatagridView_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.fr.resx">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Charger_Table_DatagridView_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server.resx">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Charger_Table_DatagridView_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Form.en.resx">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Form.fr.resx">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Form.resx">
+      <DependentUpon>Charger_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.en.resx">
+      <DependentUpon>Ajouter_Colonne_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Colonne_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.fr.resx">
+      <DependentUpon>Ajouter_Colonne_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Colonne_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server.resx">
+      <DependentUpon>Ajouter_Colonne_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Colonne_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Form.en.resx">
+      <DependentUpon>Ajouter_Colonne_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Form.fr.resx">
+      <DependentUpon>Ajouter_Colonne_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Form.resx">
+      <DependentUpon>Ajouter_Colonne_SQL_Server_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.en.resx">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Ligne_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.fr.resx">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Ligne_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server.resx">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Ligne_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Form.resx">
+      <DependentUpon>Ajouter_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.en.resx">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.fr.resx">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server.resx">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Form.resx">
+      <DependentUpon>Obtenir_Cellule_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.en.resx">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modifier_Ligne_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.fr.resx">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modifier_Ligne_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server.resx">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modifier_Ligne_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Form.resx">
+      <DependentUpon>Modifier_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.en.resx">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Ligne_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.fr.resx">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Ligne_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server.resx">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Ligne_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Form.resx">
+      <DependentUpon>Supprimer_Ligne_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.en.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Table_DatagridView_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.fr.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Table_DatagridView_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Table_DatagridView_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Form.en.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Form.fr.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Form.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.en.resx">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Elements_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.fr.resx">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Elements_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server.resx">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Elements_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Form.resx">
+      <DependentUpon>Nombre_Elements_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.en.resx">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Colonnes_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.fr.resx">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Colonnes_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server.resx">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Colonnes_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Form.resx">
+      <DependentUpon>Nombre_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.en.resx">
+      <DependentUpon>Renommer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.fr.resx">
+      <DependentUpon>Renommer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server.resx">
+      <DependentUpon>Renommer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Renommer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Renommer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Form.resx">
+      <DependentUpon>Renommer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.en.resx">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Colonnes_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.fr.resx">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Colonnes_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server.resx">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Colonnes_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Form.resx">
+      <DependentUpon>Liste_Colonnes_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.en.resx">
+      <DependentUpon>Supprimer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.fr.resx">
+      <DependentUpon>Supprimer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server.resx">
+      <DependentUpon>Supprimer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Supprimer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Supprimer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Form.resx">
+      <DependentUpon>Supprimer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.en.resx">
+      <DependentUpon>Creer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Table_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.fr.resx">
+      <DependentUpon>Creer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Table_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server.resx">
+      <DependentUpon>Creer_Table_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Table_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Form.en.resx">
+      <DependentUpon>Creer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Form.fr.resx">
+      <DependentUpon>Creer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Form.resx">
+      <DependentUpon>Creer_Table_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.en.resx">
+      <DependentUpon>Requete_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.fr.resx">
+      <DependentUpon>Requete_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server.resx">
+      <DependentUpon>Requete_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Form.en.resx">
+      <DependentUpon>Requete_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Form.fr.resx">
+      <DependentUpon>Requete_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Form.resx">
+      <DependentUpon>Requete_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.en.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Table_Base_de_Donnees_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.fr.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Table_Base_de_Donnees_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Table_Base_de_Donnees_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Form.en.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Form.fr.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Form.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.en.resx">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Base_de_Donnees_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.fr.resx">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Base_de_Donnees_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server.resx">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Base_de_Donnees_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Form.en.resx">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Form.fr.resx">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Form.resx">
+      <DependentUpon>Liste_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.en.resx">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Base_de_Donnees_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.fr.resx">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Base_de_Donnees_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server.resx">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Base_de_Donnees_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Form.en.resx">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Form.fr.resx">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Form.resx">
+      <DependentUpon>Creer_Base_de_Donnees_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.en.resx">
+      <DependentUpon>Statut_SQL_Server.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statut_SQL_Server.en.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.fr.resx">
+      <DependentUpon>Statut_SQL_Server.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statut_SQL_Server.fr.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server.resx">
+      <DependentUpon>Statut_SQL_Server.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statut_SQL_Server.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Form.en.resx">
+      <DependentUpon>Statut_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Form.fr.resx">
+      <DependentUpon>Statut_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Form.resx">
+      <DependentUpon>Statut_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.en.resx">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_deconnecter_serveur_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.fr.resx">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_deconnecter_serveur_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server.resx">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_deconnecter_serveur_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Form.en.resx">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Form.fr.resx">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Form.resx">
+      <DependentUpon>Se_deconnecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_connecter_serveur_SQL_Server.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_connecter_serveur_SQL_Server.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_connecter_serveur_SQL_Server.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Form.en.resx">
+      <DependentUpon>Se_connecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Form.fr.resx">
+      <DependentUpon>Se_connecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Form.resx">
+      <DependentUpon>Se_connecter_serveur_SQL_Server_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="SQL Server\Changer de base de données SQL Server\Changer_Base_de_Donnees_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Charger une table SQL Server dans un DataGridView\Charger_Table_DatagridView_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Ajouter une colonne à une table SQL Server\Ajouter_Colonne_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Ajouter une ligne à une table SQL Server\Ajouter_Ligne_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir une cellule d%27une table SQL Server\Obtenir_Cellule_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Modifier une ligne dans une table SQL Server\Modifier_Ligne_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Supprimer une ligne dans une table SQL Server\Supprimer_Ligne_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Enregistrer une table SQL Server dans un DataGridView\Enregistrer_Table_DatagridView_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir le nombre d%27éléments dans une table SQL Server\Nombre_Elements_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir le nombre de colonnes dans une table SQL Server\Nombre_Colonnes_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Renommer une table SQL Server\Renommer_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir la liste des colonnes d%27une table SQL Server\Liste_Colonnes_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Supprimer une table SQL Server\Supprimer_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Créer une table SQL Server\Creer_Table_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Exécuter une requête SQL Server\Requete_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir la liste des tables d%27une base de données SQL Server\Liste_Table_Base_de_Donnees_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir la liste des bases de données SQL Server\Liste_Base_de_Donnees_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Créer une base de données SQL Server\Creer_Base_de_Donnees_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Obtenir le statut d%27une connexion SQL Server\Statut_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Se déconnecter d%27un serveur SQL Server\Se_deconnecter_serveur_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SQL Server\Se connecter à un serveur SQL Server\Se_connecter_serveur_SQL_Server_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_cell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add_table_column.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add_table_row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\change_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\connexion_status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\create_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\create_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete_table_row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gat_tables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_databases.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_columns_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_rows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\load_table_datagridview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\rename_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\run_request.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\save_table_datagridview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_cells.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{3F94E4E4-6A65-434C-9C5E-00214A13F8CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VelerSoftware.MySQLPlugin</RootNamespace>
+    <AssemblyName>VelerSoftware.MySQLPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\bin\Plugins\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongVeler.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Colonne_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Colonne_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Colonne_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Ligne_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Ligne_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ajouter_Ligne_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Changer_Base_de_Donnees_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Changer_Base_de_Donnees_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Changer_Base_de_Donnees_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.vb" />
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Designer.xaml.vb">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Form.Designer.vb">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charger_Table_DatagridView_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charger_Table_DatagridView_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charger_Table_DatagridView_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.vb" />
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Designer.xaml.vb">
+      <DependentUpon>Charger_Table_DatagridView_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Form.Designer.vb">
+      <DependentUpon>Charger_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.vb" />
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Colonne_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Form.Designer.vb">
+      <DependentUpon>Ajouter_Colonne_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.vb" />
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Obtenir_Cellule_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modifier_Ligne_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modifier_Ligne_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modifier_Ligne_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.vb" />
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Modifier_Ligne_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Modifier_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Ligne_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Ligne_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Ligne_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.vb" />
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.vb" />
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Designer.xaml.vb">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Form.Designer.vb">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Elements_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Elements_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Elements_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Nombre_Elements_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Nombre_Elements_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Colonnes_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Colonnes_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nombre_Colonnes_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Renommer_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.vb" />
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Renommer_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Renommer_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Colonnes_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Colonnes_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Colonnes_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Liste_Colonnes_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Liste_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supprimer_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.vb" />
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Supprimer_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Supprimer_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Table_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Table_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Table_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.vb" />
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Designer.xaml.vb">
+      <DependentUpon>Creer_Table_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Form.Designer.vb">
+      <DependentUpon>Creer_Table_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requete_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requete_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requete_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.vb" />
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Designer.xaml.vb">
+      <DependentUpon>Requete_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Form.Designer.vb">
+      <DependentUpon>Requete_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Designer.xaml.vb">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Form.Designer.vb">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Base_de_Donnees_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Base_de_Donnees_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Liste_Base_de_Donnees_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Designer.xaml.vb">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Form.Designer.vb">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Base_de_Donnees_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Base_de_Donnees_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Creer_Base_de_Donnees_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.vb" />
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Designer.xaml.vb">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Form.Designer.vb">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statut_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statut_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statut_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.vb" />
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Designer.xaml.vb">
+      <DependentUpon>Statut_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Form.Designer.vb">
+      <DependentUpon>Statut_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_deconnecter_serveur_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_deconnecter_serveur_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_deconnecter_serveur_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.vb" />
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Designer.xaml.vb">
+      <DependentUpon>Se_deconnecter_serveur_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Form.Designer.vb">
+      <DependentUpon>Se_deconnecter_serveur_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_connecter_serveur_MySQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.en.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_connecter_serveur_MySQL.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.fr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Se_connecter_serveur_MySQL.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.vb" />
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Designer.xaml.vb">
+      <DependentUpon>Se_connecter_serveur_MySQL_Designer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Form.Designer.vb">
+      <DependentUpon>Se_connecter_serveur_MySQL_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.en.resx">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Changer_Base_de_Donnees_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.fr.resx">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Changer_Base_de_Donnees_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL.resx">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Changer_Base_de_Donnees_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Form.en.resx">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Form.fr.resx">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Form.resx">
+      <DependentUpon>Changer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.en.resx">
+      <DependentUpon>Charger_Table_DatagridView_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Charger_Table_DatagridView_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.fr.resx">
+      <DependentUpon>Charger_Table_DatagridView_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Charger_Table_DatagridView_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL.resx">
+      <DependentUpon>Charger_Table_DatagridView_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Charger_Table_DatagridView_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Form.en.resx">
+      <DependentUpon>Charger_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Form.fr.resx">
+      <DependentUpon>Charger_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Form.resx">
+      <DependentUpon>Charger_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.en.resx">
+      <DependentUpon>Ajouter_Colonne_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Colonne_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.fr.resx">
+      <DependentUpon>Ajouter_Colonne_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Colonne_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL.resx">
+      <DependentUpon>Ajouter_Colonne_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Colonne_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Form.en.resx">
+      <DependentUpon>Ajouter_Colonne_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Form.fr.resx">
+      <DependentUpon>Ajouter_Colonne_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Form.resx">
+      <DependentUpon>Ajouter_Colonne_MySQL_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.en.resx">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Ligne_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.fr.resx">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Ligne_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL.resx">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ajouter_Ligne_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Form.en.resx">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Form.resx">
+      <DependentUpon>Ajouter_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.en.resx">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.fr.resx">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL.resx">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obtenir_Cellule_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Form.en.resx">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Form.resx">
+      <DependentUpon>Obtenir_Cellule_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.en.resx">
+      <DependentUpon>Modifier_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modifier_Ligne_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.fr.resx">
+      <DependentUpon>Modifier_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modifier_Ligne_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL.resx">
+      <DependentUpon>Modifier_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modifier_Ligne_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Form.en.resx">
+      <DependentUpon>Modifier_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Modifier_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Form.resx">
+      <DependentUpon>Modifier_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.en.resx">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Ligne_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.fr.resx">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Ligne_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL.resx">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Ligne_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Form.en.resx">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Form.resx">
+      <DependentUpon>Supprimer_Ligne_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.en.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Table_DatagridView_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.fr.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Table_DatagridView_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enregistrer_Table_DatagridView_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Form.en.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Form.fr.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Form.resx">
+      <DependentUpon>Enregistrer_Table_DatagridView_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.en.resx">
+      <DependentUpon>Nombre_Elements_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Elements_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.fr.resx">
+      <DependentUpon>Nombre_Elements_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Elements_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL.resx">
+      <DependentUpon>Nombre_Elements_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Elements_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Form.en.resx">
+      <DependentUpon>Nombre_Elements_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Nombre_Elements_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Form.resx">
+      <DependentUpon>Nombre_Elements_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.en.resx">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Colonnes_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.fr.resx">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Colonnes_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL.resx">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nombre_Colonnes_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Form.en.resx">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Form.resx">
+      <DependentUpon>Nombre_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.en.resx">
+      <DependentUpon>Renommer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.fr.resx">
+      <DependentUpon>Renommer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL.resx">
+      <DependentUpon>Renommer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Renommer_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Form.en.resx">
+      <DependentUpon>Renommer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Renommer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Form.resx">
+      <DependentUpon>Renommer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.en.resx">
+      <DependentUpon>Liste_Colonnes_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Colonnes_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.fr.resx">
+      <DependentUpon>Liste_Colonnes_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Colonnes_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL.resx">
+      <DependentUpon>Liste_Colonnes_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Colonnes_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Form.en.resx">
+      <DependentUpon>Liste_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Liste_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Form.resx">
+      <DependentUpon>Liste_Colonnes_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.en.resx">
+      <DependentUpon>Supprimer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.fr.resx">
+      <DependentUpon>Supprimer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL.resx">
+      <DependentUpon>Supprimer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Supprimer_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Form.en.resx">
+      <DependentUpon>Supprimer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Supprimer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Form.resx">
+      <DependentUpon>Supprimer_Table_MySQL_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.en.resx">
+      <DependentUpon>Creer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Table_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.fr.resx">
+      <DependentUpon>Creer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Table_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une table MySQL\Creer_Table_MySQL.resx">
+      <DependentUpon>Creer_Table_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Table_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Form.en.resx">
+      <DependentUpon>Creer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Form.fr.resx">
+      <DependentUpon>Creer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Form.resx">
+      <DependentUpon>Creer_Table_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.en.resx">
+      <DependentUpon>Requete_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.fr.resx">
+      <DependentUpon>Requete_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Exécuter une requête MySQL\Requete_MySQL.resx">
+      <DependentUpon>Requete_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Requete_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Form.en.resx">
+      <DependentUpon>Requete_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Form.fr.resx">
+      <DependentUpon>Requete_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Form.resx">
+      <DependentUpon>Requete_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.en.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Table_Base_de_Donnees_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.fr.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Table_Base_de_Donnees_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Table_Base_de_Donnees_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Form.en.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Form.fr.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Form.resx">
+      <DependentUpon>Liste_Table_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.en.resx">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Base_de_Donnees_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.fr.resx">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Base_de_Donnees_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL.resx">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Liste_Base_de_Donnees_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Form.en.resx">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Form.fr.resx">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Form.resx">
+      <DependentUpon>Liste_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.en.resx">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Base_de_Donnees_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.fr.resx">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Base_de_Donnees_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL.resx">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Creer_Base_de_Donnees_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Form.en.resx">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Form.fr.resx">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Form.resx">
+      <DependentUpon>Creer_Base_de_Donnees_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.en.resx">
+      <DependentUpon>Statut_MySQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statut_MySQL.en.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.fr.resx">
+      <DependentUpon>Statut_MySQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statut_MySQL.fr.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL.resx">
+      <DependentUpon>Statut_MySQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statut_MySQL.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Form.en.resx">
+      <DependentUpon>Statut_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Form.fr.resx">
+      <DependentUpon>Statut_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Form.resx">
+      <DependentUpon>Statut_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.en.resx">
+      <DependentUpon>Se_deconnecter_serveur_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_deconnecter_serveur_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.fr.resx">
+      <DependentUpon>Se_deconnecter_serveur_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_deconnecter_serveur_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL.resx">
+      <DependentUpon>Se_deconnecter_serveur_MySQL.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_deconnecter_serveur_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Form.en.resx">
+      <DependentUpon>Se_deconnecter_serveur_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Form.fr.resx">
+      <DependentUpon>Se_deconnecter_serveur_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Form.resx">
+      <DependentUpon>Se_deconnecter_serveur_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_connecter_serveur_MySQL.en.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_connecter_serveur_MySQL.fr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Se_connecter_serveur_MySQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Form.en.resx">
+      <DependentUpon>Se_connecter_serveur_MySQL_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Form.fr.resx">
+      <DependentUpon>Se_connecter_serveur_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Form.resx">
+      <DependentUpon>Se_connecter_serveur_MySQL_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StrongVeler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MySQL\Changer de base de données MySQL\Changer_Base_de_Donnees_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Charger une table MySQL dans un DataGridView\Charger_Table_DatagridView_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Ajouter une colonne à une table MySQL\Ajouter_Colonne_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Ajouter une ligne à une table MySQL\Ajouter_Ligne_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir une cellule d%27une table MySQL\Obtenir_Cellule_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Modifier une ligne dans une table MySQL\Modifier_Ligne_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Supprimer une ligne dans une table MySQL\Supprimer_Ligne_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Enregistrer une table MySQL dans un DataGridView\Enregistrer_Table_DatagridView_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir le nombre d%27éléments dans une table MySQL\Nombre_Elements_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir le nombre de colonnes dans une table MySQL\Nombre_Colonnes_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Renommer une table MySQL\Renommer_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir la liste des colonnes d%27une table MySQL\Liste_Colonnes_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Supprimer une table MySQL\Supprimer_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Créer une table MySQL\Creer_Table_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Exécuter une requête MySQL\Requete_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir la liste des tables d%27une base de données MySQL\Liste_Table_Base_de_Donnees_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir la liste des bases de données MySQL\Liste_Base_de_Donnees_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Créer une base de données MySQL\Creer_Base_de_Donnees_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Obtenir le statut d%27une connexion MySQL\Statut_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Se déconnecter d%27un serveur MySQL\Se_deconnecter_serveur_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MySQL\Se connecter à un serveur MySQL\Se_connecter_serveur_MySQL_Designer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.Plugins3\VelerSoftware.Plugins3.vbproj">
+      <Project>{28F80F36-9BB7-48F9-ABA0-242CFF54C89C}</Project>
+      <Name>VelerSoftware.Plugins3</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DLL\VelerSoftware.SZVB\VelerSoftware.SZVB.vbproj">
+      <Project>{8FF4F9ED-9642-4838-9C7E-55FF0B27A1DC}</Project>
+      <Name>VelerSoftware.SZVB</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_cell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add_table_column.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add_table_row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\change_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\connexion_status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\create_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\create_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete_table_row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gat_tables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_databases.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_columns_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_rows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\load_table_datagridview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\rename_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\run_request.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\save_table_datagridview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\get_table_cells.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
