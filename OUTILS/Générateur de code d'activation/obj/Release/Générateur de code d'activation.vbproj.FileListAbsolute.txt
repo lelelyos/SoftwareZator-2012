@@ -1,0 +1,12 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\bin\Générateur de code d'activation.exe.config
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\bin\Générateur de code d'activation.exe
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur_de_code_d_activation.Form1.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur_de_code_d_activation.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur de code d'activation.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur de code d'activation.exe
+D:\Development\Projets\Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\bin\Générateur de code d'activation.exe.config
+D:\Development\Projets\Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\bin\Générateur de code d'activation.exe
+D:\Development\Projets\Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur_de_code_d_activation.Form1.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur_de_code_d_activation.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur de code d'activation.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\OUTILS\Générateur de code d'activation\obj\Release\Générateur de code d'activation.exe

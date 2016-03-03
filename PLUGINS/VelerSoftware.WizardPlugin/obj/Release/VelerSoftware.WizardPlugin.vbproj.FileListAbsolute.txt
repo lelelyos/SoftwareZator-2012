@@ -1,0 +1,118 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\VelerSoftware.WizardPlugin.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\en\VelerSoftware.WizardPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\fr\VelerSoftware.WizardPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.vbprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape précédente d'un assistant\Assistant_Etape_Precedente_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape suivante d'un assistant\Assistant_Etape_Suivante_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Suivant d'un assistant\Assistant_Changer_Statut_Suivant_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Précédent d'un assistant\Assistant_Changer_Statut_Precedent_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Annuler d'un assistant\Assistant_Changer_Statut_Annuler_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à une étape d'un assistant\Assistant_Etape_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape précédente d'un assistant\Assistant_Etape_Precedente_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape suivante d'un assistant\Assistant_Etape_Suivante_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Suivant d'un assistant\Assistant_Changer_Statut_Suivant_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Précédent d'un assistant\Assistant_Changer_Statut_Precedent_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Annuler d'un assistant\Assistant_Changer_Statut_Annuler_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à une étape d'un assistant\Assistant_Etape_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin_MarkupCompile.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.g.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\en\VelerSoftware.WizardPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\fr\VelerSoftware.WizardPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\VelerSoftware.WizardPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\en\VelerSoftware.WizardPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\fr\VelerSoftware.WizardPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.vbprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape précédente d'un assistant\Assistant_Etape_Precedente_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape suivante d'un assistant\Assistant_Etape_Suivante_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Suivant d'un assistant\Assistant_Changer_Statut_Suivant_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Précédent d'un assistant\Assistant_Changer_Statut_Precedent_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Annuler d'un assistant\Assistant_Changer_Statut_Annuler_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à une étape d'un assistant\Assistant_Etape_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape précédente d'un assistant\Assistant_Etape_Precedente_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à l'étape suivante d'un assistant\Assistant_Etape_Suivante_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Suivant d'un assistant\Assistant_Changer_Statut_Suivant_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Précédent d'un assistant\Assistant_Changer_Statut_Precedent_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Changer le statut du bouton Annuler d'un assistant\Assistant_Changer_Statut_Annuler_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\Assistant\Aller à une étape d'un assistant\Assistant_Etape_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin_MarkupCompile.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.g.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Suivante_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Suivant_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Precedent_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Changer_Statut_Annuler_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.Assistant_Etape_Precedente_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\en\VelerSoftware.WizardPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\fr\VelerSoftware.WizardPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.WizardPlugin\obj\Release\VelerSoftware.WizardPlugin.dll

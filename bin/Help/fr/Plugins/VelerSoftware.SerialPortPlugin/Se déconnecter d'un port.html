@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Se déconnecter d'un port</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Se déconnecter d'un port</p>
+	<p>Cette action permet de fermer une connexion à un port série auquel est connecté un appareil (imprimantes, téléphones portables...) avec l'action <a href="Se connecter à un port.html" target="_blank">Se connecter à un port</a>. Pour plus d'information, consultez le document <a href="Qu'est-ce qu'un port série.html" target="_blank">Qu'est-ce qu'un port série?</a>.</p>
+	<p class="msg_warning"><b>Attention :</b> Assurez-vous que la fenêtre dans laquelle réside votre Port série est ouverte (affiché à l'écran) au moment où cette action intervient.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>  
+		<tr>
+			<td>Port série concerné</td>
+			<td>Doit être égale au contrôle de type Port série (dans le concepteur de fenêtre) qui doit se déconnecter d'un appareil.</td>
+		</tr>
+	</table>
+    
+	<p class="title">Valeur retournée</p>     
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <p>Si le port série est <i>"MonPort"</i>, le code généré sera tel que le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Fenetre.MonPort.Close()
+
+	</pre> 
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>InvalidOperationException</td>
+			<td>Cette erreur se produit lorsque le contrôle de type Port série n'est pas connecté à un appareil au moment de l'exécution de cette action.</td>
+			<td>Pour corriger cette erreur, vous devez vous assurer que le port soit ouvert avec l'action <a href="Se connecter à un port.html" target="_blank">Se connecter à un port</a> avant l'exécution de celle-ci. Pour déterminer si un port série est connecté à un appareil, utilisez l'action <a href="Déterminer si un port série est connecté.html" target="_blank">Déterminer si un port série est connecté</a>.</td>
+        </tr>   
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Ports séries</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{Aucune}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Enregistrer une table Access dans un Grille de données</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Enregistrer une table Access dans une Grille de données</p>
+	<p>Cette action permet d'enregistrer une table sur une base de données <a href="http://office.microsoft.com/fr-fr/access/" target="_blank">Microsoft Access</a> précédemment chargé dans une Grille de données avec l'action <a href="Charger une table Access dans une Grille de données.html" target="_blank">Charger une table Access dans une Grille de données</a>.</p>
+	 <p class="msg_warning"><b>Attention :</b> Assurez-vous que la fenêtre dans laquelle réside votre Grille de données est ouverte (affiché à l'écran) au moment où cette action intervient.</p>
+	
+	<p class="title">Compatibilité</p>
+    <p>Les bases de données <a href="http://office.microsoft.com/fr-fr/access/" target="_blank">Microsoft Access</a> sont uniquement disponibles pour des logiciels fonctionnant en 32 bit. En outre, votre logiciel doit être configuré de manière à qu'il soit utilisé en 32 bit uniquement.</p>
+    <p class="msg_info">Information : un logiciel compilé pour un système d'exploitation 32 bit peut fonctionner sur un système d'exploitation en 64 bit. La différence est que ce logiciel ne pourra pas profiter des performances que lui offre le système.</p>
+    <p>Notez donc qu'en compilant votre logiciel pour un système 32 bit, celui-ci fonctionnera sous un Windows 64 bit, donc, l'utilisation des bases de données <a href="http://office.microsoft.com/fr-fr/access/" target="_blank">Microsoft Access</a> pourront être utilisés avec votre logiciel sous un Windows 32 bit et 64 bit, tant que celui-ci est compilé pour un système d'exploitation ciblé en 32 bit.</p>
+    <p>Pour changer le type de système d'exploitation cible afin que votre logiciel supporte  <a href="http://office.microsoft.com/fr-fr/access/" target="_blank">Microsoft Access</a> sur tout type de système d'exploitation Windows (XP, Vista, 7, 8), allez dans les <i>"Paramètres du projet"</i>, puis l'onglet <i>"Générer"</i>, et enfin placez le paramètre <i>"Type de système d'exploitation cible"</i> sur la valeur <i>"Windows 32 bit uniquement"</i>.</p>
+
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>   
+		<tr>
+			<td>Grille de données concerné</td>
+			<td>Doit être égale à la Grille de données contenant la table à enregistrer.</td>
+		</tr>
+        <tr class="bg">
+            <td>Nom de la table</td>
+            <td>Doit être égale au nom de la table à enregistrer.<br />Remarque : Si vous avez renommé votre table avant de l'enregistrer, veillez à saisir le nouveau nom de celle-ci et non l'ancien.</td>
+        </tr> 
+	</table>
+    <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour le paramètre <i>"Nom de la table"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez dans variables dans le paramètre <i>"Nom de la table"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit du texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>), ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul du texte peut être utilisé dans ces paramètres.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="..\VelerSoftware.GeneralPlugin\Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Général.</p>
+ 
+	<p class="title">Valeur retournée</p>          
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<pre class="brush: vbnet; toolbar: false;">
+VelerSoftware_AccessPlugin.UpdateDataTable_Access(Votre_Fenetre.Votre_DataGrdiView, "Nom de la table")
+
+	</pre> 
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.ArgumentException<br />ou<br />System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Nom de la table"</i> n'est pas du texte. Souvent, le problème est causé par une variable utilisé dans ce paramètre et qui ont une valeur autre que du texte.</td>
+			<td>Pour corriger cette erreur, vérifiez que la valeur impliquée dans ce paramètre est bien de type Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>) et faites les modifications nécessaires pour que cette valeur soit du texte. Pour cela, utilisez les actions <a href="..\VelerSoftware.GeneralPlugin\Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="..\VelerSoftware.GeneralPlugin\Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr>
+	</table>
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Access</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{aucun}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

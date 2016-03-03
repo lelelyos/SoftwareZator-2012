@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Boîte de dialogue Aero" name_en="AeroBox" group_fr="Design" group_en="Design" file="AeroDialog.szw" inherits="VelerSoftware.WizardLib.AeroWindowsForm">
+    <Reference value="VelerSoftware.WizardLib.dll" copy="True"  name="VelerSoftware.WizardLib" version="1.0.0.1" />
+    <Info image="AeroDialog.png" description_fr="Boîte de dialogue avec le design de Microsoft Windows Vista et utilisant le style Aero." description_en="Dialog box with the design of Microsoft Windows Vista and using the Aero style." />
+</SZTemplate>

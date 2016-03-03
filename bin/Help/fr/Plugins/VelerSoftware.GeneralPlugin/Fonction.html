@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Fonction</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Fonction</p>
+	<img src="function.png" alt="" class="fl_right"/>
+	<p>Cette action définit une fonction dans votre projet. Contrairement aux autres actions, elle n'est pas déplaçable et induplicable. Une fonction permet d'exécuter un ensemble d'actions. Cette fonction peut être appelé à tout moment dans votre projet pour l'exécuter, elle et les actions qu'elle contient.</p>
+	<p>On distingue deux types de fonctions :</p>
+	<ul>
+		<li>Les fonctions pouvant être liées à un déclencheur : c'est une fonction qui exécute un ensemble d'actions lorsqu'un déclencheur est appelé, ou bien lorsque la fonction est directement appelé. Ce type de fonction ne retourne pas de valeur.</li>
+		<li>Les fonctions pouvant retourner une valeur : c'est une fonction qui exécute un ensemble d'actions et qui retourne une valeur à la fin de son exécution. Ce type de fonction ne peut pas être lié à un évènement. Le plus souvent, ces fonctions sont appelées avec l'action  <a href="Exécuter une fonction.html" target="_blank">Exécuter une fonction</a>, dans la catégorie Général. Pour définir la valeur à retourner, utilisez l'action  <a href="Retourner une valeur d'une fonction.html" target="_blank">Retourner une valeur d'une fonction</a></li>
+	</ul>
+	
+
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Nom de la fonction</td>
+			<td>Définit le nom de la fonction.</td>
+		</tr>
+		<tr class="bg">
+			<td>Type</td>
+			<td>Permet de choisir le type de la fonction (voir ci-dessus pour la différence entre les deux types) :<ul><li>Fonction pouvant être liées à un déclencheur</li><li>Fonction pouvant retourner une valeur</li></ul></td>
+		</tr>
+		<tr>
+			<td>Paramètres de la fonction (facultatif)</td>
+			<td>Depuis SoftwareZator 2012, il est possible de donner des paramètres à une fonction. Si vous donnez par exemple 3 paramètres à une fonction, lorsque vous appellerez cette fameuse fonction, vous devrez préciser les valeurs de ces 3 paramètres. Le but étant de pouvoir utiliser ces valeurs dans les actions qui s'exécutent dans la fonction. Vous pourrez donc utiliser ces paramètres comme des variables. Mais uniquement à l'interrieur de la fonction possédant ces paramètres.</td>
+		</tr>
+	</table>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Faites très attention au nom de la fonction. Celui-ci ne doit en aucun cas être le même que le nom d'un contrôle, d'une ressource, d'un paramètre, d'une étiquette, d'une propriété, d'une variable ou d'une autre fonction du même ensemble de fonctions. Dans le cas contraire, l'ordinateur confondra, par exemple, la <i>"fonction"</i> XYZ avec la <i>"variable"</i> XYZ.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Faites très attention aux noms des paramètres. Ceux-ci ne doivent en aucun cas être le même que le nom d'un contrôle, d'une ressource, d'un paramètre, d'une étiquette ou d'une variable. Il est également impossible de définir des paramètres avec des noms identiques. Dans le cas contraire, l'ordinateur confondra, par exemple, le <i>"paramètre"</i> XYZ avec la <i>"variable"</i> XYZ.</p>
+	
+	<p class="title">Valeur retournée</p>
+	<p>Si votre fonction et de type <i>"Fonction pouvant retourner une valeur"</i>, une valeur sera alors retourné. Cette valeur peut être du type de votre choix. Vous n'avez pas besoin de préciser un type de valeur en particulier.</p>
+	<p class="msg_done"><b>Conseil :</b> Vous avez la possibilité de ne pas précisé de valeur à retourner, mais celà n'est pas conseillé. Même si votre fonction ne retourne pas de valeur en particulier, il est conseillé de préciser une valeur (même nul).</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous avez utilisé une action  <a href="Retourner une valeur d'une fonction.html" target="_blank">Retourner une valeur d'une fonction</a> et que votre fonction est de type <i>"Fonction pouvant être liées à un déclencheur"</i>, vous obtiendrez une erreur de génération, car ce type de fonction n'est pas faite pour retourner une valeur.</p>
+	<p class="msg_info"><b>Remarque :</b> L'action <a href="Retourner une valeur d'une fonction.html" target="_blank">Retourner une valeur d'une fonction</a> est arbitraire. En outre, si vous l'utilisez, seul la première action rencontré sera appliqué. Les autres actions <a href="Retourner une valeur d'une fonction.html" target="_blank">Retourner une valeur d'une fonction</a> seront ignorées. C'est pourquoi il est recommandé d'utiliser l'action <a href="Si ... Alors ... Sinon.html" target="_blank">Si ... Alors ... Sinon</a> dans le cas où votre fonction est suceptible de retourner différentes valeurs.</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<p>Code généré pour une fonction <i>"Votre_Fonction"</i> de type <i>"Fonction pouvant être liées à un déclencheur"</i> possedant trois paramètres et lié à l'évènement <i>"Click"</i> d'un contrôle <i>"Button1"</i> :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+'Fonction Votre_Fonction
+Public Sub Votre_Fonction(ByVal Parametre1 As Object, ByVal Parametre2 As Object, ByVal Parametre3 As Object) Handles Button1.Click
+
+End Sub
+	</pre>
+
+	<p>Code généré pour une fonction <i>"Votre_Fonction"</i> de type <i>"Fonction pouvant retourner une valeur"</i> possedant trois paramètres :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+'Fonction Votre_Fonction
+Public Function Votre_Fonction(ByVal Parametre1 As Object, ByVal Parametre2 As Object, ByVal Parametre3 As Object) As Object
+
+End Function
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Aucune erreur d'exécution n'est détecté ici.</p>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>  
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>{Aucune}</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Tout type, ou aucun</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Non</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>   
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Oui</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

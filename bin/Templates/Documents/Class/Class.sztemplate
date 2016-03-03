@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Class" name_fr="Classe" name_en="Class" file="Default.szc" inherits="">
+	<Info image="Class.png" description_fr="Fichier représentant un ensemble de fonctions réutilisables." description_en="File representing a set of reusable functions"/>
+</SZTemplate>

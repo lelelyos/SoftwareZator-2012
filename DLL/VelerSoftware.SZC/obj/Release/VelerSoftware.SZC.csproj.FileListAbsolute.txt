@@ -1,0 +1,22 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.SZC.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.csprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ColorPicker.ctrl2DColorBox.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ColorPicker.ctrlVerticalColorSlider.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ColorPicker.frmColorPicker.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.Properties.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.RulerControl.RulerControl.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ToolBox.ToolBox.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.TreeViewMultiSelect.TreeViewMultiSelect.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.csproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.SZC.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.csprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ColorPicker.ctrl2DColorBox.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ColorPicker.ctrlVerticalColorSlider.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ColorPicker.frmColorPicker.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.Properties.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.RulerControl.RulerControl.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.ToolBox.ToolBox.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.TreeViewMultiSelect.TreeViewMultiSelect.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.csproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC\obj\Release\VelerSoftware.SZC.dll

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Assistant Aero" name_en="Aero Wizard" group_fr="Assistant" group_en="Wizard" file="AeroWizardForm.szw" inherits="VelerSoftware.WizardLib.AeroWizardForm">
+  <Reference value="VelerSoftware.WizardLib.dll" copy="True"  name="VelerSoftware.WizardLib" version="1.0.0.1" />
+  <Info image="AeroWizardForm.png" description_fr="Assistant utilisant la norme AeroWizard." description_en="Wizard using standard AeroWizard." />
+</SZTemplate>

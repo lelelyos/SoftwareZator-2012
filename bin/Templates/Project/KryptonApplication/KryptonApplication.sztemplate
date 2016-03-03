@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Application Krypton" name_en="Krypton application" files="KryptonForm1.szw" start_file="KryptonForm1.szw">
+    <Reference value="ComponentFactory.Krypton.Toolkit.dll" copy="True" name="ComponentFactory.Krypton.Toolkit" version="4.3.2.0" />
+    <Info image="KryptonApplication.png" description_fr="Projet avec une fenêtre aux couleurs et design personnalisable." description_en="Project window with customizable colors and design."/>
+</SZTemplate>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Console" name_fr="Application console" name_en="Console application" files="Class1.szc" start_file="Class1.szc">
+	<Info image="ConsoleApplication.png" description_fr="Projet avec une console Windows vide." description_en="project with a Windows console empty."/>
+</SZTemplate>

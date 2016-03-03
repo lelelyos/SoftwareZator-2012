@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Limited loop</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Limited loop</p>
+	<img src="loop.png" alt="" class="fl_right"/>
+	<p>This action allows to create a limited loop. A limited loop allows to execute, a number of time defined, a group of actions. It executes this group N times, unless the user asked it to stop before. We can illustrate this loop with the plan opposite.</p>
+	<p class="msg_done"><b>Advice :</b> To stop (go out) a limited loop before the end of it, use the action <a href="Exit loop.html" target="_blank">Exit loop</a>.</p>
+	<p class="msg_info"><b>Which is the difference with the <a href="Loop.html" target="_blank">Loop</a> :</b> A loop (simple) runs until we give it the order to stop. But a limited loop, runs a predefined number of time. Thank's to this we can, for example, execute the loop 10 times before it stops by itself.</p>
+	
+	<p class="title">How does a limited loop work ?</p>
+	<p>this action may seem difficult to use, but when we have understood it, that becomes a breeze.</p>
+	<p>First, the difference between the action <a href="Loop.html" target="_blank">Loop</a> and the Limited loop is that a simple loop runs indefinitly. Instead, a limited loop runs a number of times specific. In fact, you can ask to a limited loop to runs 3 times, 10 times, 100 times [...] N times.</p>
+	<p>So a limited loop means this : we start from the number X, and we're going to the number N.</p>
+	<p>Note that in a loop limited the value X, which is the starting value, increment every time the loop is executed.</p>
+	<p class="msg_done"><b>Example :</b> We start from X = 0 To N = 3.<br />First run : X = 0<br />Second run : X = 1<br />Third run : X = 2</p>
+	<p>You can see that X not going to 3, because X is from 0.<br />So we can deduce the following formula :  Number of execution of the limited loop = (N - X)</p>
+	<p class="msg_done"><b>Example :</b> We start from X = 0 to N = 10.<br />(N - X) = (10 - 
+		0) = 10<br />The loop will run 10 times.</p>
+	<p class="msg_done"><b>Example :</b> We start from X = 25 to N = 30.<br />(N - X) 
+		= (30 - 25) = 5<br />The loop will run 5 times.</p>
+	<p>The last thing you have to know is the step. In the previous examples, you could see that X is incremented by 1 each loop execution. The step of a loop is performed to increment each time. We can imagine the following example :</p>
+	<p class="msg_done"><b>Example :</b> We start from X = 0 to N = 6 with a step of 2.<br />First run : X = 0<br />Second run : X = 2<br />Third run : X = 4<br /><b>Note :</b> There is no fourth run, because when X reaches 6, the loop stops.</p>
+	
+	<p class="title">Parameters</p>
+	<table>
+		<tr>
+			<th>Parameters</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Start the loop from a variable</td>
+			<td>Sets the variable (not array) with the starting value of the loop. This variable will be incremented by the step defined in the parameters <i>"Step (optional)"</i> (see examples above).</td>
+		</tr>
+		<tr class="bg">
+			<td>Whose value is</td>
+			<td>Selects the value of the variable defined in the previous setting. This value can be equal to a constant number, or the value of another variable (not array).</td>
+		</tr>
+		<tr>
+			<td>To</td>
+			<td>Allows you to choose the ending value of the loop (see examples above). This value can be equal to a constant number, or the value of another variable (not array), or the number of values ​​contained in an array variable.</td>
+		</tr>
+		<tr class="bg">
+			<td>Step (optional)</td>
+			<td>Allows you to choose the step (default 1) of limited the loop (see examples above). This value can be equal to a constant number, or the value of another variable (not array).</td>
+		</tr>
+	</table>
+	<p class="msg_warning"><b>Mistake not to commit :</b> For the parameters <i>"Whose value is"</i>, <i>"To"</i> and <i>"Step (optional)"</i>, be careful if you use variables that they have a numeric value (<a href="http://msdn.microsoft.com/us-us/library/06bkb8w2.aspx" target="_blank" title="Link to MSDN">Integer</a>, <a href="http://msdn.microsoft.com/us-us/library/system.decimal.aspx" target="_blank" title="Link to MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/us-us/library/system.double.aspx" target="_blank" title="Link to MSDN">Double</a>) or that the variable is an array variable.<br />
+	<b>Note :</b> To check the type of a value, use the action <a href="Get the type of a variable.html" target="_blank">Get the type of a variable</a>, in the General category.</p>
+	
+	<p class="title">Return value</p>
+	<p>No value is returned by this action</p>
+
+	<p class="title">Code Visual Basic.Net generated by SoftwareZator</p>
+	<p>Code generated for a limited loop that starts from X = 0 to N with a step equal to 1 :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+X = 0
+Do While (X < N)
+
+	X = (X + 1)
+Loop
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Runtime errors</p>
+    <p>No runtime error is detected here.</p>
+
+	<p class="title">Characteristic</p>
+	<table>
+		<tr>
+			<th>Type</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Required level</td>
+			<td>Novice</td>
+		</tr>  
+		<tr class="bg">
+			<td>Category</td>
+			<td>General</td>
+		</tr>
+		<tr>
+			<td>Type of return value</td>
+			<td>{Nothing}</td>
+		</tr>
+		<tr class="bg">
+			<td>Works in the functions</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<td>Works in reporting zone</td>
+			<td>No</td>
+		</tr>   
+		<tr class="bg">
+			<td>This action may receive children actions</td>
+			<td>Yes</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

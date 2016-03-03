@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Projet1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Projet1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="Veler Software" />
+  <Assembly.Product value="Projet1" />
+  <Assembly.Copyright value="Copyright © Veler Software 2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Projet1™" />
+  <Assembly.Guid value="871ffec4-9abc-4571-81fd-1d35031eeeb4" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ObfuscationLevel value="1" />
+  <ShouldCompile value="True" />
+  <Open name="WindowsForm1.szw" />
+  <Variable name="Liste_Fichiers" array="True" description="Egale à la liste des fichiers de la racine du serveur" group="Objets" null="False" />
+  <Variable name="Résultat" array="False" description="Egale au résultat d'une action" group="Défaut" null="False" />
+  <Variable name="Temporaire" array="False" description="Utilisée dans les boucles limitées" group="Variables utilisées temporairement" null="False" />
+  <Variable name="X" array="False" description="Utilisée pour les boucles limitées" group="Nombres" null="False" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="VelerSoftware.FTPLib.dll" name="VelerSoftware.FTPLib" copy="True" version="1.0.0.0" />
+</SZProject>

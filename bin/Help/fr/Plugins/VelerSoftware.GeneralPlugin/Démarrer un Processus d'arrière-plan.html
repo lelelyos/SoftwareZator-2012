@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Démarrer un Processus d'arrière-plan</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Démarrer un Processus d'arrière-plan</p>
+	<p>Cette action va vous permettre de démarrer le fonctionnement d'un Processus d'arrière-plan précédemment ajouté au Concepteur de fenêtre. Une fois le Processus d'arrière-plan démarré, il exécutera la fonction lié à l'évènement DoWork de celui-ci. Une fois cette fonction terminé avec succès (sans rencontrer d'erreur ou être stoppé avant la fin), il exécutera la fonction lié à l'évènement RunWorkerCompleted de celui-ci.</p>
+	<p class="msg_warning"><b>Attention :</b> Assurez-vous que la fenêtre dans laquelle réside votre Processus d'arrière-plan est ouverte (affiché à l'écran) au moment où cette action intervient.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Processus d'arrière-plan à démarrer</td>
+			<td>Doit être égale au Processus d'arrière-plan que vous voulez démarrer.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Valeur à donner en paramètre (facultatif)</td>
+			<td>Vous pouvez donner une valeur en argument lors du démarrage du Processus d'arrière-plan. Dans la fonction lié à l'évènement DoWork de celui-ci, vous pourrez récupérer cette valeur dans la propriété <i>"Argument"</i> du paramètre <i>"e"</i> de la fonction en question.</td>
+		</tr>
+	</table>
+
+	<p class="title">Valeur retournée</p>          
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<p>Si le Processus d'arrière-plan se trouve dans la même fenêtre que celle d'où vous utilisez cette action, et que la valeur à donner ne paramètre est égale à <i>"Le paramètre"</i>, le code généré sera le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Me.Votre_Processus_Arrière_Plan.RunWorkerAsync("Le paramètre")
+
+	</pre> 
+	<p>Si le Processus d'arrière-plan se trouve dans une autre fenêtre que celle d'où vous utilisez cette action, et que la valeur à donner ne paramètre est égale à <i>"Le paramètre"</i>, le code généré sera le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Variables.Votre_Fenetre.Votre_Processus_Arrière_Plan.RunWorkerAsync("Le paramètre")
+
+	</pre>                                           
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.InvalidOperationException</td>
+			<td>Cette erreur se produit lorsque le Processus d'arrière-plan est déjà en fonctionnement. Vous ne pouvez démarrer un Processus d'arrière-plan s'il est déjà en cours d'exécution.</td>
+			<td>Pour corriger cette erreur, vérifiez que le Processus d'arrière-plan soit déjà démarré ou pas. Pour cela, utilisez les actions <a href="Déterminer si un Processus d'arrière-plan est en cours d'exécution.html" target="_blank">Déterminer si un Processus d'arrière-plan est en cours d'exécution</a>.</td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Processus d'arrière-plan</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{Aucun}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

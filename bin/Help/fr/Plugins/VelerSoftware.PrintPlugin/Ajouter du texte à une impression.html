@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Ajouter du texte à une impression</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Ajouter du texte à une impression</p>
+	<p>Cette action permet de mettre du texte dans une page d'un flux d'impression précédemment créé avec l'action <a href="Nouvelle impression.html" target="_blank">Nouvelle impression</a>.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Variable possédant le flux d'impression à imprimer</td>
+			<td>Doit être égale à une variable (non tableau) ayant pour valeur un flux d'impression (ce flux a été créé et obtenu par l'action <a href="Nouvelle impression.html" target="_blank">Nouvelle impression</a>).</td>
+		</tr>  
+		<tr class="bg">
+			<td>Texte à ajouter</td>
+			<td>Permet de saisir le texte à ajouter à la feuille d'impression.</td>
+		</tr> 
+		<tr>
+			<td>Couleur du texte</td>
+			<td>Permet de définir la couleur que prendra le texte. Cette couleur peut être stocké dans une variable ou définit dans le paramètre. Assurez-vous que la valeur que vous définirez soit une Couleur (<a href="http://msdn.microsoft.com/fr-fr/library/system.drawing.color.aspx" target="_blank" title="Lien vers MSDN">System.Drawing.Color</a>)</td>
+		</tr>  
+		<tr class="bg">
+			<td>Numéro de la page à laquelle il faut ajouter le texte</td>
+			<td>Doit être égale au numéro de la page du flux à laquelle le texte sera ajoutée.</td>
+		</tr> 
+		<tr>
+			<td>Position X dans la page</td>
+			<td>Doit être égale à la position horizontale du texte dans la page.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Position Y dans la page</td>
+			<td>Doit être égale à la position verticale du texte dans la page.</td>
+		</tr>  
+	</table>
+     <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour les paramètres <i>"Texte à ajouter"</i>, <i>"Numéro de la page à laquelle il faut ajouter le texte"</i>, <i>"Position X dans la page"</i> et <i>"Position Y dans la page"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image, Texte et de type Autre.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez dans variables dans les paramètres <i>"Texte à ajouter"</i>, <i>"Numéro de la page à laquelle il faut ajouter le texte"</i>, <i>"Position X dans la page"</i> et ou <i>"Position Y dans la page"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul une valeur numérique peut être utilisée dans ces paramètres.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="..\VelerSoftware.GeneralPlugin\Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Général.</p>
+
+	<p class="title">Valeur retournée</p>          
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <p>Si le paramètre <i>"Variable possédant le flux d'impression à imprimer"</i> est égale à <i>"Votre_Flux"</i>, que le paramètre <i>"Texte à ajouter"</i> est égale à <i>"Bonjour le monde"</i>, que la couleur du texte est noire, que le numéro de la page est 1, que la <i>"Position X dans la page"</i> est égale à 50, et que la <i>"Position Y dans la page"</i> est égale à 100, le code généré sera le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Flux.AddText(New System.Drawing.Point(50, 100), "Bonjour le monde", System.Drawing.Color.FromArgb(255, 0, 0, 0), 1)
+
+	</pre> 
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.ArgumentOutOfRangeException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Numéro de la page à laquelle il faut ajouter le texte"</i> est inférieur à 1. Le problème est donc que vous tentez d'insérer une image sur une page dont l'index n'existe pas.</td>
+			<td>Pour corriger cette erreur, vérifiez que le numéro de la page soit suppérieur ou égale à 1.</td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Novice</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Impression</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{Aucun}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

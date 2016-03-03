@@ -1,0 +1,16 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Sources\VelerSoftware.WizardLib.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.AeroForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.AeroWindowsForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.Wizard97Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.AeroWizardForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Sources\VelerSoftware.WizardLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.AeroForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.AeroWindowsForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.Wizard97Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.AeroWizardForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.WizardLib\obj\Release\VelerSoftware.WizardLib.dll

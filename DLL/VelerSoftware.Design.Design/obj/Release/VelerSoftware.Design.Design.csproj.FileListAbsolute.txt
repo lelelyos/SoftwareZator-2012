@@ -1,0 +1,16 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.Design.Design.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.csprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Navigator.KryptonPageFormEditFlags.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.Properties.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Toolkit.KryptonCheckButtonCollectionForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Toolkit.PaletteDrawBordersSelector.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.csproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.Design.Design.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.csprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Navigator.KryptonPageFormEditFlags.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.Properties.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Toolkit.KryptonCheckButtonCollectionForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Toolkit.PaletteDrawBordersSelector.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.csproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Design\obj\Release\VelerSoftware.Design.Design.dll

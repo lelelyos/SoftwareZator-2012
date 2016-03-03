@@ -1,0 +1,326 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\VelerSoftware.AccessPlugin.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\en\VelerSoftware.AccessPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\fr\VelerSoftware.AccessPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.vbprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Charger une table Access dans un DataGridView\Charger_Table_DatagridView_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une colonne à une table Access\Ajouter_Colonne_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une ligne à une table Access\Ajouter_Ligne_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir une cellule d'une table Access\Obtenir_Cellule_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Modifier une ligne dans une table Access\Modifier_Ligne_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une ligne dans une table Access\Supprimer_Ligne_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Enregistrer une table Access dans un DataGridView\Enregistrer_Table_DatagridView_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre d'éléments dans une table Access\Nombre_Elements_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre de colonnes dans une table Access\Nombre_Colonnes_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Renommer une table Access\Renommer_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des colonnes d'une table Access\Liste_Colonnes_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une table Access\Supprimer_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une table Access\Creer_Table_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Exécuter une requête Access\Requete_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des tables d'une base de données Access\Liste_Table_Base_de_Donnees_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une base de données Access\Creer_Base_de_Donnees_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le statut d'une connexion Access\Statut_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se déconnecter d'un serveur Access\Se_deconnecter_serveur_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se connecter à un serveur Access\Se_connecter_serveur_Access_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Charger une table Access dans un DataGridView\Charger_Table_DatagridView_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une colonne à une table Access\Ajouter_Colonne_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une ligne à une table Access\Ajouter_Ligne_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir une cellule d'une table Access\Obtenir_Cellule_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Modifier une ligne dans une table Access\Modifier_Ligne_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une ligne dans une table Access\Supprimer_Ligne_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Enregistrer une table Access dans un DataGridView\Enregistrer_Table_DatagridView_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre d'éléments dans une table Access\Nombre_Elements_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre de colonnes dans une table Access\Nombre_Colonnes_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Renommer une table Access\Renommer_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des colonnes d'une table Access\Liste_Colonnes_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une table Access\Supprimer_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une table Access\Creer_Table_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Exécuter une requête Access\Requete_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des tables d'une base de données Access\Liste_Table_Base_de_Donnees_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une base de données Access\Creer_Base_de_Donnees_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le statut d'une connexion Access\Statut_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se déconnecter d'un serveur Access\Se_deconnecter_serveur_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se connecter à un serveur Access\Se_connecter_serveur_Access_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin_MarkupCompile.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.g.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\en\VelerSoftware.AccessPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\fr\VelerSoftware.AccessPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\VelerSoftware.AccessPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\en\VelerSoftware.AccessPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\fr\VelerSoftware.AccessPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.vbprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Charger une table Access dans un DataGridView\Charger_Table_DatagridView_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une colonne à une table Access\Ajouter_Colonne_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une ligne à une table Access\Ajouter_Ligne_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir une cellule d'une table Access\Obtenir_Cellule_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Modifier une ligne dans une table Access\Modifier_Ligne_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une ligne dans une table Access\Supprimer_Ligne_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Enregistrer une table Access dans un DataGridView\Enregistrer_Table_DatagridView_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre d'éléments dans une table Access\Nombre_Elements_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre de colonnes dans une table Access\Nombre_Colonnes_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Renommer une table Access\Renommer_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des colonnes d'une table Access\Liste_Colonnes_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une table Access\Supprimer_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une table Access\Creer_Table_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Exécuter une requête Access\Requete_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des tables d'une base de données Access\Liste_Table_Base_de_Donnees_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une base de données Access\Creer_Base_de_Donnees_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le statut d'une connexion Access\Statut_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se déconnecter d'un serveur Access\Se_deconnecter_serveur_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se connecter à un serveur Access\Se_connecter_serveur_Access_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Charger une table Access dans un DataGridView\Charger_Table_DatagridView_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une colonne à une table Access\Ajouter_Colonne_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Ajouter une ligne à une table Access\Ajouter_Ligne_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir une cellule d'une table Access\Obtenir_Cellule_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Modifier une ligne dans une table Access\Modifier_Ligne_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une ligne dans une table Access\Supprimer_Ligne_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Enregistrer une table Access dans un DataGridView\Enregistrer_Table_DatagridView_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre d'éléments dans une table Access\Nombre_Elements_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le nombre de colonnes dans une table Access\Nombre_Colonnes_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Renommer une table Access\Renommer_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des colonnes d'une table Access\Liste_Colonnes_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Supprimer une table Access\Supprimer_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une table Access\Creer_Table_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Exécuter une requête Access\Requete_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir la liste des tables d'une base de données Access\Liste_Table_Base_de_Donnees_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Créer une base de données Access\Creer_Base_de_Donnees_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Obtenir le statut d'une connexion Access\Statut_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se déconnecter d'un serveur Access\Se_deconnecter_serveur_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\Access\Se connecter à un serveur Access\Se_connecter_serveur_Access_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin_MarkupCompile.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.g.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Charger_Table_DatagridView_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Colonne_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Ajouter_Ligne_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Obtenir_Cellule_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Modifier_Ligne_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Ligne_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Enregistrer_Table_DatagridView_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Elements_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Nombre_Colonnes_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Renommer_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Colonnes_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Supprimer_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Table_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Requete_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Liste_Table_Base_de_Donnees_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Creer_Base_de_Donnees_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Statut_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_deconnecter_serveur_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.Se_connecter_serveur_Access_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\en\VelerSoftware.AccessPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\fr\VelerSoftware.AccessPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.AccessPlugin\obj\Release\VelerSoftware.AccessPlugin.dll

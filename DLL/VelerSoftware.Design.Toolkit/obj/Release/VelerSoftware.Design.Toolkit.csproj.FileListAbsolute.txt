@@ -1,0 +1,17 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.Design.Toolkit.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.csprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.KryptonInputBox.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.VisualTaskDialog.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.KryptonMessageBox.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.Properties.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.ModalWaitDialog.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.csproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.Design.Toolkit.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.KryptonInputBox.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.VisualTaskDialog.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.KryptonMessageBox.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.Properties.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.ModalWaitDialog.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.csproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Toolkit\obj\Release\VelerSoftware.Design.Toolkit.dll

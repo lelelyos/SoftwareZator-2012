@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Project1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Project1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="" />
+  <Assembly.Product value="Project1" />
+  <Assembly.Copyright value="Copyright ©  2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Project1™" />
+  <Assembly.Guid value="9d7ad384-9426-4dac-a23c-7320d75828c6" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ShouldCompile value="False" />
+  <Open name="WindowsForm1.szw" />
+  <Open name="PARAMETREDUPROJET" />
+  <Reference isproject="False" value="ActiveXObj\AxInterop.WMPLib.dll" name="AxInterop.WMPLib" copy="True" version="1.0.0.0" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="ActiveXObj\WMPLib.dll" name="WMPLib" copy="True" version="1.0.0.0" />
+</SZProject>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Fenêtre vierge" name_en="Blank window" files="WindowsForm1.szw" start_file="WindowsForm1.szw">
+	<Info image="WindowsApplication.png" description_fr="Projet avec une fenêtre vide." description_en="Project with a blank window."/>
+</SZTemplate>

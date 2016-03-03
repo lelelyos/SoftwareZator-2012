@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZSolution ToolsVersion="3.0" Name="(Easy) Use variables" MainProject="Project1">
+  <Project Name="Project1" File="Project1\Project1.szproj" />
+  <GenerationOrder Name="Project1" />
+</SZSolution>

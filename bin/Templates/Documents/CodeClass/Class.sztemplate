@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Code" name_fr="Classe" name_en="Class" file="Class.vb" inherits="">
+	<Info image="Class.png" description_fr="Espace de nom et classe Visual Basic.Net vide." description_en="Namespace and class Visual Basic.Net empty"/>
+</SZTemplate>

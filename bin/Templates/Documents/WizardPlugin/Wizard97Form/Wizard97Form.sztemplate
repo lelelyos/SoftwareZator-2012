@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Assistant 97" name_en="97 Wizard" group_fr="Assistant" group_en="Wizard" file="Wizard97Form.szw" inherits="VelerSoftware.WizardLib.Wizard97Form">
+  <Reference value="VelerSoftware.WizardLib.dll" copy="True"  name="VelerSoftware.WizardLib" version="1.0.0.1" />
+  <Info image="Wizard97Form.png" description_fr="Assistant utilisant la norme Wizard97." description_en="Wizard using standard Wizard97." />
+</SZTemplate>

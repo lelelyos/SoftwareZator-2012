@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Type : VelerSoftware.Plugins3.Action</title>
+	<script type="text/javascript" src="../../shCore.js"></script>
+	<script type="text/javascript" src="../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+    <p class="title">Type : VelerSoftware.Plugins3.Action</p>     
+	<p>Provided a base class for an Action for SoftwareZator 2012.</p>
+    <p><b>Inherits :</b> <a href="http://msdn.microsoft.com/en-us/library/system.activities.activity.aspx" target="_blank">System.Activities.Activity</a> (in System.Activities.dll)<br />
+    <b>Name space</b> VelerSoftware.Plugins3<br />
+    <b>Assembly :</b> VelerSoftware.Plugins3 (in VelerSoftware.Plugins3.dll)</p>
+    
+    <p class="title">Syntaxe</p>                                          
+    <pre class="brush: vbnet; toolbar: false;">
+&lsaquo;Serializable()&rsaquo; _
+Public Class Action
+    Inherits System.Activities.Activity
+
+	</pre>
+    
+    <p class="title">Constructors</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Action()</td>
+			<td>Initializes a new instance of the class <b>Action</b>.</td>
+		</tr>  
+	</table>  
+    
+    <p class="title">Properties</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>DisplayName</td>
+			<td>Gets or sets the default text displayed in the toolbox and designer in action (ActivityDesigner).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>ToolBoxImage</td>
+			<td>Sets the image displayed in the Toolbox. For this image, use the field <b>_ToolBoxImage</b>.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.drawing.image(v=vs.100).aspx" target="_blank">System.Drawing.Image</a></td>
+        </tr> 
+		<tr>
+			<td>Description</td>
+			<td>Gets or sets the description of the action displayed in the Toolbox.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Category</td>
+			<td>Gets or sets the category to which the action belongs. This category is displayed in the Toolbox.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>FileHelp</td>
+			<td>Gets or sets the documentation file (.html) of the action.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Voice_Recognition_Dictionary</td>
+			<td>Gets or sets the list of keywords used by speech recognition.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of System.String)</a></td>
+		</tr> 
+		<tr>
+			<td>Voice_Recognition_Expressions_Dictionary</td>
+			<td>Gets or sets the list of keywords used by speech recognition.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of System.String)</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>References</td>
+			<td>Gets or sets the list of references for the project for this action works.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of System.String)</a></td>
+		</tr> 
+		<tr>
+			<td>ClassCode</td>
+			<td>Gets or sets a Visual Basic.Net file (*.vb) containing one or more classes to be added to the code to compile with the action.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>CompatibleClass</td>
+			<td>Gets or sets if the action can be used in the root of a class (the first tab, not closeable, of the function editor).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>CompatibleFonctions</td>
+			<td>Gets or sets if the action may be used in functions (all tabs in the functions editor except the first) or not.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>CustomVBCode</td>
+			<td>Gets or sets the Visual Basic.Net code written manually by the user to replace the code generated by the action at the time of generation.</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.codedom.codeobject(v=vs.100).aspx" target="_blank">System.CodeDom.CodeObject</a></td>
+		</tr> 
+		<tr>
+			<td>UseCustomVBCode</td>
+			<td>Gets or sets if the code written manually by the user should be used instead of the code generated by the action at the time of generation.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>id</td>
+			<td>Gets or sets the identifier of the action in the function editor.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>Added</td>
+			<td>Gets or sets if the action was correctly added to the function editor (after validation of the parameters by the user).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Tools</td>
+			<td>Gets or sets a value providing different functions to interact with  SoftwareZator.</td>
+            <td><a href="VelerSoftware.Plugins3.Tools.html" target="_blank">VelerSoftware.Plugins3.Tools</a></td>
+		</tr> 
+		<tr>
+			<td>Param1</td>
+			<td>Gets or sets the parameter number 1 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param2</td>
+			<td>Gets or sets the parameter number 2 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr>
+			<td>Param3</td>
+			<td>Gets or sets the parameter number 3 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param4</td>
+			<td>Gets or sets the parameter number 4 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param5</td>
+			<td>Gets or sets the parameter number 5 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param6</td>
+			<td>Gets or sets the parameter number 6 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param7</td>
+			<td>Gets or sets the parameter number 7 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param8</td>
+			<td>Gets or sets the parameter number 8 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param9</td>
+			<td>Gets or sets the parameter number 9 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param10</td>
+			<td>Gets or sets the parameter number 10 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param11</td>
+			<td>Gets or sets the parameter number 11 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param12</td>
+			<td>Gets or sets the parameter number 12 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param13</td>
+			<td>Gets or sets the parameter number 13 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param14</td>
+			<td>Gets or sets the parameter number 14 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param15</td>
+			<td>Gets or sets the parameter number 15 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param16</td>
+			<td>Gets or sets the parameter number 16 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param17</td>
+			<td>Gets or sets the parameter number 17 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param18</td>
+			<td>Gets or sets the parameter number 18 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param19</td>
+			<td>Gets or sets the parameter number 19 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param20</td>
+			<td>Gets or sets the parameter number 20 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param21</td>
+			<td>Gets or sets the parameter number 21 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param22</td>
+			<td>Gets or sets the parameter number 22 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param23</td>
+			<td>Gets or sets the parameter number 23 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param24</td>
+			<td>Gets or sets the parameter number 24 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param25</td>
+			<td>Gets or sets the parameter number 25 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param26</td>
+			<td>Gets or sets the parameter number 26 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param27</td>
+			<td>Gets or sets the parameter number 27 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param28</td>
+			<td>Gets or sets the parameter number 28 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param29</td>
+			<td>Gets or sets the parameter number 29 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param30</td>
+			<td>Gets or sets the parameter number 30 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param31</td>
+			<td>Gets or sets the parameter number 31 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param32</td>
+			<td>Gets or sets the parameter number 32 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param33</td>
+			<td>Gets or sets the parameter number 33 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param34</td>
+			<td>Gets or sets the parameter number 34 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param35</td>
+			<td>Gets or sets the parameter number 35 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param36</td>
+			<td>Gets or sets the parameter number 36 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param37</td>
+			<td>Gets or sets the parameter number 37 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param38</td>
+			<td>Gets or sets the parameter number 38 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param39</td>
+			<td>Gets or sets the parameter number 39 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param40</td>
+			<td>Gets or sets the parameter number 40 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+	</table> 
+    
+    <p class="title">Methods</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>Main()</td>
+			<td>Function executed when the action is added to the function editor. Returns a <b>Boolean</b> value indicating whether the action will be added to the function editor (<b>True</b>) or whether to cancel the addition (<b>False</b>).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>Modify()</td>
+			<td>Function executed when the user clicks on the button <i>"Change the parameters of the action"</i>. Returns a <b>Boolean</b> value indicating whether the action will be changed in the function editor (<b>True</b>) or whether to cancel the modification (<b>False</b>).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a></td>
+        </tr>    
+		<tr>
+			<td>GetVBCode(<a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a>)</td>
+			<td>Function executed when SoftwareZator generates Visual Basic.Net codes before generation of the project. Returns a <b>CodeDom.CodeObject</b> value representing the VB.Net code generated and ready to be compiled.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.codedom.codeobject(v=vs.100).aspx" target="_blank">System.CodeDom.CodeObject</a></td>
+        </tr>
+		<tr class="bg">
+			<td>ResolveError(<a href="VelerSoftware.SZVB.Projet.Erreur.html" target="_blank">VelerSoftware.SZVB.Projet.Erreur</a>, <a href="http://msdn.microsoft.com/en-us/library/system.eventargs.aspx" target="_blank">System.EventArgs</a>)</td>
+			<td>Function executed when the user wants to automatically correct a build error or execution. Return a <b>Boolean</b> value indicating whether the error has been corrected (<b>True</b>) or not (<b>False</b>).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+	</table>   
+    
+    <p class="title">Events</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>DisplayNameChanged</td>
+			<td>Raised when the property <b>DisplayName</b> has been changed.</td>
+		</tr>
+		<tr class="bg">
+			<td>ActionChanged()</td>
+			<td>Raised when a parameter of the action was changed.</td>
+		</tr>  
+	</table>
+</body>
+</html>

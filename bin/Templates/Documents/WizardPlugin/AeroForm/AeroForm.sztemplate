@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Fenêtre Aero" name_en="Aero Form" group_fr="Design" group_en="Design" file="AeroForm.szw" inherits="VelerSoftware.WizardLib.AeroForm">
+  <Reference value="VelerSoftware.WizardLib.dll" copy="True"  name="VelerSoftware.WizardLib" version="1.0.0.1" />
+  <Info image="AeroForm.png" description_fr="Formulaire Windows vide utilisant le style Aero." description_en="Empty Windows form using Aero style." />
+</SZTemplate>

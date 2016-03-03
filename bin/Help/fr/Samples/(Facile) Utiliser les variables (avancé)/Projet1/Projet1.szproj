@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Projet1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Projet1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="Veler Software" />
+  <Assembly.Product value="Projet1" />
+  <Assembly.Copyright value="Copyright © Veler Software 2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Projet1™" />
+  <Assembly.Guid value="a4809439-d324-4f02-97dd-ee2729b4b71a" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ObfuscationLevel value="1" />
+  <ShouldCompile value="True" />
+  <Open name="WindowsForm1.szw" />
+  <Variable name="Couleur" array="False" description="Est égale à la couleur de fond qui sera donnée à Panel1" group="Autres" />
+  <Variable name="Résultat" array="False" description="Est égale au résultat de l'ouverture de la fenêtre de sélection de couleur (OK ou Annuler)" group="Textes" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+</SZProject>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Projet1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Projet1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="Veler Software" />
+  <Assembly.Product value="Projet1" />
+  <Assembly.Copyright value="Copyright © Veler Software 2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Projet1™" />
+  <Assembly.Guid value="cbbc4d86-d14b-4a1a-a116-527a8eb2aaef" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="0" />
+  <ObfuscationLevel value="1" />
+  <ShouldCompile value="False" />
+  <Open name="WindowsForm1.szw" />
+  <Variable name="Element_Selectionné" array="False" description="Est égale à l'élément sélectionné dans la liste des tables" group="Textes" null="False" />
+  <Variable name="Liste_des_Tables" array="True" description="Est égale à la liste des tables de la base de donnée" group="Textes" null="False" />
+  <Variable name="Nom_Complet_du_Fichier" array="False" description="Est égale au nom complet du fichier base de donnée Microsoft Access à exploiter" group="Textes" null="False" />
+  <Variable name="Résultat" array="False" description="Est égale au résultat d'une action" group="Variables utilisées temporairement" null="False" />
+  <Variable name="X" array="False" description="" group="Défaut" null="False" />
+  <Statistic xvalue="40933" yvalue="1" type="0" />
+  <Statistic xvalue="41002" yvalue="1" type="0" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Data" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="Interop.ADOX.dll" name="Interop.ADOX" copy="True" version="2.8.0.0" />
+</SZProject>

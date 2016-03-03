@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Ajouter une colonne à une Grille de données</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Ajouter une colonne à une Grille de données</p>
+	<p>Cette action permet d'ajouter une nouvelle colonne à la suite des autres dans une Grille de données.</p>
+	<p class="msg_warning"><b>Attention :</b> Assurez-vous que la fenêtre dans laquelle réside votre Grille de données est ouverte (affiché à l'écran) au moment où cette action intervient.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Grille de données concerné</td>
+			<td>Doit être égale à la Grille de données dans laquelle la colonne sera ajoutée.</td>
+		</tr>    
+		<tr class="bg">
+			<td>Nom à donner à la colonne</td>
+			<td>Permet de saisir un nom qui sera attribué à la colonne qui sera créée. Ce nom est important car il permettra ensuite, avec d'autres actions, de reconnaitre cette colonne. Il faut donc éviter les duplicatas de noms.</td>
+		</tr> 
+		<tr>
+			<td>Type de colonne</td>
+			<td>Ce paramètre permet d'indiquer le type de contenu des éléments présents dans cette colonne. Vous pouvez ainsi demander à l'utilisateur de saisir du texte (Text Box) ou de cocher une case (Check Box) et autre.</td>
+		</tr>  
+		<tr class="bg">
+			<td>Texte de la colonne</td>
+			<td>Permet de saisir le texte affiché dans l'en-tête de la colonne.</td>
+		</tr>  
+		<tr>
+			<td>Visible</td>
+			<td>Determine si la colonne est visible ou non.</td>
+		</tr>   
+		<tr class="bg">
+			<td>Lecture seule</td>
+			<td>permet d'indiquer si l'utilisateur pourra changer la valeur des cellules présentent dans la colonne ou pas.</td>
+		</tr>   
+		<tr>
+			<td>Figé</td>
+			<td>permet d'indiquer si la colonne est déplaçable ou non. Si ce paramètre est coché, les colonnes à gauche de celle-ci seront également figées.</td>
+		</tr>  
+	</table> 
+    <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour les paramètres <i>"Nom à donner à la colonne"</i> et <i>"Texte de la colonne"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez dans variables dans les paramètres <i>"Nom à donner à la colonne"</i> et <i>"Texte de la colonne"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit du texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>), ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul du texte peut être utilisé dans ces paramètres.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+
+	<p class="title">Valeur retournée</p>          
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<p>Si la Grille de donnée se trouve dans la même fenêtre que celle d'où vous utilisez cette action, que le nom est <i>"Ma colonne"</i>, que le texte est "Bonjour le monde" et que la colonne est visible, le code généré sera le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Me.Votre_Grille_De_Données.Columns.Add(VelerSoftware_GeneralPlugin.CreateNewDataGridViewColumn("Ma colonne", "Bonjour le monde", "Text Box", True, False, False))
+
+	</pre>                                           
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.ArgumentException<br />ou<br />System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Nom à donner à la colonne"</i> et ou <i>"Texte de la colonne"</i> n'est pas du texte. Souvent, le problème est causé par une variable utilisé dans ces paramètres et qui ont une valeur autre que du texte.</td>
+			<td>Pour corriger cette erreur, vérifiez que toutes les valeurs impliquées dans ce paramètre soit bien de type Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>) et faites les modifications nécessaires pour que ces valeurs soit du texte. Pour cela, utilisez les actions <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Grille de données</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{Aucun}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

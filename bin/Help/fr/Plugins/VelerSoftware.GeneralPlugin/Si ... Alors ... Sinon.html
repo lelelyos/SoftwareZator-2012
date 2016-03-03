@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Si ... Alors ... Sinon</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Si ... Alors ... Sinon</p>
+	<img src="condition.png" alt="" class="fl_right"/>
+	<p>Cette action définit une condition dans une fonction. Une condition permet d'exécuter un ensemble d'actions selon un teste (la fameuse condition).</p>
+	<p class="msg_done"><b>Exemple :</b> Si A = B, Alors on exécute un ensemble d'actions, Sinon (si A est différent de B), on en exécute un autre.</p>
+	<p>On distingue sept opérateurs de testes :</p>
+	<ul>
+		<li>= : égale à.</li>
+		<li>< : strictement inférieur à</li>  
+		<li><= : inférieur ou égale à</li>
+		<li>> : strictement suppérieur à</li>
+		<li>=> : suppérieur ou égale à</li>  
+		<li><> : différent de</li>
+		<li>Comme : égale à</li>
+	</ul>
+	<p class="msg_info"><b>Différences entre <i>"="</i> et <i>"Comme"</i> :</b> La différence entre l'opérateur <i>"="</i> et <i>"Comme"</i> est abstraite. L'opérateur <i>"="</i> est le plus souvent utiliser pour comparer deux valeurs de type texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>) ou numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). L'opérateur <i>"Comme"</i>, lui, est utilisé pour comparer deux "objets" (un bouton, une date, un élément d'une liste, ect.)</p>
+	<p class="msg_done"><b>Exemple :</b><br />Si "Texte1" = "Texte2"<br />Si Elément1 est comme Elément2</p>
+	
+
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Si la variable</td>
+			<td>Définit la variable contenant la valeur à tester.</td>
+		</tr>
+		<tr class="bg">
+			<td>Est</td>
+			<td>Permet de choisir l'opérateur de test à utiliser (voir ci-dessus)</td>
+		</tr>
+		<tr>
+			<td>La valeur</td>
+			<td>Permet de définir la valeur devant être utilisé pour testé la variable. En outre, la valeur de la variable sera comparé à cette valeur.</td>
+		</tr>
+	</table>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour le paramètre <i>"La valeur"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Faites très attention à la différence entre l'opérateur <i>"="</i> et <i>"Comme"</i>. Si vous rencontrez un problème lors de la génération à cause de l'un de ces deux opérateurs, essayez avec un autre, puis relancez la génération.</p>
+	
+	<p class="title">Valeur retournée</p>
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<p>Code généré pour une condition tel que la variable soit <i>"Votre_Variable"</i>, l'opérateur <i>"=>"</i> et la valeur <i>"126"</i> :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+If (Votre_Variable => 126) Then
+	' Alors
+Else
+	'Sinon
+End If
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur de la variable à tester n'est pas compatible avec la valeur de teste. En outre, celà signifie que la valeur de la variable de teste ne peut être convertit dans une valeur de même type que celle de teste. Le teste ne peut donc pas être effectué car ces valeurs n'ont aucun point en commun pour les comparer.</td>
+			<td>Pour corriger cette erreur, arrangez-vous pour que la valeur de la variable de teste soit convertible dans le type de la valeur de teste. Ou bien comparez uniquement une ou des propriétés de la valeur de la variable et de la valeur de teste. Pour cela, utilisez les actions <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a>, et ou <a href="Obtenir une propriété d'une variable.html" target="_blank">Obtenir une propriété d'une variable</a></td>
+        </tr>
+	</table>
+    
+    <p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>  
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Général</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{Aucune}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>   
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Oui</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

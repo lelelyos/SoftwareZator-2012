@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Assigner une nouvelle date</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Assigner une nouvelle date</p>
+	<p>Cette action permet de définir une nouvelle date en mémoire et de la stocker dans la variable spécifiée.</p>
+
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Année</td>
+			<td>Doit être égale à une valeur numérique définissant l'année de la date.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Mois</td>
+			<td>Doit être égale à une valeur numérique définissant le mois de la date. Cette valeur doit être comprise entre 1 (Janvier) et 12 (Décembre).</td>
+		</tr> 
+		<tr>
+			<td>Jour</td>
+			<td>Doit être égale à une valeur numérique définissant le jour de la date. Cette valeur doit être comprise entre 1 et 31.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Heure</td>
+			<td>Doit être égale à une valeur numérique définissant l'heure de la date. Cette valeur doit être comprise entre 0 et 23.</td>
+		</tr> 
+		<tr>
+			<td>Minute</td>
+			<td>Doit être égale à une valeur numérique définissant la minute de la date. Cette valeur doit être comprise entre 0 et 59.</td>
+		</tr>   
+		<tr class="bg">
+			<td>Seconde</td>
+			<td>Doit être égale à une valeur numérique définissant la seconde de la date. Cette valeur doit être comprise entre 0 et 59.</td>
+		</tr> 
+		<tr>
+			<td>Variable recevant le résultat</td>
+			<td>Doit être égale à la variable (non tableau) qui sera égale à la nouvelle date.</td>
+		</tr>
+	</table>
+    <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Faites attention, pour tous les paramètres, si vous utilisez des variables, que celles-ci possèdent une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>).<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+	
+	<p class="title">Valeur retournée</p>
+	<p>La valeur retournée est déterminée par les valeur spécifées dans les paramètres. Cette valeur est enregistré dans la variable définie dans le paramètre <i>"Variable recevant le résultat"</i>. Cette valeur est de type Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>).</p>
+	
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p> 
+    <p>Si la date spécifiée est le 25 Janvier 2012 à 4h 8min et 12sec, le code généré sera le suivant :</p>       
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Variable = New System.DateTime(2012, 1, 25, 4, 8, 12)
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>   
+		<tr>
+			<td>System.ArgumentException<br />ou<br />System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur des paramètres ne sont pas numérique. Souvent, le problème est causé par une variable utilisé dans ces paramètres et qui ont une valeur autre qu'un chiffre ou nombre.</td>
+			<td>Pour corriger cette erreur, vérifiez que toutes les valeurs impliquées dans ces paramètres sont bien de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>) et faites les modifications nécessaires pour que ces valeurs soit du texte. Pour cela, utilisez les actions <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Date et heure</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

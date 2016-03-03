@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Convertir la valeur d'une variable</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Convertir la valeur d'une variable</p>
+	<p>Cette action permet de convertir la valeur d'une variable en un autre type de valeur.</p>
+	<p class="msg_done"><b>Exemple :</b> Si la valeur de la variable est de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>), vous pourrez la convertir en texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>).</p>
+
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Variable à convertir</td>
+			<td>Doit être égale à la variable (non tableau) dont la valeur sera convertie.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Convertir en une valeur de type</td>
+			<td>Doit être égale au type dans lequel la valeur de la variable sera convertie.</td>
+		</tr>
+		<tr class="bg">
+			<td>Variable recevant le résultat</td>
+			<td>Doit être égale à la variable (non tableau) recevant la nouvelle valeur issue de la convertion.</td>
+		</tr>  
+	</table>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Attention à ce que la valeur de la variable soit bien compatible dans le type spécifié. Il est courant que des erreurs d'exécutions de produises car la valeur ne peut pas être convertie dans le type définit. Par exemple, une valeur de type "Form" ne peut pas être convertie en "Valeur Vrai/Faux", l'ordinateur ne comprendrait pas ce qu'il faut convertir et retournerai une erreur.<br />
+	<b>Note :</b> Une valeur numérique égale à "0" ou "1" peut être convertie en "Valeur Vrai/Faux". Une valeur numérique peut être transformé en texte, mais pas dans le sens contraire, à moins que la chaîne à convertir ne possède que des chiffres. A vous de faire attention à ce genre de petits détails durant l'élaboration de votre projet et n'hésitez pas à vous aidez du forum de Veler Software.</p>
+
+
+	<p class="title">Valeur retournée</p>
+	<p>La valeur retournée est déterminée par le type sélectionné dans le paramètre <i>"Convertir en une valeur de typee"</i>.</p>
+	
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Recevant_Valeur = CType(Votre_Variable, Votre_Type)
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur de la variable spécifié dans le paramètre <i>"Variable à convertir"</i> n'est pas convertissable dans le type spécifié dans le paramètre <i>"Convertir en une valeur de type"</i>.</td>
+			<td>Pour corriger cette erreur, essayez de convertir votre variable dans un autre type.</td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Avancé</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Variables</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Tout type</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

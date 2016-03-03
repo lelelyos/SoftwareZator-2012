@@ -1,0 +1,118 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\VelerSoftware.SerialPortPlugin.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\en\VelerSoftware.SerialPortPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\fr\VelerSoftware.SerialPortPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.vbprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se déconnecter d'un port\Fermer_Ports_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se connecter à un port\Ouvrir_Ports_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se déconnecter d'un port\Fermer_Ports_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se connecter à un port\Ouvrir_Ports_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin_MarkupCompile.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.g.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\en\VelerSoftware.SerialPortPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\fr\VelerSoftware.SerialPortPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\VelerSoftware.SerialPortPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\en\VelerSoftware.SerialPortPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\fr\VelerSoftware.SerialPortPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.vbprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se déconnecter d'un port\Fermer_Ports_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se connecter à un port\Ouvrir_Ports_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Recevoir une donnée textuelle\Recevoir_Text_Port_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Envoyer une donnée textuelle\Envoyer_Text_Port_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Déterminer si un port série est connecté\Déterminer_Port_Connecte_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se déconnecter d'un port\Fermer_Ports_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Se connecter à un port\Ouvrir_Ports_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\Ports séries\Obtenir la liste des ports\Obtenir_Liste_Ports_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin_MarkupCompile.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.g.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Recevoir_Text_Port_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Envoyer_Text_Port_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Déterminer_Port_Connecte_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Fermer_Ports_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Ouvrir_Ports_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.Obtenir_Liste_Ports_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\en\VelerSoftware.SerialPortPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\fr\VelerSoftware.SerialPortPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.SerialPortPlugin\obj\Release\VelerSoftware.SerialPortPlugin.dll

@@ -1,0 +1,288 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\VelerSoftware.FTPPlugin.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\en\VelerSoftware.FTPPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\fr\VelerSoftware.FTPPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.vbprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir une information sur le dossier courant d'un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir le dossier courant d'un serveur FTP\Obtenir_Dossier_Courant_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la taille d'un fichier sur un serveur FTP\Fichier_Taille_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer une requête à un serveur FTP\Requete_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un fichier d'un serveur FTP\Supprimer_Fichier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un dossier d'un serveur FTP\Supprimer_Dossier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se déconnecter d'un serveur FTP\DéConnecter_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se connecter à un serveur FTP\Connecter_FTP_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir une information sur le dossier courant d'un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir le dossier courant d'un serveur FTP\Obtenir_Dossier_Courant_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la taille d'un fichier sur un serveur FTP\Fichier_Taille_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer une requête à un serveur FTP\Requete_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un fichier d'un serveur FTP\Supprimer_Fichier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un dossier d'un serveur FTP\Supprimer_Dossier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se déconnecter d'un serveur FTP\DéConnecter_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se connecter à un serveur FTP\Connecter_FTP_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin_MarkupCompile.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.g.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.DéConnecter_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.DéConnecter_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.DéConnecter_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\en\VelerSoftware.FTPPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\fr\VelerSoftware.FTPPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\VelerSoftware.FTPPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\en\VelerSoftware.FTPPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\fr\VelerSoftware.FTPPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.vbprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir une information sur le dossier courant d'un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir le dossier courant d'un serveur FTP\Obtenir_Dossier_Courant_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la taille d'un fichier sur un serveur FTP\Fichier_Taille_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer une requête à un serveur FTP\Requete_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un fichier d'un serveur FTP\Supprimer_Fichier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un dossier d'un serveur FTP\Supprimer_Dossier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se déconnecter d'un serveur FTP\DéConnecter_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se connecter à un serveur FTP\Connecter_FTP_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des fichiers sur un serveur FTP\Liste_Fichier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la liste des dossiers sur un serveur FTP\Liste_Dossier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir une information sur le dossier courant d'un serveur FTP\Obtenir_Info_Dossier_Courant_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir le dossier courant d'un serveur FTP\Obtenir_Dossier_Courant_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Définir le dossier courant sur un serveur FTP\Definir_Dossier_Courant_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Télécharger un fichier depuis un serveur FTP\Telecharger_Fichier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer un fichier sur un serveur FTP\Envoyer_Fichier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Renommer un fichier sur un serveur FTP\Renommer_Fichier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Obtenir la taille d'un fichier sur un serveur FTP\Fichier_Taille_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Envoyer une requête à un serveur FTP\Requete_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un fichier d'un serveur FTP\Supprimer_Fichier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Supprimer un dossier d'un serveur FTP\Supprimer_Dossier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un fichier existe sur un serveur FTP\Fichier_Existe_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Déterminer si un dossier existe sur un serveur FTP\Dossier_Existe_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Créer un dossier sur un serveur FTP\Creer_Dossier_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se déconnecter d'un serveur FTP\DéConnecter_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\FTP (File Transfer Protocol)\Se connecter à un serveur FTP\Connecter_FTP_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin_MarkupCompile.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.g.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.DéConnecter_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Fichier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Liste_Dossier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Info_Dossier_Courant_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Obtenir_Dossier_Courant_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Definir_Dossier_Courant_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Telecharger_Fichier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Envoyer_Fichier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Renommer_Fichier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Taille_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Requete_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Fichier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Supprimer_Dossier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Fichier_Existe_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Dossier_Existe_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Creer_Dossier_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.DéConnecter_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.DéConnecter_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.Connecter_FTP_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\en\VelerSoftware.FTPPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\fr\VelerSoftware.FTPPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.FTPPlugin\obj\Release\VelerSoftware.FTPPlugin.dll

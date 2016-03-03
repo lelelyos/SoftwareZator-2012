@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZSolution ToolsVersion="3.0" Name="(Novice) Utiliser une solution multi-projets" MainProject="Premier_Projet">
+  <Project Name="Premier_Projet" File="Premier_Projet\Premier_Projet.szproj" />
+  <Project Name="Seconde_Projet" File="Seconde_Projet\Seconde_Projet.szproj" />
+  <GenerationOrder Name="Seconde_Projet" />
+  <GenerationOrder Name="Premier_Projet" />
+</SZSolution>

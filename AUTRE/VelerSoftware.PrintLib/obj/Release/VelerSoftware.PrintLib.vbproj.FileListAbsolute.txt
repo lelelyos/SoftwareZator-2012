@@ -1,0 +1,4 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Sources\VelerSoftware.PrintLib.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.PrintLib\obj\Release\VelerSoftware.PrintLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Sources\VelerSoftware.PrintLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.PrintLib\obj\Release\VelerSoftware.PrintLib.dll

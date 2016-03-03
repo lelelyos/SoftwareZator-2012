@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Contrôle utilisateur" name_en="User control" group_fr="Contrôle utilisateur" group_en="User control" file="UserControl.szw" inherits="System.Windows.Forms.UserControl">
+	<Info image="UserControl.png" description_fr="Contrôle vide, réutilisable, idéale pour une utilisation dynamique (avec des fonctions)." description_en="Empty control, reusable, ideal for dynamic use (with functions)."/>
+</SZTemplate>

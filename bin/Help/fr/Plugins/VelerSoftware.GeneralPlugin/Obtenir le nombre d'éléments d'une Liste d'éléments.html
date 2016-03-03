@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Obtenir le nombre d'éléments dans une Liste d'éléments</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Obtenir le nombre d'éléments dans une Liste d'éléments</p>
+	<p>Cette action permet de récupérer le nombre d'éléments qui est contenu par la Liste d'éléments spécifiée.</p>
+	<p class="msg_warning"><b>Attention :</b> Assurez-vous que la fenêtre dans laquelle réside votre Liste d'éléments est ouverte (affiché à l'écran) au moment où cette action intervient.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>     
+		<tr>
+			<td>Liste d'éléments concerné</td>
+			<td>Doit être égale à la Liste d'éléments dont il faut récupérer le nombre de valeurs.</td>
+		</tr>  
+		<tr class="bg">
+			<td>Variable recevant le résultat</td>
+			<td>Doit être égale à la variable (non tableau) recevant le nombre d'éléments.</td>
+		</tr> 
+	</table>
+
+	<p class="title">Valeur retournée</p>
+	<p>La valeur retournée est déterminée par le nombre d'éléments contenus dans la Liste d'éléments. Cette valeur est enregistré dans la variable définie dans le paramètre <i>"Variable recevant le résultat"</i>. Celle-ci est un nombre entier (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>)</p>
+	<p class="msg_error"><b>Important :</b> Si la valeur retourné est -1, cela signifie qu'il n'y a aucun élément dans la liste.</p>
+	
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Variable = Votre_Liste.Items.Count
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Aucune erreur d'exécution n'est détecté ici.</p>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Liste d'éléments</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Nombre entier (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

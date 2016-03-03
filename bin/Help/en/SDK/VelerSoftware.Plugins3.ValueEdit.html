@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Type : VelerSoftware.Plugins3.ValueEdit</title>
+	<script type="text/javascript" src="../../shCore.js"></script>
+	<script type="text/javascript" src="../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+    <p class="title">Type : VelerSoftware.Plugins3.ValueEdit</p>     
+	<p>Represents a universal value editor (for capturing almost any type of value) in a <a href="VelerSoftware.Plugins3.ActionForm.html" target="_blank">ActionForm</a> window for SoftwareZator 2012.</p>
+    <p><b>Inherits :</b> <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.usercontrol.aspx" target="_blank">System.Windows.Forms.UserControl</a> (in System.Windows.Forms.dll)<br />
+    <b>Name space</b> VelerSoftware.Plugins3<br />
+    <b>Assembly :</b> VelerSoftware.Plugins3 (in VelerSoftware.Plugins3.dll)</p>
+    
+    <p class="title">Syntaxe</p>                                          
+    <pre class="brush: vbnet; toolbar: false;">
+Public Class ValueEdit
+    Inherits UserControl
+
+	</pre>
+    
+    <p class="title">Constructors</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>ValueEdit()</td>
+			<td>Initializes a new instance of the class <b>ValueEdit</b>.</td>
+		</tr>  
+	</table>  
+    
+    <p class="title">Properties</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>Editor</td>
+			<td>Gets or sets the active editor's control.</td>
+		    <td><a href="VelerSoftware.Plugins3.ValueEdit.ValueType.html" target="_blank">VelerSoftware.Plugins3.ValueEdit.ValueType</a></td>
+        </tr>
+		<tr class="bg">
+			<td>Tools</td>
+			<td>Gets or sets a value providing different functions to interact with  SoftwareZator.</td>
+            <td><a href="VelerSoftware.Plugins3.Tools.html" target="_blank">VelerSoftware.Plugins3.Tools</a></td>
+		</tr> 
+		<tr>
+			<td>VBNetButtonVisible</td>
+			<td>Gets or sets a value that determines if the button <i>"Enter Visual Basic.Net code"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>TextButtonVisible</td>                                                 
+			<td>Gets or sets a value that determines if the button <i>"Enter textual value"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>NumberButtonVisible</td>                                                           
+			<td>Gets or sets a value that determines if the button <i>"Enter numerical value"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr>   
+		<tr class="bg">
+			<td>TrueFalseButtonVisible</td>                                                 
+			<td>Gets or sets a value that determines if the button <i>"Enter boolean value"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>ColorButtonVisible</td>                                                           
+			<td>Gets or sets a value that determines if the button <i>"Enter color"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr>
+		<tr class="bg">
+			<td>OtherButtonVisible</td>                                                 
+			<td>Gets or sets a value that determines if the button <i>"Enter other value"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>VariablesButtonVisible</td>                                                           
+			<td>Gets or sets a value that determines if the button <i>"Enter a variable"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr>
+		<tr class="bg">
+			<td>ResourcesButtonVisible</td>                                                 
+			<td>Gets or sets a value that determines if the button <i>"Enter a resource"</i> is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+	</table> 
+    
+    <p class="title">Methods</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>GetGeneratedCode()</td>
+			<td>Gets the Visual Basic.Net code resulting from the value entered by the user.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>GetStrictValue()</td>
+			<td>Obtains the value entered by the user.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr>
+			<td>SetGeneratedCode(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a>)</td>
+			<td>Sets the Visual Basic.Net code corresponding to the value (strict) of the universal value editor.</td>
+		    <td>{Nothing}</td>
+        </tr>  
+		<tr class="bg">
+			<td>SetStrictValue(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a>, <a href="VelerSoftware.Plugins3.ValueEdit.ValueType.html" target="_blank">VelerSoftware.Plugins3.ValueEdit.ValueType</a>)</td>
+			<td>Sets the value strict (displayed to the user) of the universal value editor.</td>
+		    <td>{Nothing}</td>
+        </tr>
+	</table>   
+    
+    <p class="title">Events</p>  
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>OnEditorChanged</td>
+			<td>Raised when the property <i>"Editor"</i> has changed.</td>
+		</tr>
+	</table>
+</body>
+</html>

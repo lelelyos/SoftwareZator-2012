@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Multi documents" name_en="Multi documents" files="MdiForm1.szw;Form1.szw" start_file="MdiForm1.szw">
+	<Info image="MdiApplication.png" description_fr="Projet avec une fenêtre multi-documents." description_en="Project with a multi-documents window."/>
+    <Variable name="Temp_Form" array="False" description="Est égale à la fenêtre ajouté au conteneur multi-documents" group="Défaut" null="false" />
+</SZTemplate>

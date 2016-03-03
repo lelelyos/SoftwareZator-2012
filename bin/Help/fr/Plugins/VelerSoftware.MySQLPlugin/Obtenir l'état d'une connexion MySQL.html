@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Obtenir l'état d'une connexion MySQL</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Obtenir l'état d'une connexion MySQL</p>
+	<p>Cette action permet de récupérer une valeur permettant de déterminer dans quel état est la connexion à un serveur <a href="http://www.mysql.fr/" target="_blank">MySQL</a>.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>  
+		<tr>
+			<td>Variable recevant le résultat</td>
+			<td>Doit être égale à la variable (non tableau) recevant le statut de la connexion.</td>
+		</tr>
+	</table>
+    
+	<p class="title">Valeur retournée</p>          
+	<p>La valeur retournée est déterminée par l'état de la connexion au serveur. Elle sera enregistrée dans la variable définit dans le paramètre <i>"Variable recevant le résultat"</i>. Cette valeur est de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>).</p>
+	<table>
+		<tr>
+			<th>Etat</th>
+			<th>Valeurs retournées</th>
+		</tr>
+		<tr>
+			<td>Déconnecté</td>
+			<td>0</td>
+		</tr>
+		<tr class="bg">
+			<td>Connecté</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Interrompu</td>
+			<td>2</td>
+		</tr> 
+		<tr class="bg">
+			<td>En cours de connexion</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>En cours d'exécution</td>
+			<td>4</td>
+		</tr>  
+		<tr class="bg">
+			<td>En cours de réception</td>
+			<td>5</td>
+		</tr>
+	</table>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <p>Si la variable recevant le résultat est <i>"Resultat"</i>, le code généré sera tel que le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Resultat = VelerSoftware_MySQLPlugin.GetConnectStatus_MySQL()
+
+	</pre> 
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Aucune erreur d'exécution n'est détecté ici.</p>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>MySQL</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

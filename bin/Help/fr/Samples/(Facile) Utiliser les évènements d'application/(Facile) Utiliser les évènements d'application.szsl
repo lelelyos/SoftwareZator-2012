@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZSolution ToolsVersion="3.0" Name="(Facile) Utiliser les évènements d'application" MainProject="Projet1">
+  <Project Name="Projet1" File="Projet1\Projet1.szproj" />
+  <GenerationOrder Name="Projet1" />
+</SZSolution>

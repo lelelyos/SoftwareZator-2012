@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Fenêtre MDI" name_en="MdiForm" file="MdiForm.szw" inherits="System.Windows.Forms.Form">
+	<Info image="MdiForm.png" description_fr="Formulaire squelette pour une Application Windows d'interface multidocument." description_en="Form multi documents."/>
+</SZTemplate>

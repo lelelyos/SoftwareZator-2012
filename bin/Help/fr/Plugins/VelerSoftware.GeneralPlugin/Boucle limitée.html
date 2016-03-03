@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Boucle limitée</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Boucle limitée</p>
+	<img src="loop.png" alt="" class="fl_right"/>
+	<p>Cette action permet de créer une boucle limitée. Une boucle limitée permet d'exécuter, un nombre de fois définit, un ensemble d'actions. Elle exécute cet ensemble N fois, à moins qu'on ne lui a pas demandé de s'ârreter avant. On peut illustrer une boucle avec le schéma ci-contre.</p>
+	<p class="msg_done"><b>Conseil :</b> Pour arrêter (sortir) une boucle limitée avant la fin de celle-ci, utilisez l'action <a href="Sortir d'une boucle.html" target="_blank">Sortir d'une boucle</a>.</p>
+	<p class="msg_info"><b>Quel est la différence avec la <a href="Boucle.html" target="_blank">Boucle</a> :</b> Une boucle (simple) s'exécute jusqu'à ce qu'on lui donne l'ordre de s'arrêter. Une boucle limitée, elle, s'exécute un nombre de fois donné. On peut ainsi, par exemple, exécuter la boucle 10 fois avant qu'elle ne s'arrête toute seule.</p>
+	
+	<p class="title">Comment fonctionne une boucle limitée?</p>
+	<p>Cette action peut paraitre difficile d'utilisation au premier regard mais une fois que l'on a compris le principe cela devient un jeu d'enfant.</p>
+	<p>Tout d'abord, la différence entre l'action <a href="Boucle.html" target="_blank">Boucle</a> et la Boucle limitée est qu'une boucle simple s'exécute indéfiniment. Au contraire, une boucle limitée s'exécute un nombre de fois bien précit. En effet, vous pouvez demander à une boucle limitée de s'exécuter 3 fois, 10 fois, 100 fois [...] N fois.</p>
+	<p>Une boucle limitée repose donc sur le principe suivant : on part du nombre X, et on va jusqu'au nombre N.</p>
+	<p>Notez que dans une boucle limitée, la valeur X, qui est la valeur de départ, s'incrément à chaque fois que la boucle est exécuté.</p>
+	<p class="msg_done"><b>Exemple :</b> On part de X = 0 jusqu'à N = 3.<br />Première exécution : X = 0<br />Seconde exécution : X = 1<br />Troisième exécution : X = 2</p>
+	<p>Vous pourrez remarquer que X n'atteind pas 3, car X est partie de 0.<br />On peut donc en déduire la formule suivante : Nombre d&#39;exécution de la boucle 
+		limitée = (N - X)</p>
+	<p class="msg_done"><b>Exemple :</b> On part de X = 0 jusqu'à N = 10.<br />(N - X) = (10 - 
+		0) = 10<br />La boucle va donc s&#39;exécuter 10 fois.</p>
+	<p class="msg_done"><b>Exemple :</b> On part de X = 25 jusqu'à N = 30.<br />(N - X) 
+		= (30 - 25) = 5<br />La boucle va donc s'exécuter 5 fois.</p>
+	<p>Enfin, la dernière connaissance à acquérir est le pas d'avancement. Jusqu'ici dans les exemples précédents, vous avez pu constater que X s'incrémentait de 1 à chaque exécution de la boucle. Le pas d'avancement d'une boucle est l'incrémentation à effectué à chaque exécution. On en peut ainsi imaginer l'exemple suivant :</p>
+	<p class="msg_done"><b>Exemple :</b> On part de X = 0 jusqu'à N = 6 avec un pas d'avancement égale à 2.<br />Première exécution : X = 0<br />Seconde exécution : X = 2<br />Troisième exécution : X = 4<br /><b>Note :</b> il n'y a pas de quatrième exécution, car dès que X atteind 6, la boucle se termine.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Commencer la boucle à partir de la variable</td>
+			<td>Définit la variable (non tableau) possédant la valeur de départ de la boucle. Cette variable sera incrémenté du pas d'avancement définit dans les paramètres <i>"Pas (facultatif)"</i> (voir les exemples ci-dessus).</td>
+		</tr>
+		<tr class="bg">
+			<td>Ayant pour valeur</td>
+			<td>Permet de choisir la valeur de la variable définit dans le paramètre précédent. Cette valeur peut être égale à un nombre constant, ou bien à la valeur d'une autre variable (non tableau).</td>
+		</tr>
+		<tr>
+			<td>Jusqu'à</td>
+			<td>Permet de choisir la valeur de fin de la boucle (voir les exemples ci-dessus). Cette valeur peut être égale à un nombre constant, ou bien à la valeur d'une autre variable (non tableau), ou encore au nombre de valeurs contenu dans une variable tableau.</td>
+		</tr>
+		<tr class="bg">
+			<td>Pas (facultatif)</td>
+			<td>Permet de choisir la valeur du pas d'avancement (par défaut, 1) de la boucle limitée (voir les exemples ci-dessus). Cette valeur peut être égale à un nombre constant, ou bien à la valeur d'une autre variable (non tableau).</td>
+		</tr>
+	</table>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour les paramètres <i>"Ayant pour valeur"</i>, <i>"Jusqu'à"</i> et <i>"Pas (facultatif)"</i>, faites attention si vous utilisez des variables à ce que celles-ci possèdent une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>) ou bien que la variable soit de type tableau.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+	
+	<p class="title">Valeur retournée</p>
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<p>Code généré pour une boucle limitée qui part de X = 0 jusqu&#39;à N avec un pas égale à 1 :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+X = 0
+Do While (X < N)
+
+	X = (X + 1)
+Loop
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Aucune erreur d'exécution n'est détecté ici.</p>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Avancé</td>
+		</tr>  
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Général</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{Aucun}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>   
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Oui</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

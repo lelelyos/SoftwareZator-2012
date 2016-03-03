@@ -1,0 +1,5 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Sources\VelerSoftware.ExcelLib.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.ExcelLib\obj\Release\VelerSoftware.ExcelLib.csprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.ExcelLib\obj\Release\VelerSoftware.ExcelLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Sources\VelerSoftware.ExcelLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.ExcelLib\obj\Release\VelerSoftware.ExcelLib.dll

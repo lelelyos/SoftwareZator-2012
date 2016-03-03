@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Lire un fichier texte ligne par ligne</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Lire un fichier texte ligne par ligne</p>
+	<p>Cette action permet de lire tout le contenu d'un fichier texte, sur le disque dur, ligne par ligne.</p>
+	<p class="msg_info"><b>Information :</b> Pour vérifier que le fichier existe, utilisez l'action <a href="Déterminer si un fichier existe.html" target="_blank">Déterminer si un fichier existe</a>.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Nom complet du fichier à lire</td>
+			<td>Doit être égale au chemin complet du fichier à lire.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Variable qui sera égale au fichier en mémoire</td>
+			<td>Durant l'exécution de cette action, le fichier spécifié dans le paramètre précédent sera ouvert, chargé en mémoire, puis enregistré temporairement dans la variable (non tableau) que vous spécifez dans ce paramètre. Une fois la lecture terminé, la fichier est "fermé" afin de libérer la mémoire. En principe, vous n'aurez pas besoin d'intervenir sur cette variable durant l'exécution de cette action. La valeur de la variable spécifié dans ce paramètre est sera de type StreamReader (<a href="http://msdn.microsoft.com/fr-fr/library/system.io.streamreader%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.IO.StreamReader</a>).</td>
+		</tr> 
+		<tr>
+			<td>Variable qui sera égale à chaque ligne lue</td>
+			<td>Doit être égale à la variable (non tableau) qui sera égale à la ligne actuellement lue dans le fichier. En outre, à chaque fois que les actions contenu dans celle-ci est exécuté, la valeur de la variable spécifié dans ce paramètre sera égale à la ligne suivante du fichier. Cette valeur est de type Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>).</td>
+		</tr>
+	</table>
+	<p class="msg_error"><b>Erreur fréquement rencontré :</b> N'essayez pas d'écrire dans le fichier spécifié pendant l'exécution de cette action. En effet, le fichier étant ouvert et chargé en mémoire, vous ne pourrez pas y apporter de modification. Si vous tentez de la faire, une erreur d'exécution sera levée.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour le paramètre <i>"Nom complet du fichier à lire"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez des variables dans le paramètre <i>"Nom complet du fichier à lire"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit du texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>), ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul du texte peut être utilisé dans ce paramètre.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+
+	<p class="title">Valeur retournée</p>    
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <p>Code généré si le paramètre <i>"Variable qui sera égale au fichier en mémoire"</i> est égale à <i>"Variable_Memoire"</i> et si le paramètre <i>"Variable qui sera égale à chaque ligne lue"</i> est égale à <i>"Variable_Ligne"</i> :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Variable_Memoire = New System.IO.StreamReader("C:\Un dossier\Votre fichier.txt", True)
+Do While True
+    Variable_Ligne = Variable_Memoire.ReadLine()
+    ' A la place de cette ligne seront placés les différentes actions qui s'exécuteront durant la lecture
+    If Variable_Memoire.EndOfStream Then Variable_Memoire.Close() : Exit Do
+Loop
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Nom complet du fichier à lire"</i> n'est pas du texte. Souvent, le problème est causé par une variable utilisé dans ce paramètre et qui a une valeur autre que du texte.</td>
+			<td>Pour corriger cette erreur, vérifiez que toutes les valeurs impliquées dans ce paramètre sont bien de type Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>) et faites les modifications nécessaires pour que ces valeurs soit du texte. Pour cela, utilisez les actions <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr>
+		<tr class="bg">
+			<td>System.ArgumentException<br />ou<br />System.NotSupportedException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Nom complet du fichier à lire"</i> est nulle, ou contient le signe deux-points (:) ou une barre oblique (\ ou /). C'est caractères ne peuvent être utilisés que pour spécifier un disque dur et un fichier (C:\Un fichier\), mais en aucun cas pour le <u>nom</u> d'un fichier ou dossier.</td>
+			<td>Pour corriger cette erreur, vérifiez que le nom du fichier à lire ne soit pas vide et ne contient pas le signe deux-points (:) ou une barre oblique (\ ou /).</td>
+        </tr>
+		<tr>
+			<td>System.ArgumentNullException</td>
+			<td>Cete erreur se produit lorsque la valeur du paramètre <i>"Nom complet du fichier à lire"</i> est vide. Pour lire un fichier, vous devez impérativement spécifier le chemin complet du fichier à lire.</td>
+			<td>Pour corriger cette erreur, vérifiez que ce paramètre ne soit pas vide.</td>
+        </tr>
+		<tr class="bg">
+			<td>System.IO.FileNotFoundException</td>
+			<td>Cette erreur se produit lorsque le chemin spécifié dans le paramètre <i>"Nom complet du fichier à lire"</i> est introuvable sur le disque dur. C'est-à-dire, que le fichier à lire n'existe pas.</td>
+			<td>Pour corriger cette erreur, vérifiez que le chemin vers le fichier à lire soit correcte, et vérifiez que celui-ci existe avec l'action <a href="Déterminer si un fichier existe.html" target="_blank">Déterminer si un fichier existe</a>.</td>
+        </tr> 
+		<tr>
+			<td>System.SecurityException<br />ou<br />System.UnauthorizedAccessException</td>
+			<td>Cette erreur se produit lorsque la session Windows actuel n'a pas les droits d'utilisateurs nécessaire pour lire le fichier spécifié.</td>
+			<td>Pour corriger cette erreur, démarrez votre logiciel en mode Administrateur.</td>
+        </tr>
+		<tr class="bg">
+			<td>System.IO.PathTooLongException</td>
+			<td>Cette erreur se produit lorsque le chemin vers fichier spécifié dans le paramètre <i>"Nom complet du fichier à lire"</i> dépasse la capacité système (256 caractères).</td>
+			<td>Pour corriger cette erreur, vérifiez que le chemin vers le fichier à lire ne dépasse pas les 256 caractères (y compris pour les valeurs des variables).</td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Fichiers</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

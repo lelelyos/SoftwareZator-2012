@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Code" name_fr="Code" name_en="Code" file="Code.vb" inherits="">
+	<Info image="Code.png" description_fr="Fichier Visual Basic.Net vide." description_en="File Visual Basic.Net empty"/>
+</SZTemplate>

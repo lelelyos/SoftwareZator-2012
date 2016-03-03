@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Fenêtre" name_en="Form" file="Default.szw" inherits="System.Windows.Forms.Form">
+	<Info image="WindowsForm.png" description_fr="Formulaire Windows vide." description_en="Windows form empty."/>
+</SZTemplate>

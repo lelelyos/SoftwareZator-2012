@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KD V="1">
+  <DGD />
+  <DM N="DockingManager" C="3">
+    <DW N="Workspace" O="0" S="1549, 830">
+      <KW V="1" A="Document 1">
+        <CGD />
+        <WS UN="769BA9E61C494212088C598ACF39BA87" S="T,0,50:T,0,50" D="Horizontal">
+          <WC UN="C6C866CFD3C648F33E845CE503C2BB04" S="T,0,50:T,0,50" NM="BarTabGroup" AR="True" SP="Document 1" />
+        </WS>
+      </KW>
+    </DW>
+    <DC N="Control" C="4">
+      <DE N="Top" C="2">
+        <DEAH N="AutoHidden" C="0">
+        </DEAH>
+        <DED N="Docked" C="0">
+        </DED>
+      </DE>
+      <DE N="Bottom" C="2">
+        <DEAH N="AutoHidden" C="0">
+        </DEAH>
+        <DED N="Docked" C="0">
+        </DED>
+      </DE>
+      <DE N="Left" C="2">
+        <DEAH N="AutoHidden" C="0">
+        </DEAH>
+        <DED N="Docked" C="1">
+          <DD N="2CE792D18DE945D388BF5F85A5FB501A" O="0" S="250, 830">
+            <KW V="1" A="Explorateur">
+              <CGD />
+              <WS UN="280760D185EA4CF15CA7FB89D0B20CBB" S="T,0,50:T,0,50" D="Horizontal">
+                <WC UN="BBF2C7A41B1546123B94676EB617C81A" S="T,0,50:T,0,50" NM="HeaderBarCheckButtonGroup" AR="True" SP="Explorateur">
+                  <KP UN="Explorateur" S="False">
+                    <CPD />
+                  </KP>
+                </WC>
+              </WS>
+            </KW>
+          </DD>
+        </DED>
+      </DE>
+      <DE N="Right" C="2">
+        <DEAH N="AutoHidden" C="0">
+        </DEAH>
+        <DED N="Docked" C="0">
+        </DED>
+      </DE>
+    </DC>
+    <DF N="Floating" C="0">
+    </DF>
+  </DM>
+</KD>

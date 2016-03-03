@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Ecran de démarrage" name_en="SplashScreen" group_fr="Design" group_en="Design" file="SplashScreenForm.szw" inherits="System.Windows.Forms.Form">
+	<Info image="SplashScreenForm.png" description_fr="Ecran de démarrage pour Application Windows." description_en="Splash screen for Windows application"/>
+</SZTemplate>

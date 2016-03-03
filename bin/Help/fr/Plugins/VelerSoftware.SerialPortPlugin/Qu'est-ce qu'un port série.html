@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Qu'est-ce qu'un port série?</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Qu'est-ce qu'un port série?</p>
+    <p>Un port série sur un ordinateur est une prise permettant de relier celui-ci à un composant électronique (imprimante, souris, téléphone portable, scanner...).</p>
+
+	<p class="title">Quelles prises de l'ordinateur?</p>
+    <img class="fl_right" src="serialport.jpg" alt="" />
+	<p>En général, de nos jours, les ordinateurs (portables ou fixes) possèdent deux prises que l'on utilise pour des composants électroniques :</p>
+    <ul>
+        <li>Un port DE-9 (très souvent appelé abusivement DB-9), souvent présent sur les ordinateurs antérieurs au milieu des années 2000. Il permet en général de travailler avec un Microcontrôleur de type RS-232. Attention à ne pas confondre le port DE-9 avec les ports VGA (qui a 15 broches au lieu de 9), spécifiques aux écrans externes.</li>
+        <li>Un port USB (présent sur tous les ordinateurs depuis les années 90). Les ports USB remplacent de plus en plus les ports DE-9.</li>
+    </ul>
+    <p>Sur le système d'exploitation Microsoft Windows (toute version), les ports série (DE-9 et USB) sont désignés par les noms COM1, COM2, COM3, etc. Cela leur a valu le surnom de <i>"ports COM"</i>, encore utilisé de nos jours.</p>
+    
+	<p class="title">A quoi sert un port série?</p>          
+	<p>Outre l'éventuelle possibilité d'alimenter un composant matériel en électricité (selon les appareils) grâce aux connectiques de l'ordinateur, les ports séries permettent principalement de communiquer avec un appareil (imprimante, téléphone, modem, fax) via un cable. Pour communiquer avec celui-ci, il faut envoyer des données propres à l'appareil en question et qui réagira en fonction de celles-ci et pourra même renvoyer une donnée à l'ordinateur.</p>
+
+	<p class="title">Comment communiquer avec un port série?</p>
+    <p>Avec l'informatique et notamment le Microsoft .Net Framework, l'utilisation des ports séries est relativement simple. En effet, selon les appareils, vous pourrez envoyer des données aussi bien sous la forme Binaire (exemple : 0011 0101 1111 1101) que sous la forme Hexadécimal (exemple : 06 A2 C7 09) ou même textuelle (exemple : AT+cmgf=1).</p>
+    <p>L'utilisation des ports séries avec SoftwareZator est d'autant plus simple grâce à des actions répondants aux besoins pour la communication avec les appareil, mais il y a tout de même une difficulté.</p>
+
+    <p class="title">Quelle est la principale difficulté de communication?</p>
+    <p>Le moyen de communication avec un appareil se résume en trois méthodes : binaire, hexadécimal ou textuelle. Ceci créé déjà une première difficulté car certains périphériques (imprimantes, téléphone portable, souris, scanner...) n'accèpte que des données binaires, ou bien uniquement binaire et hexadécimal, et autre.</p>
+    <p>La seconde difficulté et qui, elle, est de taille, est de savoir quelle donnée doit être envoyé au périphérique. Si le périphérique en question a été réalisé par vous même, cette difficulté n'apparaitra pas car vous avez vous-même définit les données avec lesquels votre apparail réagira. En revanche, si vous tentez de communiquer avec une imprimante ou un téléphone portable dont vous n'êtes pas le créateur, vous ne saurez pas quelle donnée envoyer à celui-ci.</p>
+    <p>Pour surmonter cette obstacle, il faudra vous munir d'une documentation technique du fabriquant sur votre périphérique en question. Si la documentation technique n'est pas fournise avec l'appareil, il faudra essayer de la trouver sur internet. Renseignez-vous sur le site internet du fabriquant et ou contactez-les, renseigner-vous sur les forums spécialisés et n'hésitez pas à poser vos question sur ceux-ci.</p>
+                
+</body>
+</html>

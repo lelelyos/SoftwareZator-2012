@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Project1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Project1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="Veler Software" />
+  <Assembly.Product value="Project1" />
+  <Assembly.Copyright value="Copyright © Veler Software 2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Project1™" />
+  <Assembly.Guid value="54606bb0-6cf0-4870-a322-21dcde5c9468" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ObfuscationLevel value="1" />
+  <ShouldCompile value="False" />
+  <Open name="WindowsForm1.szw" />
+  <Variable name="Speech_Recognition_Activated" array="False" description="Determines whether speech recognition is activated" group="Default" null="True" />
+  <Variable name="Windows_Version" array="False" description="Is equal to the version of Windows" group="Numbers" null="False" />
+  <Variable name="XP" array="False" description="Is equal to a value indicating whether the software is running on Windows XP or not." group="Default" null="False" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" name="System.Speech" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="VelerSoftware.VoiceRecognitionLib.dll" name="VelerSoftware.VoiceRecognitionLib" copy="True" version="1.0.0.0" />
+</SZProject>

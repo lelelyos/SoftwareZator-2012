@@ -1,0 +1,12 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.Design.Navigator.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.csprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.LicenseInstallForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.Properties.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.csproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.Design.Navigator.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.csprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.LicenseInstallForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.Properties.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.csproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.Design.Navigator\obj\Release\VelerSoftware.Design.Navigator.dll

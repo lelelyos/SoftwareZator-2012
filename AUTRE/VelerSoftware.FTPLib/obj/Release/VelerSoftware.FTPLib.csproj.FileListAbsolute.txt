@@ -1,0 +1,4 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Sources\VelerSoftware.FTPLib.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\AUTRE\VelerSoftware.FTPLib\obj\Release\VelerSoftware.FTPLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Sources\VelerSoftware.FTPLib.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\AUTRE\VelerSoftware.FTPLib\obj\Release\VelerSoftware.FTPLib.dll

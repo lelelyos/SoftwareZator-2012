@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Créer une valeur dans le registre</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Créer une valeur dans le registre</p>
+	<p>Cette action permet de créer une valeur, en remplacer une ou en modifier une dans une clé existante du registre Windows.</p>
+	<p class="msg_info"><b>Information :</b> Pour explorer le registre Windows, démarrer <i>"Exécuter"</i> (touche <i>Windows + R</i> de votre clavier), puis tapez <i>"regedit"</i> et valiez.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Emplacement et nom de la clé</td>
+			<td>Doit être égale au chemin complet de la clé dans laquelle une valeur sera créée. Indiquez dans la liste déroulante la base de registre concerné puis le chemin.<br /><b>Exemple :</b> Liste déroulante : LocalMachine ; Zone de texte : SOFTWARE\Votre Société<br />L'exemple ci-dessus créer alors une valeur dans la clé à l'emplacement <i>"HKEY_LOCAL_MACHINE\SOFTWARE\Votre Société"</i>.</td>
+		</tr>   
+		<tr class="bg">
+			<td>Nom de la valeur à créer</td>
+			<td>Doit être égale au nom de la valeur à créer dans la clé définie dans le paramètre précédent.<br /><b>Remarque :</b> Pour modifier la valeur par défaut de la clé, laissez ce champs vide.</td>
+		</tr> 
+		<tr>
+			<td>Valeur</td>
+			<td>Permet de saisir la donnée de la valeur créée.</td>
+		</tr>  
+	</table>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour les paramètres <i>"Emplacement et nom de la clé"</i>, <i>"Nom de la valeur à créer"</i> et <i>"Valeur"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez dans variables dans les paramètres <i>"Emplacement et nom de la clé"</i>, <i>"Nom de la valeur à créer"</i> et <i>"Valeur"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit du texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>), ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul du texte peut être utilisé dans ce paramètre.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+
+	<p class="title">Valeur retournée</p>    
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <pre class="brush: vbnet; toolbar: false;">
+My.Computer.Registry.SetValue("HKEY_LOCALE_MACHINE\Clé\Sous clé", "Nom de la valeur", "Donnée")
+
+	</pre> 
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+        <tr>
+			<td>System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Emplacement et nom de la clé"</i>, <i>"Nom de la valeur à créer"</i> et ou <i>"Valeur"</i> ne sont pas du texte. Souvent, le problème est causé par une variable utilisé dans ce paramètre et qui a une valeur autre que du texte.</td>
+			<td>Pour corriger cette erreur, vérifiez que toutes les valeurs impliquées dans ces paramètres sont bien de type Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>) et faites les modifications nécessaires pour que ces valeurs soit du texte. Pour cela, utilisez les actions <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr>
+		<tr class="bg">
+			<td>System.ArgumentNullException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Emplacement et nom de la clé"</i> est vide. Pour supprimer une clé, vous devez impérativement spécifier le chemin complet de la clé concerné.</td>
+			<td>Pour corriger cette erreur, vérifiez que ce paramètre ne soit pas vide.</td>
+        </tr>
+		<tr>
+			<td>System.Security.SecurityException<br />ou<br />UnauthorizedAccessException</td>
+			<td>Cette erreur se produit lorsque l'utilisateur n'a pas les autorisations requises pour accéder la clé ou ne dispose pas des droits d'accès à la base de registres appropriés.</td>
+			<td>Pour corriger cette erreur, vérifiez que l'utilisateur ai les droits d'accès au registre et ai les autorisations nécessaires pour supprimer la clé. Pour Windows Vista, 7 et 8, vérifiez le niveau de l'UAC.</td>
+        </tr> 
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Registre Windows</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{aucune}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

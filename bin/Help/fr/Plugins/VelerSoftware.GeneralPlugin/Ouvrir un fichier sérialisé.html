@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Ouvrir un fichier sérialisé</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Ouvrir un fichier sérialisé</p>
+	<p>Cette action permet d'ouvrir un fichier précédemment enregistré avec l'action <a href="Enregistrer une donnée sérialisable.html" target="_blank">Enregistrer une donnée sérialisable</a>.</p>
+	<p class="msg_info"><b>Qu'est-ce que la sérialisation :</b> C'est un procéder qui permet d'enregistrer la valeur complète d'une variable, sous une forme crypté, dans un fichier, et de pouvoir la réouvrir tel qu'elle était lors de son enregistrement, après avoir quitté et relancé votre logiciel par exemple.</p>
+	<p class="msg_info"><b>Information :</b> Pour vérifier que le fichier existe, utilisez l'action <a href="Déterminer si un fichier existe.html" target="_blank">Déterminer si un fichier existe</a>.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Nom complet du fichier à ouvrir</td>
+			<td>Doit être égale au chemin complet du fichier à charger.</td>
+		</tr>  
+		<tr class="bg">
+			<td>Variable recevant la donnée désérialisé</td>
+			<td>Doit être égale à la variable (non tableau) recevant la donnée du fichier qui avait été sérialisé.</td>
+		</tr>
+	</table>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour le paramètre <i>"Nom complet du fichier à créer"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez dans variables dans le paramètre <i>"Nom complet du dossier à créer"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit du texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>), ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul du texte peut être utilisé dans ce paramètre.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+    <p class="msg_done"><b>Astuce :</b> Une fois que votre fichier a été chargé, vous ne savez pas quel était le type de celui-ci. Pour le déterminer, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+	
+	<p class="title">Valeur retournée</p>    
+	<p>La valeur retournée est déterminée par la réussite du chargement ou non, et du contenu du fichier. Elle sera enregistrée dans la variable définit dans le paramètre <i>"Variable recevant la donnée désérialisé"</i>. Cette valeur est de type Objet (<a href="http://msdn.microsoft.com/fr-fr/library/system.object%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.Object</a>). Si le chargement du fichier a échoué, la valeur retourné sera nul.</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <pre class="brush: vbnet; toolbar: false;">
+Votre_Variable = VelerSoftware_GeneralPlugin.Deserialize("Votre fichier.bin")
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Aucune erreur d'exécution n'est détecté ici.</p>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Confirmé</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Sérialisation</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Objet (<a href="http://msdn.microsoft.com/fr-fr/library/system.object%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.Object</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

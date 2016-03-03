@@ -1,0 +1,17 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.SZC35.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35.csprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35_MarkupCompile.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35_MarkupCompile.lref
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\TextEditor.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\themes\generic.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35.g.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.SZC35.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35_MarkupCompile.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35_MarkupCompile.lref
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\TextEditor.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\themes\generic.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35.g.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\DLL\VelerSoftware.SZC35\obj\Release\VelerSoftware.SZC35.dll

@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Type : VelerSoftware.Plugins3.Tools</title>
+	<script type="text/javascript" src="../../shCore.js"></script>
+	<script type="text/javascript" src="../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+    <p class="title">Type : VelerSoftware.Plugins3.Tools</p>     
+	<p>Represents a value to interact directly with the software SoftwareZator 2012 and the active solution.</p>
+    <p><b>Name space</b> VelerSoftware.Plugins3<br />
+    <b>Assembly :</b> VelerSoftware.Plugins3 (in VelerSoftware.Plugins3.dll)</p>
+    
+    <p class="title">Syntaxe</p>                                          
+    <pre class="brush: vbnet; toolbar: false;">
+Public Interface Tools
+
+	</pre>
+    
+    <p class="title">Constructors</p>
+	<p>No constructor.</p> 
+    
+    <p class="title">Properties</p>
+	<p>No property.</p> 
+    
+    <p class="title">Methods</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>GetProjectsName()</td>
+			<td>Gets the names of projects in the solution.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectVariableList()</td>
+			<td>Gets the list of variables in the current project.</td>
+		    <td><a href="VelerSoftware.SZVB.Projet.Variable.html" target="_blank">List(Of Variable)</a></td>
+        </tr>    
+		<tr>
+			<td>GetSolutionVariableList()</td>
+			<td>Gets the list of variables of the active solution.</td>                
+		    <td><a href="VelerSoftware.SZVB.Projet.Variable.html" target="_blank">List(Of Variable)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectType()</td>
+			<td>Gets the type of the active project (library, console, window).</td>  
+		    <td><a href="VelerSoftware.SZVB.Projet.Projet.Types.html" target="_blank">VelerSoftware.SZVB.Projet.Projet.Types</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectName()</td>
+			<td>Gets the name of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectAssemblyVersion()</td>
+			<td>Gets the version of the Assembly of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>    
+		<tr>
+			<td>GetCurrentProjectFileVersion()</td>
+			<td>Gets the file version of the current project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectTitle()</td>
+			<td>Obtient le titre du projet actif.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectProduct()</td>
+			<td>Gets the product name of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectSocity()</td>                              
+			<td>Gets the socity name of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectCopyright()</td>
+			<td>Gets the copyright of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectMark()</td>            
+			<td>Gets the mark of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>GetCurrentProjectDescription()</td>          
+			<td>Gets the description of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectGuid()</td>                
+			<td>Gets the GUID number of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectCPU()</td>
+			<td>Gets the operating system targeted by the current project.</td>
+		    <td><a href="VelerSoftware.SZVB.Projet.Projet.Cpus.html" target="_blank">VelerSoftware.SZVB.Projet.Projet.Cpus</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectObfuscationLevel()</td>                              
+			<td>Gets the level of obfuscation of the active project.</td>
+		    <td><a href="VelerSoftware.SZVB.Projet.Projet.ObfuscationLevels.html" target="_blank">VelerSoftware.SZVB.Projet.Projet.ObfuscationLevels</a></td>
+        </tr> 
+		<tr>
+			<td>GetCurrentProjectPath()</td>
+			<td>Gets the path to the current project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectVBNetFiles()</td>                              
+			<td>Gets the list of Visual Basic.Net code files included in project for generation of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of String)</a></td>
+        </tr>    
+		<tr>
+			<td>GetCurrentProjectFormStart()</td>
+			<td>Gets the name of the startup window for the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectGenerateDirectory()</td>                              
+			<td>Gets the path to the build folder in the current project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectInstance()</td>
+			<td>Gets a value that determines whether the current project is single-instance.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectUseStyleXP()</td>                              
+			<td>Gets a value that determines whether the current project uses the XP style (visual style).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>GetCurrentProjectOptimize()</td>
+			<td>Gets a value that determines whether the current project must be optimized when generating.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectSaveMySettings()</td>                              
+			<td>Gets a value that determines whether the active project saves the settings  automatically on closing.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectSettings()</td>
+			<td>Gets the parameter list of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of String)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectSplashScreen()</td>                              
+			<td>Gets the name of the startup screen of the active project.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectShutMode()</td>
+			<td>Gets the mode of shutdown the current project.</td>
+		    <td><a href="VelerSoftware.SZVB.Projet.Projet.ShutModes.html" target="_blank">VelerSoftware.SZVB.Projet.Projet.ShutModes</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectResoucres()</td>                              
+			<td>Gets a list of resources in the current project.</td>
+		    <td><a href="VelerSoftware.SZVB.Projet.Ressource.html" target="_blank">List(Of Ressource)</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectReferences()</td>
+			<td>Gets a list of references in the current project.</td>
+		    <td><a href="VelerSoftware.SZVB.Projet.Reference.html" target="_blank">List(Of Reference)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentProjectWindowsControls()</td>                              
+			<td>Gets the list of controls in the current project.</td>
+		    <td><a href="VelerSoftware.Plugins3.Windows.Core.Object.html" target="_blank">List(Of Core.Object)</a></td>
+        </tr>    
+		<tr>
+			<td>GetCurrentProjectWindows(<a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a>)</td>
+			<td>Gets a list of user controls and or window in the active project.</td>                                          
+		    <td><a href="VelerSoftware.Plugins3.Windows.Core.Object.html" target="_blank">List(Of Core.Object)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentFunctionSettings()</td>                              
+			<td>Gets the list of settings of the active function.</td>                                                    
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of String)</a></td>
+        </tr>      
+		<tr>
+			<td>GetCurrentFunctionSettingType(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String</a>)</td>
+			<td>Gets the type of the specified parameter of the active function.</td>                                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentFunctionName()</td>                              
+			<td>Gets the name of the active function.</td>                                                    
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>      
+		<tr>
+			<td>GetCurrentFunctionType()</td>
+			<td>Obtains a value that determines whether the current function is linked to a control or not.</td>                                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentFunctionIsClass()</td>                              
+			<td>Gets a value that determines whether the current function is the root of a class (the first tab of the functions editor).</td>                                                                                             
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>      
+		<tr>
+			<td>GetCurrentFunctionActions()</td>
+			<td>Gets the list of actions of the active function.</td>                                          
+		    <td><a href="VelerSoftware.Plugins3.Action.html" target="_blank">List(Of Action)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetActionsOfFuntion(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String</a>)</td>                              
+			<td>Gets the list of actions of the specified function.</td>                                                                  
+		    <td><a href="VelerSoftware.Plugins3.Action.html" target="_blank">List(Of Action)</a></td>
+        </tr>        
+		<tr>
+			<td>GetParentAction(<a href="VelerSoftware.Plugins3.Action.html" target="_blank">Action</a>)</td>
+			<td>Gets the parent action relative to the specified action.</td>                                          
+		    <td><a href="VelerSoftware.Plugins3.Action.html" target="_blank">Action</a></td>
+        </tr>
+		<tr class="bg">                                                                                                                            
+			<td>GetParentsAction(<a href="VelerSoftware.Plugins3.Action.html" target="_blank">Action</a>)</td>                              
+			<td>Gets the list of parents actions relative to the specified action.</td>                                                                  
+		    <td><a href="VelerSoftware.Plugins3.Action.html" target="_blank">List(Of Action)</a></td>
+        </tr>     
+		<tr>
+			<td>GetCurrentDocumentName()</td>
+			<td>Gets the name of the active document.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetCurrentDocumentFileName()</td>                              
+			<td>Gets the path to the current document.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>       
+		<tr>
+			<td>GetPropertyList(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String</a>)</td>
+			<td>Gets the list of Properties of the specified type.</td>                                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.reflection.propertyinfo.aspx" target="_blank">List(Of System.Reflection.PropertyInfo)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetMethodList(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String</a>)</td>                              
+			<td>Gets the list of Methods of the specified type.</td>                                                                  
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.reflection.methodinfo.aspx" target="_blank">List(Of System.Reflection.MethodInfo)</a></td>
+        </tr>   
+		<tr>
+			<td>GetCurrentProjectFunctions()</td>
+			<td>Gets the list of functions in the current project.</td>                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of String)</a></td>
+        </tr>
+		<tr class="bg">
+			<td>GetSolutionFunctions()</td>                              
+			<td>Gets the list of functions of the active solution.</td>                                                    
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">List(Of String)</a></td>
+        </tr>       
+		<tr>
+			<td>AddVBNetFileToCurrentProject(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String</a>)</td>
+			<td>Adds a Visual Basic.Net file to the list of files to compile with the current project.</td>                                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>SelectType()</td>                              
+			<td>Displays a window on the screen for selecting a type from the project references.</td>                                                                                             
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.type(v=vs.100).aspx" target="_blank">System.Type</a></td>
+        </tr>    
+		<tr>
+			<td>SelectControl(<a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String[]</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String[]</a>)</td>
+			<td>Displays a window to select a control in the current project.</td>                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>SelectControlProperty(<a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a>, <a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String[]</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String[]</a>)</td>                              
+			<td>Displays a window for selecting a property of a control in the current project.</td>                                                    
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr>
+			<td>TransformKeyVariables(<a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">String</a>, <a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a>, <a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a>)</td>
+			<td>Transforms a data entered by the user in Visual Basic.Net code buildable.<br />
+            <b>Example :</b><ul><li>Data : Hello Mr.%(VARIABLE=Name)%</li><li>Result : "Hello Mr." & Name</li></ul></td>                          
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>ShowVariableManager()</td>                              
+			<td>Opens the Variable Manager in the current project.</td>                                                    
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.dialogresult(v=vs.100).aspx" target="_blank">System.Windows.Forms.DialogResult</a></td>
+        </tr> 
+	</table>   
+    
+    <p class="title">Events</p>
+	<p>No event.</p>
+</body>
+</html>

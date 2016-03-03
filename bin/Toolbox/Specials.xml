@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Toolbox>
+  <Category name_fr="Contrôles spéciaux" name_en="Special controls">
+    <Item name_fr="Windows Media Player" name_en="Windows Media Player" help="Windows Media Player.html" image="Windows Media Player.bmp" fullname="AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" assembly="AxInterop.WMPLib.dll;WMPLib.dll" />
+    <Item name_fr="Reconnaissance vocale" name_en="Voice recognition" help="Voice recognition.html" image="VoiceRecognition.bmp" fullname="VelerSoftware.VoiceRecognitionLib.VoiceRecognition, VelerSoftware.VoiceRecognitionLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0a7b25493f100a50" assembly="System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35;VelerSoftware.VoiceRecognitionLib.dll" />
+  </Category>
+</Toolbox>

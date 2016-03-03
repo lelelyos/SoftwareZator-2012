@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Application complète" name_en="Complete application" files="Fenêtre1.szw;Ecran_de_démarrage1.szw;Boîte_de_dialogue_A_propos_de1.szw" start_file="Fenêtre1.szw">
+	<Info image="CompleteApplication.png" description_fr="Projet avec une fenêtre principale, un écran de démarrage et une boîte de dialogue 'A propos de'." description_en="Project with a main window, a splash screen and a dialog box 'About'."/>
+    <SplashScreen value="Ecran_de_démarrage1.szw" />
+</SZTemplate>

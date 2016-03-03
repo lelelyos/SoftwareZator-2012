@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Type : VelerSoftware.Plugins3.Action</title>
+	<script type="text/javascript" src="../../shCore.js"></script>
+	<script type="text/javascript" src="../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+    <p class="title">Type : VelerSoftware.Plugins3.Action</p>     
+	<p>Fourni une classe de base pour une Action pour SoftwareZator 2012.</p>
+    <p><b>Héritage :</b> <a href="http://msdn.microsoft.com/fr-fr/library/system.activities.activity.aspx" target="_blank">System.Activities.Activity</a> (dans System.Activities.dll)<br />
+    <b>Espace de noms :</b> VelerSoftware.Plugins3<br />
+    <b>Assembly :</b> VelerSoftware.Plugins3 (dans VelerSoftware.Plugins3.dll)</p>
+    
+    <p class="title">Syntaxe</p>                                          
+    <pre class="brush: vbnet; toolbar: false;">
+&lsaquo;Serializable()&rsaquo; _
+Public Class Action
+    Inherits System.Activities.Activity
+
+	</pre>
+    
+    <p class="title">Constructeurs</p>
+	<table>
+		<tr>
+			<th>Nom</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Action()</td>
+			<td>Initialise une nouvelle instance de la classe <b>Action</b>.</td>
+		</tr>  
+	</table>  
+    
+    <p class="title">Propriétés</p>
+	<table>
+		<tr>
+			<th>Nom</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>DisplayName</td>
+			<td>Obtient ou définit le texte par défaut affiché dans la Boîte à outils et dans le designer d'action (ActivityDesigner).</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>
+		<tr class="bg">
+			<td>ToolBoxImage</td>
+			<td>définit l'image affiché dans la Boîte à outils. Pour obtenir cette image, utilisez le champ <b>_ToolBoxImage</b>.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.drawing.image(v=vs.100).aspx" target="_blank">System.Drawing.Image</a></td>
+        </tr> 
+		<tr>
+			<td>Description</td>
+			<td>Obtient ou définit la description de l'action affiché dans la Boîte à outils.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Category</td>
+			<td>Obtient ou définit la catégorie auquel appartient l'action. Cette catégorie est affiché dans la Boîte à outils.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>FileHelp</td>
+			<td>Obtient ou définit le fichier de documentation (.html) de l'action.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Voice_Recognition_Dictionary</td>
+			<td>Obtient ou définit la liste des mots clés utilisés par la reconnaissance vocale.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">List(Of System.String)</a></td>
+		</tr> 
+		<tr>
+			<td>Voice_Recognition_Expressions_Dictionary</td>
+			<td>Obtient ou définit la liste des mots clés utilisés par la reconnaissance vocale.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">List(Of System.String)</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>References</td>
+			<td>Obtient ou définit la liste des références nécessaires au projet pour que cette action fonctionne.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">List(Of System.String)</a></td>
+		</tr> 
+		<tr>
+			<td>ClassCode</td>
+			<td>Obtient ou définit un fichier Visual Basic.Net (fichier *.vb) contenant une ou des classes devant être ajoutées aux codes à compiler avec l'action.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>CompatibleClass</td>
+			<td>Obtient ou définit si l'action peut être utilisé dans la racine d'une classes (premier onglet, non fermable, de l'éditeur de fonctions).</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>CompatibleFonctions</td>
+			<td>Obtient ou définit si l'action peut être utilisé dans les fonctions (tous les onglets de l'éditeur de fonctions sauf le premier) ou pas.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>CustomVBCode</td>
+			<td>Obtient ou définit le code Visual Basic.Net écrit manuellement par l'utilisateur devant remplacer le code généré par l'action au moment de la génération.</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.codedom.codeobject(v=vs.100).aspx" target="_blank">System.CodeDom.CodeObject</a></td>
+		</tr> 
+		<tr>
+			<td>UseCustomVBCode</td>
+			<td>Obtient ou définit si le code écrit manuellement par l'utilisateur doit être utilisé à la place du code généré par l'action au moment de la génération.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>id</td>
+			<td>Obtient ou définit l'identifiant de l'action dans l'éditeur de fonctions.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>Added</td>
+			<td>Obtient ou définit si l'action a correctement été ajouté à l'éditeur de fonctions (après validation des paramètres par l'utilisateur).</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Tools</td>
+			<td>Obtient ou définit une valeur délivrant différentes fonctions permettant d'intéragir avec SoftwareZator même.</td>
+            <td><a href="VelerSoftware.Plugins3.Tools.html" target="_blank">VelerSoftware.Plugins3.Tools</a></td>
+		</tr> 
+		<tr>
+			<td>Param1</td>
+			<td>Obtient ou définit le paramètre numéro 1 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param2</td>
+			<td>Obtient ou définit le paramètre numéro 2 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr>
+			<td>Param3</td>
+			<td>Obtient ou définit le paramètre numéro 3 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param4</td>
+			<td>Obtient ou définit le paramètre numéro 4 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param5</td>
+			<td>Obtient ou définit le paramètre numéro 5 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param6</td>
+			<td>Obtient ou définit le paramètre numéro 6 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param7</td>
+			<td>Obtient ou définit le paramètre numéro 7 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param8</td>
+			<td>Obtient ou définit le paramètre numéro 8 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param9</td>
+			<td>Obtient ou définit le paramètre numéro 9 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param10</td>
+			<td>Obtient ou définit le paramètre numéro 10 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param11</td>
+			<td>Obtient ou définit le paramètre numéro 11 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param12</td>
+			<td>Obtient ou définit le paramètre numéro 12 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param13</td>
+			<td>Obtient ou définit le paramètre numéro 13 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param14</td>
+			<td>Obtient ou définit le paramètre numéro 14 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param15</td>
+			<td>Obtient ou définit le paramètre numéro 15 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param16</td>
+			<td>Obtient ou définit le paramètre numéro 16 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param17</td>
+			<td>Obtient ou définit le paramètre numéro 17 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param18</td>
+			<td>Obtient ou définit le paramètre numéro 18 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param19</td>
+			<td>Obtient ou définit le paramètre numéro 19 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param20</td>
+			<td>Obtient ou définit le paramètre numéro 20 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param21</td>
+			<td>Obtient ou définit le paramètre numéro 21 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param22</td>
+			<td>Obtient ou définit le paramètre numéro 22 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param23</td>
+			<td>Obtient ou définit le paramètre numéro 23 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param24</td>
+			<td>Obtient ou définit le paramètre numéro 24 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param25</td>
+			<td>Obtient ou définit le paramètre numéro 25 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param26</td>
+			<td>Obtient ou définit le paramètre numéro 26 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param27</td>
+			<td>Obtient ou définit le paramètre numéro 27 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param28</td>
+			<td>Obtient ou définit le paramètre numéro 28 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param29</td>
+			<td>Obtient ou définit le paramètre numéro 29 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param30</td>
+			<td>Obtient ou définit le paramètre numéro 30 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param31</td>
+			<td>Obtient ou définit le paramètre numéro 31 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param32</td>
+			<td>Obtient ou définit le paramètre numéro 32 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param33</td>
+			<td>Obtient ou définit le paramètre numéro 33 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param34</td>
+			<td>Obtient ou définit le paramètre numéro 34 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param35</td>
+			<td>Obtient ou définit le paramètre numéro 35 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param36</td>
+			<td>Obtient ou définit le paramètre numéro 36 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param37</td>
+			<td>Obtient ou définit le paramètre numéro 37 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param38</td>
+			<td>Obtient ou définit le paramètre numéro 38 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param39</td>
+			<td>Obtient ou définit le paramètre numéro 39 de l'action</td> 
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param40</td>
+			<td>Obtient ou définit le paramètre numéro 40 de l'action</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+	</table> 
+    
+    <p class="title">Méthodes</p>
+	<table>
+		<tr>
+			<th>Nom</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>Main()</td>
+			<td>Fonction exécuté lorsque l'action est ajouté à l'éditeur de fonctions. Retourne une valeur <b>Boolean</b> indiquant si l'action sera ajouté à l'éditeur de fonctions (<b>True</b>) ou s'il faut annuler l'ajout (<b>False</b>).</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>Modify()</td>
+			<td>Fonction exécuté lorsque l'utilisateur clique sur le bouton <i>"Modifier les paramètres de l'action"</i>. Retourne une valeur <b>Boolean</b> indiquant si les modifications apportés seront enregistrés (<b>True</b>) ou s'il faut annuler les modifications (<b>False</b>).</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">Boolean</a></td>
+        </tr>    
+		<tr>
+			<td>GetVBCode(<a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a>)</td>
+			<td>Fonction exécuté lorsque SoftwareZator génère les codes Visual Basic.Net avant une génération du projet. Retourne une valeur <b>CodeDom.CodeObject</b> représentant le code VB.Net généré et prêt à être compilé.</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/system.codedom.codeobject(v=vs.100).aspx" target="_blank">System.CodeDom.CodeObject</a></td>
+        </tr>
+		<tr class="bg">
+			<td>ResolveError(<a href="VelerSoftware.SZVB.Projet.Erreur.html" target="_blank">VelerSoftware.SZVB.Projet.Erreur</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.eventargs.aspx" target="_blank">System.EventArgs</a>)</td>
+			<td>Fonction exécuté lorsque l'utilisateur veut corriger automatiquement une erreur de génération ou d'exécution. Retourne une valeur <b>Boolean</b> indiquant si la correction a été faite (<b>True</b>) ou n'a pas pu être faite (<b>False</b>).</td>
+		    <td><a href="http://msdn.microsoft.com/fr-fr/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+	</table>   
+    
+    <p class="title">Evénements</p>
+	<table>
+		<tr>
+			<th>Nom</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>DisplayNameChanged</td>
+			<td>Déclenché lorsque la propriété <b>DisplayName</b> a été modifié.</td>
+		</tr>
+		<tr class="bg">
+			<td>ActionChanged()</td>
+			<td>Déclenché lorsqu'un paramètre de l'action a été modifié.</td>
+		</tr>  
+	</table>
+</body>
+</html>

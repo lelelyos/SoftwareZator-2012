@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Premier_Projet">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Premier_Projet" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="Veler Software" />
+  <Assembly.Product value="Premier_Projet" />
+  <Assembly.Copyright value="Copyright © Veler Software 2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Premier_Projet™" />
+  <Assembly.Guid value="2e9b441d-9213-4e9d-ba66-6b40ed27e4e2" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ObfuscationLevel value="2" />
+  <ShouldCompile value="False" />
+  <Open name="WindowsForm1.szw" />
+  <Open name="PARAMETREDUPROJET" />
+  <Variable name="Dénominateur" array="False" description="Est égale à la valeur de NumericTextBox2" group="Nombres" />
+  <Variable name="Numérateur" array="False" description="Est égale à la valeur de NumericTextBox1" group="Nombres" />
+  <Variable name="Résultat" array="False" description="Est égale au résultat du calcul renvoyé par le projet &quot;Second_Projet&quot;" group="Nombres" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="True" value="..\Seconde_Projet\Bin\Seconde_Projet.dll" name="Seconde_Projet" copy="True" version="1.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+</SZProject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Project1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Project1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="" />
+  <Assembly.Product value="Project1" />
+  <Assembly.Copyright value="Copyright ©  2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Project1™" />
+  <Assembly.Guid value="28247b0d-effb-4883-b624-3c6ea9edf277" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ObfuscationLevel value="1" />
+  <ShouldCompile value="False" />
+  <VBNet_File name="Datas Typed\My_Data_Type.vb" />
+  <Open name="WindowsForm1.szw" />
+  <Variable name="Age" array="False" description="Is equal to an age" group="Texts" />
+  <Variable name="File_List" array="True" description="Is equal to the list of files in the &quot;Datas&quot; folder" group="Texts" />
+  <Variable name="Items_Count" array="False" description="Is equal to the number of elements in ListView1" group="Numbers" />
+  <Variable name="Name" array="False" description="Is equal to a name" group="Texts" />
+  <Variable name="One_Item" array="False" description="Is equal to an element of ListView1" group="Objects" />
+  <Variable name="Result" array="False" description="Is equal to the value True / False" group="Variables used temporarily" />
+  <Variable name="Serializable_Data" array="False" description="Is equal to a serializable data" group="Datas" />
+  <Variable name="Surname" array="False" description="Is equal to a surname" group="Texts" />
+  <Variable name="X" array="False" description="" group="Numbers" />
+  <Statistic xvalue="40936" yvalue="1" type="0" />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+</SZProject>

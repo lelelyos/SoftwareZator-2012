@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>What is a serial port?</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">What is a serial port?</p>
+    <p>A serial port on a computer is a socket for connecting it to an electronic component (printer, mouse, mobile phone, scanner ...).</p>
+
+	<p class="title">What sockets on the computer?</p>
+    <img class="fl_right" src="serialport.jpg" alt="" />
+	<p>In general, these days, computers (laptops or stationary) have two sockets that are used for electronic components :</p>
+    <ul>
+        <li>A DE-9 port (often wrongly called DB-9), often found on computers prior to the mid 2000s. It usually allows a microcontroller to work with RS-232. Be careful not to confuse the DE-9 port with the VGA port (15 pin that instead of 9), specific external displays.</li>
+        <li>A USB port (present on all computers since the 90s). The USB ports are replacing more and more DE-9 ports.</li>
+    </ul>
+    <p>On the operating system Microsoft Windows (any version), serial ports (USB and DE-9) are designated by the names COM1, COM2, COM3, etc.. This earned them the nickname <i>"COM ports"</i>, still used today.</p>
+    
+	<p class="title">What does a serial port?</p>          
+	<p>In addition to any possibility of a hardware component supply electricity (depending on devices) through the connectors on the computer, the serial ports are used mainly to communicate with a device (printer, telephone, modem, fax) using a cable. To communicate with it, send specific data to the device in question and react according to them and may even return to a given computer.</p>
+
+	<p class="title">How to communicate with serial port?</p>
+    <p>With computers including the Microsoft .Net Framework, the use of serial ports is relatively simple. According to the devices, you can send data as well as Binary (example: 0011 0101 1111 1101), as Hexadecimal (example: A2 06 C7 09) or even text (example: AT + CMGF = 1 ).</p>
+    <p>The use of serial ports with SoftwareZator is even easier thanks to actions that meet the needs for communication with the device, but there is still a challenge.</p>
+
+    <p class="title">What is the main difficulty of communication?</p>
+    <p>The means of communication with a device can be summarized in three ways: binary, hexadecimal or text. This already created the first difficulty because some devices (printers, mobile phone, mouse, scanner ...) only accepts binary data, or only binary and hexadecimal, and another.</p>
+    <p>The second difficulty, and which itself is daunting, is what data must be sent to the device. If the device in question was done by yourself, this difficulty will not appear because you have define your data with which apparail react. But if you try to communicate with a printer or mobile phone you are not the creator, you will not know what data to send it.</p>
+    <p>To overcome this obstacle, you must present a manufacturer's technical documentation on your device. If technical documentation is not given with the device, it will try to find on the internet. Ask about the manufacturer's website and or contact them, inform you on specialized forums and feel free to ask questions about them.</p>
+                
+</body>
+</html>

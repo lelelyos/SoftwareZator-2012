@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Fermer une fenêtre</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Fermer une fenêtre</p>
+	<p>Cette action va vous permettre de fermer une fenêtre précédemment ouverte, d'un projet de votre solution, à l'écran.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Une fenêtre déjà fermé ne peut pas être fermé une seconde fois.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> N'utilisez pas cette action à partir d'une fonction lié à l'événement Load ou Activated d'une fenêtre. Les deux conditions peuvent provoquer des fuites de mémoire.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Fenêtre à fermer</td>
+			<td>Permet de définir la fenêtre qui devra être fermée.</td>
+		</tr>
+		<tr class="bg">
+			<td>Valeur à retourner</td>
+			<td>Doit être égale à la valeur qui sera retourné par la fenêtre.</td>
+		</tr>
+	</table>
+
+	<p class="title">Valeur retournée</p>
+	<p>La valeur retournée est déterminée par la valeur du paramètre <i>"Valeur à retourner"</i>. Elle sera enregistrée dans la variable définit dans le paramètre <i>"Variable recevant le résultat"</i> de l'action <a href="Ouvrir une fenêtre.html" target="_blank">Ouvrir une fenêtre</a>. Cette valeur est de type texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>).</p>
+	<table>
+		<tr>
+			<th>Valeur à retourner</th>
+			<th>Valeurs retournées</th>
+		</tr>
+		<tr>
+			<td>OK</td>
+			<td>OK</td>
+		</tr>
+		<tr class="bg">
+			<td>Annuler</td>
+			<td>Cancel</td>
+		</tr>
+		<tr>
+			<td>Oui</td>
+			<td>Yes</td>
+		</tr>
+		<tr class="bg">
+			<td>Non</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<td>Réessayer</td>
+			<td>Retry</td>
+		</tr> 
+		<tr class="bg">
+			<td>Abandonner</td>
+			<td>Abort</td>
+		</tr>
+		<tr>
+			<td>Ignorer</td>
+			<td>Ignore</td>
+		</tr> 
+	</table>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Fenêtre.DialogResult = System.Windows.Forms.DialogResult.OK : Votre_Fenêtre.Close()
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.InvalidOperationException</td>
+			<td>Cette erreur se produit lorsque vous tentez de fermer la fenêtre spécifié alors que celle-ci n'est pas encore créé ou bien déjà fermé.</td>
+			<td>Pour corriger cette erreur, vérifiez que la fenêtre spécifié est ouverte. Pour cela, utilisez les actions <a href="Déterminer si une fenêtre est ouverte.html" target="_blank">Déterminer si une fenêtre est ouverte</a>.</td>
+        </tr>
+	</table> 
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Fenêtre</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Type : VelerSoftware.Plugins3.ActionForm</title>
+	<script type="text/javascript" src="../../shCore.js"></script>
+	<script type="text/javascript" src="../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+    <p class="title">Type : VelerSoftware.Plugins3.ActionForm</p>     
+	<p>Represents a window or dialog box that made the user interface of an <a href="VelerSoftware.Plugins3.Action.html" target="_blank">Action</a> for SoftwareZator 2012.</p>
+    <p><b>Inherits :</b> <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.form.aspx" target="_blank">System.Windows.Forms.Form</a> (in System.Windows.Forms.dll)<br />
+    <b>Name space</b> VelerSoftware.Plugins3<br />
+    <b>Assembly :</b> VelerSoftware.Plugins3 (in VelerSoftware.Plugins3.dll)</p>
+    
+    <p class="title">Syntaxe</p>                                          
+    <pre class="brush: vbnet; toolbar: false;">
+&lsaquo;System.Windows.Forms.Docking(System.Windows.Forms.DockingBehavior.Ask), ComponentModel.DefaultProperty("Caption")&rsaquo; _
+Public Class ActionForm 
+    Inherits System.Windows.Forms.Form
+
+	</pre>
+    
+    <p class="title">Constructors</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>ActionForm()</td>
+			<td>Initializes a new instance of the class <b>ActionForm</b>.</td>
+		</tr>  
+	</table>  
+    
+    <p class="title">Properties</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>UseAero</td>
+			<td>Gets or sets if the window must use the style <b>Aero</b> (translucent window) in Windows Vista, 7 and 8.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>
+		<tr class="bg">
+			<td>OKButtonText</td>
+			<td>Gets or sets the <b>OK</b> button text  of the window.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>CancelButtonText</td>
+			<td>Gets or sets the <b>Cancel</b> button text  of the window.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Title</td>
+			<td>Gets or sets the window title (displayed in blue in the top left hand corner).</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr> 
+		<tr>
+			<td>Icon_Windows</td>
+			<td>Gets or sets the image representing the action icon to display the top left of the window, next to the title.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.drawing.image(v=vs.100).aspx" target="_blank">System.Drawing.Image</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>Help_Button_Visible</td>
+			<td>Gets or sets if the help button on the action at the bottom left is displayed.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr> 
+		<tr>
+			<td>Help_File</td>
+			<td>Gets or sets the path to the documentation file (*.html file) of the action that opens when clicking the help button.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>ShowHideCodeEditor_Button_Visible</td>
+			<td>Gets or sets whether the user can access the Code Editor of Visual Basic.Net.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr> 
+		<tr>
+			<td>RefreshCode_Button_Visible</td>
+			<td>Gets or sets if the button to generate Visual Basic.Net code code of the action is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>ParseCode_Button_Visible</td>
+			<td>Gets or sets if the button to reload the parameters of the action based on the Visual Basic.Net code is visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr> 
+		<tr>
+			<td>CodeEditor_Shown</td>
+			<td>Gets or sets a value to know if the code editor is currently visible.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+        </tr>  
+		<tr class="bg">
+			<td>CodeEditor_Used</td>
+			<td>Gets or sets if the action will use the code written manually by the user during generation instead of the code generated by the action.</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/wts33hb3(v=vs.100).aspx" target="_blank">System.Boolean</a></td>
+		</tr> 
+		<tr>
+			<td>CodeEditor_Text</td>
+			<td>Gets or sets the Visual Basic.Net code to display in the Code Editor of the window.</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+        </tr>   
+		<tr class="bg">
+			<td>Tools</td>
+			<td>Gets or sets a value providing different functions to interact with  SoftwareZator.</td>
+            <td><a href="VelerSoftware.Plugins3.Tools.html" target="_blank">VelerSoftware.Plugins3.Tools</a></td>
+		</tr> 
+		<tr>
+			<td>Param1</td>
+			<td>Gets or sets the parameter number 1 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param2</td>
+			<td>Gets or sets the parameter number 2 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr>
+			<td>Param3</td>
+			<td>Gets or sets the parameter number 3 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param4</td>
+			<td>Gets or sets the parameter number 4 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param5</td>
+			<td>Gets or sets the parameter number 5 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param6</td>
+			<td>Gets or sets the parameter number 6 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param7</td>
+			<td>Gets or sets the parameter number 7 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param8</td>
+			<td>Gets or sets the parameter number 8 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param9</td>
+			<td>Gets or sets the parameter number 9 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param10</td>
+			<td>Gets or sets the parameter number 10 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param11</td>
+			<td>Gets or sets the parameter number 11 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param12</td>
+			<td>Gets or sets the parameter number 12 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param13</td>
+			<td>Gets or sets the parameter number 13 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param14</td>
+			<td>Gets or sets the parameter number 14 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param15</td>
+			<td>Gets or sets the parameter number 15 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param16</td>
+			<td>Gets or sets the parameter number 16 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param17</td>
+			<td>Gets or sets the parameter number 17 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param18</td>
+			<td>Gets or sets the parameter number 18 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param19</td>
+			<td>Gets or sets the parameter number 19 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param20</td>
+			<td>Gets or sets the parameter number 20 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param21</td>
+			<td>Gets or sets the parameter number 21 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param22</td>
+			<td>Gets or sets the parameter number 22 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param23</td>
+			<td>Gets or sets the parameter number 23 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param24</td>
+			<td>Gets or sets the parameter number 24 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param25</td>
+			<td>Gets or sets the parameter number 25 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param26</td>
+			<td>Gets or sets the parameter number 26 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param27</td>
+			<td>Gets or sets the parameter number 27 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param28</td>
+			<td>Gets or sets the parameter number 28 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param29</td>
+			<td>Gets or sets the parameter number 29 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param30</td>
+			<td>Gets or sets the parameter number 30 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param31</td>
+			<td>Gets or sets the parameter number 31 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param32</td>
+			<td>Gets or sets the parameter number 32 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param33</td>
+			<td>Gets or sets the parameter number 33 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param34</td>
+			<td>Gets or sets the parameter number 34 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param35</td>
+			<td>Gets or sets the parameter number 35 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param36</td>
+			<td>Gets or sets the parameter number 36 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param37</td>
+			<td>Gets or sets the parameter number 37 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param38</td>
+			<td>Gets or sets the parameter number 38 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+		<tr>
+			<td>Param39</td>
+			<td>Gets or sets the parameter number 39 of the action</td> 
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr>  
+		<tr class="bg">
+			<td>Param40</td>
+			<td>Gets or sets the parameter number 40 of the action</td>
+		    <td><a href="http://msdn.microsoft.com/en-us/library/system.string(v=vs.100).aspx" target="_blank">System.String</a></td>
+		</tr> 
+	</table> 
+    
+    <p class="title">Methods</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+            <th>Type</th>
+		</tr>
+		<tr>
+			<td>DisableOKButton()</td>
+			<td>Disable the <b>OK</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>
+		<tr class="bg">
+			<td>EnableOKButton()</td>
+			<td>Enable the <b>OK</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>    
+		<tr>
+			<td>HideOKButton()</td>
+			<td>Hide the <b>OK</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>
+		<tr class="bg">
+			<td>ShowOKButton()</td>
+			<td>Show the <b>OK</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>   
+		<tr>
+			<td>DisableCancelButton()</td>
+			<td>Disable the <b>Cancel</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>
+		<tr class="bg">
+			<td>EnableCancelButton()</td>
+			<td>Enable the <b>Cancel</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>    
+		<tr>
+			<td>HideCancelButton()</td>
+			<td>Hide the <b>Cancel</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>
+		<tr class="bg">
+			<td>ShowCancelButton()</td>
+			<td>Show the <b>Cancel</b> button of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>   
+		<tr>
+			<td>ShowCodeEditor()</td>
+			<td>Force the display of the Visual Basic.Net code editor of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>
+		<tr class="bg">
+			<td>HideCodeEditor()</td>                              
+			<td>Force hiding of the Visual Basic.Net code editor of the window.</td>
+		    <td>{Nothing}</td>
+        </tr>
+	</table>   
+    
+    <p class="title">Events</p>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>OnOKButtonTextChanged</td>
+			<td>Raised when the <b>OK</b> button text has changed.</td>
+		</tr>
+		<tr class="bg">
+			<td>OnCancelButtonTextChanged()</td>                                  
+			<td>Raised when the <b>Cancel</b> button text has changed.</td>
+		</tr>  
+		<tr>
+			<td>OnOKButtonClicked</td>
+			<td>Raised when clicking on the <b>OK</b> button .</td>
+		</tr>
+		<tr class="bg">
+			<td>OnCancelButtonClicked()</td>
+			<td>Raised when clicking on the <b>Cancel</b> button .</td>
+		</tr>  
+		<tr>
+			<td>OnTitleChanged</td>
+			<td>Raised when the value of the property <b>Title</b> has changed.</td>
+		</tr>
+		<tr class="bg">
+			<td>OnShowHideCodeEditorButtonVisibleChanged()</td>
+			<td>Raised when the value of the property <b>ShowHideCodeEditorButtonVisible</b> has changed.</td>
+		</tr>   
+		<tr>
+			<td>OnRefreshCodeButtonVisibleChanged</td>
+			<td>Raised when the value of the property <b>RefreshCodeButtonVisible</b> has changed.</td>
+		</tr>
+		<tr class="bg">
+			<td>OnParseCodeButtonVisibleChanged()</td>
+			<td>Raised when the value of the property <b>ParseCodeButtonVisible</b> has changed.</td>
+		</tr>    
+		<tr>
+			<td>OnCodeEditorShownChanged</td>
+			<td>Raised when the value of the property <b>CodeEditorShown</b> has changed.</td>
+		</tr>
+		<tr class="bg">
+			<td>OnShowHideCodeEditorButtonClick()</td>
+			<td>Triggered when clicking on the button to show and hide the code editor of the window.</td>
+		</tr>      
+		<tr>
+			<td>OnCodeEditorTextChanged</td>
+			<td>Raised when the value of the property <b>CodeEditorText</b> has changed.</td>
+		</tr>
+		<tr class="bg">
+			<td>OnRefreshCodeButtonClick()</td>
+			<td>Triggered when clicking on the button to generate the code for the action.</td>
+		</tr>     
+		<tr>
+			<td>OnParseCodeButtonClick</td>
+			<td>Triggered when clicking on the button to load the parameters of the action based on the Visual Basic.Net code.</td>
+		</tr>
+	</table>
+</body>
+</html>

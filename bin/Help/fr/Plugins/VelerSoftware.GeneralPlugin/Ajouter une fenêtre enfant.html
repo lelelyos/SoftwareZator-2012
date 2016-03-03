@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Ajouter une fenêtre enfant</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Ajouter une fenêtre enfant</p> 
+	<p>Cette action permet d'ajouter une fenêtre enfant à une fenêtre parent. Autrement, vous aurez une fenêtre dans une autre, comme illustrer ci-dessous.</p>
+	<img src="ajouter_fenetre_enfant.png" alt=""/>
+	<p class="msg_info"><b>Information :</b> Pour fermer une fenêtre enfant, utilisez l'action <a href="Fermer une fenêtre enfant.html" target="_blank">Fermer une fenêtre enfant</a>.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Fenêtre parent</td>
+			<td>Permet de définir la fenêtre dans laquelle une autre fenêtre sera ajouté.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Fenêtre à ajouter à la fenêtre parent</td>
+			<td>Doit être égale à la fenêtre que vous voulez ajouter à la fenêtre parent. Cette fenêtre ne pas etre celle active.</td>
+		</tr>
+		<tr>
+			<td>Nom à donner à la fenêtre</td>
+			<td>Doit être égale à un nom unique qui permettra de reconnaitre la fenêtre ajouté.</td>
+		</tr> 
+		<tr class="bg">
+			<td>Variable recevant le résultat</td>
+			<td>Doit être égale à une variable (non tableau) qui sera elle-même égale à la fenêtre ajouté. Ainsi vous pourrez la modifier des que cette action aura été exécuté.</td>
+		</tr>
+	</table>
+    <p class="msg_done"><b>Astuce :</b> Pour le paramètre <i>"Nom à donner à la fenêtre"</i>, il est conseillé de définir un nom unique. Pour cela, vous pouvez par exemple générer une texte aléatoirement en utilisez l'action <a href="Générer un texte aléatoire.html" target="_blank">Générer un texte aléatoire</a>.</p>
+	
+	<p class="title">Valeur retournée</p>
+	<p>La valeur retournée est déterminée par la fenêtre spécifiée dans le paramètre <i>"Fenêtre à ajouter à la fenêtre parent"</i>. Elle sera enregistrée dans la variable définit dans le paramètre <i>"Variable recevant le résultat"</i>. Cette valeur est de type fenêtre (<a href="http://msdn.microsoft.com/fr-fr/library/system.windows.forms.form%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.Windows.Forms.Form</a>).</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Variable = New Votre_Fenêtre() : Votre_Variable.Name = "Nom à donner" : Votre_Variable.MdiContainer = Votre_Fenêtre_Parent : Votre_Variable.Visible = True
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Aucune erreur d'exécution n'est détecté ici.</p>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Fenêtre</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Fenêtre (<a href="http://msdn.microsoft.com/fr-fr/library/system.windows.forms.form%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.Windows.Forms.Form</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,367 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\SoftwareZator 2012.exe.config
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\SoftwareZator 2012.exe
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\en\SoftwareZator 2012.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\fr\SoftwareZator 2012.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator 2012.vbprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseAccessExistante.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseSQLServerExistante.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseMySQLExistante.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseMySQL.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseSQLServer.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseAccess.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleTable.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.A_Propos_De.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activer.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activation_Evaluation.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Changer_Edition.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AdvancedInstaller.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Erreur.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Feedback.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Historique_SZ.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.SplashScreen1.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Fermer_Document.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Licence.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.PremierDemarrage.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothèqueFonctionsRéutilisablesDansProjetPasPuEtreChargées.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarEcranDeDemarrageIntrouvable.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarFormulaireDeDemarrageIntrouvable.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothequesNecessaireAuProjetOntEteSupprimer.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ReconnaissanceVocale.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Plugins.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Options.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Reference.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauProjet.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudio.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudioComposant.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauDocument.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CorrectionErreurs.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CreerEvenement.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.GenerationComponent.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Variables.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Variables.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Modifier_Variables.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.OrdreGeneration.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetre.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetreErreurs.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurTable.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctions.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocStatistiques.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctionsUserControl.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurVisualBasic.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocPageDeDemarrage.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocParametresDuProjet.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Form1.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom_Log.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxAideRapide.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBoiteAOutils.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBasesDonnees.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxDebogage.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxReconnaissanceVocale.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxErreurGeneration.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxExplorateurSolutions.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxProprietes.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxSortie.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerTypeForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerCOntrolePropriétéForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseAccessExistante.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseAccessExistante.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseSQLServerExistante.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseSQLServerExistante.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseMySQLExistante.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseMySQLExistante.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseMySQL.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseMySQL.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseSQLServer.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseSQLServer.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseAccess.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseAccess.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleTable.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleTable.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.A_Propos_De.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.A_Propos_De.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activer.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activer.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Changer_Edition.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Changer_Edition.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activation_Evaluation.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activation_Evaluation.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AdvancedInstaller.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AdvancedInstaller.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Feedback.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Feedback.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Historique_SZ.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Historique_SZ.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Fermer_Document.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Fermer_Document.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Licence.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Licence.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.PremierDemarrage.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.PremierDemarrage.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothèqueFonctionsRéutilisablesDansProjetPasPuEtreChargées.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothèqueFonctionsRéutilisablesDansProjetPasPuEtreChargées.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarEcranDeDemarrageIntrouvable.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarEcranDeDemarrageIntrouvable.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarFormulaireDeDemarrageIntrouvable.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarFormulaireDeDemarrageIntrouvable.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothequesNecessaireAuProjetOntEteSupprimer.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothequesNecessaireAuProjetOntEteSupprimer.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ReconnaissanceVocale.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ReconnaissanceVocale.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Plugins.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Plugins.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Options.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Options.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Reference.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Reference.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauProjet.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauProjet.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudio.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudio.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauDocument.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauDocument.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CorrectionErreurs.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CorrectionErreurs.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CreerEvenement.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CreerEvenement.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.GenerationComponent.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.GenerationComponent.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Variables.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Variables.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Variables.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Variables.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Modifier_Variables.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Modifier_Variables.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.OrdreGeneration.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.OrdreGeneration.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetre.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetre.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetreErreurs.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetreErreurs.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurTable.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurTable.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctions.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctions.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocStatistiques.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocStatistiques.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctionsUserControl.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctionsUserControl.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurVisualBasic.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurVisualBasic.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocPageDeDemarrage.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocPageDeDemarrage.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocParametresDuProjet.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocParametresDuProjet.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Form1.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Form1.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom_Log.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom_Log.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBasesDonnees.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBasesDonnees.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBoiteAOutils.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBoiteAOutils.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxDebogage.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxDebogage.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxErreurGeneration.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxErreurGeneration.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxReconnaissanceVocale.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxReconnaissanceVocale.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxExplorateurSolutions.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxExplorateurSolutions.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxProprietes.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxSortie.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerTypeForm.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerTypeForm.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerCOntrolePropriétéForm.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerCOntrolePropriétéForm.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator 2012.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\en\SoftwareZator 2012.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\fr\SoftwareZator 2012.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator 2012.exe
+D:\Development\Projets\Projets Compilés\SoftwareZator 2012\SoftwareZator 2012.exe.config
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator 2012.exe
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator 2012.vbprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseAccessExistante.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseSQLServerExistante.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseMySQLExistante.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseMySQL.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseSQLServer.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseAccess.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleTable.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.A_Propos_De.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activer.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activation_Evaluation.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Changer_Edition.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AdvancedInstaller.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Erreur.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Feedback.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Historique_SZ.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.SplashScreen1.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Fermer_Document.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Licence.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.PremierDemarrage.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothèqueFonctionsRéutilisablesDansProjetPasPuEtreChargées.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarEcranDeDemarrageIntrouvable.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarFormulaireDeDemarrageIntrouvable.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothequesNecessaireAuProjetOntEteSupprimer.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ReconnaissanceVocale.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Plugins.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Options.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Reference.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauProjet.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudio.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudioComposant.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauDocument.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CorrectionErreurs.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CreerEvenement.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.GenerationComponent.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Variables.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Variables.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Modifier_Variables.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.OrdreGeneration.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetre.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetreErreurs.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurTable.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctions.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocStatistiques.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctionsUserControl.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurVisualBasic.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocPageDeDemarrage.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom_Log.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxAideRapide.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBoiteAOutils.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBasesDonnees.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxDebogage.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxReconnaissanceVocale.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxErreurGeneration.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxProprietes.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxSortie.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerTypeForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerCOntrolePropriétéForm.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseAccessExistante.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseAccessExistante.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseSQLServerExistante.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseSQLServerExistante.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseMySQLExistante.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AjouterBaseMySQLExistante.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseMySQL.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseMySQL.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseSQLServer.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseSQLServer.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseAccess.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleBaseAccess.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleTable.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouvelleTable.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.A_Propos_De.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.A_Propos_De.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activer.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activer.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Changer_Edition.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Changer_Edition.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activation_Evaluation.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Activation_Evaluation.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AdvancedInstaller.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.AdvancedInstaller.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Feedback.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Feedback.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Historique_SZ.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Historique_SZ.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Fermer_Document.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Fermer_Document.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Licence.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Licence.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.PremierDemarrage.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.PremierDemarrage.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothèqueFonctionsRéutilisablesDansProjetPasPuEtreChargées.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothèqueFonctionsRéutilisablesDansProjetPasPuEtreChargées.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarEcranDeDemarrageIntrouvable.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarEcranDeDemarrageIntrouvable.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarFormulaireDeDemarrageIntrouvable.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarFormulaireDeDemarrageIntrouvable.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothequesNecessaireAuProjetOntEteSupprimer.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.InfoBarBibliothequesNecessaireAuProjetOntEteSupprimer.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ReconnaissanceVocale.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ReconnaissanceVocale.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Plugins.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Plugins.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Options.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Options.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Reference.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Reference.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauProjet.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauProjet.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudio.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ExporterVisualStudio.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauDocument.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.NouveauDocument.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CorrectionErreurs.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CorrectionErreurs.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CreerEvenement.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.CreerEvenement.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.GenerationComponent.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.GenerationComponent.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Variables.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Ajouter_Variables.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Variables.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Gestionnaire_Variables.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Modifier_Variables.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Modifier_Variables.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.OrdreGeneration.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.OrdreGeneration.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetre.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetreErreurs.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetreErreurs.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurTable.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctions.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocStatistiques.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocStatistiques.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctionsUserControl.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctionsUserControl.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurVisualBasic.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurVisualBasic.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocPageDeDemarrage.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocParametresDuProjet.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Form1.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Form1.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom_Log.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom_Log.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Custom.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBasesDonnees.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBasesDonnees.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBoiteAOutils.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxBoiteAOutils.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxDebogage.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxDebogage.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxErreurGeneration.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxErreurGeneration.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxReconnaissanceVocale.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxReconnaissanceVocale.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxExplorateurSolutions.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxExplorateurSolutions.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxProprietes.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxSortie.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerTypeForm.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerTypeForm.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerCOntrolePropriétéForm.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.ActionToolsSelectionnerCOntrolePropriétéForm.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator 2012.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocParametresDuProjet.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocConcepteurFenetre.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurTable.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocEditeurFonctions.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocPageDeDemarrage.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.DocParametresDuProjet.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\SoftwareZator 2012.exe.config
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\SoftwareZator 2012.exe
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\en\SoftwareZator 2012.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\fr\SoftwareZator 2012.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.Form1.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\SoftwareZator.BoxExplorateurSolutions.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\en\SoftwareZator 2012.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\SoftwareZator 2012 E.P\obj\Release\fr\SoftwareZator 2012.resources.dll

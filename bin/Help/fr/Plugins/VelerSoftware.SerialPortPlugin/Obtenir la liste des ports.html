@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Obtenir la liste des ports</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Obtenir la liste des ports</p>
+	<p>Cette action permet de récupérer la liste des noms des ports séries auquel sont connectés des appareils (imprimantes, téléphones portables...). Pour plus d'information, consultez le document <a href="Qu'est-ce qu'un port série.html" target="_blank">Qu'est-ce qu'un port série?</a>.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>  
+		<tr>
+			<td>Variable recevant la liste des ports séries en état de connexion</td>
+			<td>Doit être égale à la variable tableau recevant la liste des noms des ports série auquel des appareils sont connectés.</td>
+		</tr>
+	</table>
+    
+	<p class="title">Valeur retournée</p>          
+	<p>La valeur retournée est déterminée par les appareils connectés à l'ordinateur. Elle sera enregistrée dans la variable définit dans le paramètre <i>"Variable recevant la liste des ports séries en état de connexion"</i>. Cette valeur est une liste de valeurs de type texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.String</a>).</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+    <p>Si la variable recevant le résultat est <i>"Resultat"</i>, le code généré sera tel que le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Resultat = New System.Collections.Generic.List(Of Object)(System.Linq.Enumerable.Cast(Of Object)(System.Linq.Enumerable.AsEnumerable(System.IO.Ports.SerialPort.GetPortNames())))
+
+	</pre> 
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.ComponentModel.Win32Exception</td>
+			<td>Cette erreur se produit lorsque les noms de ports série n'ont pas pu être interrogés.</td>
+			<td>Pour corriger cette erreur, essayez de débrancher puis rebrancher tous les périphériques et ou redémarrer l'ordinateur.</td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Ports séries</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Liste de valeurs Textuel (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">System.String</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

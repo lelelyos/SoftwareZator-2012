@@ -1,0 +1,19 @@
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.SZVB.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\VelerSoftware.SZVB.pdb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\en\VelerSoftware.SZVB.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL COMPILE\fr\VelerSoftware.SZVB.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.CommandLink.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.Info_Bar.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.Form_UIImageEditor.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.VistaDialog.ChevronButton.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.VistaDialog.VDialogForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.AeroWindowsForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.AeroWizardForm.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.Form_UIImageEditor.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.Form_UIImageEditor.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\en\VelerSoftware.SZVB.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\fr\VelerSoftware.SZVB.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\DLL\VelerSoftware.SZVB\obj\Debug\VelerSoftware.SZVB.pdb

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Boîte de dialogue Vista" name_en="VistaBox" group_fr="Design" group_en="Design" file="VistaDialog.szw" inherits="System.Windows.Forms.Form">
+  <Info image="VistaDialog.png" description_fr="Boîte de dialogue avec le design de Microsoft Windows Vista." description_en="Dialog with design of Microsoft Windows Vista." />
+</SZTemplate>

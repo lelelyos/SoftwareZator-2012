@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Définir une cellule d'un classeur Excel</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Définir une cellule d'un classeur Excel</p>
+	<p>Cette action permet de modifier la valeur d'une cellule d'une feuille d'un classeur Excel ayant été ouvert ou créé précédemment.</p>
+    <p class="msg_error">Important : pour utiliser cette action, il faut impérativement que le logiciel <a href="http://office.microsoft.com/en-us/excel/" target="_blank">Microsoft Excel</a> (2007 ou 2010 ou suppérieur) soit installé sur l'ordinateur de la personne utilisant votre projet.</p>
+	
+	<p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Variable possédant le classeur Excel concerné</td>
+			<td>Doit être égale à la variable (non tableau) qui possède le classeur Excel auquel vous voulez modifier la valeur d'une cellule. Cette variable doit préalablement avoir été assigné grâce à l'action <a href="Créer un nouveau classeur Excel.html" target="_blank">Créer un nouveau classeur Excel</a> ou <a href="Ouvrir un classeur Excel.html" target="_blank">Ouvrir un classeur Excel</a>.</td>
+		</tr>   
+		<tr class="bg">
+			<td>Emplacement de la cellule</td>
+			<td>Permet de saisir l'emplacement de la cellule dont la valeur sera changée.<br /><b>Attention : </b>cette valeur doit être sous la forme "ColonneLigne". Dans Excel, une colonne est définie par une lettre, et une ligne est définie par un numéro. Exemple : B3 ou A1 ou C13 ou G2.<br /><b>Note : </b>vous pouvez également définir cet emplacement avec la valeur d'une ou plusieurs variables.</td>
+		</tr>  
+		<tr>
+			<td>Valeur à donner à la cellule</td>
+			<td>Permet de saisir la nouvelle valeur qui sera affichée dans la cellule.</td>
+		</tr> 
+	</table>
+    <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Pour les paramètres <i>"Emplacement de la cellule"</i> et <i>"Valeur à donner à la cellule"</i>, vous ne pouvez pas utiliser des ressources du projet de type Image et de type Autre. Seule des ressources de type Texte peuvent être utilisées.</p>
+	<p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez des variables dans les paramètres <i>"Emplacement de la cellule"</i> et ou <i>"Valeur à donner à la cellule"</i>, assurez-vous que le type de la valeur de chacune de ces variables soit du texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>), ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>). En effet, seul du texte peut être utilisé dans ces paramètres.<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="..\VelerSoftware.GeneralPlugin\Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Général.</p>
+
+	<p class="title">Valeur retournée</p>            
+	<p>Aucune valeur n'est retourné par cette action</p>
+
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Variable.SetCellValue("A1", "Valeur")
+
+	</pre>
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>   
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.ArgumentException<br />ou<br />System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur des paramètres <i>"Emplacement de la cellule"</i> et ou <i>"Valeur à donner à la cellule"</i> n'est pas du texte. Souvent, le problème est causé par une variable utilisé dans ces paramètres et qui ont une valeur autre que du texte.</td>
+			<td>Pour corriger cette erreur, vérifiez que toutes les valeurs impliquées dans ces paramètres sont bien de type Texte (<a href="http://msdn.microsoft.com/fr-fr/library/system.string%28v=VS.100%29.aspx" target="_blank" title="Lien vers MSDN">String</a>) et faites les modifications nécessaires pour que ces valeurs soit du texte. Pour cela, utilisez les actions <a href="..\VelerSoftware.GeneralPlugin\Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="..\VelerSoftware.GeneralPlugin\Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr> 
+		<tr class="bg">
+			<td>System.Runtime.InteropServices.COMException (0x800A03EC)<br />ou<br />HRESULT : 0x800A03EC</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Emplacement de la cellule"</i> ne respect pas la syntaxe de type "ColonneLigne" (exemple : A1 ou B3).</td>
+			<td>Pour corriger cette erreur, vérifiez que la valeur impliqué dans le paramètre <i>"Emplacement de la cellule"</i> ressemble à la syntaxe "A1" avec A, le nom de la colonne dans la feuille Excel, et 1, le numéro de la ligne. Vérifiez également la valeur des variables impliquées dans ce paramètre.</td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Excel</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>{aucun}</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

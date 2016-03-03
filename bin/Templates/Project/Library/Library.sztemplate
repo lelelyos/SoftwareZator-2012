@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="DLL" name_fr="Bibliothèque vierge" name_en="Blank library" files="" start_file="">
+	<Info image="Library.png" description_fr="Projet de fonctions réutilisables vide." description_en="Project with reusable functions empty."/>
+</SZTemplate>

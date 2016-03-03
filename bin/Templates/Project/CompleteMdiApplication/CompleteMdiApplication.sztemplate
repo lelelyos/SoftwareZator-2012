@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Multi documents complet" name_en="Complete multi documents" files="Fenêtre_MDI1.szw;Ecran_de_démarrage1.szw;Boîte_de_dialogue_A_propos_de1.szw;Form1.szw" start_file="Fenêtre_MDI1.szw">
+	<Info image="CompleteMdiApplication.png" description_fr="Projet avec une fenêtre multi-documents, un écran de démarrage et une boîte de dialogue 'A propos de'." description_en="Project with a multi-documents window, a splash screen and a dialog box 'About'."/>
+    <Variable name="Temp_Form" array="False" description="Est égale à la fenêtre ajouté au conteneur multi-documents" group="Défaut" null="false" />
+    <SplashScreen value="Ecran_de_démarrage1.szw" />
+</SZTemplate>

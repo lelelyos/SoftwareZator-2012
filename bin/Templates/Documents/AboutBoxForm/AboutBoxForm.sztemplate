@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZTemplate version="3.0" type="Window" name_fr="Boîte de dialogue A propos de" name_en="AboutBox" file="AboutBoxForm.szw" inherits="System.Windows.Forms.Form">
+	<Info image="AboutBoxForm.png" description_fr="Formulaire À propos pour Application Windows." description_en="About Form, for Windows application."/>
+</SZTemplate>

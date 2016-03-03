@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Action : Incrémenter une date</title>
+	<script type="text/javascript" src="../../../shCore.js"></script>
+	<script type="text/javascript" src="../../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Action : Incrémenter une date</p>
+	<p>Cette action permet d'incrément (ou décrémenter) une date, en ajouter uen valeur à une information de la date (année, jours, mois...etc).</p>
+	
+    <p class="title">Paramètres</p>
+	<table>
+		<tr>
+			<th>Paramètres</th>
+			<th>Descriptions</th>
+		</tr>
+		<tr>
+			<td>Date à incrémenter</td>
+			<td>Ce paramètre permet de définir la date qui sera incrémenté. Assurez-vous que la valeur que vous définirez soit une Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>)</td>
+		</tr>    
+		<tr class="bg">
+			<td>Elément qui sera incrémenté</td>
+			<td>Permet de définir qu'est-ce qui l'information de la date à laquelle on ajoutera ou supprimera une valeur :<ul><li>Année</li><li>Jour dans l'année</li><li>Mois</li><li>Heure</li><li>Minute</li><li>Seconde</li><li>Mois</li><li>Trimestre</li><li>Semaine</li><li>Semaine dans l'année</li></ul></td>
+		</tr> 
+		<tr>
+			<td>Valeur à incrémenter</td>
+			<td>Ce paramètre permet de définir la seconde date, qui sera comparé à la première. Assurez-vous que la valeur que vous définirez soit une Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>)</td>
+		</tr>  
+	    <tr class="bg">
+			<td>Variable recevant le résultat</td>
+			<td>Doit être égale à la variable (non tableau) recevant le résultat de la comparaison.</td>
+		</tr>    
+	</table> 
+    <p class="msg_done"><b>Astuce :</b> Pour décrémenter une date, ajouter le signe moins "-" devant la valeur définie dans le paramètre <i>"Valeur à incrémenter"</i></p>
+    <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Si vous utilisez une variable dans le paramètre <i>"Date à incrémenter"</i>, assurez-vous que le type de la valeur de cette variable soit une Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>).<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+    <p class="msg_warning"><b>Erreur à ne pas commettre :</b> Faites attention, pour tous le paramètre <i>"Valeur à incrémenter"</i>, si vous utilisez des variables, que celles-ci possèdent une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>).<br />
+	<b>Note :</b> Pour vérifier le type d'une valeur, utilisez l'action <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, dans la catégorie Variables.</p>
+	
+	<p class="title">Valeur retournée</p>          
+	<p>La valeur retournée est une Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>) ingrémenté ou décrémenté (si cette valeur est négative) de la valeur définie.</p>
+	
+	<p class="title">Code Visual Basic.Net généré par SoftwareZator</p>
+	<p>Si vous voulez décrémenter une année de 2 ans et l'enregistrer dans la variable "Votre_Variable", le code généré sera le suivant :</p>
+	<pre class="brush: vbnet; toolbar: false;">
+Votre_Variable = Microsoft.VisualBasic.DateAdd(Microsoft.VisualBasic.DateInterval.Year, -2, Votre_Date)
+
+	</pre>                                            
+
+	<a id="debug" class="debug"></a><p class="title">Erreurs d'exécutions</p>
+    <p>Il arrive qu'un programme informatique rencontre un problème durant son exécution. Souvent, un message d'erreur est alors affiché. Le tableau ci-dessous vous permet de déterminer pourquoi l'erreur que vous rencontrez s'affiche et comment la corriger :</p>
+	<table>
+		<tr>
+			<th>Types d'erreurs</th>
+			<th>Descriptions</th>
+			<th>Resolutions</th>
+		</tr>
+		<tr>
+			<td>System.ArgumentException<br />ou<br />System.InvalidCastException</td>
+			<td>Cette erreur se produit lorsque la valeur du paramètre <i>"Date à incrémenter"</i> n'est pas une date, ou <i>"Valeur à incrémenter"</i> n'est pas une valeur numérique. Souvent, le problème est causé par une variable utilisé dans ces paramètres et qui ont une valeur autre qu'une date ou un nombre.</td>
+			<td>Pour corriger cette erreur, vérifiez que toutes les valeurs impliquées dans ces paramètres soit bien une Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>) ou bien une valeur de type numérique (<a href="http://msdn.microsoft.com/fr-fr/library/06bkb8w2.aspx" target="_blank" title="Lien vers MSDN">Integer</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.decimal.aspx" target="_blank" title="Lien vers MSDN">Decimal</a>, <a href="http://msdn.microsoft.com/fr-fr/library/system.double.aspx" target="_blank" title="Lien vers MSDN">Double</a>) et faites les modifications nécessaires pour que ces valeurs soit une date. Pour cela, utilisez les actions <a href="Obtenir le type d'une variable.html" target="_blank">Obtenir le type d'une variable</a>, <a href="Convertir la valeur d'une variable.html" target="_blank">Convertir la valeur d'une variable</a></td>
+        </tr>
+	</table>
+
+	<p class="title">Caractéristiques</p>
+	<table>
+		<tr>
+			<th>Caractères</th>
+			<th>Informations</th>
+		</tr>
+		<tr>
+			<td>Niveau requis</td>
+			<td>Débutant</td>
+		</tr>   
+		<tr class="bg">
+			<td>Catégorie</td>
+			<td>Date et heure</td>
+		</tr>
+		<tr>
+			<td>Type de valeur retourné</td>
+			<td>Date (<a href="http://msdn.microsoft.com/fr-fr/library/system.datetime.aspx" target="_blank" title="Lien vers MSDN">System.DateTime</a>)</td>
+		</tr>
+		<tr class="bg">
+			<td>Fonctionne dans les fonctions</td>
+			<td>Oui</td>
+		</tr>
+		<tr>
+			<td>Fonctionne dans la zone de déclaration</td>
+			<td>Non</td>
+		</tr>
+		<tr class="bg">
+			<td>Peut recevoir des actions enfants</td>
+			<td>Non</td>
+		</tr> 
+	</table>
+
+</body>
+</html>

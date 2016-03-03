@@ -1,0 +1,54 @@
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\VelerSoftware.VoiceRecognitionPlugin.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\en\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Compilés\SoftwareZator 2012\Plugins\fr\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.vbprojResolveAssemblyReference.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Designer.baml
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Designer.g.vb
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin_MarkupCompile.cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.g.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Resources.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale_Form.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale_Form.en.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale_Form.fr.resources
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.vbproj.GenerateResource.Cache
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\en\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\fr\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\DEVELOPPEMENT\Projets\Projets Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\VelerSoftware.VoiceRecognitionPlugin.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\en\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\bin\Plugins\fr\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.vbprojResolveAssemblyReference.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Designer.baml
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Arrêter la reconnaissance vocale\Arreter_Vocale_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\Reconnaissance vocale\Demarrer la reconnaissance vocale\Demarrer_Vocale_Designer.g.vb
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin_MarkupCompile.cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.g.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Resources.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale_Form.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Arreter_Vocale_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale_Form.en.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.Demarrer_Vocale_Form.fr.resources
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.vbproj.GenerateResource.Cache
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\en\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\fr\VelerSoftware.VoiceRecognitionPlugin.resources.dll
+D:\Development\Projets\Sources\SoftwareZator 2012\PLUGINS\VelerSoftware.VoiceRecognitionPlugin\obj\Release\VelerSoftware.VoiceRecognitionPlugin.dll

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Architecture d'une action</title>
+	<script type="text/javascript" src="../../shCore.js"></script>
+	<script type="text/javascript" src="../../shBrushVb.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="../../style.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body>
+
+<p class="title">Architecture d'une action</p>         
+	<img src="archi.png" alt="" class="fl_right"/>
+	<p>L'architecture interne des actions pour SoftwareZator a entièrement changé pour cette nouvelle version. En revanche, pour les développeurs, elle ne change que partiellement.</p>
+    <p>Depuis la toute première version de SoftwareZator, celui-ci est un logiciel modulable, il fonctionne donc avec des plugins chargés au démarrage du logiciel. Un plugin permet de délivrer des actions pour SoftwareZator, qui pourront être utilisées dans l'éditeur de fonctions de cet outil.</p>
+    <p>Une action est définie par une classe hérité du type <i>"<a href="VelerSoftware.Plugins3.Action.html" target="_blank">VelerSoftware.Plugins3.Action</a>"</i> ou <i>"<a href="VelerSoftware.Plugins3.ActionWithChildren.html" target="_blank">VelerSoftware.Plugins3.ActionWithChildren</a>"</i>.<br />
+    Pour que cette action soit visible dans l'éditeur de fonctions (basé sur le <a href="http://msdn.microsoft.com/fr-fr/netframework/aa663328.aspx" target="_blank">Workflow 4.0 du Microsoft .Net Framework 4.0</a>), il faut créer un Designer codé en XAML (donnant accès au WPF), basé sur le type <i>"<a href="http://msdn.microsoft.com/fr-fr/library/system.workflow.componentmodel.design.activitydesigner.aspx" target="_blank">System.Workflow.ComponentModel.Design.ActivityDesigner</a>"</i>.<br />
+    Si votre action possède des paramètres modifiables par l'utilisateur, il sera alors conseillé de créer une fenêtre destiné à l'édition de ces paramètres. SoftwareZator fourni une fenêtre pré-construite délivrant une interface normalisé à tout les autres actions du logiciel. Il suffit d'hérité une fenêtre du type <i>"<a href="VelerSoftware.Plugins3.ActionForm.html" target="_blank">VelerSoftware.Plugins3.ActionForm</a>"</i> pour utiliser cette fenêtre pré-construite.<br />
+    SoftwareZator 2012 est disponible en Français et en Anglais. Il est important de traduire une action dans les deux langues afin qu'elle soit utilisable par un maximum d'utilisateur. Les textes tels que le nom de l'action, sa description et autre sont alors stockés dans trois fichiers ressources (fichiers *.resx) : un pour la langue neutre, un pour les textes en Français, et un pour les textes en Anglais.</p>
+</body>
+</html>

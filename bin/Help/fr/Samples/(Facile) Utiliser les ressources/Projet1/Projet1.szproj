@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SZProject ToolsVersion="3.0" Name="Projet1">
+  <Type value="0" />
+  <ShutMode value="0" />
+  <FormStart value="WindowsForm1.szw" />
+  <SplashScreen value="" />
+  <StyleXP value="True" />
+  <Instance value="False" />
+  <MySettings value="True" />
+  <Assembly.Title value="Projet1" />
+  <Assembly.Description value="" />
+  <Assembly.Socity value="Veler Software" />
+  <Assembly.Product value="Projet1" />
+  <Assembly.Copyright value="Copyright © Veler Software 2012" />
+  <Assembly.FileVersion value="1.0.0.0" />
+  <Assembly.AssemblyVersion value="1.0.0.0" />
+  <Assembly.Mark value="Projet1™" />
+  <Assembly.Guid value="14c2563b-9df3-49df-9c6b-a841eeb03916" />
+  <GenerateDirectory value="Bin" />
+  <Optimize value="True" />
+  <Cpu value="2" />
+  <ShouldCompile value="True" />
+  <Open name="WindowsForm1.szw" />
+  <Open name="PARAMETREDUPROJET" />
+  <Resource name="Logo_SoftwareZator" type="1" value="Ressources\SZ_Icon_128.png" />
+  <Resource name="Texte_SoftwareZator" type="0" value="SoftwareZator 2012 est le tout premier outil qui va vous permettre de créer votre propre logiciel sans programmer. Grâce à ses outils simples et performants, vous allez pouvoir développer un logiciel en quelques cliques et sans aucune connaissance en développement informatique comme l'ont fait déjà plus de 200 000 utilisateurs.&#xD;&#xA;Aujourd'hui, grâce à SoftwareZator 2012, vous pouvez développer, innover, sans programmer, que ce soit dans un but personnel, académique ou professionnel." />
+  <Reference isproject="False" value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="mscorlib" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Core" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" name="System.Drawing" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Windows.Forms" copy="False" version="4.0.0.0" />
+  <Reference isproject="False" value="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="System.Xml" copy="False" version="4.0.0.0" />
+</SZProject>
