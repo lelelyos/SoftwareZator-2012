@@ -28,4 +28,8 @@ You have to know the following things about this repository :
 0. Menu `Build`, `Rebuild Solution`.
 0. All the project is in the folder `bin` at the root.
 
+# License
+
+[Apache License 2.0](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
+
 Enjoy.
